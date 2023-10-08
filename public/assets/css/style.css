@@ -327,3 +327,127 @@ label {
         display: none;
     }
   }
+
+/* Comment Widget */
+/* A lot of this code was taken from virtualobserver's base code. */
+
+/* Main */
+#c_widget {
+    box-sizing: border-box;
+    overflow: auto;
+    font-family: 'Atkinson Hyperlegible', sans-serif;
+}
+
+#c_widget button, #c_widget input[type=submit] {
+    padding: 0.5rem;
+    text-decoration: none;
+	text-align: center;
+    background-color: var(--button);
+    color: var(--font);
+    border: var(--mainbg_border);
+    border-radius: 0.313rem;
+    font-family: 'Atkinson Hyperlegible', sans-serif;
+}
+#c_widget button:hover, #c_widget input[type=submit]:hover {
+    background-color: var(--buttonhover);
+    color: var(--font);
+    border: var(--mainbg_border);
+    cursor: var(--pointer);
+    font-family: 'Atkinson Hyperlegible', sans-serif;
+}
+#c_widget button:disabled, #c_widget input[type=submit]:disabled {opacity: 60%;}
+#c_widget button:disabled:hover, #c_widget input[type=submit]:disabled:hover {
+    background-color: var(--buttonhover);
+    color: var(--font);
+    border: var(--mainbg_border);
+    font-family: 'Atkinson Hyperlegible', sans-serif;
+}
+
+/* Input section */
+.c-inputWrapper {
+    display: block;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-family: 'Atkinson Hyperlegible', sans-serif;
+}
+
+.c-input {
+    padding: 0.4rem;
+    color: var(--font);
+    border-radius: 0.2rem;
+    border: var(--mainbg_outline);
+	outline: none;
+    background-color: var(--update);
+    font-family: 'Atkinson Hyperlegible', sans-serif;
+}
+.c-input:focus {
+    border: var(--mainbg_border);
+}
+
+.c-textInput {
+    width: calc(100% - 1rem);
+    max-width: 900px;
+    resize: none;
+}
+#c_submitButton {
+    display: block;
+}
+#c_replyingText {
+    color: var(--font);
+}
+
+/* Comment section */
+.c-comment {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    background-color: var(--update);
+    border: var(--mainbg_outline);
+    border-radius: 0.2rem;
+}
+.c-reply {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    background-color: var(--update);
+    border: var(--mainbg_outline);
+    border-radius: 0.2rem;
+}
+.c-reply:last-child {
+    margin-bottom: 0;
+}
+
+.c-name {
+    display: inline-block;
+    margin: 0;
+    margin-right: 1rem;
+    padding: 0;
+    text-decoration: underline;
+    font-family: 'Patrick Hand', cursive;
+}
+.c-site {
+    color: var(--links);
+}
+
+.c-timestamp {
+    float: right;
+    opacity: 60%;
+}
+.c-text {
+    margin: 0;
+    margin-top: 1rem;
+    padding: 0;
+    color: var(--font);
+}
+
+/* Pagination */
+#c_pagination {text-align: center;}
+.c-replyButton {margin-top: 1rem;}
+.c-expandButton {
+    float: right;
+    margin-top: 1rem;
+}
+.c-paginationButton {
+    margin-right: 0.5rem;
+    margin-left:  0.5rem;
+}
