@@ -22,7 +22,8 @@ Most of the art and code on this site was made by me, but anything else will be 
 <b>09 October 2023</b>
 <hr>
 
-Doing my best to try and deploy this through Github. Pray for me.
+Hello, new website! I'm officially back on Neocities.
+I managed to deploy this via Github and I'm really proud of myself for that! This is also my first finished SSG site. I'm really happy right now!
 
 <b>05 ~ 08 October 2023</b>
 <hr>
