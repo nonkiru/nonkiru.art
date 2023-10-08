@@ -10,7 +10,8 @@ Hello, and thank you again for checking out my website.
 - Created using [Eleventy](https://www.11ty.dev/) static site generator.
 - Coded using [Visual Studio Code](https://code.visualstudio.com/).
 - Hosted on [Neocities](https://neocities.org) via [Deploy to Neocities](https://deploy-to-neocities.neocities.org/).
-- Public on Github (when I figure out how to do it sorry LMAO)
+- Cleaner than [92% of websites](https://www.websitecarbon.com/website/nonkiru-art/).
+- Via this site's Github, this site is *about* 64% HTML, 16% JS, 12% CS, and 6% Nunjucks.
 
 ## Why I made a Website
 I thought it would be fun. It's been really enjoyable to learn how to code, too. I feel super proud of how far I've come; I only need to search for help some of the time now! Not that there's anything bad for looking for help. But it's really nice to just know how to do it, y'know?
