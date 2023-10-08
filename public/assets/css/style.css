@@ -268,6 +268,16 @@ label {
         --links: #f79b9b;
         --selection: #ffd7d752;
         --header: url(../img/header_dark.webp);
+        --h1: url(../img/pattern_01_dark.webp);
+        --h1_border: 0.125rem solid #302b30;
+        --h2: url(../img/pattern_02_dark.webp);
+        --h2_border: 0.125rem solid #302b30;
+        --update: #443b45;
+        --scrollbar: #302b30 #4f464f;
+        --skycolour: #564b55;
+        --ul: url(../img/bullet_dark.webp);
+        --cursor: url(../img/cursor_dark.webp), auto;
+        --pointer: url(../img/pointer_dark.webp), pointer;
 	}
 
     :root[data-theme="light"] {
@@ -280,6 +290,16 @@ label {
         --links: #4171B9;
         --selection: #ffb2a44f;
         --header: url(../img/header.webp);
+        --h1: url(../img/pattern_01.webp);
+        --h1_border: 0.125rem solid #eba894;
+        --h2: url(../img/pattern_02.webp);
+        --h2_border: 0.125rem solid #f8ccbf;
+        --update: #fff6f4;
+        --scrollbar: #dfa097 #ffffff;
+        --skycolour: #fff0e8;
+        --ul: url(../img/bullet.webp);
+        --cursor: url(../img/cursor.webp), auto;
+        --pointer: url(../img/pointer.webp), pointer;
 	}
 }
 
