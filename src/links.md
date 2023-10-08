@@ -67,8 +67,7 @@ I was apart of the old Yesterweb Ring and the Vocaloid V1 webring. Both of which
 <div id="autiring">
 <script type="text/javascript" src="https://macaque.moe/autiring/onionring-variables.js"></script>
 <script type="text/javascript" src="https://macaque.moe/autiring/onionring-widget.js"></script>
-</div>     
-<br>
+</div>
 <div class="yw-nav" style="display: inline;">
     <a href="https://hotlinewebring.club/nonkiru/previous"><-</a>
 </div>
@@ -87,4 +86,8 @@ I was apart of the old Yesterweb Ring and the Vocaloid V1 webring. Both of which
 </div>
 <div class="yw-nav" style="display: inline;">
     <a href="https://webring.dinhe.net/next/https://nonkiru.art">-></a>
+</div>
+<div id='neossg'>
+  <script type="text/javascript" src="https://neossg.neocities.org/onionring-variables.js"></script>
+  <script type="text/javascript" src="https://neossg.neocities.org/onionring-widget.js"></script>
 </div>
