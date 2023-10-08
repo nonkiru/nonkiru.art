@@ -20,6 +20,8 @@
     --ul: url(../img/bullet.webp);
     --cursor: url(../img/cursor.webp), auto;
     --pointer: url(../img/pointer.webp), auto;
+    --button:#ffebe4;
+    --buttonhover: #f8ccbf;
 }
 
 :root[data-theme="light"] {
@@ -42,6 +44,8 @@
     --ul: url(../img/bullet.webp);
     --cursor: url(../img/cursor.webp), auto;
     --pointer: url(../img/pointer.webp), pointer;
+    --button:#ffebe4;
+    --buttonhover: #f8ccbf;
 }
 
 :root[data-theme="dark"] {
@@ -64,6 +68,8 @@
     --ul: url(../img/bullet_dark.webp);
     --cursor: url(../img/cursor_dark.webp), auto;
     --pointer: url(../img/pointer_dark.webp), pointer;
+    --button:#554c55;
+    --buttonhover: #302b30;
 }
 
 ::selection {
@@ -278,6 +284,8 @@ label {
         --ul: url(../img/bullet_dark.webp);
         --cursor: url(../img/cursor_dark.webp), auto;
         --pointer: url(../img/pointer_dark.webp), pointer;
+        --button:#554c55;
+        --buttonhover: #302b30;
 	}
 
     :root[data-theme="light"] {
@@ -300,6 +308,8 @@ label {
         --ul: url(../img/bullet.webp);
         --cursor: url(../img/cursor.webp), auto;
         --pointer: url(../img/pointer.webp), pointer;
+        --button:#ffebe4;
+        --buttonhover: #f8ccbf;
 	}
 }
 

@@ -29,3 +29,4 @@ This site has been checked using both [WAVE Tool](https://wave.webaim.org/) and 
 ## Final Notes
 This website was made with Firefox, at 1920x1080 resolution in mind.
 <br>This site uses Javascript for the theme changer, StatusCafe and GoatCounter.
+<br>Certain widgets may have accessibility issues that I am unable to change.
