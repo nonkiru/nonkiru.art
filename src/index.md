@@ -16,7 +16,10 @@ Most of the art and code on this site was made by me, but anything else will be 
 
 <hr>
 
-## Updates
+<div class="flex">
+
+<div id="minibox" style="max-width: 50%; padding: 0.1rem;">
+<h2> Updates </h2>
 <div class="update_box" tabindex="0">
 
 <b>09 October 2023</b>
@@ -31,8 +34,10 @@ I managed to deploy this via Github and I'm really proud of myself for that! Thi
 Started work on this layout.
 
 </div>
+</div>
 
-## To-Do List
+<div id="minibox" style="max-width: 50%; padding: 0.1rem;">
+<h2> To-Do List </h2>
 <div class="update_box" tabindex="0">
     <b>Important</b>
     <hr>
@@ -48,6 +53,9 @@ Started work on this layout.
         <li>Make some shrines!</li>
         <li>Make a webring? For something?</li>
     </ul>
+</div>
+</div>
+
 </div>
 
 ## Status Cafe
