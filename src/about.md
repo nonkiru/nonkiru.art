@@ -31,3 +31,8 @@ My favourite things include...
 - Animal Crossing
 - Art & Coding
 - My OCs
+
+<div style="float: right;">
+<a href="https://tamanotchi.world/3029c"><img src="https://tamanotchi.world/i2/3029" alt="It's tamaNOTchi! Click to feed! (Soupy)"></a>
+<a href="https://tamanotchi.world/7357c"><img src="https://tamanotchi.world/i2/7357" alt="It's tamaNOTchi! Click to feed! (🥚 egg)"></a>
+</div>
