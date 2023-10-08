@@ -14,7 +14,7 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="stylesheet" href="../assets/css/style.css">
-        <title>{{ title }}</title>
+        <title>Accessibility ⁑ nonkiru.art</title>
     </head>
     <body>
         <!-- Floating clouds in the background. -->
@@ -38,13 +38,43 @@
                             <nav>
                                 <h1>Navigation</h1>
                                 <!-- Update partials/nav.njk with new links. -->
-                                {% include 'partials/nav.njk' %}
+                                <h2>Sitely</h2>
+<ul>
+    <li><a href="/">Home</a></li>
+        <li><a href="/about_site/">About this Site</a></li>
+    <li><a href="/credits/">Website Credits</a></li>
+</ul>
+<h2>Personal</h2>
+<ul>
+    <li><a href="/about/">About Me</a></li>
+    <li><a href="/art/">Art</a></li>
+</ul>
+<h2>Off-Site</h2>
+<ul>
+    <li><a href="/links/">Links, Webrings</a></li>
+</ul>
                             </nav>
                         </div>
                         <!-- Site Stats & Stuff -->
                         <div class="box" id="stats" style="width: 12.5rem;">
                             <!-- Update partials/stats.njk with new stuff. -->
-                            {% include 'partials/stats.njk' %}
+                            <h1>Misc.</h1>
+<h2>Settings</h2>
+<ul>
+    <li><a href="#" id="theme-toggle" onclick="modeSwitcher()">Toggle Theme</a></li>
+    <li><a href="#" onclick="PagedollToggle()">Pagedoll Toggle</a></li>
+</ul>
+<h2>Link Me</h2>
+<small><b>Note:</b> Buttons are to be updated.</small>
+Feel free to hotlink!
+<br>
+<img src="/../assets/img/nonkiru_button.gif" alt="A button for nonkiru.art!"><img src="/../assets/img/non_arunyi_button.gif" alt="A smaller button for nonkiru.art.">
+<br>
+<label for="BigButton">The code for the big button.</label>
+<textarea id="BigButton" readonly style="width: 100%; resize: none;"><img src="https://nonkiru.art/assets/img/nonkiru_button.gif" alt="A button leading to nonkiru.art."></textarea>
+<br>
+<label for="SmallButton">The code for the small button.</label>
+<textarea id="SmallButton" readonly style="width: 100%; resize: none;"><img src="https://nonkiru.art/assets/img/non_arunyi_button.gif" alt="A button leading to nonkiru.art."></textarea>
                         </div>
                     </aside>
                 </div>
@@ -53,9 +83,34 @@
                 <div class="box" style="flex-grow: 1;">
                     <main>
                         <!-- Update tag h1 to change this. -->
-                        <h1>{{ h1 }}</h1>
+                        <h1>Accessibility</h1>
                         <!-- Pray that markdown treats me well! -->
-                        {{ content | safe }}
+                        <p>This website's goal, for accessibility, is to meet the minimum for Web Content Accessibility Guidelines (WCAG) 2.1 Level AA.
+<br><br>
+This site has been checked using both <a href="https://wave.webaim.org/">WAVE Tool</a> and <a href="https://github.com/dequelabs/axe-core">Axe-Core</a> which both come back without any accessibility issues. However, as I'm not someone who uses any accessibility tools for website-browsing, I can't confirm if there aren't further issues that the tools didn't pick up. If you have trouble with accessibility in regards to this website, please feel free to <a href="mailto:nonkiru@gmail.com">email me</a>.
+<br><br></p>
+<h2>Site Features:</h2>
+<ul>
+<li>Dark/light mode toggle for all pages.</li>
+<li>Mobile-responsive.</li>
+<li>Alt text for all non-decorative images.</li>
+<li>Zooming in/out doesn't break the layout.</li>
+<li>Uses <a href="https://brailleinstitute.org/freefont">Atkinson Hyperlegible</a> for all non-header font.</li>
+<li>Fully accessibile with just a keyboard.</li>
+<li>Semantic HTML.</li>
+</ul>
+<h2>Might-Work Features:</h2>
+<ul>
+<li>A screen reader <em>could</em> work fully? Maybe?</li>
+</ul>
+<h2>Planned Features:</h2>
+<ul>
+<li>A way to turn off all animated/moving gifs and elements.</li>
+</ul>
+<h2>Final Notes</h2>
+<p>This website was made with Firefox, at 1920x1080 resolution in mind.
+<br>This site uses Javascript for the theme changer, StatusCafe and GoatCounter.</p>
+
                     </main>
                 </div>
 
@@ -65,7 +120,10 @@
             <!-- Footer -->
             <div class="box">
                 <!-- It's a footer. -->
-                <footer>{% include 'partials/footer.njk' %}</footer>
+                <footer>©nonkiru 2022 ~ Forever.
+<br>
+<a href="/accessibility/">Accessibility</a> ⁑ <a href="/sitemap/">Sitemap</a>
+<br>Site analytics provided by <a href="https://www.goatcounter.com/">GoatCounter</a></footer>
             </div>
 
         <!-- Container end. -->

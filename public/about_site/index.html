@@ -14,7 +14,7 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="stylesheet" href="../assets/css/style.css">
-        <title>{{ title }}</title>
+        <title>About this Site ⁑ nonkiru.art</title>
     </head>
     <body>
         <!-- Floating clouds in the background. -->
@@ -38,13 +38,43 @@
                             <nav>
                                 <h1>Navigation</h1>
                                 <!-- Update partials/nav.njk with new links. -->
-                                {% include 'partials/nav.njk' %}
+                                <h2>Sitely</h2>
+<ul>
+    <li><a href="/">Home</a></li>
+        <li><a href="/about_site/">About this Site</a></li>
+    <li><a href="/credits/">Website Credits</a></li>
+</ul>
+<h2>Personal</h2>
+<ul>
+    <li><a href="/about/">About Me</a></li>
+    <li><a href="/art/">Art</a></li>
+</ul>
+<h2>Off-Site</h2>
+<ul>
+    <li><a href="/links/">Links, Webrings</a></li>
+</ul>
                             </nav>
                         </div>
                         <!-- Site Stats & Stuff -->
                         <div class="box" id="stats" style="width: 12.5rem;">
                             <!-- Update partials/stats.njk with new stuff. -->
-                            {% include 'partials/stats.njk' %}
+                            <h1>Misc.</h1>
+<h2>Settings</h2>
+<ul>
+    <li><a href="#" id="theme-toggle" onclick="modeSwitcher()">Toggle Theme</a></li>
+    <li><a href="#" onclick="PagedollToggle()">Pagedoll Toggle</a></li>
+</ul>
+<h2>Link Me</h2>
+<small><b>Note:</b> Buttons are to be updated.</small>
+Feel free to hotlink!
+<br>
+<img src="/../assets/img/nonkiru_button.gif" alt="A button for nonkiru.art!"><img src="/../assets/img/non_arunyi_button.gif" alt="A smaller button for nonkiru.art.">
+<br>
+<label for="BigButton">The code for the big button.</label>
+<textarea id="BigButton" readonly style="width: 100%; resize: none;"><img src="https://nonkiru.art/assets/img/nonkiru_button.gif" alt="A button leading to nonkiru.art."></textarea>
+<br>
+<label for="SmallButton">The code for the small button.</label>
+<textarea id="SmallButton" readonly style="width: 100%; resize: none;"><img src="https://nonkiru.art/assets/img/non_arunyi_button.gif" alt="A button leading to nonkiru.art."></textarea>
                         </div>
                     </aside>
                 </div>
@@ -53,9 +83,25 @@
                 <div class="box" style="flex-grow: 1;">
                     <main>
                         <!-- Update tag h1 to change this. -->
-                        <h1>{{ h1 }}</h1>
+                        <h1>About this Site</h1>
                         <!-- Pray that markdown treats me well! -->
-                        {{ content | safe }}
+                        <p>Hello, and thank you again for checking out my website.</p>
+<h2>Technical Information</h2>
+<ul>
+<li>Created using <a href="https://www.11ty.dev/">Eleventy</a> static site generator.</li>
+<li>Coded using <a href="https://code.visualstudio.com/">Visual Studio Code</a>.</li>
+<li>Hosted on <a href="https://neocities.org">Neocities</a> via <a href="https://deploy-to-neocities.neocities.org/">Deploy to Neocities</a>.</li>
+<li>Public on Github (when I figure out how to do it sorry LMAO)</li>
+</ul>
+<h2>Why I made a Website</h2>
+<p>I thought it would be fun. It's been really enjoyable to learn how to code, too. I feel super proud of how far I've come; I only need to search for help some of the time now! Not that there's anything bad for looking for help. But it's really nice to just know how to do it, y'know?
+<br><br>
+I also think websites are a reflection of the self. I wonder what you think of me from my website...
+I hope you think I'm epic! Or at least okay. Or neat.</p>
+<h2>Special Thanks</h2>
+<p>My girlfriend, <a href="https://zombiejynx.neocities.org">Zombiejynx</a> for always supporting me. 🌙💞
+<br>My friends, for entertaining me when I ramble about coding again.</p>
+
                     </main>
                 </div>
 
@@ -65,7 +111,10 @@
             <!-- Footer -->
             <div class="box">
                 <!-- It's a footer. -->
-                <footer>{% include 'partials/footer.njk' %}</footer>
+                <footer>©nonkiru 2022 ~ Forever.
+<br>
+<a href="/accessibility/">Accessibility</a> ⁑ <a href="/sitemap/">Sitemap</a>
+<br>Site analytics provided by <a href="https://www.goatcounter.com/">GoatCounter</a></footer>
             </div>
 
         <!-- Container end. -->
