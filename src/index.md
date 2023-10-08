@@ -37,7 +37,7 @@ Started work on this layout.
     <b>Important</b>
     <hr>
     <ul>
-        <li>Finish the about page.</li>
+        <li><s>Finish the about page.</s></li>
         <li>Finish the art page.</li>
         <li>Add a button to pause all gifs/moving elements, or to remove them.</li>
     </ul>
