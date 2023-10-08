@@ -19,15 +19,15 @@ Most of the art and code on this site was made by me, but anything else will be 
 ## Updates
 <div class="update_box" tabindex="0">
 
+<b>09 October 2023</b>
+<hr>
+
+Doing my best to try and deploy this through Github. Pray for me.
+
 <b>05 ~ 08 October 2023</b>
 <hr>
 
 Started work on this layout.
-
-<b>35 Febtember 3005</b>
-<hr>
-
-This is a fake update to test the scrollbar. I'll remove this once I have more updates.
 
 </div>
 
