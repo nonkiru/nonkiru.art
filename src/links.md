@@ -63,6 +63,7 @@ I add websites in good faith, but please let me know if any of the sites linked 
 <a href="https://wappydog.neocities.org/"><img src="../assets/img/buttons/wappy.gif" alt="A button leading to wappydog."></a>
 <a href="https://whiona.me/"><img src="../assets/img/buttons/whiona_button.png" alt="A button leading to whiona."></a>
 <a href="https://virtualobserver.moe/"><img src="../assets/img/buttons/virtualobserver.png" alt="A button leading to virtualobserver."></a>
+<a href="https://jeith.neocities.org/"><img src="../assets/img/buttons/jeith.jpg" alt="A button leading to jeith."></a>
 		
 ## Webrings
 I was apart of the old Yesterweb Ring and the Vocaloid V1 webring. Both of which have closed.
