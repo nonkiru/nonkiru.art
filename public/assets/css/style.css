@@ -338,6 +338,15 @@ label {
     }
   }
 
+  @media (prefers-reduced-motion) {
+    #pagedoll {
+        display: none;
+    }
+    .clouds {
+        display: none;
+    }
+  }
+
 /* Comment Widget */
 /* A lot of this code was taken from virtualobserver's base code. */
 
