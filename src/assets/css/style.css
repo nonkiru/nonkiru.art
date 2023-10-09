@@ -329,6 +329,13 @@ label {
     #minibox {
         max-width: unset !important;
     }
+    #minibox2 {
+        max-width: unset !important;
+    }
+    .box_header {
+        height: 6rem;
+        background-size: cover;
+    }
   }
 
 /* Comment Widget */

@@ -26,6 +26,7 @@ I add websites in good faith, but please let me know if any of the sites linked 
 - [sadgrl.online Guides](https://sadgrl.online/learn/)
 - [PX to REM Calculator](https://nekocalc.com/px-to-rem-converter)
 - [Custom Scrollbar Maker](https://codepen.io/stephenpaton-tech/full/JjRvGmY)
+- [Eleventy Blog Set-up Guide](https://cfjedimaster.github.io/eleventy-blog-guide/guide.html)
 
 ## Websites
 <a href="http://berry.heartette.net/"><img src="../assets/img/buttons/novemberry.gif" alt="A button leading to Novemberry."></a>
