@@ -75,7 +75,7 @@ This is my first blog post, so apologies if this is written weird or anything. I
 <br>A small note before we begin, this post will likely be **updated when I fully complete P12S**. I took a break after P11S, so I only have thoughts up to about halfway through P12SP1.
 <br>Additionally, clear dates are from my FFLogs and may not be fully accurate.
 </div>
-<a href="/blog/blog-1/">Read more of this post!</a>
+<a href="/blog/a_retrospective_into_ffxiv_endwalker_savage/">Read more of this post!</a>
 </div>
 
 ## Status Cafe
