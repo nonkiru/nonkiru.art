@@ -2,7 +2,7 @@
 title: A Retrospective Into FFXIV ⁑ Endwalker Savage
 ---
 09 Oct 2023
-
+<br>
 **Contains Spoilers for FFXIV: Endwalker and the Pandæmonium raid series.**
 
 This is my first blog post, so apologies if this is written weird or anything. I thought a neat blog post would be to talk about Pandæmonium savage!
