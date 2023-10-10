@@ -5,7 +5,7 @@
     --clouds: transparent url(../img/clouds.webp) repeat-x left top;
     --mainbg: rgba(255, 252, 250, 0.90);
     --mainbg_border: 0.125rem solid #dfa097;
-    --mainbg_outline: 0.125rem solid #ffdad1;
+    --mainbg_outline: 0.125rem dotted #ffdad1;
     --font: #6a5353;
     --links: #4171B9;
     --selection: #ffb2a44f;
@@ -22,6 +22,7 @@
     --pointer: url(../img/pointer.webp), auto;
     --button:#ffebe4;
     --buttonhover: #f8ccbf;
+    --lace: url("../img/lace.webp");
 }
 
 :root[data-theme="light"] {
@@ -29,7 +30,7 @@
     --clouds: transparent url(../img/clouds.webp) repeat-x left top;
     --mainbg: rgba(255, 252, 250, 0.90);
     --mainbg_border: 0.125rem solid #dfa097;
-    --mainbg_outline: 0.125rem solid #ffdad1;
+    --mainbg_outline: 0.125rem dotted #ffdad1;
     --font: #6a5353;
     --links: #4171B9;
     --selection: #ffb2a44f;
@@ -46,6 +47,7 @@
     --pointer: url(../img/pointer.webp), pointer;
     --button:#ffebe4;
     --buttonhover: #f8ccbf;
+    --lace: url("../img/lace.webp");
 }
 
 :root[data-theme="dark"] {
@@ -53,7 +55,7 @@
     --clouds: transparent url(../img/clouds_dark.webp) repeat-x left top;
     --mainbg: rgba(58, 53, 63, 0.90);
     --mainbg_border: 0.125rem solid #302b30;
-    --mainbg_outline: 0.125rem solid #4f464f;
+    --mainbg_outline: 0.125rem dotted #4f464f;
     --font: #fffcfa;
     --links: #f79b9b;
     --selection: #ffd7d752;
@@ -70,6 +72,7 @@
     --pointer: url(../img/pointer_dark.webp), pointer;
     --button:#554c55;
     --buttonhover: #302b30;
+    --lace: url("../img/lace_dark.webp");
 }
 
 ::selection {
@@ -116,7 +119,6 @@ a {
 a:hover {
     color: var(--font);
     background: var(--selection);
-    letter-spacing: 0.05rem;
 }
 
 a img:hover {
@@ -125,6 +127,10 @@ a img:hover {
 
 ul {
     list-style-image: var(--ul);
+}
+
+ul a:hover {
+    letter-spacing: 0.05rem;
 }
 
 h1 {
@@ -165,6 +171,14 @@ label {
     font-size: 0.9rem;
 }
 
+textarea {
+    background: var(--update);
+    outline: 0 solid transparent;
+    border: var(--mainbg_outline);
+    color: var(--font);
+    font-family: 'Atkinson Hyperlegible', sans-serif;
+}
+
 .container {
     max-width: 62rem;
     margin: auto;
@@ -182,9 +196,15 @@ label {
     outline: var(--mainbg_outline);
     border-radius: 0.225rem;
     box-shadow: 0 0 0.313rem rgba(223, 161, 151, 0.05);
-    margin: 0.625rem;
+    margin: 1.5rem;
     padding: 1rem;
     height: 8rem;
+    border-image-slice: 28 28 28 28;
+    border-image-width: 28px 28px 28px 28px;
+    border-image-outset: 20px 20px 20px 20px;
+    border-image-repeat: round round;
+    border-image-source: var(--lace);
+    border-style: solid; 
 }
 
 .box {
@@ -193,9 +213,15 @@ label {
     outline: var(--mainbg_outline);
     border-radius: 0.225rem;
     box-shadow: 0 0 0.313rem rgba(223, 161, 151, 0.05);
-    margin: 0.625rem;
+    margin: 1.5rem;
     padding: 1rem;
     height: 100%;
+    border-image-slice: 28 28 28 28;
+    border-image-width: 28px 28px 28px 28px;
+    border-image-outset: 20px 20px 20px 20px;
+    border-image-repeat: round round;
+    border-image-source: var(--lace);
+    border-style: solid; 
 }
 
 .update_box {
@@ -394,7 +420,7 @@ label {
         --clouds: transparent url(../img/clouds_dark.webp) repeat-x left top;
         --mainbg: rgba(58, 53, 63, 0.90);
         --mainbg_border: 0.125rem solid #302b30;
-        --mainbg_outline: 0.125rem solid #4f464f;
+        --mainbg_outline: 0.125rem dotted #4f464f;
         --font: #fffcfa;
         --links: #f79b9b;
         --selection: #ffd7d752;
@@ -411,13 +437,14 @@ label {
         --pointer: url(../img/pointer_dark.webp), pointer;
         --button:#554c55;
         --buttonhover: #302b30;
+        --lace: url("../img/lace_dark.webp");
     }
 	:root[data-theme="dark"] {
         --sky: url(../img/sky_bg_dark.webp);
         --clouds: transparent url(../img/clouds_dark.webp) repeat-x left top;
         --mainbg: rgba(58, 53, 63, 0.90);
         --mainbg_border: 0.125rem solid #302b30;
-        --mainbg_outline: 0.125rem solid #4f464f;
+        --mainbg_outline: 0.125rem dotted #4f464f;
         --font: #fffcfa;
         --links: #f79b9b;
         --selection: #ffd7d752;
@@ -434,6 +461,7 @@ label {
         --pointer: url(../img/pointer_dark.webp), pointer;
         --button:#554c55;
         --buttonhover: #302b30;
+        --lace: url("../img/lace_dark.webp");
 	}
 
     :root[data-theme="light"] {
@@ -441,7 +469,7 @@ label {
         --clouds: transparent url(../img/clouds.webp) repeat-x left top;
         --mainbg: rgba(255, 252, 250, 0.90);
         --mainbg_border: 0.125rem solid #dfa097;
-        --mainbg_outline: 0.125rem solid #ffdad1;
+        --mainbg_outline: 0.125rem dotted #ffdad1;
         --font: #6a5353;
         --links: #4171B9;
         --selection: #ffb2a44f;
@@ -458,6 +486,7 @@ label {
         --pointer: url(../img/pointer.webp), pointer;
         --button:#ffebe4;
         --buttonhover: #f8ccbf;
+        --lace: url("../img/lace.webp");
 	}
 }
 
@@ -481,8 +510,12 @@ label {
         max-width: unset !important;
     }
     .box_header {
-        height: 6rem;
+        height: 5rem;
         background-size: cover;
+    }
+    .box {
+        margin-top: 3rem;
+        margin-bottom: 3rem;
     }
   }
 
