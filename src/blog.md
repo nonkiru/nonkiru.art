@@ -9,6 +9,6 @@ My little spot for writing about things that I like. Or maybe, things that I dis
 <br>Posts are from newest to oldest.
 <ul>
 {%- for blog in collections.blog reversed  -%}
-  <li><a href="{{ blog.url }}">{{ blog.data.title }}</a> ~ <small>{{ blog.date | readableDate }}</small></li>
+  <li><a href="{{ blog.url }}">{{ blog.data.title }}</a> ~ <small>09 Oct 2023</small></li>
 {%- endfor -%}
 </ul>
