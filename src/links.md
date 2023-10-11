@@ -70,6 +70,7 @@ I add websites in good faith, but please let me know if any of the sites linked 
 		
 ## Webrings
 I was apart of the old Yesterweb Ring and the Vocaloid V1 webring. Both of which have closed.
+<div style="text-align: center;">
 <div id='neossg'>
   <script type="text/javascript" src="https://neossg.neocities.org/onionring-variables.js"></script>
   <script type="text/javascript" src="https://neossg.neocities.org/onionring-widget.js"></script>
@@ -95,7 +96,10 @@ I was apart of the old Yesterweb Ring and the Vocaloid V1 webring. Both of which
 </div>
 <br><script src="https://nuthead.neocities.org/ring/ring.js"></script>
 <br>
+<div id="vocaring"><script src="https://webring.adilene.net/webring.js"></script></div>
+<br>
 <div id="autiring">
 <script type="text/javascript" src="https://macaque.moe/autiring/onionring-variables.js"></script>
 <script type="text/javascript" src="https://macaque.moe/autiring/onionring-widget.js"></script>
+</div>
 </div>
