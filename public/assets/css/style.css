@@ -256,6 +256,10 @@ textarea {
     border-left: none;
 }
 
+.webrings table {
+    margin: auto;
+}
+
 /* This cloud code is heavily referenced from the Wizard101 website... */
 .clouds {
     background: var(--clouds);

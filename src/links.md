@@ -70,7 +70,7 @@ I add websites in good faith, but please let me know if any of the sites linked 
 		
 ## Webrings
 I was apart of the old Yesterweb Ring and the Vocaloid V1 webring. Both of which have closed.
-<div style="text-align: center; margin-left: auto; margin-right: auto;">
+<div class="webrings" style="text-align: center; margin-left: auto; margin-right: auto;">
 <div id='neossg' style="text-align: center; margin-left: auto; margin-right: auto;">
   <script type="text/javascript" src="https://neossg.neocities.org/onionring-variables.js"></script>
   <script type="text/javascript" src="https://neossg.neocities.org/onionring-widget.js"></script>
