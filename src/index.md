@@ -11,8 +11,8 @@ Hello hello, world wide web adventurer!! (❁´◡`❁)
 
 Most of the art and code on this site was made by me, but anything else will be <a href="/credits/">credited here</a>!
 
-<b>Notice!</b> This website <i>currently</i> has a [WebPG](http://www.mabsland.com/Adoption.html) rating. 
-<br><i>However</i>, this is likely to change to Web14+ in the future.
+<b>Notice!</b> This website <i>currently</i> has a [Web14](http://www.mabsland.com/Adoption.html) rating.
+<br>Partial nudity on the <a href="/art_2023/">2023 Gallery</a> page.
 
 <hr>
 
@@ -21,6 +21,11 @@ Most of the art and code on this site was made by me, but anything else will be 
 <div id="minibox" style="max-width: 50%; padding: 0.1rem;">
 <h2> Updates </h2>
 <div class="update_box" tabindex="0">
+
+<b>11 October 2023</b>
+<hr>
+
+Finished the <a href="/art/">Art</a> page and added the <a href="/art_2023/">2023 Gallery</a> page.
 
 <b>10 October 2023</b>
 <hr>
@@ -54,7 +59,7 @@ Started work on this layout.
     <ul>
         <li><s>Finish the about page.</s></li>
         <li><s>Finish the blog page.</s></li>
-        <li>Finish the art page.</li>
+        <li><s>Finish the art page.</s></li>
         <li>Add a button to pause all gifs/moving elements, or to remove them.</li>
     </ul>
     <b>Ideas</b>

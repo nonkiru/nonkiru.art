@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+    <!-- Thank you for stopping by nonkiru.art! ♪(^∇^*) -->
+    <!-- Unless otherwise stated, all the art on this site is made by me. -->
+    <!-- Don't use any of the materials on this site without permission. -->
+    <head>
+        <!-- Goat Counter -->
+        <script data-goatcounter="https://nonkiru.goatcounter.com/count"
+            async src="../assets/js/count.js"></script>
+        <link rel="shortcut icon" type="image/jpg" href="/assets/img/favicon.ico">
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="../assets/css/gallery.css?v=1.0">
+        <title>{{ title }}</title>
+    </head>
+    <body>
+        <div class="container">
+            <main>
+                {{ content | safe }}
+            </main>
+        </div>
+    </body>
+    <!-- Stay safe out there~ ♪ -->
+    <script>
+        /* Dark mode script thanks to https://derekkedziora.com/blog/dark-mode-revisited */
+        let systemInitiatedDark = window.matchMedia("(prefers-color-scheme: dark)"); 
+        let theme = sessionStorage.getItem('theme');
+
+        if (systemInitiatedDark.matches) {
+            document.getElementById("theme-toggle").innerHTML = "Light Mode";
+        } else {
+            document.getElementById("theme-toggle").innerHTML = "Dark Mode";
+        }
+
+        function prefersColorTest(systemInitiatedDark) {
+        if (systemInitiatedDark.matches) {
+            document.documentElement.setAttribute('data-theme', 'dark');		
+            document.getElementById("theme-toggle").innerHTML = "Light Mode";
+            sessionStorage.setItem('theme', '');
+        } else {
+            document.documentElement.setAttribute('data-theme', 'light');
+            document.getElementById("theme-toggle").innerHTML = "Dark Mode";
+            sessionStorage.setItem('theme', '');
+        }
+        }
+        systemInitiatedDark.addListener(prefersColorTest);
+
+
+        function modeSwitcher() {
+            let theme = sessionStorage.getItem('theme');
+            if (theme === "dark") {
+                document.documentElement.setAttribute('data-theme', 'light');
+                sessionStorage.setItem('theme', 'light');
+                document.getElementById("theme-toggle").innerHTML = "Dark Mode";
+            }	else if (theme === "light") {
+                document.documentElement.setAttribute('data-theme', 'dark');
+                sessionStorage.setItem('theme', 'dark');
+                document.getElementById("theme-toggle").innerHTML = "Light Mode";
+            } else if (systemInitiatedDark.matches) {	
+                document.documentElement.setAttribute('data-theme', 'light');
+                sessionStorage.setItem('theme', 'light');
+                document.getElementById("theme-toggle").innerHTML = "Dark Mode";
+            } else {
+                document.documentElement.setAttribute('data-theme', 'dark');
+                sessionStorage.setItem('theme', 'dark');
+                document.getElementById("theme-toggle").innerHTML = "Light Mode";
+            }
+        }
+
+        if (theme === "dark") {
+            document.documentElement.setAttribute('data-theme', 'dark');
+            sessionStorage.setItem('theme', 'dark');
+            document.getElementById("theme-toggle").innerHTML = "Light Mode";
+        } else if (theme === "light") {
+            document.documentElement.setAttribute('data-theme', 'light');
+            sessionStorage.setItem('theme', 'light');
+            document.getElementById("theme-toggle").innerHTML = "Dark Mode";
+        }
+    </script>
+</html>

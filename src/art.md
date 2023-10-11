@@ -4,10 +4,9 @@ layout: layout.njk
 h1: Artwork
 ---
 
-Under construction.
-<section class="gallery">
-    {% for image in collections.gallery %}
-        <figure><img src="{{image}}" alt=""></figure>
-    {% endfor %}
-</section>
-</div>
+Various galleries for my artwork.
+<br>
+<br><b>Important!</b> Please check if you're using mobile data or otherwise restrictive internet. These galleries contain a lot of images!
+
+<a href="/art_2023/">2023 Gallery</a>
+<br><a href="">2022 Gallery (Not Available)</a>
