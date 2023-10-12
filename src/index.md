@@ -25,7 +25,7 @@ Most of the art and code on this site was made by me, but anything else will be 
 <b>12 October 2023</b>
 <hr>
 
-Added new art to the <a href="/art_2023/">2023 Gallery</a> page, and added a new webring (pending).
+Added new art to the <a href="/art_2023/">2023 Gallery</a> page, and added a new webring (pending). Also added back the <a href="/layouts/">Layouts</a> page and the <a href="/layouts/cheesecake/">Cheesecake Layout</a> page.
 
 <b>11 October 2023</b>
 <hr>
