@@ -11,7 +11,7 @@ h1: Sitemap
     <li><a href="/accessibility/">Accessibility</a></li>
     <li><a href="/sitemap/">Sitemap</a></li>
     <li><a href="/not_found/">404 Not Found</a></li>
-    <li><a href="/art_2023/"></a>2023 Gallery</li>
+    <li><a href="/art_2023/">2023 Gallery</a></li>
 </ul>
 
 <h2>Blog Posts</h2>
