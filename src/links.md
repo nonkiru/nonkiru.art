@@ -71,10 +71,21 @@ I add websites in good faith, but please let me know if any of the sites linked 
 ## Webrings
 I was apart of the old Yesterweb Ring and the Vocaloid V1 webring. Both of which have closed.
 <div class="webrings" style="text-align: center; margin-left: auto; margin-right: auto;">
+
+<!-- NEOSSG -->
 <div id='neossg' style="text-align: center; margin-left: auto; margin-right: auto;">
   <script type="text/javascript" src="https://neossg.neocities.org/onionring-variables.js"></script>
   <script type="text/javascript" src="https://neossg.neocities.org/onionring-widget.js"></script>
 </div>
+
+
+<!-- furry webring -->
+<div id='furryring'>
+        <script type="text/javascript" src="https://furryring.neocities.org/onionring-variables.js"></script>
+        <script type="text/javascript" src="https://furryring.neocities.org/onionring-widget.js"></script>
+</div>
+
+<!-- hotline webring -->
 <div class="yw-nav" style="display: inline;">
     <a href="https://hotlinewebring.club/nonkiru/previous"><-</a>
 </div>
@@ -84,7 +95,10 @@ I was apart of the old Yesterweb Ring and the Vocaloid V1 webring. Both of which
 <div class="yw-nav" style="display: inline;">
     <a href="https://hotlinewebring.club/nonkiru/next">-></a>
 </div>
+
 <br>
+
+<!-- retronaut webring -->
 <div class="yw-nav" style="display: inline;">
     <a href="https://webring.dinhe.net/prev/https://nonkiru.art"><-</a>
 </div>
@@ -94,12 +108,20 @@ I was apart of the old Yesterweb Ring and the Vocaloid V1 webring. Both of which
 <div class="yw-nav" style="display: inline;">
     <a href="https://webring.dinhe.net/next/https://nonkiru.art">-></a>
 </div>
+
+<!-- null webring -->
 <br><script src="https://nuthead.neocities.org/ring/ring.js"></script>
-<br>
+
+
+<!-- vocaloid webring -->
 <div id="vocaring"><script src="https://webring.adilene.net/webring.js"></script></div>
+
 <br>
+
+<!-- autistic webring -->
 <div id="autiring" style="text-align: center; margin-left: auto; margin-right: auto;">
 <script type="text/javascript" src="https://macaque.moe/autiring/onionring-variables.js"></script>
 <script type="text/javascript" src="https://macaque.moe/autiring/onionring-widget.js"></script>
 </div>
+
 </div>

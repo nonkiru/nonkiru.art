@@ -22,6 +22,11 @@ Most of the art and code on this site was made by me, but anything else will be 
 <h2> Updates </h2>
 <div class="update_box" tabindex="0">
 
+<b>12 October 2023</b>
+<hr>
+
+Added new art to the <a href="/art_2023/">2023 Gallery</a> page, and added a new webring (pending).
+
 <b>11 October 2023</b>
 <hr>
 
