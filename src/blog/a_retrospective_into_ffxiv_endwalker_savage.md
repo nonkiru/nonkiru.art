@@ -2,6 +2,8 @@
 title: A Retrospective Into FFXIV ⁑ Endwalker Savage
 ---
 09 Oct 2023
+<br><b>UPDATED 14 Oct 2023</b>
+<br>
 <br>
 **Contains Spoilers for FFXIV: Endwalker and the Pandæmonium raid series.**
 
@@ -471,11 +473,11 @@ Overall Fun Factor
 Total: 20 / 20
 
 ### Anabaseios: The Twelfth Circle (Athena)
-#### Cleared: Not Yet...
-As mentioned at the start of this blog post, I haven't actually cleared this fight. I got up to Palladion about 2~3 months ago before I got burnt out and didn't touch the game.
-<br>This fight... kind of annoys me. I don't like Paradeigma 2 at all. Something about it leads me to messing it up all the time and I don't know why, because I understand how this mechanic works fully. I think it's because of the little adds around the arena can change orientation and that confuses me.
-<br><br>Superchain Theory I is pretty cool though!
-<br><br>My ratings here are **for the first 50% of the first fight. These will update when I complete this fight, if I do.**
+#### Cleared: 14 Oct 2023 (P2 Not cleared yet)
+<b>UPDATED for P1 CLEAR</B>
+<br>Now that I've cleared the first half of the fight, my opinion has really improved of it! I really enjoy a lot of moments here, but there's still a part of it that bugs me. I think it's because a lot of the difficulty comes from visual overload and not from the mechanics itself. But that's okay, it's the last fight of the tier. I still dislike Para3 and it's for the same issue. I wish you could zoom out a little more, just so I could see what's going on and what's causing a possible wipe there more easily.
+<br><br>The limit cut here is fine. It's not too hard, it's not too easy... but I find myself randomly dying at times to damage, despite having more HP than about half the raid. It's frustrating that mistakes aren't super obvious. Fight is still, overall, really fun! Also, my static is absolutely insane. We went from "fresh P12S P1 prog" to a clear within three 3-hour sessions.
+<br><br>I will be updating this once I clear part 2.
 <hr>
 
 #### Ratings
