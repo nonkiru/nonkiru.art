@@ -67,7 +67,11 @@ I add websites in good faith, but please let me know if any of the sites linked 
 <a href="https://jeith.neocities.org/"><img src="../assets/img/buttons/jeith.jpg" alt="A button leading to jeith."></a>
 <a href="https://kikapi.neocities.org/"><img src="../assets/img/buttons/kikapi.gif" alt="A button leading to kikapi."></a>
 <a href="https://fatgrrlz.neocities.org/"><img src="../assets/img/buttons/fatgrlz.gif" alt="A button leading to fatgrlz."></a>
-		
+
+## Weblistings
+
+<a href="https://allyratworld.com/cafe/rose"><img src="../assets/img/88x31melo.png" alt=""></a>
+
 ## Webrings
 I was apart of the old Yesterweb Ring and the Vocaloid V1 webring. Both of which have closed.
 <div class="webrings" style="text-align: center; margin-left: auto; margin-right: auto;">
