@@ -22,6 +22,11 @@ Most of the art and code on this site was made by me, but anything else will be 
 <h2> Updates </h2>
 <div class="update_box" tabindex="0">
 
+<b>18 October 2023</b>
+<hr>
+
+Created the <a href="/ffxiv/">FFXIV</a> page. Added new art to the <a href="/art_2023/">2023 Gallery</a> page.
+
 <b>14 October 2023</b>
 <hr>
 

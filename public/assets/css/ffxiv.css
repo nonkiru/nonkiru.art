@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible&family=Patrick+Hand&display=swap');
+
+@font-face {
+    font-family: "Eorzea"; 
+    src: url("../img/ffxiv/Eorzea.ttf") format("truetype");
+}
+
+:root {
+    --paper: url("../img/paper.webp");
+    --bg: #fffaf3;
+    --bg_gradient: linear-gradient(90deg, #f4d5c7 0%, #e7c3b2 50%, #f4d5c7 100%);
+    --text: #744a3b;
+    --secondary: #ffe5cc;
+    --link: #59526a;
+}
+
+:root[data-theme="light"] {
+    --paper: url("../img/paper.webp");
+    --bg: #fffaf3;
+    --bg_gradient: linear-gradient(90deg, #fffaf3 0%, #ffe5cc 50%, #fffaf3 100%);
+    --text: #463d54;
+    --secondary: #ffc9cd;
+    --link: #605679;
+}
+
+:root[data-theme="dark"] {
+    --paper: url("../img/paper_dark.webp");
+    --bg: #463d54;
+    --bg_gradient: linear-gradient(90deg, #463d54 0%, #2e263b 50%, #463d54 100%);
+    --text: #fffaf3;
+    --secondary: #dfbbc0;
+    --link: #ffc9cd;
+}
+
+::selection {
+    background: var(--secondary);
+    color: var(--bg)
+}
+
+* {
+    transition: 0.2s;
+    cursor: url(../img/ffxiv/arr-pointer.cur), auto;
+}
+
+body {
+    background-color: #786453;
+    background-image: url("../img/forest_bg.webp");
+    background-repeat: repeat-x;
+    background-position: center bottom;
+    background-attachment: fixed;
+    font-family: 'Atkinson Hyperlegible', sans-serif;
+    color: var(--text);
+    cursor: url(../img/ffxiv/arr-pointer.cur), auto;
+}
+
+h1 {
+    font-family: "Eorzea", cursive;
+    background: var(--bg);
+    background: var(--bg_gradient);
+    font-size: 3rem;
+}
+
+h2 {
+    font-family: 'Patrick Hand', cursive;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+small {
+    font-style: italic;
+}
+
+a {
+    color: var(--link);
+    cursor: url(../img/ffxiv/arr-link.cur), pointer;
+}
+
+a:hover {
+    background: var(--secondary);
+    color: var(--bg)
+}
+
+hr {
+    border-top: 0.125rem solid var(--secondary);
+    border-bottom: none;
+    border-right: none;
+    border-left: none;
+}
+
+
+img {
+    border: 0.125rem solid var(--secondary);
+}
+
+.page {
+    background-color: var(--bg);
+    max-width: 60rem;
+    margin: auto;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    text-align: center;
+    padding: 1rem;
+    border-image-slice: 27 27 27 27;
+    border-image-width: 27px 27px 27px 27px;
+    border-image-outset: 20px 20px 20px 20px;
+    border-image-repeat: repeat repeat;
+    border-image-source: var(--paper);
+    border-style: solid;
+}
+
+.page img {
+    max-width: 75%;
+}
+
+.page_holder {
+    border: 0.125rem dotted var(--secondary);
+    border-radius: 1rem;
+    padding: 1rem;
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --paper: url("../img/paper_dark.webp");
+        --bg: #463d54;
+        --bg_gradient: linear-gradient(90deg, #463d54 0%, #2e263b 50%, #463d54 100%);
+        --text: #fffaf3;
+        --secondary: #dfbbc0;
+        --link: #ffc9cd;
+    }
+    
+    :root[data-theme="light"] {
+        --paper: url("../img/paper.webp");
+        --bg: #fffaf3;
+        --bg_gradient: linear-gradient(90deg, #fffaf3 0%, #ffe5cc 50%, #fffaf3 100%);
+        --text: #463d54;
+        --secondary: #ffc9cd;
+        --link: #605679;
+    }
+    
+    :root[data-theme="dark"] {
+        --paper: url("../img/paper_dark.webp");
+        --bg: #463d54;
+        --bg_gradient: linear-gradient(90deg, #463d54 0%, #2e263b 50%, #463d54 100%);
+        --text: #fffaf3;
+        --secondary: #dfbbc0;
+        --link: #ffc9cd;
+    }
+}
+
+@media (max-width: 800px) {
+    #stamps {
+        display: none;
+    }
+    #tea {
+        display: none;
+    }
+    .page {
+        margin: 1.5rem;
+        padding: 0.1rem;
+    }
+    .page_holder {
+        padding: 0.5rem;
+    }
+}
