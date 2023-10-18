@@ -8,7 +8,7 @@
 :root {
     --paper: url("../img/paper.webp");
     --bg: #fffaf3;
-    --bg_gradient: linear-gradient(90deg, #f4d5c7 0%, #e7c3b2 50%, #f4d5c7 100%);
+    --bg_gradient: linear-gradient(90deg, #fffaf3 0%, #ffe5cc 50%, #fffaf3 100%);
     --text: #744a3b;
     --secondary: #ffc9cd;
     --link: #59526a;
