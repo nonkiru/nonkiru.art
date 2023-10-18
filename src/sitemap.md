@@ -13,6 +13,8 @@ h1: Sitemap
     <li><a href="/not_found/">404 Not Found</a></li>
     <li><a href="/art_2023/">2023 Gallery</a></li>
     <li><a href="/layouts/cheesecake/">Website Layouts ~ Cheesecake</a></li>
+    <li><a href="/ffxiv/myuri/">FFXIV ~ Myuri Page</a></li>
+    <li><a href="/ffxiv/drew/">FFXIV ~ Drew Page</a></li>
 </ul>
 
 <h2>Blog Posts</h2>
