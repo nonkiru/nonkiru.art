@@ -32,7 +32,15 @@ My favourite things include...
 - Art & Coding
 - My OCs
 
-<div style="float: right;">
+<div style="float: right; margin-top: -6rem;">
 <a href="https://tamanotchi.world/3029c"><img src="https://tamanotchi.world/i2/3029" alt="It's tamaNOTchi! Click to feed! (Soupy)"></a>
 <a href="https://tamanotchi.world/7357c"><img src="https://tamanotchi.world/i2/7357" alt="It's tamaNOTchi! Click to feed! (🥚 egg)"></a>
 </div>
+
+## Fursona
+I have a fursona because I think they're really fun and silly. I also think that, generally, furry designs tend to be a bit more fun than human designs.
+<br><br>The floating pixel pagedoll is my fursona too! Their name is Non and they are a housecat, based vaguely off of a Ragdoll / Burmese. I also get to live vicariously through them, since one day I really want to wear Lolita fashion!
+<br><br>This is their reference sheet! 
+<br>You're welcome to draw them, and I will love you forever if you do!
+<img src="../assets/img/non sheet.webp" style="width: 100%;" alt="A reference sheet for the site owner's fursona. Text reads: Non, They/Them. Notes: They are fat, please draw them fat!! They are a cat. :3">
+<br>I also have a <a href="https://toyhou.se/23516905.non">Toyhouse page</a> for them.
