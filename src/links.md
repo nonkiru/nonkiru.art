@@ -8,6 +8,7 @@ h1: Links
 I add websites in good faith, but please let me know if any of the sites linked have bigoted or hateful content.
 
 ## My Links
+- [nonkiru@gmail.com](mailto:nonkiru@gmail.com)
 - [Neocities Profile](https://neocities.org/site/nonkiru)
 - [VGen (Commissions)](https://vgen.co/nonkiru)
 - [Twitter](https://twitter.com/nonkiru_)

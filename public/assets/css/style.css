@@ -378,18 +378,6 @@ a:hover .ff-container.ff-inactive .ff-image {
     100%{bottom: 2rem;}
 }
 
-.vanish {
-    animation-name: vanish;
-    animation-duration: 2s;
-    animation-iteration-count: 1;
-    animation-fill-mode: forwards;
-}
-
-@keyframes vanish {
-    0%{opacity: 1;}
-    100%{opacity: 0;}
-}
-
 /* Comment Widget */
 /* A lot of this code was taken from virtualobserver's base code. */
 
