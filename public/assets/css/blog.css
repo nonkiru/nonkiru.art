@@ -5,7 +5,7 @@
     --clouds: transparent url(../img/clouds.webp) repeat-x left top;
     --mainbg: rgba(255, 252, 250, 0.90);
     --mainbg_border: 0.125rem solid #dfa097;
-    --mainbg_outline: 0.125rem solid #ffdad1;
+    --mainbg_outline: 0.125rem dotted #ffdad1;
     --font: #6a5353;
     --links: #4171B9;
     --selection: #ffb2a44f;
@@ -22,6 +22,7 @@
     --pointer: url(../img/pointer.webp), auto;
     --button:#ffebe4;
     --buttonhover: #f8ccbf;
+    --lace: url("../img/lace.webp");
 }
 
 :root[data-theme="light"] {
@@ -29,7 +30,7 @@
     --clouds: transparent url(../img/clouds.webp) repeat-x left top;
     --mainbg: rgba(255, 252, 250, 0.90);
     --mainbg_border: 0.125rem solid #dfa097;
-    --mainbg_outline: 0.125rem solid #ffdad1;
+    --mainbg_outline: 0.125rem dotted #ffdad1;
     --font: #6a5353;
     --links: #4171B9;
     --selection: #ffb2a44f;
@@ -46,6 +47,7 @@
     --pointer: url(../img/pointer.webp), pointer;
     --button:#ffebe4;
     --buttonhover: #f8ccbf;
+    --lace: url("../img/lace.webp");
 }
 
 :root[data-theme="dark"] {
@@ -53,7 +55,7 @@
     --clouds: transparent url(../img/clouds_dark.webp) repeat-x left top;
     --mainbg: rgba(58, 53, 63, 0.90);
     --mainbg_border: 0.125rem solid #302b30;
-    --mainbg_outline: 0.125rem solid #4f464f;
+    --mainbg_outline: 0.125rem dotted #4f464f;
     --font: #fffcfa;
     --links: #f79b9b;
     --selection: #ffd7d752;
@@ -70,6 +72,7 @@
     --pointer: url(../img/pointer_dark.webp), pointer;
     --button:#554c55;
     --buttonhover: #302b30;
+    --lace: url("../img/lace_dark.webp");
 }
 
 ::selection {
@@ -192,12 +195,12 @@ hr {
 
 /* Dark mode via https://derekkedziora.com/blog/dark-mode-revisited */
 @media (prefers-color-scheme: dark) {
-	:root[data-theme="dark"] {
+    :root {
         --sky: url(../img/sky_bg_dark.webp);
         --clouds: transparent url(../img/clouds_dark.webp) repeat-x left top;
         --mainbg: rgba(58, 53, 63, 0.90);
         --mainbg_border: 0.125rem solid #302b30;
-        --mainbg_outline: 0.125rem solid #4f464f;
+        --mainbg_outline: 0.125rem dotted #4f464f;
         --font: #fffcfa;
         --links: #f79b9b;
         --selection: #ffd7d752;
@@ -214,6 +217,31 @@ hr {
         --pointer: url(../img/pointer_dark.webp), pointer;
         --button:#554c55;
         --buttonhover: #302b30;
+        --lace: url("../img/lace_dark.webp");
+    }
+	:root[data-theme="dark"] {
+        --sky: url(../img/sky_bg_dark.webp);
+        --clouds: transparent url(../img/clouds_dark.webp) repeat-x left top;
+        --mainbg: rgba(58, 53, 63, 0.90);
+        --mainbg_border: 0.125rem solid #302b30;
+        --mainbg_outline: 0.125rem dotted #4f464f;
+        --font: #fffcfa;
+        --links: #f79b9b;
+        --selection: #ffd7d752;
+        --header: url(../img/header_dark.webp);
+        --h1: url(../img/pattern_01_dark.webp);
+        --h1_border: 0.125rem solid #302b30;
+        --h2: url(../img/pattern_02_dark.webp);
+        --h2_border: 0.125rem solid #302b30;
+        --update: #443b45;
+        --scrollbar: #302b30 #4f464f;
+        --skycolour: #564b55;
+        --ul: url(../img/bullet_dark.webp);
+        --cursor: url(../img/cursor_dark.webp), auto;
+        --pointer: url(../img/pointer_dark.webp), pointer;
+        --button:#554c55;
+        --buttonhover: #302b30;
+        --lace: url("../img/lace_dark.webp");
 	}
 
     :root[data-theme="light"] {
@@ -221,7 +249,7 @@ hr {
         --clouds: transparent url(../img/clouds.webp) repeat-x left top;
         --mainbg: rgba(255, 252, 250, 0.90);
         --mainbg_border: 0.125rem solid #dfa097;
-        --mainbg_outline: 0.125rem solid #ffdad1;
+        --mainbg_outline: 0.125rem dotted #ffdad1;
         --font: #6a5353;
         --links: #4171B9;
         --selection: #ffb2a44f;
@@ -238,5 +266,6 @@ hr {
         --pointer: url(../img/pointer.webp), pointer;
         --button:#ffebe4;
         --buttonhover: #f8ccbf;
+        --lace: url("../img/lace.webp");
 	}
 }

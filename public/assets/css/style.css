@@ -593,6 +593,9 @@ a:hover .ff-container.ff-inactive .ff-image {
     #pagedoll {
         display: none;
     }
+    #pagedoll2 {
+        display: none;
+    }
     #minibox {
         max-width: unset !important;
     }
