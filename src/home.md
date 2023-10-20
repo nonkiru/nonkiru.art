@@ -25,7 +25,7 @@ Most of the art and code on this site was made by me, but anything else will be 
 <b>20 October 2023</b>
 <hr>
 
-Added freezeframe (the GIF play/pause) function. It's enabled by default.
+Added freezeframe (the GIF play/pause) function. It's enabled by default. Also split the <a href="/links/">Links</a> page to now have <a href="/webrings_weblistings/">Webrings/Weblistings</a> seperate due to long load times. I know what webring is causing it, but I can't do anything about it.
 
 <b>18 October 2023</b>
 <hr>
