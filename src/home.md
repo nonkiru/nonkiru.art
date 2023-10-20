@@ -80,7 +80,7 @@ Started work on this layout.
         <li><s>Finish the about page.</s></li>
         <li><s>Finish the blog page.</s></li>
         <li><s>Finish the art page.</s></li>
-        <li>Add a button to pause all gifs/moving elements, or to remove them.</li>
+        <li><s>Add a button to pause all gifs/moving elements, or to remove them.</s></li>
     </ul>
     <b>Ideas</b>
     <hr>
