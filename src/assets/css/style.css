@@ -319,8 +319,8 @@ textarea {
 
 #pagedoll2 {
     position: fixed;
-    top: 31rem;
-    right: 27rem;
+    bottom: 1rem;
+    right: 2rem;
     animation: pagedoll 1s linear infinite;
     width: 244px;
     height: 370px;
