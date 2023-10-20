@@ -8,6 +8,7 @@ h1: Sitemap
 
 ## Other Links
 <ul>
+    <li><a href="/">Landing Page</a></li>
     <li><a href="/accessibility/">Accessibility</a></li>
     <li><a href="/sitemap/">Sitemap</a></li>
     <li><a href="/not_found/">404 Not Found</a></li>
