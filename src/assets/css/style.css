@@ -317,6 +317,15 @@ textarea {
     height: 370px;
 }
 
+#pagedoll2 {
+    position: fixed;
+    top: 31rem;
+    right: 27rem;
+    animation: pagedoll 1s linear infinite;
+    width: 244px;
+    height: 370px;
+}
+
 .ff-container {
     display: inline-block;
     position: unsert !important;
