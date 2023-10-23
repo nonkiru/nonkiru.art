@@ -22,6 +22,11 @@ Most of the art and code on this site was made by me, but anything else will be 
 <h2> Updates </h2>
 <div class="update_box" tabindex="0">
 
+<b>23 October 2023</b>
+<hr>
+
+Updated the <a href="/ffxiv/">FFXIV</a> and <a href="/ffxiv/myuri">Myuri</a> page.
+
 <b>21 October 2023</b>
 <hr>
 

@@ -8,7 +8,7 @@ h1: FFXIV Directory
 
 ## Myuri Nohn's Diary
 <br>
-<img src="/assets/img/ffxiv/myuri_1.png" alt="A FFXIV screenshot of a Lalafell. They stand with their arms outstretched, happy.">
+<img src="/assets/img/ffxiv/myuri_new_1.png" alt="A FFXIV screenshot of a Lalafell. They stand with their arms outstretched, happy.">
 <img src="/assets/img/ffxiv/stamp_tea.png" alt="" style="border: none; position: relative; top: -32rem; left: 18rem; width: 25%; margin-bottom: -34rem;" id="tea">
 
 <br><br>
