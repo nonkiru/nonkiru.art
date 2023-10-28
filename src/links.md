@@ -60,7 +60,7 @@ I add websites in good faith, but please let me know if any of the sites linked 
 <a href="https://melokaji.neocities.org/"><img src="../assets/img/buttons/melobutton.gif" alt="A button leading to melokaji."></a>
 <a href="https://cloverbell.neocities.org/"><img src="../assets/img/buttons/cloverbell.gif" alt="A button leading to cloverbell."></a>
 <a href="https://jasm1nii.xyz/"><img src="../assets/img/buttons/jasmines-journal.png" alt="A button leading to jasmine's journal."></a>
-<a href="hhttps://dokode.moe/"><img src="../assets/img/buttons/dokodemobutton3.gif" alt="A button leading to dokodemo."></a>
+<a href="https://dokode.moe/"><img src="../assets/img/buttons/dokodemobutton3.gif" alt="A button leading to dokodemo."></a>
 <a href="https://a0i.neocities.org/"><img src="../assets/img/buttons/aoi.gif" alt="A button leading to aoi."></a>
 <a href="https://wappydog.neocities.org/"><img src="../assets/img/buttons/wappy.gif" alt="A button leading to wappydog."></a>
 <a href="https://whiona.me/"><img src="../assets/img/buttons/whiona_button.png" alt="A button leading to whiona."></a>
