@@ -14,6 +14,7 @@ h1: Webrings & Weblistings
 I was apart of the old Yesterweb Ring and the Vocaloid V1 webring. Both of which have closed.
 <div class="webrings" style="text-align: center; margin-left: auto; margin-right: auto;">
 
+<b>NEOSSG</b> works on my <a href="/links/">links</a> page, since it breaks if I move it!
 <!-- NEOSSG -->
 <div id='neossg' style="text-align: center; margin-left: auto; margin-right: auto;">
   <script type="text/javascript" src="https://neossg.neocities.org/onionring-variables.js"></script>
