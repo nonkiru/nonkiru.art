@@ -22,6 +22,11 @@ Most of the art and code on this site was made by me, but anything else will be 
 <h2> Updates </h2>
 <div class="update_box" tabindex="0">
 
+<b>28 October 2023</b>
+<hr>
+
+Removed the Weblisting/Webring page because some of them broke when I moved them, and I really didn't want to have to contact the webring owners to fix my links, so...
+
 <b>23 October 2023</b>
 <hr>
 
