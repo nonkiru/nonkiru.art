@@ -37,6 +37,29 @@ My favourite things include...
 <a href="https://tamanotchi.world/7357c"><img src="https://tamanotchi.world/i2/7357" alt="It's tamaNOTchi! Click to feed! (🥚 egg)"></a>
 </div>
 
+## FAQ
+<b>Q. How did you learn to make a website?</b>
+<br><b>A.</b> To be honest, I think it started around 2014 with DeviantART and being able to edit your profile boxes on there. It's really hard for me to pinpoint what actually helped me learn - I think it was mostly repetition. In saying that, though, if *you* want to learn how to make one, feel free to reach out and I'll provide any tips I can!
+
+<br>
+
+<b>Q. Can I use your website as a base?</b>
+<br><b>A.</b> I would prefer that you use it as inspiration! <a href="https://copyheart.org/manifesto/">Copying is an act of love. Please copy.</a> 
+<br>*However:* If you use anything, *especially* artwork, please credit me, <a href="https://nonkiru.art">nonkiru</a>!
+<br>I'd also ask that you don't use art of my fursona; just because that's me, and I think that'd be really weird?
+
+<br>
+
+<b>Q. What programs do you use to make things?</b>
+<br><b>A.</b> I use Visual Studio Code for coding, Clip Studio Paint for illustrations, and Aseprite for pixel art.
+<br>
+
+<br>
+
+<b>Q. Are you LGBTQIA+ or Queer?</b>
+<br><b>A.</b> Yes, but I'm not fully comfortable with sharing the details online about it. It mostly comes from a fear of someone being angry at me for the way I identify... I think I'm most okay with sharing the fact that I'm a woman kisser. Maybe one day I'll have a pride page!
+<br>*(If you're deathly curious, just go stalker mode on my socials. You'll find something somewhere, probably.)*
+
 ## Fursona
 I have a fursona because I think they're really fun and silly. I also think that, generally, furry designs tend to be a bit more fun than human designs.
 <br><br>The floating pixel pagedoll is my fursona too! Their name is Non and they are a housecat, based vaguely off of a Ragdoll / Burmese. I also get to live vicariously through them, since one day I really want to wear Lolita fashion!
