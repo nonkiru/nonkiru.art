@@ -11,7 +11,7 @@ h1: About Me
         </div>
         <div class="statuscafe">
         They/Them
-        <hr>12th September 2002
+        <hr>12th September 2002 (I'm 21 years old)
         <hr>♍ Sun | ♏ Rising & Moon
         </div>
     </div>
