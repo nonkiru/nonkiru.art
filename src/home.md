@@ -3,11 +3,12 @@ title: Home ⁑ nonkiru.art
 layout: layout.njk
 h1: Welcome!
 ---
+<div class="freezeframe" id="mobilepixelfix" style="float: right; margin: -1rem;"><img src="/assets/img/nonkiru_small.webp" alt="Pixel art of the site owner."></div>
 
-Hello hello, world wide web adventurer!! (❁´◡`❁)
+Hello hello, world wide web adventurer!! (❁´◡`❁) 
 <br>Welcome to my little website on the internet! I'm known as *nonkiru*, and it's nice to meet you.
-<br><br>I hope you have a nice time exploring my site!
-<br>You can either use the navigation to the left, or use my <a href="/sitemap/">sitemap</a>.
+<br><br>I hope you have a nice time exploring my site! 
+<br>You can either use the navigation to the left, or use my <a href="/sitemap/">sitemap</a>. 
 
 Most of the art and code on this site was made by me, but anything else will be <a href="/credits/">credited here</a>!
 
@@ -21,6 +22,11 @@ Most of the art and code on this site was made by me, but anything else will be 
 <div id="minibox" style="max-width: 50%; padding: 0.1rem;">
 <h2> Updates </h2>
 <div class="update_box" tabindex="0">
+
+<b>29 October 2023</b>
+<hr>
+
+Very big update! Updated the layout pretty significantly. Pixels are now x1, font is a bit smaller, general layout is different, navigation links now have custom icons, and more!
 
 <b>28 October 2023</b>
 <hr>
@@ -92,6 +98,9 @@ Started work on this layout.
     <b>Important</b>
     <hr>
     <ul>
+        <li>Make an RSS feed.</li>
+        <li>Hide the button wall under a drop-down.</li>
+        <li>Update the blog, FFXIV, and microblog layouts.</li>
         <li><s>Finish the about page.</s></li>
         <li><s>Finish the blog page.</s></li>
         <li><s>Finish the art page.</s></li>
@@ -119,6 +128,7 @@ Started work on this layout.
 This is my first blog post, so apologies if this is written weird or anything. I thought a neat blog post would be to talk about Pandæmonium savage!
 <br>A small note before we begin, this post will likely be **updated when I fully complete P12S**. I took a break after P11S, so I only have thoughts up to about halfway through P12SP1.
 <br>Additionally, clear dates are from my FFLogs and may not be fully accurate.
+<br>Also, this is likely going to be the first Savage tier I fully clear (again, I'm not done quite yet) so keep that in mind while you read my rambles.
 </div>
 <a href="/blog/a_retrospective_into_ffxiv_endwalker_savage/">Read more of this post!</a>
 </div>

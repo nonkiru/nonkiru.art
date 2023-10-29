@@ -10,7 +10,7 @@
         <link rel="shortcut icon" type="image/jpg" href="/assets/img/favicon.ico">
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="stylesheet" href="../assets/css/style.css?v=1.5">
+        <link rel="stylesheet" href="../assets/css/style.css?v=1.6">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
         <script src="https://unpkg.com/freezeframe/dist/freezeframe.min.js"></script>
         <script src="../assets/js/freezeframe.js"></script>
@@ -21,20 +21,20 @@
         <!-- Floating clouds in the background. -->
         <div class="clouds" id="clouds"></div>
 
-        <div class="container" style="margin-top: 3rem;">
+        <div class="container">
             <!-- Header -->
             <div class="box_header">
             <header></header>
             </div>
-            <div class="box" style="text-align: center; margin-top: 3rem;">
+            <div class="box" style="text-align: center;">
                 <main>
                     {{ content | safe }}
                 </main>
             </div>
-        </div>
-
-        <div role="region" class="freezeframe decor" style="position: fixed; bottom: 3rem; right: 2rem; width: 244px; height: 370px;">
-        <img id="pagedoll2" src="/assets/img/nonkiru.gif" alt="A pagedoll of the website owner's fursona. Art by nonkiru.">
+            <div class="box">
+                <!-- It's a footer. -->
+                <footer>{% include 'partials/footer.njk' %}</footer>
+            </div>
         </div>
 
     </body>

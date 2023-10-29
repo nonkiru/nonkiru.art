@@ -10,7 +10,7 @@
         <link rel="shortcut icon" type="image/jpg" href="/assets/img/favicon.ico">
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="stylesheet" href="../assets/css/style.css?v=1.4">
+        <link rel="stylesheet" href="../assets/css/style.css?v=1.6">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
         <script src="https://unpkg.com/freezeframe/dist/freezeframe.min.js"></script>
         <script src="../assets/js/freezeframe.js"></script>
@@ -31,37 +31,37 @@
             <!-- Flex -->
             <div class="flex">
                 
-                <div class="navigation_container">
+                <div class="navigation_container" style="height: 100%;">
                     <aside>
                         <!-- Navigation -->
-                        <div class="box" id="nav" style="width: 12.5rem; margin-bottom: 3rem;">
+                        <div class="box" id="nav" style="width: 12.5rem;">
                             <nav>
                                 <h1>Navigation</h1>
                                 <!-- Update partials/nav.njk with new links. -->
                                 <h2>Sitely</h2>
 <ul>
-    <li><a href="/home/">Home</a></li>
-    <li><a href="/about_site/">About this Site</a></li>
-    <li><a href="/credits/">Website Credits</a></li>
-    <li><a href="/layouts/">Website Layouts</a></li>
-    <li><a href="/guestbook/">Guestbook</a></li>
+    <li id="home"><a href="/home/">Home</a></li>
+    <li id="aboutsite"><a href="/about_site/">About this Site</a></li>
+    <li id="sitecredit"><a href="/credits/">Website Credits</a></li>
+    <li id="sitelayouts"><a href="/layouts/">Website Layouts</a></li>
+    <li id="guestbook"><a href="/guestbook/">Guestbook</a></li>
 </ul>
 <h2>Personal</h2>
 <ul>
-    <li><a href="/about/">About Me</a></li>
-    <li><a href="/art/">Art</a></li>
-    <li><a href="/blog/">Blog</a></li>
-    <li><a href="https://thoughts.nonkiru.art/">Microblog</a></li>
-    <li><a href="/ffxiv/">FFXIV</a></li>
+    <li id="about"><a href="/about/">About Me</a></li>
+    <li id="art"><a href="/art/">Art</a></li>
+    <li id="blog"><a href="/blog/">Blog</a></li>
+    <li id="microblog"><a href="https://thoughts.nonkiru.art/">Microblog</a></li>
+    <li id="ffxiv"><a href="/ffxiv/">FFXIV</a></li>
 </ul>
 <h2>Off-Site</h2>
 <ul>
-    <li><a href="/links/">Links</a></li>
+    <li id="link"><a href="/links/">Links</a></li>
 </ul>
                             </nav>
                         </div>
                         <!-- Site Stats & Stuff -->
-                        <div class="box" id="stats" style="width: 12.5rem;">
+                        <div class="box" id="stats" style="width: 12.5rem; height: 100%;">
                             <!-- Update partials/stats.njk with new stuff. -->
                             <h1>Misc.</h1>
 <h2>Settings</h2>
@@ -84,6 +84,12 @@ Feel free to hotlink!
 <label for="SmallButton">The code for the small button.</label>
 <textarea id="SmallButton" readonly style="width: 100%; resize: none;"><img src="https://nonkiru.art/assets/img/non_arunyi_button.gif" alt="A button leading to nonkiru.art."></textarea>
 </div>
+
+<br>
+<div class="freezeframe" style="text-align: center;">
+<img src="/assets/img/border_simple.webp" alt="">
+</div>
+<br>
                         </div>
                     </aside>
                 </div>
@@ -107,17 +113,13 @@ My little spot for writing about things that I like. Or maybe, things that I dis
             <!-- Footer -->
             <div class="box">
                 <!-- It's a footer. -->
-                <footer>©nonkiru 2022 ~ Forever.
+                <footer>©nonkiru 2022 ~ Forever! Happily hosted on <a href="https://neocities.org/site/nonkiru">Neocities.</a>
 <br>
 <a href="/accessibility/">Accessibility</a> ⁑ <a href="/sitemap/">Sitemap</a>
 <br>Site analytics provided by <a href="https://www.goatcounter.com/">GoatCounter</a></footer>
             </div>
 
         <!-- Container end. -->
-        </div>
-
-        <div role="region" class="freezeframe decor" style="position: fixed; bottom: 3rem; right: 2rem; width: 244px; height: 370px;">
-        <img id="pagedoll" src="/assets/img/nonkiru.gif" alt="A pagedoll of the website owner's fursona. Art by nonkiru.">
         </div>
 
     </body>

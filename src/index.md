@@ -19,4 +19,10 @@ While there is nothing NSFW/adult on this website, this site was created by an a
 <br><button id="play-gif" onclick="myPlayFunction()">Play GIFs</button>
 <button id="stop-gif" onclick="myPauseFunction()">Stop GIFs</button>
 
-<a href="/home/" style="font-size: 1.2rem;">Enter my website?</a>
+<br>
+<div class="freezeframe">
+<img src="/assets/img/border.webp" alt="">
+</div>
+
+<a href="/home/" style="font-size: 1.5rem; font-family: 'Patrick Hand', cursive;">Enter my website?</a>
+

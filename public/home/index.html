@@ -10,7 +10,7 @@
         <link rel="shortcut icon" type="image/jpg" href="/assets/img/favicon.ico">
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="stylesheet" href="../assets/css/style.css?v=1.4">
+        <link rel="stylesheet" href="../assets/css/style.css?v=1.6">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
         <script src="https://unpkg.com/freezeframe/dist/freezeframe.min.js"></script>
         <script src="../assets/js/freezeframe.js"></script>
@@ -31,37 +31,37 @@
             <!-- Flex -->
             <div class="flex">
                 
-                <div class="navigation_container">
+                <div class="navigation_container" style="height: 100%;">
                     <aside>
                         <!-- Navigation -->
-                        <div class="box" id="nav" style="width: 12.5rem; margin-bottom: 3rem;">
+                        <div class="box" id="nav" style="width: 12.5rem;">
                             <nav>
                                 <h1>Navigation</h1>
                                 <!-- Update partials/nav.njk with new links. -->
                                 <h2>Sitely</h2>
 <ul>
-    <li><a href="/home/">Home</a></li>
-    <li><a href="/about_site/">About this Site</a></li>
-    <li><a href="/credits/">Website Credits</a></li>
-    <li><a href="/layouts/">Website Layouts</a></li>
-    <li><a href="/guestbook/">Guestbook</a></li>
+    <li id="home"><a href="/home/">Home</a></li>
+    <li id="aboutsite"><a href="/about_site/">About this Site</a></li>
+    <li id="sitecredit"><a href="/credits/">Website Credits</a></li>
+    <li id="sitelayouts"><a href="/layouts/">Website Layouts</a></li>
+    <li id="guestbook"><a href="/guestbook/">Guestbook</a></li>
 </ul>
 <h2>Personal</h2>
 <ul>
-    <li><a href="/about/">About Me</a></li>
-    <li><a href="/art/">Art</a></li>
-    <li><a href="/blog/">Blog</a></li>
-    <li><a href="https://thoughts.nonkiru.art/">Microblog</a></li>
-    <li><a href="/ffxiv/">FFXIV</a></li>
+    <li id="about"><a href="/about/">About Me</a></li>
+    <li id="art"><a href="/art/">Art</a></li>
+    <li id="blog"><a href="/blog/">Blog</a></li>
+    <li id="microblog"><a href="https://thoughts.nonkiru.art/">Microblog</a></li>
+    <li id="ffxiv"><a href="/ffxiv/">FFXIV</a></li>
 </ul>
 <h2>Off-Site</h2>
 <ul>
-    <li><a href="/links/">Links</a></li>
+    <li id="link"><a href="/links/">Links</a></li>
 </ul>
                             </nav>
                         </div>
                         <!-- Site Stats & Stuff -->
-                        <div class="box" id="stats" style="width: 12.5rem;">
+                        <div class="box" id="stats" style="width: 12.5rem; height: 100%;">
                             <!-- Update partials/stats.njk with new stuff. -->
                             <h1>Misc.</h1>
 <h2>Settings</h2>
@@ -84,6 +84,12 @@ Feel free to hotlink!
 <label for="SmallButton">The code for the small button.</label>
 <textarea id="SmallButton" readonly style="width: 100%; resize: none;"><img src="https://nonkiru.art/assets/img/non_arunyi_button.gif" alt="A button leading to nonkiru.art."></textarea>
 </div>
+
+<br>
+<div class="freezeframe" style="text-align: center;">
+<img src="/assets/img/border_simple.webp" alt="">
+</div>
+<br>
                         </div>
                     </aside>
                 </div>
@@ -94,7 +100,8 @@ Feel free to hotlink!
                         <!-- Update tag h1 to change this. -->
                         <h1>Welcome!</h1>
                         <!-- Pray that markdown treats me well! -->
-                        <p>Hello hello, world wide web adventurer!! (❁´◡`❁)
+                        <div class="freezeframe" id="mobilepixelfix" style="float: right; margin: -1rem;"><img src="/assets/img/nonkiru_small.webp" alt="Pixel art of the site owner."></div>
+<p>Hello hello, world wide web adventurer!! (❁´◡`❁)
 <br>Welcome to my little website on the internet! I'm known as <em>nonkiru</em>, and it's nice to meet you.
 <br><br>I hope you have a nice time exploring my site!
 <br>You can either use the navigation to the left, or use my <a href="/sitemap/">sitemap</a>.</p>
@@ -106,6 +113,9 @@ Feel free to hotlink!
 <div id="minibox" style="max-width: 50%; padding: 0.1rem;">
 <h2> Updates </h2>
 <div class="update_box" tabindex="0">
+<p><b>29 October 2023</b></p>
+<hr>
+<p>Very big update! Updated the layout pretty significantly. Pixels are now x1, font is a bit smaller, general layout is different, navigation links now have custom icons, and more!</p>
 <p><b>28 October 2023</b></p>
 <hr>
 <p>Removed the Weblisting/Webring page because some of them broke when I moved them, and I really didn't want to have to contact the webring owners to fix my links, so...</p>
@@ -151,6 +161,9 @@ I managed to deploy this via Github and I'm really proud of myself for that! Thi
     <b>Important</b>
     <hr>
     <ul>
+        <li>Make an RSS feed.</li>
+        <li>Hide the button wall under a drop-down.</li>
+        <li>Update the blog, FFXIV, and microblog layouts.</li>
         <li><s>Finish the about page.</s></li>
         <li><s>Finish the blog page.</s></li>
         <li><s>Finish the art page.</s></li>
@@ -173,7 +186,8 @@ I managed to deploy this via Github and I'm really proud of myself for that! Thi
 <p><strong>Contains Spoilers for FFXIV: Endwalker and the Pandæmonium raid series.</strong></p>
 <p>This is my first blog post, so apologies if this is written weird or anything. I thought a neat blog post would be to talk about Pandæmonium savage!
 <br>A small note before we begin, this post will likely be <strong>updated when I fully complete P12S</strong>. I took a break after P11S, so I only have thoughts up to about halfway through P12SP1.
-<br>Additionally, clear dates are from my FFLogs and may not be fully accurate.</p>
+<br>Additionally, clear dates are from my FFLogs and may not be fully accurate.
+<br>Also, this is likely going to be the first Savage tier I fully clear (again, I'm not done quite yet) so keep that in mind while you read my rambles.</p>
 </div>
 <a href="/blog/a_retrospective_into_ffxiv_endwalker_savage/">Read more of this post!</a>
 </div>
@@ -191,17 +205,13 @@ I managed to deploy this via Github and I'm really proud of myself for that! Thi
             <!-- Footer -->
             <div class="box">
                 <!-- It's a footer. -->
-                <footer>©nonkiru 2022 ~ Forever.
+                <footer>©nonkiru 2022 ~ Forever! Happily hosted on <a href="https://neocities.org/site/nonkiru">Neocities.</a>
 <br>
 <a href="/accessibility/">Accessibility</a> ⁑ <a href="/sitemap/">Sitemap</a>
 <br>Site analytics provided by <a href="https://www.goatcounter.com/">GoatCounter</a></footer>
             </div>
 
         <!-- Container end. -->
-        </div>
-
-        <div role="region" class="freezeframe decor" style="position: fixed; bottom: 3rem; right: 2rem; width: 244px; height: 370px;">
-        <img id="pagedoll" src="/assets/img/nonkiru.gif" alt="A pagedoll of the website owner's fursona. Art by nonkiru.">
         </div>
 
     </body>
