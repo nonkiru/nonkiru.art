@@ -26,7 +26,7 @@ Most of the art and code on this site was made by me, but anything else will be 
 <b>01 November 2023</b>
 <hr>
 
-Updated <a href="/ffxiv/myuri/">Myuri's</a> page with a short post.
+Updated <a href="/ffxiv/myuri/">Myuri's</a> page with a short post. Added some more pages to <a href="/links/">Links</a>.
 
 <b>29 October 2023</b>
 <hr>
