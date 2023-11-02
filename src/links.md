@@ -90,6 +90,16 @@ I was apart of the old Yesterweb Ring and the Vocaloid V1 webring. Both of which
   <script type="text/javascript" src="https://neossg.neocities.org/onionring-widget.js"></script>
 </div>
 
+<!-- Ladies of the Links -->
+<table>
+<tr>
+<td><a href="https://webri.ng/webring/ladiesofthelinks/previous?via=https%3A%2F%2Fnonkiru.art"><img src="../assets\img\buttons\ladiesofthelink1.gif"></a></td>
+<td><a href="https://ladiesofthe.link/"><img src="../assets\img\buttons\ladiesofthelink.gif"></a></td>
+<td><a href="https://webri.ng/webring/ladiesofthelinks/next?via=https%3A%2F%2Fnonkiru.art"><img src="../assets\img\buttons\ladiesofthelink2.gif"></a></td>
+</tr>
+</table>
+		
+
 
 <!-- furry webring -->
 <div id='furryring'>
