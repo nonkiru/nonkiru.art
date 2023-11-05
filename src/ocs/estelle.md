@@ -59,7 +59,7 @@ Later in the campaign, Estelle lost an arm protecting someone.
 Estelle is a nice, pure-of-heart person. They were polite and posh. They were a natural leader.
 
 Estelle was however, haunted by her past. When a timeloop would fail, and Estelle would die, she would be sent back to the past to re-do everything again. In some loops, she would remember everything. In others, they would end before she could.
-In the final loop, Estelle did remember everything. She was relieved; finally, she could live her fully, in peace.
+In the final loop, Estelle did remember everything. She was relieved; finally, she could live her life fully, in peace.
 
 ## Achievements
 ---
