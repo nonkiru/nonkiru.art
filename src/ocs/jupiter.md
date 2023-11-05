@@ -46,7 +46,7 @@ Jupiter Scottson (née Galileo) is an ex-GALSIM Lancer pilot. Currently, however
 
 ## Appearance
 ---
-Jupiter is a tall person, standing at about 173cm (5'6"). They have an average body, with sikly-pale skin. They have long, fluffy, ash blonde hair. Jupiter's right side of their body is slightly translucent due to their Subjectivity-Enhancement Suite. Small, aqua blue cables can be seen running through their veins. They have heterochromia; their right eye is an aqua blue, their left a bright red.
+Jupiter is a tall person, standing at about 173cm (5'6"). They have an average body, with sickly-pale skin. They have long, fluffy, ash blonde hair. Jupiter's right side of their body is slightly translucent due to their Subjectivity-Enhancement Suite. Small, aqua blue cables can be seen running through their veins. They have heterochromia; their right eye is an aqua blue, their left a bright red.
 
 When they were younger, Jupiter wore a tight white bodysuit, with bright red leggings. Currently, Jupiter wears much more comfortable clothing; typically baggy and light. Jupiter always wears a necklace with the Jupiter symbol (♃).
 
