@@ -8,11 +8,19 @@
         <script data-goatcounter="https://nonkiru.goatcounter.com/count"
             async src="../assets/js/count.js"></script>
         <link rel="shortcut icon" type="image/jpg" href="/assets/img/favicon.ico">
+        <!-- Meta Tags -->
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="description" content="A personal website for the digital illustrator nonkiru. I have pages for my artwork, original characters, and more!">
+        <meta name="keywords" content="digital art, art, commissions, ocs, original characters, neocities">
+        <meta name='author' content='nonkiru, nonkiru@gmail.com'>
+        <meta property="og:image" content="https://files.catbox.moe/jckpji.png" />
+        <meta property="twitter:card" content="summary_large_image">
+        <!-- -->
         <link rel="stylesheet" href="../assets/css/style.css?v=1.6">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
         <script src="https://unpkg.com/freezeframe/dist/freezeframe.min.js"></script>
+        <script src="https://unpkg.com/cursor-effects@latest/dist/browser.js"></script>
         <script src="../assets/js/freezeframe.js"></script>
         <title>Sitemap ⁑ nonkiru.art</title>
     </head>
@@ -52,7 +60,7 @@
     <li id="art"><a href="/art/">Art</a></li>
     <li id="blog"><a href="/blog/">Blog</a></li>
     <li id="microblog"><a href="https://thoughts.nonkiru.art/">Microblog</a></li>
-    <li id="ffxiv"><a href="/ffxiv/">FFXIV</a></li>
+    <li id="oc"><a href="/ocs/">OCs</a></li>
 </ul>
 <h2>Off-Site</h2>
 <ul>
@@ -70,6 +78,8 @@
 <br>
 <button id="play-gif" onclick="myPlayFunction()">Play GIFs</button>
 <button id="stop-gif" onclick="myPauseFunction()">Stop GIFs</button>
+<br>
+<button onclick="cursorEffect.destroy()" style="margin-top: 0.35rem;">Remove Cursor Trail</button>
 </div>
 <div style="text-align:center;">
 <h2>Link Me</h2>
@@ -118,11 +128,19 @@ Feel free to hotlink!
     <li id="art"><a href="/art/">Art</a></li>
     <li id="blog"><a href="/blog/">Blog</a></li>
     <li id="microblog"><a href="https://thoughts.nonkiru.art/">Microblog</a></li>
-    <li id="ffxiv"><a href="/ffxiv/">FFXIV</a></li>
+    <li id="oc"><a href="/ocs/">OCs</a></li>
 </ul>
 <h2>Off-Site</h2>
 <ul>
     <li id="link"><a href="/links/">Links</a></li>
+</ul>
+<h2>OCs</h2>
+<ul>
+    <li><a href="/ocs/myuri/">Myuri Nohn</a></li>
+    <li><a href="/ocs/billie/">Billie Tae-Gloria</a></li>
+    <li><a href="/ocs/jupiter/">Jupiter Scottson</a></li>
+    <li><a href="/ocs/estelle/">Estelle Linne</a></li>
+    <li><a href="/ocs/donnie/">Donnie Linne</a></li>
 </ul>
 <h2>Other Links</h2>
 <ul>
@@ -132,8 +150,7 @@ Feel free to hotlink!
     <li><a href="/not_found/">404 Not Found</a></li>
     <li><a href="/art_2023/">2023 Gallery</a></li>
     <li><a href="/layouts/cheesecake/">Website Layouts ~ Cheesecake</a></li>
-    <li><a href="/ffxiv/myuri/">FFXIV ~ Myuri Page</a></li>
-    <li><a href="/ffxiv/drew/">FFXIV ~ Drew Page</a></li>
+    <li><a href="/legacy_buttons/">Legacy Buttons</a></li>
 </ul>
 <h2>Blog Posts</h2>
 <ul><li><a href="/blog/a_retrospective_into_ffxiv_endwalker_savage/">A Retrospective Into FFXIV ⁑ Endwalker Savage</a></li></ul>
@@ -231,5 +248,12 @@ Feel free to hotlink!
         function myPauseFunction() {
         document.getElementById("clouds").style.animationPlayState = "paused";
         }
+    </script>
+    <script>
+    let cursorEffect = new cursoreffects.rainbowCursor({
+    length: 20,
+    colors: ["#f1b5a7", "#ffefe5", "#ffffff", "#f6dbeb", "#da9dc1"],
+    size: 2,
+    });
     </script>
 </html>

@@ -20,6 +20,7 @@ While there is nothing NSFW/adult on this website, this site was created by an a
 <br><a href="#" id="theme-toggle" onclick="modeSwitcher()" class="fakebutton">Toggle Theme</a>
 <br><button id="play-gif" onclick="myPlayFunction()">Play GIFs</button>
 <button id="stop-gif" onclick="myPauseFunction()">Stop GIFs</button>
+<br><button onclick="cursorEffect.destroy()" style="margin-top: 0.35rem;">Remove Cursor Trail</button>
 
 <br>
 <div class="freezeframe">
@@ -28,3 +29,4 @@ While there is nothing NSFW/adult on this website, this site was created by an a
 
 <a href="/home/" style="font-size: 1.5rem; font-family: 'Patrick Hand', cursive;">Enter my website?</a>
 
+<div class="freezeframe" id="mobilepixelfix" style="float: right; margin: -1rem; margin-top: -12rem; margin-right: 1rem;"><img src="/assets/img/nonkiru_small.webp" alt="Pixel art of the site owner."></div>

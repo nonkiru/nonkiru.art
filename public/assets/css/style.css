@@ -35,6 +35,7 @@
     --microblog: url(../img/microblog.webp);
     --ffxiv: url(../img/ffxiv.webp);
     --link: url(../img/link.webp);
+    --oc: url(../img/oc.webp);
 }
 
 :root[data-theme="light"] {
@@ -72,6 +73,7 @@
     --microblog: url(../img/microblog.webp);
     --ffxiv: url(../img/ffxiv.webp);
     --link: url(../img/link.webp);
+    --oc: url(../img/oc.webp);
 }
 
 :root[data-theme="dark"] {
@@ -109,6 +111,7 @@
     --microblog: url(../img/microblog_dark.webp);
     --ffxiv: url(../img/ffxiv_dark.webp);
     --link: url(../img/link_dark.webp);
+    --oc: url(../img/oc_dark.webp);
 }
 
 ::selection {
@@ -248,6 +251,10 @@ li#link {
     list-style-image: var(--link);
 }
 
+li#oc {
+    list-style-image: var(--oc);
+}
+
 h1 {
     margin: 0;
     font-family: 'Patrick Hand', cursive;
@@ -268,6 +275,15 @@ h2 {
     border-radius: 0.225rem;
     padding: 0.3rem;
     font-size: 1.3rem;
+}
+
+h3 {
+    margin: 0;
+    margin-top: 0.4rem;
+    margin-bottom: 0.4rem;
+    font-family: 'Patrick Hand', cursive;
+    padding: 0.3rem;
+    font-size: 1.2rem;
 }
 
 footer {
@@ -393,6 +409,25 @@ p {
 
 .webrings table {
     margin: auto;
+}
+
+.ocbox {
+    display: inline-block;
+    border: var(--h1_border);
+    background-image: var(--h1);
+    max-width: 10rem;
+    border-radius: 0.5rem;
+    text-align: center;
+    font-weight: 800;
+    padding: 0.2rem;
+    margin: 0.1rem;
+}
+
+.ocbox_image img {
+    border-radius: 0.5rem;
+    border: var(--h2_border);
+    image-rendering: unset;
+    width: 100%;
 }
 
 /* This cloud code is heavily referenced from the Wizard101 website... */
@@ -641,6 +676,7 @@ a:hover .ff-container.ff-inactive .ff-image {
         --microblog: url(../img/microblog_dark.webp);
         --ffxiv: url(../img/ffxiv_dark.webp);
         --link: url(../img/link_dark.webp);
+        --oc: url(../img/oc_dark.webp);
     }
 	:root[data-theme="dark"] {
         --sky: url(../img/sky_bg_dark_small.webp);
@@ -677,6 +713,7 @@ a:hover .ff-container.ff-inactive .ff-image {
         --microblog: url(../img/microblog_dark.webp);
         --ffxiv: url(../img/ffxiv_dark.webp);
         --link: url(../img/link_dark.webp);
+        --oc: url(../img/oc_dark.webp);
 	}
 
     :root[data-theme="light"] {
@@ -714,6 +751,7 @@ a:hover .ff-container.ff-inactive .ff-image {
         --microblog: url(../img/microblog.webp);
         --ffxiv: url(../img/ffxiv.webp);
         --link: url(../img/link.webp);
+        --oc: url(../img/oc.webp);
 	}
 }
 

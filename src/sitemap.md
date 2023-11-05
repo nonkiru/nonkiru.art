@@ -6,6 +6,15 @@ h1: Sitemap
 
 {% include 'partials/nav.njk' %}
 
+## OCs
+<ul>
+    <li><a href="/ocs/myuri/">Myuri Nohn</a></li>
+    <li><a href="/ocs/billie/">Billie Tae-Gloria</a></li>
+    <li><a href="/ocs/jupiter/">Jupiter Scottson</a></li>
+    <li><a href="/ocs/estelle/">Estelle Linne</a></li>
+    <li><a href="/ocs/donnie/">Donnie Linne</a></li>
+</ul>
+
 ## Other Links
 <ul>
     <li><a href="/">Landing Page</a></li>
@@ -14,8 +23,7 @@ h1: Sitemap
     <li><a href="/not_found/">404 Not Found</a></li>
     <li><a href="/art_2023/">2023 Gallery</a></li>
     <li><a href="/layouts/cheesecake/">Website Layouts ~ Cheesecake</a></li>
-    <li><a href="/ffxiv/myuri/">FFXIV ~ Myuri Page</a></li>
-    <li><a href="/ffxiv/drew/">FFXIV ~ Drew Page</a></li>
+    <li><a href="/legacy_buttons/">Legacy Buttons</a></li>
 </ul>
 
 <h2>Blog Posts</h2>

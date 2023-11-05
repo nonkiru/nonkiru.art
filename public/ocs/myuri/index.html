@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+    <!-- Thank you for stopping by nonkiru.art! ♪(^∇^*) -->
+    <!-- Unless otherwise stated, all the art on this site is made by me. -->
+    <!-- Don't use any of the materials on this site without permission. -->
+    <head>
+        <!-- Goat Counter -->
+        <script data-goatcounter="https://nonkiru.goatcounter.com/count"
+            async src="/assets/js/count.js"></script>
+        <link rel="shortcut icon" type="image/jpg" href="/assets/img/favicon.ico">
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="/assets/css/ocs.css?v=1.0">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+        <script src="https://unpkg.com/freezeframe/dist/freezeframe.min.js"></script>
+        <script src="https://unpkg.com/cursor-effects@latest/dist/browser.js"></script>
+        <script src="/assets/js/freezeframe.js"></script>
+        <title>Myuri Nohn ⁑ nonkiru.art</title>
+        <style>
+            :root {
+                --bgcolour: url(/assets/img/OCs/myuri_bg_light.png);
+                --containercolour: #fff9f8;
+                --text: #1f1b20;
+                --border: #893931;
+                --border2: #c27a70;
+                --border3: #ffebe8;
+                --gradient: linear-gradient(to right, rgb(255, 249, 248), rgb(255, 235, 232));
+                --font: Atkinson Hyperlegible;
+            }
+            :root[data-theme="light"] {
+                --bgcolour: url(/assets/img/OCs/myuri_bg_light.png);
+                --containercolour: #fff9f8;
+                --text: #1f1b20;
+                --border: #893931;
+                --border2: #c27a70;
+                --border3: #ffebe8;
+                --gradient: linear-gradient(to right, rgb(255, 249, 248), rgb(255, 235, 232));
+            }
+            :root[data-theme="dark"] {
+                --bgcolour: url(/assets/img/OCs/myuri_bg_dark.png);
+                --containercolour: #1f1b20;
+                --text: #fff9f8;
+                --border: #bfa1c7;
+                --border2: #645469;
+                --border3: #56475b;
+                --gradient: linear-gradient(to right, rgb(31, 27, 32), rgb(86, 71, 91));
+            }
+            ::selection {
+                background: var(--border3);
+            }
+            body {
+                background: var(--bgcolour);
+            }
+            .container {
+                background: var(--containercolour);
+                color: var(--text);
+                border: 0.063rem solid var(--border);
+                font-family: var(--font), sans-serif;
+            }
+            .box {
+                border: 0.063rem solid var(--border2);
+                outline: 0.063rem solid var(--border3);
+            }
+            .tooltip .tooltiptext {
+                background: var(--border3);
+                border: 0.063rem solid var(--border);
+                color: var(--text);
+            }
+            .oc_flex img {
+                border: 0.063rem solid var(--border);
+            }
+            hr {
+                border-top: 0.063rem dashed var(--border2);
+            }
+            h1, h2, h3, h4, h5 {
+                background-image: var(--gradient);
+            }
+            a {
+                color: var(--border);
+            }
+            a:hover {
+                color: var(--border3);
+                background: var(--text);
+            }
+            ul strong {
+                color: var(--border);
+            }
+            @media (prefers-color-scheme: dark) {
+                :root {
+                    --bgcolour: url(/assets/img/OCs/myuri_bg_dark.png);
+                    --containercolour: #1f1b20;
+                    --text: #fff9f8;
+                    --border: #bfa1c7;
+                    --border2: #645469;
+                    --border3: #56475b;
+                    --gradient: linear-gradient(to right, rgb(31, 27, 32), rgb(86, 71, 91));
+                }
+                :root[data-theme="dark"] {
+                    --bgcolour: url(/assets/img/OCs/myuri_bg_dark.png);
+                    --containercolour: #1f1b20;
+                    --text: #fff9f8;
+                    --border: #bfa1c7;
+                    --border2: #645469;
+                    --border3: #56475b;
+                    --gradient: linear-gradient(to right, rgb(31, 27, 32), rgb(86, 71, 91));
+                }
+                :root[data-theme="light"] {
+                    --bgcolour: url(/assets/img/OCs/myuri_bg_light.png);
+                    --containercolour: #fff9f8;
+                    --text: #1f1b20;
+                    --border: #893931;
+                    --border2: #c27a70;
+                    --border3: #ffebe8;
+                    --gradient: linear-gradient(to right, rgb(255, 249, 248), rgb(255, 235, 232));
+                }
+            }
+            @media (max-width: 800px) {
+                .oc_flex {
+                    display: inline;
+                }
+                .oc_flex img {
+                    width: 100%;
+                }
+                .tooltip {
+                    display: inline-block;
+                    border-bottom: unset;
+                    position: static;
+                    margin-bottom: 2rem;
+                    width: 100% !important;
+                }
+                .tooltip .tooltiptext {
+                    opacity: 1;
+                    visibility: visible;
+                    width: 100% !important;
+                    position: static;
+                    margin-left: unset;
+                    background: unset;
+                    border: unset;
+                    color: var(--text);
+                }
+            }
+        </style>
+    </head>
+    <body>
+
+        <div class="container">
+            <div class="box">
+                <header>
+                    <img src="/assets/img/OCs/myuri_banner.webp" alt="Page header.">
+                </header>
+            </div>
+
+            <div class="box" style="text-align: center;">
+                <nav>
+                    <a href="/ocs/">Return to OC Page</a> | <a href="#" id="theme-toggle" onclick="modeSwitcher()" class="fakebutton">Toggle Theme</a>
+                    | <a id="play-gif" href="#">Play GIFs</a> | <a id="stop-gif" href="#">Stop GIFs</a>
+                </nav>
+            </div>
+
+            <div class="box">
+                <main>
+                    <h1>Welcome!</h1>
+<hr>
+<p>This is a little page for my FFXIV WoL, Myuri Nohn! I started playing FFXIV back in Heavensward, on the 27th of November, 2016. I've been playing almost consistently since. I wanted a page to write about them, so here it is! FFXIV is one of the most important games ever to me, and I've spent maybe too much time playing it. Anyway, I hope you enjoy reading about my funny little cat-thing!</p>
+<h2>General Information</h2>
+<hr>
+<div class="oc_flex">
+    <div>
+    <img src="/assets/img/OCs/myuri_small.webp" alt="Myuri Nohn.">
+    </div>
+<ul>
+<li>
+<p><strong>Full Name:</strong> Myuri Nohn</p>
+</li>
+<li>
+<p><strong>Pronouns:</strong> They/Them</p>
+</li>
+<li>
+<p><strong>Age:</strong> 21</p>
+</li>
+<li>
+<p><strong>Race:</strong> Keeper of the Moon Miqo'te</p>
+</li>
+<li>
+<p><strong>Gender:</strong> Non-binary</p>
+</li>
+<li>
+<p><strong>Orientation:</strong> Lesbian</p>
+</li>
+<li>
+<p><strong>Main Jobs:</strong> Arithmetician (Scholar, Black Mage)</p>
+  <div>
+  </div>
+</li>
+</ul>
+</div>
+<p>Myuri Nohn is a Keeper of the Moon Miqo'te who hails from Gridania. They travel around Eorzea, painting landscapes and people that they come across! They journey with their partner, Muffin, a Sponge Silkie. Myuri has an affinity for arcanum, and has an interest in Nymian magicks.</p>
+<p>Myuri's Job is Arithmetician. They use a combination of the geometric and mathmatic teniques for their arithmetics, with assistance from their Faerie companion. Most of their magicks use the tactic of targeting an enemy based off their strength (in LVL), then using Sacred Soil to contain the magicks. This way, if both the enemy and the ally are the same strength, the magicks don't also hurt their allies. Myuri would describe their magick as &quot;a mixture of thaumaturgy, Nymian intelligence, and a little bit of math!&quot;.</p>
+<h2>Appearance</h2>
+<hr>
+<p>Myuri stands at a short 155cm (5'0&quot;). They have a soft, chubby body type, with pale skin. They typically have their medium-length rose gold hair tied up into a ponytail. They have two matching eyes, both a light purple shade. Their nose has a dusty gradient. They have 10 white-coloured markings, 5 on each side; 2 on their forehead, and 3 on their cheeks. They have two, fluffy ears on the top of their head, and an equally-as-fluffy tail.</p>
+<p>Reference sheet to be added!</p>
+<h2>Personality</h2>
+<hr>
+<p>Myuri is a very scatterbrained individual. They always have hundreds of thoughts swirling around their head, and they find it very difficult to get all of their ideas out. They carry a large tome with them - a spot to write to at least lighten the mental load. They are passionate for their knowledge of magicks! They love to ramble about Nymian magicks to anyone who's willing to be patient and listen. Myuri is a natural tactical leader, and finds joy in it. They also have a big soft spot for anything cute and round!</p>
+<p>Myuri's biggest weakness is their inability to accept defeat, in any form. Even if it's something little - such as losing a game of Triple Triad - it will absolutely haunt them. A single loss in a combat scenario will weigh heavy. Their thirst for knowledge comes from a deep insecurity of not being seen as intelligent.</p>
+<h2>Achievements</h2>
+<hr>
+<div class="tooltip" tabindex="0">
+    <img src="/assets/img/OCs/ribbon_maincharacter.png" alt="Main Character Ribbon.">
+    <span class="tooltiptext">
+    <b>Main Character</b>
+    <hr>
+    A high priority, very important character.
+    </span>
+</div>
+<div class="tooltip" tabindex="0">
+    <img src="/assets/img/OCs/ribbon_protagonist.png" alt="Protagonist Ribbon.">
+    <span class="tooltiptext">
+    <b>Protagonist</b>
+    <hr>
+    A character who features in a story as a protagonist.
+    </span>
+</div>
+<div class="tooltip" tabindex="0">
+    <img src="/assets/img/OCs/ribbon_actor.png" alt="Actor Ribbon.">
+    <span class="tooltiptext">
+    <b>Actor</b>
+    <hr>
+    A character that was/is used in roleplay.
+    </span>
+</div>
+<div class="tooltip" tabindex="0">
+    <img src="/assets/img/OCs/ribbon_bestdressed.png" alt="Best Dressed Ribbon.">
+    <span class="tooltiptext">
+    <b>Best Dressed</b>
+    <hr>
+    A character whose design is among their owner's favorites.
+    </span>
+</div>
+<div class="tooltip" tabindex="0">
+    <img src="/assets/img/OCs/ribbon_2016.png" alt="2016 Ribbon.">
+    <span class="tooltiptext">
+    <b>2016</b>
+    <hr>
+    Characters who were originally made in the respective year.
+    </span>
+</div>
+<div class="tooltip" tabindex="0">
+    <img src="/assets/img/OCs/ribbon_lesbian.png" alt="Lesbian Ribbon.">
+    <span class="tooltiptext">
+    <b>Lesbian</b>
+    <hr>
+    Someone who is attracted to women or other women-aligned individuals.
+    </span>
+</div>
+<div class="tooltip" tabindex="0">
+    <img src="/assets/img/OCs/ribbon_nonbinary.png" alt="Non-binary Ribbon.">
+    <span class="tooltiptext">
+    <b>Non-binary</b>
+    <hr>
+    Someone whose gender is not completely and/or exclusively male or female.
+    </span>
+</div>
+<div class="tooltip" tabindex="0">
+    <img src="/assets/img/OCs/ribbon_innerchild.png" alt="Inner Child Ribbon.">
+    <span class="tooltiptext">
+    <b>Inner Child</b>
+    <hr>
+    A character that was originally created during the creator's childhood.
+    </span>
+</div>
+<div class="tooltip" tabindex="0">
+    <img src="/assets/img/OCs/ribbon_booksmarts.png" alt="Booksmarts Ribbon.">
+    <span class="tooltiptext">
+    <b>Booksmarts</b>
+    <hr>
+    This character is intelligent, well-read or otherwise suited for academia.
+    </span>
+</div>
+<div class="tooltip" tabindex="0">
+    <img src="/assets/img/OCs/ribbon_faeries.png" alt="Away with the Faeries Ribbon.">
+    <span class="tooltiptext">
+    <b>Away with the Faeries</b>
+    <hr>
+    This character is inspired, related, or themed around the Fae and/or faeriecore.
+    </span>
+</div>
+<div class="tooltip" tabindex="0">
+    <img src="/assets/img/OCs/ribbon_nerd.png" alt="Nerd Ribbon.">
+    <span class="tooltiptext">
+    <b>Nerd</b>
+    <hr>
+    This character is extensively knowledgeable on their niche interest.
+    </span>
+</div>
+<div class="tooltip" tabindex="0">
+    <img src="/assets/img/OCs/ribbon_scholar.png" alt="Scholar Ribbon.">
+    <span class="tooltiptext">
+    <b>Keeper of the Lilacs</b>
+    <hr>
+    This character is a Scholar.
+    </span>
+</div>
+<div class="tooltip" tabindex="0">
+    <img src="/assets/img/OCs/ribbon_blackmage.png" alt="Black Mage Ribbon.">
+    <span class="tooltiptext">
+    <b>Annihilator</b>
+    <hr>
+    This character is a Black Mage.
+    </span>
+</div>
+<br>
+<small>Ribbons are from <a href="https://toyhou.se/4739396.-ribbons">MisterMuse</a>.</small>
+                </main>
+            </div>
+            
+            <div class="box">
+                <footer>
+                    ©nonkiru 2022 ~ Forever! Happily hosted on <a href="https://neocities.org/site/nonkiru">Neocities</a>.
+                    <br>
+                    Original Character belongs to <a href="/home">nonkiru</a>.
+                </footer>
+            </div>
+
+        </div>
+
+    </body>
+    <!-- Stay safe out there~ ♪ -->
+    <script>
+        /* Dark mode script thanks to https://derekkedziora.com/blog/dark-mode-revisited */
+        let systemInitiatedDark = window.matchMedia("(prefers-color-scheme: dark)"); 
+        let theme = sessionStorage.getItem('theme');
+
+        if (systemInitiatedDark.matches) {
+            document.getElementById("theme-toggle").innerHTML = "Light Mode";
+        } else {
+            document.getElementById("theme-toggle").innerHTML = "Dark Mode";
+        }
+
+        function prefersColorTest(systemInitiatedDark) {
+        if (systemInitiatedDark.matches) {
+            document.documentElement.setAttribute('data-theme', 'dark');		
+            document.getElementById("theme-toggle").innerHTML = "Light Mode";
+            sessionStorage.setItem('theme', '');
+        } else {
+            document.documentElement.setAttribute('data-theme', 'light');
+            document.getElementById("theme-toggle").innerHTML = "Dark Mode";
+            sessionStorage.setItem('theme', '');
+        }
+        }
+        systemInitiatedDark.addListener(prefersColorTest);
+
+
+        function modeSwitcher() {
+            let theme = sessionStorage.getItem('theme');
+            if (theme === "dark") {
+                document.documentElement.setAttribute('data-theme', 'light');
+                sessionStorage.setItem('theme', 'light');
+                document.getElementById("theme-toggle").innerHTML = "Dark Mode";
+            }	else if (theme === "light") {
+                document.documentElement.setAttribute('data-theme', 'dark');
+                sessionStorage.setItem('theme', 'dark');
+                document.getElementById("theme-toggle").innerHTML = "Light Mode";
+            } else if (systemInitiatedDark.matches) {	
+                document.documentElement.setAttribute('data-theme', 'light');
+                sessionStorage.setItem('theme', 'light');
+                document.getElementById("theme-toggle").innerHTML = "Dark Mode";
+            } else {
+                document.documentElement.setAttribute('data-theme', 'dark');
+                sessionStorage.setItem('theme', 'dark');
+                document.getElementById("theme-toggle").innerHTML = "Light Mode";
+            }
+        }
+
+        if (theme === "dark") {
+            document.documentElement.setAttribute('data-theme', 'dark');
+            sessionStorage.setItem('theme', 'dark');
+            document.getElementById("theme-toggle").innerHTML = "Light Mode";
+        } else if (theme === "light") {
+            document.documentElement.setAttribute('data-theme', 'light');
+            sessionStorage.setItem('theme', 'light');
+            document.getElementById("theme-toggle").innerHTML = "Dark Mode";
+        }
+    </script>
+</html>

@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+    <!-- Thank you for stopping by nonkiru.art! ♪(^∇^*) -->
+    <!-- Unless otherwise stated, all the art on this site is made by me. -->
+    <!-- Don't use any of the materials on this site without permission. -->
+    <head>
+        <!-- Goat Counter -->
+        <script data-goatcounter="https://nonkiru.goatcounter.com/count"
+            async src="/assets/js/count.js"></script>
+        <link rel="shortcut icon" type="image/jpg" href="/assets/img/favicon.ico">
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="/assets/css/ocs.css?v=1.0">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+        <script src="https://unpkg.com/freezeframe/dist/freezeframe.min.js"></script>
+        <script src="https://unpkg.com/cursor-effects@latest/dist/browser.js"></script>
+        <script src="/assets/js/freezeframe.js"></script>
+        <title>{{ title }}</title>
+        <style>
+            :root {
+                --bgcolour: url({{ bgcolour }});
+                --containercolour: #{{ containercolour }};
+                --text: #{{ containercolour_dark }};
+                --border: #{{ border }};
+                --border2: #{{ border2 }};
+                --border3: #{{ border3 }};
+                --gradient: {{ gradient }};
+                --font: {{ font }};
+            }
+            :root[data-theme="light"] {
+                --bgcolour: url({{ bgcolour }});
+                --containercolour: #{{ containercolour }};
+                --text: #{{ containercolour_dark }};
+                --border: #{{ border }};
+                --border2: #{{ border2 }};
+                --border3: #{{ border3 }};
+                --gradient: {{ gradient }};
+            }
+            :root[data-theme="dark"] {
+                --bgcolour: url({{ bgcolour_dark }});
+                --containercolour: #{{ containercolour_dark }};
+                --text: #{{ containercolour }};
+                --border: #{{ border_dark }};
+                --border2: #{{ border2_dark }};
+                --border3: #{{ border3_dark }};
+                --gradient: {{ gradient_dark }};
+            }
+            ::selection {
+                background: var(--border3);
+            }
+            body {
+                background: var(--bgcolour);
+            }
+            .container {
+                background: var(--containercolour);
+                color: var(--text);
+                border: 0.063rem solid var(--border);
+                font-family: var(--font), sans-serif;
+            }
+            .box {
+                border: 0.063rem solid var(--border2);
+                outline: 0.063rem solid var(--border3);
+            }
+            .tooltip .tooltiptext {
+                background: var(--border3);
+                border: 0.063rem solid var(--border);
+                color: var(--text);
+            }
+            .oc_flex img {
+                border: 0.063rem solid var(--border);
+            }
+            hr {
+                border-top: 0.063rem dashed var(--border2);
+            }
+            h1, h2, h3, h4, h5 {
+                background-image: var(--gradient);
+            }
+            a {
+                color: var(--border);
+            }
+            a:hover {
+                color: var(--border3);
+                background: var(--text);
+            }
+            ul strong {
+                color: var(--border);
+            }
+            @media (prefers-color-scheme: dark) {
+                :root {
+                    --bgcolour: url({{ bgcolour_dark }});
+                    --containercolour: #{{ containercolour_dark }};
+                    --text: #{{ containercolour }};
+                    --border: #{{ border_dark }};
+                    --border2: #{{ border2_dark }};
+                    --border3: #{{ border3_dark }};
+                    --gradient: {{ gradient_dark }};
+                }
+                :root[data-theme="dark"] {
+                    --bgcolour: url({{ bgcolour_dark }});
+                    --containercolour: #{{ containercolour_dark }};
+                    --text: #{{ containercolour }};
+                    --border: #{{ border_dark }};
+                    --border2: #{{ border2_dark }};
+                    --border3: #{{ border3_dark }};
+                    --gradient: {{ gradient_dark }};
+                }
+                :root[data-theme="light"] {
+                    --bgcolour: url({{ bgcolour }});
+                    --containercolour: #{{ containercolour }};
+                    --text: #{{ containercolour_dark }};
+                    --border: #{{ border }};
+                    --border2: #{{ border2 }};
+                    --border3: #{{ border3 }};
+                    --gradient: {{ gradient }};
+                }
+            }
+            @media (max-width: 800px) {
+                .oc_flex {
+                    display: inline;
+                }
+                .oc_flex img {
+                    width: 100%;
+                }
+                .tooltip {
+                    display: inline-block;
+                    border-bottom: unset;
+                    position: static;
+                    margin-bottom: 2rem;
+                    width: 100% !important;
+                }
+                .tooltip .tooltiptext {
+                    opacity: 1;
+                    visibility: visible;
+                    width: 100% !important;
+                    position: static;
+                    margin-left: unset;
+                    background: unset;
+                    border: unset;
+                    color: var(--text);
+                }
+            }
+        </style>
+    </head>
+    <body>
+
+        <div class="container">
+            <div class="box">
+                <header>
+                    <img src="{{ headerimg }}" alt="Page header.">
+                </header>
+            </div>
+
+            <div class="box" style="text-align: center;">
+                <nav>
+                    <a href="/ocs/">Return to OC Page</a> | <a href="#" id="theme-toggle" onclick="modeSwitcher()" class="fakebutton">Toggle Theme</a>
+                    | <a id="play-gif" href="#">Play GIFs</a> | <a id="stop-gif" href="#">Stop GIFs</a>
+                </nav>
+            </div>
+
+            <div class="box">
+                <main>
+                    {{ content | safe }}
+                </main>
+            </div>
+            
+            <div class="box">
+                <footer>
+                    ©nonkiru 2022 ~ Forever! Happily hosted on <a href="https://neocities.org/site/nonkiru">Neocities</a>.
+                    <br>
+                    Original Character belongs to <a href="/home">nonkiru</a>.
+                </footer>
+            </div>
+
+        </div>
+
+    </body>
+    <!-- Stay safe out there~ ♪ -->
+    <script>
+        /* Dark mode script thanks to https://derekkedziora.com/blog/dark-mode-revisited */
+        let systemInitiatedDark = window.matchMedia("(prefers-color-scheme: dark)"); 
+        let theme = sessionStorage.getItem('theme');
+
+        if (systemInitiatedDark.matches) {
+            document.getElementById("theme-toggle").innerHTML = "Light Mode";
+        } else {
+            document.getElementById("theme-toggle").innerHTML = "Dark Mode";
+        }
+
+        function prefersColorTest(systemInitiatedDark) {
+        if (systemInitiatedDark.matches) {
+            document.documentElement.setAttribute('data-theme', 'dark');		
+            document.getElementById("theme-toggle").innerHTML = "Light Mode";
+            sessionStorage.setItem('theme', '');
+        } else {
+            document.documentElement.setAttribute('data-theme', 'light');
+            document.getElementById("theme-toggle").innerHTML = "Dark Mode";
+            sessionStorage.setItem('theme', '');
+        }
+        }
+        systemInitiatedDark.addListener(prefersColorTest);
+
+
+        function modeSwitcher() {
+            let theme = sessionStorage.getItem('theme');
+            if (theme === "dark") {
+                document.documentElement.setAttribute('data-theme', 'light');
+                sessionStorage.setItem('theme', 'light');
+                document.getElementById("theme-toggle").innerHTML = "Dark Mode";
+            }	else if (theme === "light") {
+                document.documentElement.setAttribute('data-theme', 'dark');
+                sessionStorage.setItem('theme', 'dark');
+                document.getElementById("theme-toggle").innerHTML = "Light Mode";
+            } else if (systemInitiatedDark.matches) {	
+                document.documentElement.setAttribute('data-theme', 'light');
+                sessionStorage.setItem('theme', 'light');
+                document.getElementById("theme-toggle").innerHTML = "Dark Mode";
+            } else {
+                document.documentElement.setAttribute('data-theme', 'dark');
+                sessionStorage.setItem('theme', 'dark');
+                document.getElementById("theme-toggle").innerHTML = "Light Mode";
+            }
+        }
+
+        if (theme === "dark") {
+            document.documentElement.setAttribute('data-theme', 'dark');
+            sessionStorage.setItem('theme', 'dark');
+            document.getElementById("theme-toggle").innerHTML = "Light Mode";
+        } else if (theme === "light") {
+            document.documentElement.setAttribute('data-theme', 'light');
+            sessionStorage.setItem('theme', 'light');
+            document.getElementById("theme-toggle").innerHTML = "Dark Mode";
+        }
+    </script>
+</html>

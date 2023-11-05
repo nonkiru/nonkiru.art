@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+    <!-- Thank you for stopping by nonkiru.art! ♪(^∇^*) -->
+    <!-- Unless otherwise stated, all the art on this site is made by me. -->
+    <!-- Don't use any of the materials on this site without permission. -->
+    <head>
+        <!-- Goat Counter -->
+        <script data-goatcounter="https://nonkiru.goatcounter.com/count"
+            async src="/assets/js/count.js"></script>
+        <link rel="shortcut icon" type="image/jpg" href="/assets/img/favicon.ico">
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="/assets/css/ocs.css?v=1.0">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+        <script src="https://unpkg.com/freezeframe/dist/freezeframe.min.js"></script>
+        <script src="https://unpkg.com/cursor-effects@latest/dist/browser.js"></script>
+        <script src="/assets/js/freezeframe.js"></script>
+        <title>Donnie Linne ⁑ nonkiru.art</title>
+        <style>
+            :root {
+                --bgcolour: url(/assets/img/OCs/donnie_bg_light.png);
+                --containercolour: #ffffff;
+                --text: #120d0d;
+                --border: #461b2f;
+                --border2: #461b2f;
+                --border3: #ffc8ca;
+                --gradient: linear-gradient(to right, rgb(255, 255, 255), rgb(222, 177, 179));
+                --font: Atkinson Hyperlegible;
+            }
+            :root[data-theme="light"] {
+                --bgcolour: url(/assets/img/OCs/donnie_bg_light.png);
+                --containercolour: #ffffff;
+                --text: #120d0d;
+                --border: #461b2f;
+                --border2: #461b2f;
+                --border3: #ffc8ca;
+                --gradient: linear-gradient(to right, rgb(255, 255, 255), rgb(222, 177, 179));
+            }
+            :root[data-theme="dark"] {
+                --bgcolour: url(/assets/img/OCs/donnie_bg_dark.png);
+                --containercolour: #120d0d;
+                --text: #ffffff;
+                --border: #967778;
+                --border2: #584141;
+                --border3: #4d3939;
+                --gradient: linear-gradient(to right, rgb(18, 13, 13), rgb(77, 57, 57));
+            }
+            ::selection {
+                background: var(--border3);
+            }
+            body {
+                background: var(--bgcolour);
+            }
+            .container {
+                background: var(--containercolour);
+                color: var(--text);
+                border: 0.063rem solid var(--border);
+                font-family: var(--font), sans-serif;
+            }
+            .box {
+                border: 0.063rem solid var(--border2);
+                outline: 0.063rem solid var(--border3);
+            }
+            .tooltip .tooltiptext {
+                background: var(--border3);
+                border: 0.063rem solid var(--border);
+                color: var(--text);
+            }
+            .oc_flex img {
+                border: 0.063rem solid var(--border);
+            }
+            hr {
+                border-top: 0.063rem dashed var(--border2);
+            }
+            h1, h2, h3, h4, h5 {
+                background-image: var(--gradient);
+            }
+            a {
+                color: var(--border);
+            }
+            a:hover {
+                color: var(--border3);
+                background: var(--text);
+            }
+            ul strong {
+                color: var(--border);
+            }
+            @media (prefers-color-scheme: dark) {
+                :root {
+                    --bgcolour: url(/assets/img/OCs/donnie_bg_dark.png);
+                    --containercolour: #120d0d;
+                    --text: #ffffff;
+                    --border: #967778;
+                    --border2: #584141;
+                    --border3: #4d3939;
+                    --gradient: linear-gradient(to right, rgb(18, 13, 13), rgb(77, 57, 57));
+                }
+                :root[data-theme="dark"] {
+                    --bgcolour: url(/assets/img/OCs/donnie_bg_dark.png);
+                    --containercolour: #120d0d;
+                    --text: #ffffff;
+                    --border: #967778;
+                    --border2: #584141;
+                    --border3: #4d3939;
+                    --gradient: linear-gradient(to right, rgb(18, 13, 13), rgb(77, 57, 57));
+                }
+                :root[data-theme="light"] {
+                    --bgcolour: url(/assets/img/OCs/donnie_bg_light.png);
+                    --containercolour: #ffffff;
+                    --text: #120d0d;
+                    --border: #461b2f;
+                    --border2: #461b2f;
+                    --border3: #ffc8ca;
+                    --gradient: linear-gradient(to right, rgb(255, 255, 255), rgb(222, 177, 179));
+                }
+            }
+            @media (max-width: 800px) {
+                .oc_flex {
+                    display: inline;
+                }
+                .oc_flex img {
+                    width: 100%;
+                }
+                .tooltip {
+                    display: inline-block;
+                    border-bottom: unset;
+                    position: static;
+                    margin-bottom: 2rem;
+                    width: 100% !important;
+                }
+                .tooltip .tooltiptext {
+                    opacity: 1;
+                    visibility: visible;
+                    width: 100% !important;
+                    position: static;
+                    margin-left: unset;
+                    background: unset;
+                    border: unset;
+                    color: var(--text);
+                }
+            }
+        </style>
+    </head>
+    <body>
+
+        <div class="container">
+            <div class="box">
+                <header>
+                    <img src="/assets/img/OCs/donnie_banner.webp" alt="Page header.">
+                </header>
+            </div>
+
+            <div class="box" style="text-align: center;">
+                <nav>
+                    <a href="/ocs/">Return to OC Page</a> | <a href="#" id="theme-toggle" onclick="modeSwitcher()" class="fakebutton">Toggle Theme</a>
+                    | <a id="play-gif" href="#">Play GIFs</a> | <a id="stop-gif" href="#">Stop GIFs</a>
+                </nav>
+            </div>
+
+            <div class="box">
+                <main>
+                    <h1>Welcome!</h1>
+<hr>
+<p>This page is for Donnie Linne, a now-retired Lancer character.</p>
+<h2>General Information</h2>
+<hr>
+<div class="oc_flex">
+    <div>
+    <img src="/assets/img/OCs/donnie_small.webp" alt="Donnie Linne.">
+    </div>
+<ul>
+<li>
+<p><strong>Full Name:</strong> Donnie Linne</p>
+</li>
+<li>
+<p><strong>Callsign:</strong> Psykhe</p>
+</li>
+<li>
+<p><strong>Pronouns:</strong> She/Her</p>
+</li>
+<li>
+<p><strong>Age:</strong> 20 (Past), 44 (Future)</p>
+</li>
+<li>
+<p><strong>Race:</strong> Human, White</p>
+</li>
+<li>
+<p><strong>Gender:</strong> Cis Female</p>
+</li>
+<li>
+<p><strong>Orientation:</strong> Straight</p>
+</li>
+<li>
+<p><strong>Mech:</strong> Eros (Emperor)</p>
+  <div>
+  </div>
+</li>
+</ul>
+</div>
+<p>Donnie was born into the Linne noble family. The Linne family ran multiple factories on the planet Zunu F7. Donnie, the only heir to the family, was treated as royalty. She attended a high-prestige combat school, and while there, met a NHP known as Freya. The two quickly became best friends over her semesters there. When Freya was recycled; she didn't understand why her friend no longer recognised her.</p>
+<p>She questioned her parents, but recieved no response. Donnie didn't accept that, and upon finding out about OMEGA and their treatment by Harrison Armory; Donnie knew what she had to do. She stood against her upbringing, and joined the Horizon Collective.</p>
+<p>The Linne family, however, profited from Harrison Armory stock. Having the heir of the family go against core beliefs was unheard of. Donnie had to be unwritten from the family name and silenced, permanently.</p>
+<h2>Appearance</h2>
+<hr>
+<p>Donnie is a short woman, proud of her height of 150cm (4'9&quot;). She has light skin, and a very lithe body. She has dark brown hair, tied up into two pigtails. Donnie typically wears poofy skirts and tight corsets. Donnie is missing all 4 of her limbs - all of which have been replaced with holograms. She rarely covers her hologram limbs, and adores showing them off.</p>
+<h2>Personality</h2>
+<hr>
+<p>Donnie is a loud and confident person. She is always in the right (to her, at least) and isn't afraid to say it. She never accepts no for an answer.</p>
+<p>Donnie easily gets in over her head, and is prone to overlook simple answers in favour of what she thinks is correct.</p>
+<h2>Achievements</h2>
+<hr>
+<div class="tooltip" tabindex="0">
+    <img src="/assets/img/OCs/ribbon_maincharacter.png" alt="Main Character Ribbon.">
+    <span class="tooltiptext">
+    <b>Main Character</b>
+    <hr>
+    A high priority, very important character.
+    </span>
+</div>
+<div class="tooltip" tabindex="0">
+    <img src="/assets/img/OCs/ribbon_protagonist.png" alt="Protagonist Ribbon.">
+    <span class="tooltiptext">
+    <b>Protagonist</b>
+    <hr>
+    A character who features in a story as a protagonist.
+    </span>
+</div>
+<div class="tooltip" tabindex="0">
+    <img src="/assets/img/OCs/ribbon_retired.png" alt="Retired Ribbon.">
+    <span class="tooltiptext">
+    <b>Retired</b>
+    <hr>
+    A character that has been retired.
+    </span>
+</div>
+<div class="tooltip" tabindex="0">
+    <img src="/assets/img/OCs/ribbon_actor.png" alt="Actor Ribbon.">
+    <span class="tooltiptext">
+    <b>Actor</b>
+    <hr>
+    A character that was/is used in roleplay.
+    </span>
+</div>
+<div class="tooltip" tabindex="0">
+    <img src="/assets/img/OCs/ribbon_d20.png" alt="D20 Ribbon.">
+    <span class="tooltiptext">
+    <b>D20</b>
+    <hr>
+    A character who was made for or has been played in a TTRPG.
+    </span>
+</div>
+<div class="tooltip" tabindex="0">
+    <img src="/assets/img/OCs/ribbon_2020.png" alt="2020 Ribbon.">
+    <span class="tooltiptext">
+    <b>2020</b>
+    <hr>
+    Characters who were originally made in the respective year.
+    </span>
+</div>
+<div class="tooltip" tabindex="0">
+    <img src="/assets/img/OCs/ribbon_cis.png" alt="Cisgender Ribbon.">
+    <span class="tooltiptext">
+    <b>Cisgender</b>
+    <hr>
+    One whose assigned gender matches their sex.
+    </span>
+</div>
+<div class="tooltip" tabindex="0">
+    <img src="/assets/img/OCs/ribbon_female.png" alt="Female Ribbon.">
+    <span class="tooltiptext">
+    <b>Female</b>
+    <hr>
+    One of the two binary gender identities.
+    </span>
+</div>
+<div class="tooltip" tabindex="0">
+    <img src="/assets/img/OCs/ribbon_heterosexual.png" alt="Heterosexual Ribbon.">
+    <span class="tooltiptext">
+    <b>Heterosexual</b>
+    <hr>
+    One who is sexually attracted to the opposite sex.
+    </span>
+</div>
+<br>
+<small>Ribbons are from <a href="https://toyhou.se/4739396.-ribbons">MisterMuse</a>.</small>
+                </main>
+            </div>
+            
+            <div class="box">
+                <footer>
+                    ©nonkiru 2022 ~ Forever! Happily hosted on <a href="https://neocities.org/site/nonkiru">Neocities</a>.
+                    <br>
+                    Original Character belongs to <a href="/home">nonkiru</a>.
+                </footer>
+            </div>
+
+        </div>
+
+    </body>
+    <!-- Stay safe out there~ ♪ -->
+    <script>
+        /* Dark mode script thanks to https://derekkedziora.com/blog/dark-mode-revisited */
+        let systemInitiatedDark = window.matchMedia("(prefers-color-scheme: dark)"); 
+        let theme = sessionStorage.getItem('theme');
+
+        if (systemInitiatedDark.matches) {
+            document.getElementById("theme-toggle").innerHTML = "Light Mode";
+        } else {
+            document.getElementById("theme-toggle").innerHTML = "Dark Mode";
+        }
+
+        function prefersColorTest(systemInitiatedDark) {
+        if (systemInitiatedDark.matches) {
+            document.documentElement.setAttribute('data-theme', 'dark');		
+            document.getElementById("theme-toggle").innerHTML = "Light Mode";
+            sessionStorage.setItem('theme', '');
+        } else {
+            document.documentElement.setAttribute('data-theme', 'light');
+            document.getElementById("theme-toggle").innerHTML = "Dark Mode";
+            sessionStorage.setItem('theme', '');
+        }
+        }
+        systemInitiatedDark.addListener(prefersColorTest);
+
+
+        function modeSwitcher() {
+            let theme = sessionStorage.getItem('theme');
+            if (theme === "dark") {
+                document.documentElement.setAttribute('data-theme', 'light');
+                sessionStorage.setItem('theme', 'light');
+                document.getElementById("theme-toggle").innerHTML = "Dark Mode";
+            }	else if (theme === "light") {
+                document.documentElement.setAttribute('data-theme', 'dark');
+                sessionStorage.setItem('theme', 'dark');
+                document.getElementById("theme-toggle").innerHTML = "Light Mode";
+            } else if (systemInitiatedDark.matches) {	
+                document.documentElement.setAttribute('data-theme', 'light');
+                sessionStorage.setItem('theme', 'light');
+                document.getElementById("theme-toggle").innerHTML = "Dark Mode";
+            } else {
+                document.documentElement.setAttribute('data-theme', 'dark');
+                sessionStorage.setItem('theme', 'dark');
+                document.getElementById("theme-toggle").innerHTML = "Light Mode";
+            }
+        }
+
+        if (theme === "dark") {
+            document.documentElement.setAttribute('data-theme', 'dark');
+            sessionStorage.setItem('theme', 'dark');
+            document.getElementById("theme-toggle").innerHTML = "Light Mode";
+        } else if (theme === "light") {
+            document.documentElement.setAttribute('data-theme', 'light');
+            sessionStorage.setItem('theme', 'light');
+            document.getElementById("theme-toggle").innerHTML = "Dark Mode";
+        }
+    </script>
+</html>

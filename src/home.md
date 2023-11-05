@@ -23,6 +23,11 @@ Most of the art and code on this site was made by me, but anything else will be 
 <h2> Updates </h2>
 <div class="update_box" tabindex="0">
 
+<b>06 November 2023</b>
+<hr>
+
+Big update! Added the <a href="/ocs/">OCs</a> directory for my OCs! Added <a href="/ocs/myuri/">Myuri Nohn</a>, <a href="/ocs/billie/">Billie Tae-Gloria</a>, <a href="/ocs/jupiter/">Jupiter Scottson</a>, <a href="/ocs/estelle/">Estelle Linne</a> and <a href="/ocs/donnie/">Donnie Linne</a>. Also added a silly cursor trail.
+
 <b>01 November 2023</b>
 <hr>
 

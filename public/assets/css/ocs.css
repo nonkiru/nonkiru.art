@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible&family=Patrick+Hand&display=swap');
+
+.container {
+    max-width: 68rem;
+    margin: auto;
+    margin-top: 1.563rem;
+    margin-bottom: 1.563rem;
+    height: 100%;
+    border-radius: 0.225rem;
+    padding: 0.1rem;
+    font-size: 0.9rem;
+}
+
+.box {
+    border-radius: 0.225rem;
+    margin: 0.4rem;
+    padding: 0.3rem;
+}
+
+.oc_flex {
+    display: flex;
+    margin: auto;
+}
+
+.oc_flex img {
+    border-radius: 0.225rem;
+}
+
+header {
+    overflow: hidden;
+    margin-bottom: -0.25rem;
+}
+
+header img {
+    image-rendering: pixelated;
+}
+
+hr {
+    border-bottom: none;
+    border-right: none;
+    border-left: none;
+}
+
+h1, h2, h3, h4, h5 {
+    margin-bottom: unset;
+    text-align: right;
+    padding: 0.1rem;
+}
+
+a {
+    transition: 0.2s;
+}
+
+a:hover {
+    transition: 0.2s;
+}
+
+footer {
+    font-size: 0.7rem;
+    text-align: center;
+}
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+}
+  
+.tooltip .tooltiptext {
+    opacity: 0;
+    transition: opacity 0.2s;
+    visibility: hidden;
+    width: 7.5rem;
+    border-radius: 0.375rem;
+    padding: 0.3rem;
+    
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+    top: 100%;
+    left: 50%;
+    margin-left: -3.75rem;
+}
+  
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+}
+
+.tooltip:focus-within .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+}
+
+.ff-container {
+    display: inline-block;
+    position: unsert !important;
+}
+
+.ff-container.ff-responsive {
+    width: unset !important;
+    pointer-events: unset !important;
+}
+
+.ff-container .ff-canvas {
+    image-rendering: pixelated !important;
+    width: unset !important;
+    height: unset !important;
+    display: unset !important;
+    pointer-events: unset !important;
+    z-index: unset !important;
+}
+
+/* Remove all transitions from Freezeframe elements */
+a .ff-container.ff-active .ff-image,
+a .ff-container.ff-inactive .ff-canvas.ff-canvas-ready {
+    transition: none !important;
+    -o-transition: none !important;
+    -moz-transition: none !important;
+    -webkit-transition: none !important;
+}
+
+/* Add the selectors for Freezeframe elements to wherever the image changes when hovered */
+a:hover img,
+a:hover .ff-container.ff-active .ff-image,
+a:hover .ff-container.ff-inactive .ff-canvas.ff-canvas-ready {
+    background: white;
+}
+
+/* This is only required if images become transparent when hovered*/
+a:hover .ff-container.ff-inactive .ff-image {
+    opacity: 0 !important;
+}
