@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+    <!-- Thank you for stopping by nonkiru.art! ♪(^∇^*) -->
+    <!-- Unless otherwise stated, all the art on this site is made by me. -->
+    <!-- Don't use any of the materials on this site without permission. -->
+    <head>
+        <!-- Goat Counter -->
+        <script data-goatcounter="https://nonkiru.goatcounter.com/count"
+            async src="../assets/js/count.js"></script>
+        <link rel="shortcut icon" type="image/jpg" href="/assets/img/favicon.ico">
+        <!-- Meta Tags -->
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="description" content="A personal website for the digital illustrator nonkiru. I have pages for my artwork, original characters, and more!">
+        <meta name="keywords" content="digital art, art, commissions, ocs, original characters, neocities">
+        <meta name='author' content='nonkiru, nonkiru@gmail.com'>
+        <meta property="og:image" content="https://files.catbox.moe/jckpji.png" />
+        <meta property="twitter:card" content="summary_large_image">
+        <meta content="nonkiru.art" property="og:title" />
+        <meta content="A personal website for the digital illustrator nonkiru. I have pages for my artwork, original characters, and more!" property="og:description" />
+        <meta content="https://nonkiru.art" property="og:url" />
+        <meta content="#ffdfe9" data-react-helmet="true" name="theme-color" />
+        <!-- -->
+        <link rel="stylesheet" href="../assets/css/style.css?v=1.7">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+        <script src="https://unpkg.com/freezeframe/dist/freezeframe.min.js"></script>
+        <script src="https://unpkg.com/cursor-effects@latest/dist/browser.js"></script>
+        <script src="../assets/js/freezeframe.js"></script>
+        <title>Resources ⁑ nonkiru.art</title>
+    </head>
+    <body>
+        <!-- Floating clouds in the background. -->
+        <div class="clouds" id="clouds"></div>
+
+        <!-- Container -->
+        <div class="container">
+            
+            <!-- Header -->
+            <div class="box_header">
+            <header></header>
+            </div>
+
+            <!-- Flex -->
+            <div class="flex">
+                
+                <div class="navigation_container" style="height: 100%;">
+                    <aside>
+                        <!-- Navigation -->
+                        <div class="box" id="nav" style="width: 12.5rem;">
+                            <nav>
+                                <h1>Navigation</h1>
+                                <!-- Update partials/nav.njk with new links. -->
+                                <h2>Sitely</h2>
+<ul>
+    <li id="home"><a href="/home/">Home</a></li>
+    <li id="aboutsite"><a href="/about_site/">About this Site</a></li>
+    <li id="sitecredit"><a href="/credits/">Website Credits</a></li>
+    <li id="sitelayouts"><a href="/layouts/">Website Layouts</a></li>
+    <li id="sitelayouts"><a href="/resources/">F2U Resources</a></li>
+    <li id="guestbook"><a href="/guestbook/">Guestbook</a></li>
+    <li id="link"><a href="/links/">Links</a></li>
+</ul>
+<h2>Personal</h2>
+<ul>
+    <li id="about"><a href="/about/">About Me</a></li>
+    <li id="art"><a href="/art/">Art</a></li>
+    <li id="blog"><a href="/blog/">Blog</a></li>
+    <li id="oc"><a href="/ocs/">OCs</a></li>
+</ul>
+<h2>Off-Site</h2>
+<ul>
+    <li id="microblog"><a href="https://thoughts.nonkiru.art/">Microblog</a></li>
+    <li id="art"><a href="https://vgen.co/nonkiru">Art Commissions</a></li>  
+</ul>
+                            </nav>
+                        </div>
+                        <!-- Site Stats & Stuff -->
+                        <div class="box" id="stats" style="width: 12.5rem; height: 100%;">
+                            <!-- Update partials/stats.njk with new stuff. -->
+                            <h1>Misc.</h1>
+<h2>Settings</h2>
+<div style="margin: 0;">
+<a href="#" id="theme-toggle" onclick="modeSwitcher()" class="fakebutton">Toggle Theme</a>
+<br>
+<button id="play-gif" onclick="myPlayFunction()">Play GIFs</button>
+<button id="stop-gif" onclick="myPauseFunction()">Stop GIFs</button>
+<br>
+<button onclick="cursorEffect.destroy()" style="margin-top: 0.35rem;">Remove Cursor Trail</button>
+</div>
+<div style="text-align:center;">
+<h2>Link Me</h2>
+Feel free to hotlink! 
+<br><small>Make sure you save the .gif version!</small>
+<br><br>
+<div class="freezeframe">
+<img src="/../assets/img/nonkiru_button_light.gif" alt="A button for nonkiru.art! Light version.">
+<img src="/../assets/img/nonkiru_button_dark.gif" alt="A button for nonkiru.art! Dark version.">
+<br><br>
+<label for="LightButton">The code for the light button.</label>
+<textarea id="LightButton" readonly style="width: 100%; resize: none;"><img src="https://nonkiru.art/assets/img/nonkiru_button_light.gif" alt="A button leading to nonkiru.art."></textarea>
+<br>
+<label for="DarkButton">The code for the dark button.</label>
+<textarea id="DarkButton" readonly style="width: 100%; resize: none;"><img src="https://nonkiru.art/assets/img/nonkiru_button_dark.gif" alt="A button leading to nonkiru.art."></textarea>
+</div>
+<br>
+
+<p style="text-align: center;"><a href="/legacy_buttons/">Legacy Buttons</a></p>
+<br>
+<div class="freezeframe" style="text-align: center;">
+<img src="/assets/img/border_simple.webp" alt="">
+</div>
+<br>
+</div>
+                        </div>
+                    </aside>
+                </div>
+
+                <!-- Main Content -->
+                <div class="box" style="flex-grow: 1;">
+                    <main>
+                        <!-- Update tag h1 to change this. -->
+                        <h1>Resources</h1>
+                        <!-- Pray that markdown treats me well! -->
+                        <p>Here are some free to use resources that I've made.
+<br><b>Note:</b> Some of these are gifs. <b>Check my site settings if you wish to view the original gifs.</b></p>
+<h2>Rules</h2>
+<ul>
+<li>Please leave a credit back to this page/website, as &quot;<a href="https://nonkiru.art/">nonkiru</a>&quot;.</li>
+<li>Edits are okay.</li>
+<li>Don't use for commercial purposes.</li>
+</ul>
+<h2>Foods</h2>
+<img src="/assets/img/resources/cheesecake.gif" class="freezeframe" alt="A cheesecake (small).">
+<br>
+<img src="/assets/img/resources/cherry.gif" alt="A pixel cherry.">
+<img src="/assets/img/resources/peach.gif" alt="A pixel peach.">
+<img src="/assets/img/resources/orange.gif" alt="A pixel orange.">
+<img src="/assets/img/resources/pear.gif" alt="A pixel pear.">
+<img src="/assets/img/resources/apple.gif" alt="A pixel apple.">
+<img src="/assets/img/resources/maca.gif" alt="A pixel macaroon.">
+<img src="/assets/img/resources/pudding.gif" alt="A pixel pudding.">
+<br>
+<img src="/assets/img/resources/cheesecake_still.gif" alt="A cheesecake (big).">
+<img src="/assets/img/resources/pink_cake.png" alt="A pink cake.">
+<img src="/assets/img/resources/plate.png" alt="A plate.">
+<h2>Drinks</h2>
+<p><img src="/assets/img/resources/btea.gif" alt="A brown pixel bubble tea."><img src="/assets/img/resources/ptea.gif" alt="A pink pixel bubble tea."><img src="/assets/img/resources/ttea.gif" alt="A purple pixel bubble tea."></p>
+<h2>Animals</h2>
+<img src="/assets/img/resources/bunny.gif" alt="A pixel bunny.">
+<h2>Backgrounds</h2>
+<img src="/assets/img/resources/bg.png" alt="">
+<img src="/assets/img/resources/bg.gif" alt="">
+<h2>Bullets</h2>
+<img src="/assets/img/resources/heart_bullet.gif" alt="" class="freezeframe">
+<img src="/assets/img/resources/heart_bullet2.gif" alt="" class="freezeframe">
+<img src="/assets/img/resources/heart_bullet3.gif" alt="" class="freezeframe">
+<img src="/assets/img/resources/star_bullet.gif" alt="" class="freezeframe">
+<img src="/assets/img/resources/star_bullet2.gif" alt="" class="freezeframe">
+<img src="/assets/img/resources/star_bullet3.gif" alt="" class="freezeframe">
+<h2>Dividers</h2>
+<img src="/assets/img/resources/stardivider.gif" alt="A star divider." class="freezeframe">
+<h2>Social Media/Website Icons</h2>
+<img src="/assets/img/resources/social_twitter1.png" alt="Twitter">
+<img src="/assets/img/resources/social_tumblr1.png" alt="Tumblr">
+<img src="/assets/img/resources/social_youtube1.png" alt="YouTube">
+<img src="/assets/img/resources/social_deviantART1.png" alt="DeviantART">
+<img src="/assets/img/resources/social_email1.png" alt="Email">
+<img src="/assets/img/resources/social_discord1.png" alt="Discord">
+<img src="/assets/img/resources/social_insta1.png" alt="Instagram">
+<img src="/assets/img/resources/social_facebook1.png" alt="Facebook">
+<img src="/assets/img/resources/social_bluesky1.png" alt="Bluesky">
+<img src="/assets/img/resources/social_cohost1.png" alt="Cohost">
+<img src="/assets/img/resources/social_misskey1.png" alt="Misskey1">
+<img src="/assets/img/resources/social_vgen1.png" alt="VGen">
+<img src="/assets/img/resources/social_neocities1.png" alt="Neocities">
+<img src="/assets/img/resources/social_kofi1.png" alt="Ko-fi">
+<img src="/assets/img/resources/social_patreon1.png" alt="Patreon">
+<img src="/assets/img/resources/social_misskeyhub1.png" alt="Misskey2">
+<br>
+<img src="/assets/img/resources/social_twitter2.png" alt="Twitter">
+<img src="/assets/img/resources/social_tumblr2.png" alt="Tumblr">
+<img src="/assets/img/resources/social_youtube2.png" alt="YouTube">
+<img src="/assets/img/resources/social_deviantART2.png" alt="DeviantART">
+<img src="/assets/img/resources/social_email2.png" alt="Email">
+<img src="/assets/img/resources/social_discord2.png" alt="Discord">
+<img src="/assets/img/resources/social_insta2.png" alt="Instagram">
+<img src="/assets/img/resources/social_facebook2.png" alt="Facebook">
+<img src="/assets/img/resources/social_bluesky2.png" alt="Bluesky">
+<img src="/assets/img/resources/social_cohost2.png" alt="Cohost">
+<img src="/assets/img/resources/social_misskey2.png" alt="Misskey1">
+<img src="/assets/img/resources/social_vgen2.png" alt="VGen">
+<img src="/assets/img/resources/social_neocities2.png" alt="Neocities">
+<img src="/assets/img/resources/social_kofi2.png" alt="Ko-fi">
+<img src="/assets/img/resources/social_patreon2.png" alt="Patreon">
+<img src="/assets/img/resources/social_misskeyhub2.png" alt="Misskey2">
+<br>
+<a href="https://nonkiru.art/bunnies/Pixel%20Icon%20Pack%20by%20nonkiru.zip">.zip with all icons!</a> | <a href="https://ko-fi.com/s/c140aed949">Alternative Ko-Fi link.</a>
+                    </main>
+                </div>
+
+            <!-- Flex End -->
+            </div>
+
+            <!-- Footer -->
+            <div class="box">
+                <!-- It's a footer. -->
+                <footer>©nonkiru 2022 ~ Forever! Happily hosted on <a href="https://neocities.org/site/nonkiru">Neocities.</a>
+<br>
+<a href="/accessibility/">Accessibility</a> ⁑ <a href="/sitemap/">Sitemap</a>
+<br>Site analytics provided by <a href="https://www.goatcounter.com/">GoatCounter</a></footer>
+            </div>
+
+        <!-- Container end. -->
+        </div>
+
+    </body>
+    <!-- Stay safe out there~ ♪ -->
+    <script>
+        /* Dark mode script thanks to https://derekkedziora.com/blog/dark-mode-revisited */
+        let systemInitiatedDark = window.matchMedia("(prefers-color-scheme: dark)"); 
+        let theme = sessionStorage.getItem('theme');
+
+        if (systemInitiatedDark.matches) {
+            document.getElementById("theme-toggle").innerHTML = "Light Mode";
+        } else {
+            document.getElementById("theme-toggle").innerHTML = "Dark Mode";
+        }
+
+        function prefersColorTest(systemInitiatedDark) {
+        if (systemInitiatedDark.matches) {
+            document.documentElement.setAttribute('data-theme', 'dark');		
+            document.getElementById("theme-toggle").innerHTML = "Light Mode";
+            sessionStorage.setItem('theme', '');
+        } else {
+            document.documentElement.setAttribute('data-theme', 'light');
+            document.getElementById("theme-toggle").innerHTML = "Dark Mode";
+            sessionStorage.setItem('theme', '');
+        }
+        }
+        systemInitiatedDark.addListener(prefersColorTest);
+
+
+        function modeSwitcher() {
+            let theme = sessionStorage.getItem('theme');
+            if (theme === "dark") {
+                document.documentElement.setAttribute('data-theme', 'light');
+                sessionStorage.setItem('theme', 'light');
+                document.getElementById("theme-toggle").innerHTML = "Dark Mode";
+            }	else if (theme === "light") {
+                document.documentElement.setAttribute('data-theme', 'dark');
+                sessionStorage.setItem('theme', 'dark');
+                document.getElementById("theme-toggle").innerHTML = "Light Mode";
+            } else if (systemInitiatedDark.matches) {	
+                document.documentElement.setAttribute('data-theme', 'light');
+                sessionStorage.setItem('theme', 'light');
+                document.getElementById("theme-toggle").innerHTML = "Dark Mode";
+            } else {
+                document.documentElement.setAttribute('data-theme', 'dark');
+                sessionStorage.setItem('theme', 'dark');
+                document.getElementById("theme-toggle").innerHTML = "Light Mode";
+            }
+        }
+
+        if (theme === "dark") {
+            document.documentElement.setAttribute('data-theme', 'dark');
+            sessionStorage.setItem('theme', 'dark');
+            document.getElementById("theme-toggle").innerHTML = "Light Mode";
+        } else if (theme === "light") {
+            document.documentElement.setAttribute('data-theme', 'light');
+            sessionStorage.setItem('theme', 'light');
+            document.getElementById("theme-toggle").innerHTML = "Dark Mode";
+        }
+    </script>
+    <script>
+        function PagedollToggle() {
+        var x = document.getElementById("pagedoll");
+        if (x.style.display === "none") {
+            x.style.display = "block";
+        } else {
+            x.style.display = "none";
+        }
+        } 
+    </script>
+    <script>
+        function myPlayFunction() {
+        document.getElementById("clouds").style.animationPlayState = "running";
+        }
+
+        function myPauseFunction() {
+        document.getElementById("clouds").style.animationPlayState = "paused";
+        }
+    </script>
+    <script>
+    let cursorEffect = new cursoreffects.rainbowCursor({
+    length: 20,
+    colors: ["#f1b5a7", "#ffefe5", "#ffffff", "#f6dbeb", "#da9dc1"],
+    size: 2,
+    });
+    </script>
+</html>

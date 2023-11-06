@@ -26,7 +26,7 @@ Most of the art and code on this site was made by me, but anything else will be 
 <b>06 November 2023</b>
 <hr>
 
-Big update! Added the <a href="/ocs/">OCs</a> directory for my OCs! Added <a href="/ocs/myuri/">Myuri Nohn</a>, <a href="/ocs/billie/">Billie Tae-Gloria</a>, <a href="/ocs/jupiter/">Jupiter Scottson</a>, <a href="/ocs/estelle/">Estelle Linne</a> and <a href="/ocs/donnie/">Donnie Linne</a>. Also added a silly cursor trail.
+Big update! Added the <a href="/ocs/">OCs</a> directory for my OCs! Added <a href="/ocs/myuri/">Myuri Nohn</a>, <a href="/ocs/billie/">Billie Tae-Gloria</a>, <a href="/ocs/jupiter/">Jupiter Scottson</a>, <a href="/ocs/estelle/">Estelle Linne</a> and <a href="/ocs/donnie/">Donnie Linne</a>. Also added a silly cursor trail. Also added back <a href="/resources/">Resources</a>.
 
 <b>01 November 2023</b>
 <hr>
