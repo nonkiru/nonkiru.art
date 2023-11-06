@@ -35,11 +35,11 @@ I add websites in good faith, but please let me know if any of the sites linked 
 <div class="freezeframe">
 <a href="https://zombiejynx.neocities.org/"><img src="../assets/img/buttons/jynxbuttonANIMATED.gif" alt="A button leading to Zombiejynx."></a>
 <a href="https://porcupie506.neocities.org/"><img src="../assets/img/buttons/porcupie.gif" alt="A button leading to Porcupie506."></a>
-<a href="https://arunyi.art/"><img src="../assets/img/buttons/arunyi.gif" alt="A button leading to Arunyi."></a>
 </div>
 
 ## Websites
 <div class="freezeframe">
+<a href="https://arunyi.art/"><img src="../assets/img/buttons/arunyi.gif" alt="A button leading to Arunyi."></a>
 <a href="http://berry.heartette.net/"><img src="../assets/img/buttons/novemberry.gif" alt="A button leading to Novemberry."></a>
 <a href="https://cinni.net/"><img src="../assets/img/buttons/cinni.gif" alt="A button leading to Cinni's Dream Home."></a>
 <a href="https://fraildoll111.wixsite.com/mabelsdollhouse"><img src="../assets/img/buttons/mabel.png" alt="A button leading to Mabel."></a>
