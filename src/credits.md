@@ -16,6 +16,4 @@ This site was <i>mostly</i> made by me by hand <i>(and 11ty I guess)</i>.
 <br>[Cursor Trail](https://github.com/tholman/cursor-effects)
 
 ## Art Credits
-<a href="https://arunyi.art/"><img src="/assets/img/non_arunyi_button.gif" class="freezeframe" alt="A small button for nonkiru.art."> by Arunyi.</a>
-<br>Various FFXIV icons and images are from <a href="https://xivapi.com/docs/Icons">the xivapi website</a>.
-<br>FFXIV cursors from a <a href="https://www.reddit.com/r/ffxiv/comments/wr03sd/looking_for_ffxiv_cursors_for_windows_posted_long/">Reddit comment</a>.
+<a href="https://arunyi.art/"><img src="/assets/img/non_arunyi_button.gif" alt="A small button for nonkiru.art."> by Arunyi.</a>

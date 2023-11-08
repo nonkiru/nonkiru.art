@@ -44,7 +44,7 @@ My favourite things include...
 <br>
 
 <b>Q. Can I use your website as a base?</b>
-<br><b>A.</b> I would prefer that you use it as inspiration! <a href="https://copyheart.org/manifesto/">Copying is an act of love. Please copy.</a> 
+<br><b>A.</b> My website is not a base. I would prefer that you use it as inspiration! <a href="https://copyheart.org/manifesto/">Copying is an act of love. Please copy.</a> 
 <br>*However:* If you use anything, *especially* artwork, please credit me, <a href="https://nonkiru.art">nonkiru</a>!
 <br>I'd also ask that you don't use art of my fursona; just because that's me, and I think that'd be really weird?
 
@@ -57,8 +57,8 @@ My favourite things include...
 <br>
 
 <b>Q. Are you LGBTQIA+ or Queer?</b>
-<br><b>A.</b> Yes, but I'm not fully comfortable with sharing the details online about it. It mostly comes from a fear of someone being angry at me for the way I identify... I think I'm most okay with sharing the fact that I'm a woman kisser. Maybe one day I'll have a pride page!
-<br>*(If you're deathly curious, just go stalker mode on my socials. You'll find something somewhere, probably.)*
+<br><b>A.</b> Yes! You can probably tell by the lesbian cursor trail that I identify as a lesbian. For my gender though... um, I like kissing women?
+<br><small>(I would probably say non-binary is close enough.)</small>
 
 ## Fursona
 I have a fursona because I think they're really fun and silly. I also think that, generally, furry designs tend to be a bit more fun than human designs.

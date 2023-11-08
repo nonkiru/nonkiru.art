@@ -181,6 +181,19 @@ button:hover, button:focus {
     border: var(--h1_border);
 }
 
+details > summary {
+    cursor: var(--pointer);
+    background: var(--update);
+    border: var(--h2_border);
+    border-radius: 0.225rem;
+    padding: 0.3rem;
+}
+
+details:hover > summary:hover {
+    background-image: var(--h1);
+    border: var(--h1_border);
+}
+
 .fakebutton {
     display: inline-block;
     color: var(--font);
@@ -440,7 +453,6 @@ p {
     width: 100%;
     z-index: -100;
     animation: clouds 200s linear infinite;
-    animation-play-state: paused;
 }
 
 /* Edited from ThaBouncingJelly from this comment section https://www.reddit.com/r/neocities/comments/111uwkq/how_can_i_add_a_pagedoll_to_a_webpage/ */
@@ -460,46 +472,6 @@ p {
     animation: pagedoll 1s linear infinite;
     width: 244px;
     height: 370px;
-}
-
-.ff-container {
-    display: inline-block;
-    position: unsert !important;
-}
-
-.ff-container.ff-responsive {
-    width: unset !important;
-    pointer-events: unset !important;
-}
-
-.ff-container .ff-canvas {
-    image-rendering: pixelated !important;
-    width: unset !important;
-    height: unset !important;
-    display: unset !important;
-    pointer-events: unset !important;
-    z-index: unset !important;
-}
-
-/* Remove all transitions from Freezeframe elements */
-a .ff-container.ff-active .ff-image,
-a .ff-container.ff-inactive .ff-canvas.ff-canvas-ready {
-    transition: none !important;
-    -o-transition: none !important;
-    -moz-transition: none !important;
-    -webkit-transition: none !important;
-}
-
-/* Add the selectors for Freezeframe elements to wherever the image changes when hovered */
-a:hover img,
-a:hover .ff-container.ff-active .ff-image,
-a:hover .ff-container.ff-inactive .ff-canvas.ff-canvas-ready {
-    opacity: .5 !important;
-}
-
-/* This is only required if images become transparent when hovered*/
-a:hover .ff-container.ff-inactive .ff-image {
-    opacity: 0 !important;
 }
 
 /* John Shang via Stack Overflow. */
@@ -798,6 +770,6 @@ a:hover .ff-container.ff-inactive .ff-image {
         display: none;
     }
     .clouds {
-        display: none;
+        animation-play-state: paused;
     }
   }

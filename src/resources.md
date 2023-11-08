@@ -5,14 +5,13 @@ h1: Resources
 ---
 
 Here are some free to use resources that I've made.
-<br><b>Note:</b> Some of these are gifs. <b>Check my site settings if you wish to view the original gifs.</b>
 ## Rules
 - Please leave a credit back to this page/website, as "[nonkiru](https://nonkiru.art/)".
 - Edits are okay.
 - Don't use for commercial purposes.
 
 ## Foods
-<img src="/assets/img/resources/cheesecake.gif" class="freezeframe" alt="A cheesecake (small).">
+<img src="/assets/img/resources/cheesecake.gif" alt="A cheesecake (small).">
 <br>
 <img src="/assets/img/resources/cherry.gif" alt="A pixel cherry.">
 <img src="/assets/img/resources/peach.gif" alt="A pixel peach.">
@@ -37,15 +36,15 @@ Here are some free to use resources that I've made.
 <img src="/assets/img/resources/bg.gif" alt="">
 
 ## Bullets
-<img src="/assets/img/resources/heart_bullet.gif" alt="" class="freezeframe">
-<img src="/assets/img/resources/heart_bullet2.gif" alt="" class="freezeframe">
-<img src="/assets/img/resources/heart_bullet3.gif" alt="" class="freezeframe">
-<img src="/assets/img/resources/star_bullet.gif" alt="" class="freezeframe">
-<img src="/assets/img/resources/star_bullet2.gif" alt="" class="freezeframe">
-<img src="/assets/img/resources/star_bullet3.gif" alt="" class="freezeframe">
+<img src="/assets/img/resources/heart_bullet.gif" alt="">
+<img src="/assets/img/resources/heart_bullet2.gif" alt="">
+<img src="/assets/img/resources/heart_bullet3.gif" alt="">
+<img src="/assets/img/resources/star_bullet.gif" alt="">
+<img src="/assets/img/resources/star_bullet2.gif" alt="">
+<img src="/assets/img/resources/star_bullet3.gif" alt="">
 
 ## Dividers
-<img src="/assets/img/resources/stardivider.gif" alt="A star divider." class="freezeframe">
+<img src="/assets/img/resources/stardivider.gif" alt="A star divider.">
 
 ## Social Media/Website Icons
 <img src="/assets/img/resources/social_twitter1.png" alt="Twitter">

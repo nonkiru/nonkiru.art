@@ -3,15 +3,14 @@ title: Home ⁑ nonkiru.art
 layout: layout.njk
 h1: Welcome!
 ---
-<div class="freezeframe" id="mobilepixelfix" style="float: right; margin: -1rem;"><img src="/assets/img/nonkiru_small.webp" alt="Pixel art of the site owner."></div>
+<div id="mobilepixelfix" style="float: right; margin-right: -1rem;margin-top: -3rem;"><img src="/assets/img/nonkiru_small.webp" alt="Pixel art of the site owner."></div>
 
 Hello hello, world wide web adventurer!! (❁´◡`❁) 
 <br>Welcome to my little website on the internet! I'm known as *nonkiru*, and it's nice to meet you.
-<br><br>I hope you have a nice time exploring my site! 
-<br>You can either use the navigation to the left, or use my <a href="/sitemap/">sitemap</a>. 
+I hope you have a nice time exploring my site! You can either use the navigation to the left, or use my <a href="/sitemap/">sitemap</a>. 
 
 Most of the art and code on this site was made by me, but anything else will be <a href="/credits/">credited here</a>!
-
+<br><br>
 <b>Notice!</b> This website <i>currently</i> has a [Web14](http://www.mabsland.com/Adoption.html) rating.
 <br>Partial nudity on the <a href="/art_2023/">2023 Gallery</a> page.
 
@@ -22,6 +21,12 @@ Most of the art and code on this site was made by me, but anything else will be 
 <div id="minibox" style="max-width: 50%; padding: 0.1rem;">
 <h2> Updates </h2>
 <div class="update_box" tabindex="0">
+
+<b>08 November 2023</b>
+<hr>
+
+Removed freezeframe.js. It made my website look bad, gifs saved from it were being saved as the frozen version, it didn't work on any page that needed to load... I just really disliked it. Hid the button wall behind a details menu.
+Also changed the <a href="/art_2023/">Art 2023</a> page with thumbnails & fancybox. Should load faster & nicer now!
 
 <b>06 November 2023</b>
 <hr>

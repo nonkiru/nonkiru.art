@@ -21,11 +21,9 @@
         <meta content="https://nonkiru.art" property="og:url" />
         <meta content="#ffdfe9" data-react-helmet="true" name="theme-color" />
         <!-- -->
-        <link rel="stylesheet" href="../assets/css/style.css?v=1.7">
+        <link rel="stylesheet" href="../assets/css/style.css?v=1.8">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-        <script src="https://unpkg.com/freezeframe/dist/freezeframe.min.js"></script>
         <script src="https://unpkg.com/cursor-effects@latest/dist/browser.js"></script>
-        <script src="../assets/js/freezeframe.js"></script>
         <title>Home ⁑ nonkiru.art</title>
     </head>
     <body>
@@ -82,35 +80,32 @@
 <div style="margin: 0;">
 <a href="#" id="theme-toggle" onclick="modeSwitcher()" class="fakebutton">Toggle Theme</a>
 <br>
-<button id="play-gif" onclick="myPlayFunction()">Play GIFs</button>
-<button id="stop-gif" onclick="myPauseFunction()">Stop GIFs</button>
-<br>
 <button onclick="cursorEffect.destroy()" style="margin-top: 0.35rem;">Remove Cursor Trail</button>
 </div>
 <div style="text-align:center;">
 <h2>Link Me</h2>
 Feel free to hotlink! 
-<br><small>Make sure you save the .gif version!</small>
-<br><br>
-<div class="freezeframe">
 <img src="/../assets/img/nonkiru_button_light.gif" alt="A button for nonkiru.art! Light version.">
 <img src="/../assets/img/nonkiru_button_dark.gif" alt="A button for nonkiru.art! Dark version.">
-<br><br>
+
+<details>
+<summary>Button Codes</summary>
 <label for="LightButton">The code for the light button.</label>
-<textarea id="LightButton" readonly style="width: 100%; resize: none;"><img src="https://nonkiru.art/assets/img/nonkiru_button_light.gif" alt="A button leading to nonkiru.art."></textarea>
+<textarea id="LightButton" readonly style="width: 100%; resize: none;"><a href="https://nonkiru.art"><img src="https://nonkiru.art/assets/img/nonkiru_button_light.gif" alt="A button leading to nonkiru.art."></a></textarea>
 <br>
 <label for="DarkButton">The code for the dark button.</label>
-<textarea id="DarkButton" readonly style="width: 100%; resize: none;"><img src="https://nonkiru.art/assets/img/nonkiru_button_dark.gif" alt="A button leading to nonkiru.art."></textarea>
-</div>
+<textarea id="DarkButton" readonly style="width: 100%; resize: none;"><a href="https://nonkiru.art"><img src="https://nonkiru.art/assets/img/nonkiru_button_dark.gif" alt="A button leading to nonkiru.art."></a></textarea>
 <br>
+</details>
+
+<hr>
 
 <p style="text-align: center;"><a href="/legacy_buttons/">Legacy Buttons</a></p>
 <br>
-<div class="freezeframe" style="text-align: center;">
+<img src="/../assets/img/non_kitty.webp" alt="A small kitty; the website owner.">
+<br><br>
 <img src="/assets/img/border_simple.webp" alt="">
-</div>
-<br>
-</div>
+
                         </div>
                     </aside>
                 </div>
@@ -121,19 +116,23 @@ Feel free to hotlink!
                         <!-- Update tag h1 to change this. -->
                         <h1>Welcome!</h1>
                         <!-- Pray that markdown treats me well! -->
-                        <div class="freezeframe" id="mobilepixelfix" style="float: right; margin: -1rem;"><img src="/assets/img/nonkiru_small.webp" alt="Pixel art of the site owner."></div>
+                        <div id="mobilepixelfix" style="float: right; margin-right: -1rem;margin-top: -3rem;"><img src="/assets/img/nonkiru_small.webp" alt="Pixel art of the site owner."></div>
 <p>Hello hello, world wide web adventurer!! (❁´◡`❁)
 <br>Welcome to my little website on the internet! I'm known as <em>nonkiru</em>, and it's nice to meet you.
-<br><br>I hope you have a nice time exploring my site!
-<br>You can either use the navigation to the left, or use my <a href="/sitemap/">sitemap</a>.</p>
-<p>Most of the art and code on this site was made by me, but anything else will be <a href="/credits/">credited here</a>!</p>
-<p><b>Notice!</b> This website <i>currently</i> has a <a href="http://www.mabsland.com/Adoption.html">Web14</a> rating.
+I hope you have a nice time exploring my site! You can either use the navigation to the left, or use my <a href="/sitemap/">sitemap</a>.</p>
+<p>Most of the art and code on this site was made by me, but anything else will be <a href="/credits/">credited here</a>!
+<br><br>
+<b>Notice!</b> This website <i>currently</i> has a <a href="http://www.mabsland.com/Adoption.html">Web14</a> rating.
 <br>Partial nudity on the <a href="/art_2023/">2023 Gallery</a> page.</p>
 <hr>
 <div class="flex">
 <div id="minibox" style="max-width: 50%; padding: 0.1rem;">
 <h2> Updates </h2>
 <div class="update_box" tabindex="0">
+<p><b>08 November 2023</b></p>
+<hr>
+<p>Removed freezeframe.js. It made my website look bad, gifs saved from it were being saved as the frozen version, it didn't work on any page that needed to load... I just really disliked it. Hid the button wall behind a details menu.
+Also changed the <a href="/art_2023/">Art 2023</a> page with thumbnails &amp; fancybox. Should load faster &amp; nicer now!</p>
 <p><b>06 November 2023</b></p>
 <hr>
 <p>Big update! Added the <a href="/ocs/">OCs</a> directory for my OCs! Added <a href="/ocs/myuri/">Myuri Nohn</a>, <a href="/ocs/billie/">Billie Tae-Gloria</a>, <a href="/ocs/jupiter/">Jupiter Scottson</a>, <a href="/ocs/estelle/">Estelle Linne</a> and <a href="/ocs/donnie/">Donnie Linne</a>. Also added a silly cursor trail. Also added back <a href="/resources/">Resources</a>.</p>
