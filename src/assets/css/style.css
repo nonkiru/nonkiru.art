@@ -755,6 +755,9 @@ p {
     #mobilepixelfix {
         margin: 1rem !important;
     }
+    #mobilepixelfix2 {
+        display: none;
+    }
     .box_header {
         height: 5rem;
         background-size: cover;

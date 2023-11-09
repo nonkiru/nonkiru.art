@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <atom:link href="https://nonkiru.art/nonkiru_feed.xml" rel="self" type="application/rss+xml" />
+        <title>nonkiru.art</title>
+        <link>https://nonkiru.art/</link>
+        <description>nonkiru's RSS feed!</description>
+        <language>en-us</language>
+        <item>
+            <title>New RSS Feed</title>
+            <pubDate>Thu, 09 Nov 2023 16:00:00 +0800</pubDate>
+            <link>https://nonkiru.art/</link>
+            <guid>https://nonkiru.art/#1</guid>
+            <description>Only new update today is the addition of this RSS feed! I'll do my best to update this with every new site change.</description>
+        </item>
+    </channel>
+</rss>

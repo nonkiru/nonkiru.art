@@ -28,4 +28,6 @@ While there is nothing NSFW/adult on this website, this site was created by an a
 
 <a href="/home/" style="font-size: 1.5rem; font-family: 'Patrick Hand', cursive;">Enter my website?</a>
 
-<div id="mobilepixelfix" style="float: right; margin: -1rem; margin-top: -12rem; margin-right: 1rem;"><img src="/assets/img/nonkiru_small.webp" alt="Pixel art of the site owner."></div>
+<br>
+
+<div id="mobilepixelfix2" style="float: right; margin: -1rem; margin-top: -12rem; margin-right: 1rem;"><img src="/assets/img/nonkiru_small.webp" alt="Pixel art of the site owner."></div>

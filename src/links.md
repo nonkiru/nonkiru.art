@@ -34,7 +34,7 @@ h1: Links
 
 ## Websites
 <details>
-<summary>List of links to other websites. <b>Flashing and blinking GIFs.</b></summary>
+<summary>List of links to other websites. <b>Flashing and blinking GIFs!</b></summary>
 <a href="https://arunyi.art/"><img src="../assets/img/buttons/arunyi.gif" alt="A button leading to Arunyi."></a>
 <a href="http://berry.heartette.net/"><img src="../assets/img/buttons/novemberry.gif" alt="A button leading to Novemberry."></a>
 <a href="https://cinni.net/"><img src="../assets/img/buttons/cinni.gif" alt="A button leading to Cinni's Dream Home."></a>
