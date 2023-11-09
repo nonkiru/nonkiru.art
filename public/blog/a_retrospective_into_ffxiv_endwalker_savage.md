@@ -1,8 +1,10 @@
 ---
 title: A Retrospective Into FFXIV ⁑ Endwalker Savage
+tags: blog
+datepost: 09 October 2023
 ---
-09 Oct 2023
-<br><b>UPDATED 14 Oct 2023</b>
+09 October 2023
+<br><b>UPDATED 04 October 2023</b>
 <br>
 <br>
 **Contains Spoilers for FFXIV: Endwalker and the Pandæmonium raid series.**

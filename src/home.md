@@ -25,7 +25,7 @@ Most of the art and code on this site was made by me, but anything else will be 
 <b>09 November 2023</b>
 <hr>
 
-Added a <a href="https://nonkiru.art/nonkiru_feed.xml">RSS Feed</a>.
+Added a <a href="https://nonkiru.art/nonkiru_feed.xml">RSS Feed</a>. New blog post ~ <a href="/blog/learning_to_love_minecraft_again/">Read here!</a>
 
 <b>08 November 2023</b>
 <hr>
@@ -118,9 +118,9 @@ Started work on this layout.
     <b>Important</b>
     <hr>
     <ul>
-        <li>Make an RSS feed.</li>
-        <li>Hide the button wall under a drop-down.</li>
-        <li>Update the blog, FFXIV, and microblog layouts.</li>
+        <li><s>Make an RSS feed.</s></li>
+        <li><s>Hide the button wall under a drop-down.</s></li>
+        <li><s>Update the blog, FFXIV, and microblog layouts.</s></li>
         <li><s>Finish the about page.</s></li>
         <li><s>Finish the blog page.</s></li>
         <li><s>Finish the art page.</s></li>
@@ -140,17 +140,14 @@ Started work on this layout.
 
 <h2>Latest Blog Post</h2>
 <div class="statuscafe" style="overflow-y: hidden;">
-<h2>A Retrospective Into FFXIV ⁑ Endwalker Savage</h2>
+<h2>ALearning to Love Minecraft Again</h2>
 <div style="height: 10rem; -webkit-mask-image: linear-gradient(180deg, #000 60%, transparent);">
 
-**Contains Spoilers for FFXIV: Endwalker and the Pandæmonium raid series.**
+09 November 2023
 
-This is my first blog post, so apologies if this is written weird or anything. I thought a neat blog post would be to talk about Pandæmonium savage!
-<br>A small note before we begin, this post will likely be **updated when I fully complete P12S**. I took a break after P11S, so I only have thoughts up to about halfway through P12SP1.
-<br>Additionally, clear dates are from my FFLogs and may not be fully accurate.
-<br>Also, this is likely going to be the first Savage tier I fully clear (again, I'm not done quite yet) so keep that in mind while you read my rambles.
+I've been really reminiscing on my childhood as of late. A big part of it was Minecraft; I remember begging my mum to buy it for me when I was about 10 or 11 years old. I remember the first world I had made; I spawned in a Taiga biome. I remember making my first house, and I remember finding a nearby lava pool! (Unrelated. My house didn't burn down!) As a now 21 year old, I've been looking back on Minecraft with a soft, yet yearning heart. I *really* wanted to play it again. And it's not like I haven't touched it for a decade; I've been playing it on-and-off since! But the same loop of events happens again and again; I make a new world, play for a few hours; give up; and the cycle repeats. Did you know that I've never actually killed the Ender Dragon? I've *helped* people do it, but I'm always dead when the final blow hits, so I've never felt like I've really done it. I've also been watching a lot of Hermitcraft lately, and whenever I do it makes the urge to play Minecraft even worse!
 </div>
-<a href="/blog/a_retrospective_into_ffxiv_endwalker_savage/">Read more of this post!</a>
+<a href="/blog/learning_to_love_minecraft_again/">Read more of this post!</a>
 </div>
 
 ## Status Cafe
