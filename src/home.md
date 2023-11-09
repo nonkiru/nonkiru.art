@@ -140,7 +140,7 @@ Started work on this layout.
 
 <h2>Latest Blog Post</h2>
 <div class="statuscafe" style="overflow-y: hidden;">
-<h2>ALearning to Love Minecraft Again</h2>
+<h2>Learning to Love Minecraft Again</h2>
 <div style="height: 10rem; -webkit-mask-image: linear-gradient(180deg, #000 60%, transparent);">
 
 09 November 2023
