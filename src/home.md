@@ -22,6 +22,11 @@ Most of the art and code on this site was made by me, but anything else will be 
 <h2> Updates </h2>
 <div class="update_box" tabindex="0">
 
+<b>09 November 2023</b>
+<hr>
+
+Added a <a href="https://nonkiru.art/nonkiru_feed.xml">RSS Feed</a>.
+
 <b>08 November 2023</b>
 <hr>
 
