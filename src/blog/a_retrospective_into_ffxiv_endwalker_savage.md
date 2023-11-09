@@ -4,7 +4,7 @@ tags: blog
 datepost: 09 October 2023
 ---
 09 October 2023
-<br><b>UPDATED 04 October 2023</b>
+<br><b>UPDATED 14 October 2023</b>
 <br>
 <br>
 **Contains Spoilers for FFXIV: Endwalker and the Pandæmonium raid series.**
