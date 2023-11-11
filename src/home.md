@@ -22,6 +22,11 @@ Most of the art and code on this site was made by me, but anything else will be 
 <h2> Updates </h2>
 <div class="update_box" tabindex="0">
 
+<b>11 November 2023</b>
+<hr>
+
+Updated <a href="/blog/a_retrospective_into_ffxiv_endwalker_savage/"> A Retrospective Into FFXIV ⁑ Endwalker Savage</a> because I cleared the tier.
+
 <b>09 November 2023</b>
 <hr>
 

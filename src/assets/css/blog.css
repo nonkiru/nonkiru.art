@@ -233,7 +233,11 @@ hr {
 }
 
 img {
-    width: 100%;
+    width: 75%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    image-rendering: optimizeQuality;
 }
 
 /* Dark mode via https://derekkedziora.com/blog/dark-mode-revisited */

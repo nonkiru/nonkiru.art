@@ -4,15 +4,15 @@ tags: blog
 datepost: 09 October 2023
 ---
 09 October 2023
-<br><b>UPDATED 14 October 2023</b>
+<br><b>UPDATED 11 November 2023</b>
 <br>
 <br>
 **Contains Spoilers for FFXIV: Endwalker and the Pandæmonium raid series.**
 
 This is my first blog post, so apologies if this is written weird or anything. I thought a neat blog post would be to talk about Pandæmonium savage!
-<br>A small note before we begin, this post will likely be **updated when I fully complete P12S**. I took a break after P11S, so I only have thoughts up to about halfway through P12SP1.
+<br><s>A small note before we begin, this post will likely be **updated when I fully complete P12S**. I took a break after P11S, so I only have thoughts up to about halfway through P12SP1.</s> I've cleared!
 <br>Additionally, clear dates are from my FFLogs and may not be fully accurate.
-<br>Also, this is likely going to be the first Savage tier I fully clear (again, I'm not done quite yet) so keep that in mind while you read my rambles.
+<br>This is my first fully cleared tier!
 <br><small>Which is funny, because back in Stormblood I randomly cleared O3S and O6S?</small>
 
 ## Pandæmonium: Asphodelos (Savage)
@@ -475,11 +475,12 @@ Overall Fun Factor
 Total: 20 / 20
 
 ### Anabaseios: The Twelfth Circle (Athena)
-#### Cleared: 14 Oct 2023 (P2 Not cleared yet)
-<b>UPDATED for P1 CLEAR</B>
+#### Cleared: 14 Oct 2023 & 11 Nov 2023
+<b>UPDATED for P1 & P2 CLEAR</B>
 <br>Now that I've cleared the first half of the fight, my opinion has really improved of it! I really enjoy a lot of moments here, but there's still a part of it that bugs me. I think it's because a lot of the difficulty comes from visual overload and not from the mechanics itself. But that's okay, it's the last fight of the tier. I still dislike Para3 and it's for the same issue. I wish you could zoom out a little more, just so I could see what's going on and what's causing a possible wipe there more easily.
 <br><br>The limit cut here is fine. It's not too hard, it's not too easy... but I find myself randomly dying at times to damage, despite having more HP than about half the raid. It's frustrating that mistakes aren't super obvious. Fight is still, overall, really fun! Also, my static is absolutely insane. We went from "fresh P12S P1 prog" to a clear within three 3-hour sessions.
-<br><br>I will be updating this once I clear part 2.
+<br><br>P2 is a fun fight! I really enjoy the puzzle-y nature of it. My static this time also really improved my opinion of this; they were super wonderful throughout prog. There's a few points that really suffer from lack of information; specifically when you wipe. There are times we wiped to Pangenesis for seemingly no reason, and there wasn't a way to tell who or what caused.
+<br>I think the puzzles were really fun, too! Classical Concepts 1 & 2 are really cute, if that makes sense... The enrage is super forgiving too, which I'm really okay with! It feels very rewarding.
 <hr>
 
 #### Ratings
@@ -509,21 +510,24 @@ Overall Fun Factor
 <span class="fa fa-star checked"></span>
 <span class="fa fa-star checked"></span>
 <span class="fa fa-star checked"></span>
-<span class="fa fa-star"></span>
+<span class="fa fa-star checked"></span>
 <br>
-Total: 18 / 20
+Total: 19 / 20
 
 ### Final Thoughts
-Anabaseios might be suffering from recency bias, but I do really enjoy it so far! This rating might plummet if it turns out I hate P12SP2 though, which is completely possible.
-<br>Or if the static I'm in turns out to be terrible. I'm hopeful for it though! I'll put an update on my Index and I'll do some pinging around once I've updated this post. 
+Anabaseios might be suffering from recency bias, but I do really enjoy it so far! After clearing the entire tier, this is absolutely my favourite! The boss designs are all really nice, the mechanics are really fun, and the people I cleared P12S with are very wonderful. *(Hello if you're reading this!)* I also got the mount first; we had a sub come in, so we did FFA loot and I got lucky!
 
-#### Total Rating: 69 / 80
+#### Total Rating: 70 / 80
 
 ## Closing Thoughts
-This was my first raid tier to... mostly completion. I hope I actually finish it!
+This was my first raid tier to completion. I'm really happy that I finished it!
 <br>When I look back on the fights like this, I think my sort-of-hatred from Savage comes from the social aspect of needing 7 other people. The fights themselves are (mostly) wonderful, but I really wish I could be the other 7 people at times.
 <br><br>There was a lot of good and a lot of bad, but I think a 100% perfect raid series would be kind of boring, in a way. I'm excited for what Dawntrail will bring, and maybe next expansion I'll clear my first Ultimate, too!
 <br>*(Back in Shadowbringers, still not over getting to Ultima in UWU and never getting that clear. I miss my friends.)*
 
-<br>
-Thanks for reading!
+![FFXIV screenshot. A Miqo'te on the P12S P2 mount.](/assets/img/blog/p12sp2mount.webp)
+
+I want to offer a big thank-you to everyone along the way who I raided with. I'll hold onto the memories ~ the bad and good; forever!
+<br>Thank you so much!
+
+*Thanks for reading!*
