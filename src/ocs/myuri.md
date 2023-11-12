@@ -178,3 +178,25 @@ Myuri's biggest weakness is their inability to accept defeat, in any form. Even 
 </div>
 <br>
 <small>Ribbons are from <a href="https://toyhou.se/4739396.-ribbons">MisterMuse</a>.</small>
+
+## Gallery
+### Screenshots
+<div class="gallery">
+<a href="/assets/img/OCs/myuri/myuri1.png" data-fancybox="gallery" data-caption="A FFXIV screenshot of a Miqo'te reading.">
+    <img src="/assets/img/OCs/myuri/small/myuri1.png" alt="A FFXIV screenshot of a Miqo'te reading." />
+</a>
+<a href="/assets/img/OCs/myuri/myuri2.png" data-fancybox="gallery" data-caption="A FFXIV screenshot of a Miqo'te looking into the distance.">
+    <img src="/assets/img/OCs/myuri/small/myuri2.png" alt="A FFXIV screenshot of a Miqo'te looking into the distance." />
+</a>
+<a href="/assets/img/OCs/myuri/myuri3.png" data-fancybox="gallery" data-caption="A FFXIV screenshot of a Miqo'te sitting.">
+    <img src="/assets/img/OCs/myuri/small/myuri3.png" alt="A FFXIV screenshot of a Miqo'te sitting." />
+</a>
+</div>
+
+<script>
+let cursorEffect = new cursoreffects.rainbowCursor({
+length: 20,
+colors: ["#f1b5a7", "#ffefe5", "#ffffff", "#f6dbeb", "#da9dc1"],
+size: 2,
+});
+</script>

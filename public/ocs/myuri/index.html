@@ -10,9 +10,11 @@
         <link rel="shortcut icon" type="image/jpg" href="/assets/img/favicon.ico">
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="stylesheet" href="/assets/css/ocs.css?v=1.0">
+        <link rel="stylesheet" href="/assets/css/ocs.css?v=1.1">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
         <script src="https://unpkg.com/cursor-effects@latest/dist/browser.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css"/>
         <title>Myuri Nohn ⁑ nonkiru.art</title>
         <style>
             :root {
@@ -309,6 +311,26 @@
 </div>
 <br>
 <small>Ribbons are from <a href="https://toyhou.se/4739396.-ribbons">MisterMuse</a>.</small>
+<h2>Gallery</h2>
+<h3>Screenshots</h3>
+<div class="gallery">
+<a href="/assets/img/OCs/myuri/myuri1.png" data-fancybox="gallery" data-caption="A FFXIV screenshot of a Miqo'te reading.">
+    <img src="/assets/img/OCs/myuri/small/myuri1.png" alt="A FFXIV screenshot of a Miqo'te reading." />
+</a>
+<a href="/assets/img/OCs/myuri/myuri2.png" data-fancybox="gallery" data-caption="A FFXIV screenshot of a Miqo'te looking into the distance.">
+    <img src="/assets/img/OCs/myuri/small/myuri2.png" alt="A FFXIV screenshot of a Miqo'te looking into the distance." />
+</a>
+<a href="/assets/img/OCs/myuri/myuri3.png" data-fancybox="gallery" data-caption="A FFXIV screenshot of a Miqo'te sitting.">
+    <img src="/assets/img/OCs/myuri/small/myuri3.png" alt="A FFXIV screenshot of a Miqo'te sitting." />
+</a>
+</div>
+<script>
+let cursorEffect = new cursoreffects.rainbowCursor({
+length: 20,
+colors: ["#f1b5a7", "#ffefe5", "#ffffff", "#f6dbeb", "#da9dc1"],
+size: 2,
+});
+</script>
                 </main>
             </div>
             
@@ -379,5 +401,10 @@
             sessionStorage.setItem('theme', 'light');
             document.getElementById("theme-toggle").innerHTML = "Dark Mode";
         }
+    </script>
+    <script>
+      Fancybox.bind('[data-fancybox="gallery"]', {
+        animated: false,
+      }); 
     </script>
 </html>

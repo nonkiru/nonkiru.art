@@ -92,42 +92,6 @@ footer {
     opacity: 1;
 }
 
-.ff-container {
-    display: inline-block;
-    position: unsert !important;
-}
-
-.ff-container.ff-responsive {
-    width: unset !important;
-    pointer-events: unset !important;
-}
-
-.ff-container .ff-canvas {
-    image-rendering: pixelated !important;
-    width: unset !important;
-    height: unset !important;
-    display: unset !important;
-    pointer-events: unset !important;
-    z-index: unset !important;
-}
-
-/* Remove all transitions from Freezeframe elements */
-a .ff-container.ff-active .ff-image,
-a .ff-container.ff-inactive .ff-canvas.ff-canvas-ready {
-    transition: none !important;
-    -o-transition: none !important;
-    -moz-transition: none !important;
-    -webkit-transition: none !important;
-}
-
-/* Add the selectors for Freezeframe elements to wherever the image changes when hovered */
-a:hover img,
-a:hover .ff-container.ff-active .ff-image,
-a:hover .ff-container.ff-inactive .ff-canvas.ff-canvas-ready {
-    background: white;
-}
-
-/* This is only required if images become transparent when hovered*/
-a:hover .ff-container.ff-inactive .ff-image {
-    opacity: 0 !important;
+.gallery a {
+    text-decoration: none;
 }
