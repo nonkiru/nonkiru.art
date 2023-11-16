@@ -22,6 +22,11 @@ Most of the art and code on this site was made by me, but anything else will be 
 <h2> Updates </h2>
 <div class="update_box" tabindex="0">
 
+<b>16 November 2023</b>
+<hr>
+
+Some new <a href="/art_2023/">artwork</a>.
+
 <b>11 November 2023</b>
 <hr>
 

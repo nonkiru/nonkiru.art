@@ -7,6 +7,13 @@
         <description>nonkiru's RSS feed!</description>
         <language>en-us</language>
         <item>
+            <title>New Artwork</title>
+            <pubDate>Thu, 16 Nov 2023 19:00:00 +0800</pubDate>
+            <link>https://nonkiru.art/art_2023/</link>
+            <guid>https://nonkiru.art/art_2023/</guid>
+            <description>New artwork added to the 2023 gallery.</description>
+        </item>
+        <item>
             <title>A Retrospective Into FFXIV ⁑ Endwalker Savage ~ Updated</title>
             <pubDate>Sat, 11 Nov 2023 21:30:00 +0800</pubDate>
             <link>https://nonkiru.art/blog/a_retrospective_into_ffxiv_endwalker_savage/</link>
