@@ -22,6 +22,11 @@ Most of the art and code on this site was made by me, but anything else will be 
 <h2> Updates </h2>
 <div class="update_box" tabindex="0">
 
+<b>20 November 2023</b>
+<hr>
+
+New <a href="/blog/little_moments_from_my_week/">blog post</a>! Just about my week.
+
 <b>16 November 2023</b>
 <hr>
 
@@ -153,9 +158,15 @@ Started work on this layout.
 <h2>Learning to Love Minecraft Again</h2>
 <div style="height: 10rem; -webkit-mask-image: linear-gradient(180deg, #000 60%, transparent);">
 
-09 November 2023
+20 November 2023
 
-I've been really reminiscing on my childhood as of late. A big part of it was Minecraft; I remember begging my mum to buy it for me when I was about 10 or 11 years old. I remember the first world I had made; I spawned in a Taiga biome. I remember making my first house, and I remember finding a nearby lava pool! (Unrelated. My house didn't burn down!) As a now 21 year old, I've been looking back on Minecraft with a soft, yet yearning heart. I *really* wanted to play it again. And it's not like I haven't touched it for a decade; I've been playing it on-and-off since! But the same loop of events happens again and again; I make a new world, play for a few hours; give up; and the cycle repeats. Did you know that I've never actually killed the Ender Dragon? I've *helped* people do it, but I'm always dead when the final blow hits, so I've never felt like I've really done it. I've also been watching a lot of Hermitcraft lately, and whenever I do it makes the urge to play Minecraft even worse!
+Hi friends! I was really in the mood to write, but I wasn't too sure what to write... so I wanted to write about my week! I think it would be fun if I could make this weekly, or maybe even monthly... or just when I feel like it, I suppose! Besides, I need more stuff to write about.
+
+## Minecraft by Myself, and with my Girlfriend
+### By Myself
+I've still been working on my Minecraft world! It's been going great; my last blog post left off on day 30, and now I'm all the way at day 100!
+
+To continue where I left off...
 </div>
 <a href="/blog/learning_to_love_minecraft_again/">Read more of this post!</a>
 </div>

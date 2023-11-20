@@ -8,14 +8,27 @@
         <script data-goatcounter="https://nonkiru.goatcounter.com/count"
             async src="../assets/js/count.js"></script>
         <link rel="shortcut icon" type="image/jpg" href="/assets/img/favicon.ico">
+        <!-- Meta Tags -->
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="stylesheet" href="../assets/css/style.css">
+        <meta name="description" content="A personal website for the digital illustrator nonkiru. I have pages for my artwork, original characters, and more!">
+        <meta name="keywords" content="digital art, art, commissions, ocs, original characters, neocities">
+        <meta name='author' content='nonkiru, nonkiru@gmail.com'>
+        <meta property="og:image" content="https://files.catbox.moe/jckpji.png" />
+        <meta property="twitter:card" content="summary_large_image">
+        <meta content="nonkiru.art" property="og:title" />
+        <meta content="A personal website for the digital illustrator nonkiru. I have pages for my artwork, original characters, and more!" property="og:description" />
+        <meta content="https://nonkiru.art" property="og:url" />
+        <meta content="#ffdfe9" data-react-helmet="true" name="theme-color" />
+        <!-- -->
+        <link rel="stylesheet" href="../assets/css/style.css?v=1.9">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+        <script src="https://unpkg.com/cursor-effects@latest/dist/browser.js"></script>
         <title>404 Page Not Found ⁑ nonkiru.art</title>
     </head>
     <body>
         <!-- Floating clouds in the background. -->
-        <div class="clouds"></div>
+        <div class="clouds" id="clouds"></div>
 
         <!-- Container -->
         <div class="container">
@@ -28,7 +41,7 @@
             <!-- Flex -->
             <div class="flex">
                 
-                <div class="navigation_container">
+                <div class="navigation_container" style="height: 100%;">
                     <aside>
                         <!-- Navigation -->
                         <div class="box" id="nav" style="width: 12.5rem;">
@@ -37,42 +50,62 @@
                                 <!-- Update partials/nav.njk with new links. -->
                                 <h2>Sitely</h2>
 <ul>
-    <li><a href="/">Home</a></li>
-    <li><a href="/about_site/">About this Site</a></li>
-    <li><a href="/credits/">Website Credits</a></li>
-    <li><a href="/guestbook/">Guestbook</a></li>
+    <li id="home"><a href="/home/">Home</a></li>
+    <li id="aboutsite"><a href="/about_site/">About this Site</a></li>
+    <li id="sitecredit"><a href="/credits/">Website Credits</a></li>
+    <li id="sitelayouts"><a href="/layouts/">Website Layouts</a></li>
+    <li id="sitelayouts"><a href="/resources/">F2U Resources</a></li>
+    <li id="guestbook"><a href="/guestbook/">Guestbook</a></li>
+    <li id="link"><a href="/links/">Links</a></li>
 </ul>
 <h2>Personal</h2>
 <ul>
-    <li><a href="/about/">About Me</a></li>
-    <li><a href="/art/">Art</a></li>
+    <li id="about"><a href="/about/">About Me</a></li>
+    <li id="art"><a href="/art/">Art</a></li>
+    <li id="blog"><a href="/blog/">Blog</a></li>
+    <li id="oc"><a href="/ocs/">OCs</a></li>
 </ul>
 <h2>Off-Site</h2>
 <ul>
-    <li><a href="/links/">Links, Webrings</a></li>
+    <li id="microblog"><a href="https://thoughts.nonkiru.art/">Microblog</a></li>
+    <li id="art"><a href="https://vgen.co/nonkiru">Art Commissions</a></li>  
 </ul>
                             </nav>
                         </div>
                         <!-- Site Stats & Stuff -->
-                        <div class="box" id="stats" style="width: 12.5rem;">
+                        <div class="box" id="stats" style="width: 12.5rem; height: 100%;">
                             <!-- Update partials/stats.njk with new stuff. -->
                             <h1>Misc.</h1>
 <h2>Settings</h2>
-<ul>
-    <li><a href="#" id="theme-toggle" onclick="modeSwitcher()">Toggle Theme</a></li>
-    <li><a href="#" onclick="PagedollToggle()">Pagedoll Toggle</a></li>
-</ul>
+<div style="margin: 0;">
+<a href="#" id="theme-toggle" onclick="modeSwitcher()" class="fakebutton">Toggle Theme</a>
+<br>
+<button onclick="cursorEffect.destroy()" style="margin-top: 0.35rem;">Remove Cursor Trail</button>
+</div>
+<div style="text-align:center;">
 <h2>Link Me</h2>
-<small><b>Note:</b> Buttons are to be updated.</small>
-Feel free to hotlink!
+Feel free to hotlink! <br>
+<img src="/../assets/img/nonkiru_button_light.gif" alt="A button for nonkiru.art! Light version.">
+<img src="/../assets/img/nonkiru_button_dark.gif" alt="A button for nonkiru.art! Dark version.">
+
+<details>
+<summary>Button Codes</summary>
+<label for="LightButton">The code for the light button.</label>
+<textarea id="LightButton" readonly style="width: 100%; resize: none;"><a href="https://nonkiru.art"><img src="https://nonkiru.art/assets/img/nonkiru_button_light.gif" alt="A button leading to nonkiru.art."></a></textarea>
 <br>
-<img src="/../assets/img/nonkiru_button.gif" alt="A button for nonkiru.art!"><img src="/../assets/img/non_arunyi_button.gif" alt="A smaller button for nonkiru.art.">
+<label for="DarkButton">The code for the dark button.</label>
+<textarea id="DarkButton" readonly style="width: 100%; resize: none;"><a href="https://nonkiru.art"><img src="https://nonkiru.art/assets/img/nonkiru_button_dark.gif" alt="A button leading to nonkiru.art."></a></textarea>
 <br>
-<label for="BigButton">The code for the big button.</label>
-<textarea id="BigButton" readonly style="width: 100%; resize: none;"><img src="https://nonkiru.art/assets/img/nonkiru_button.gif" alt="A button leading to nonkiru.art."></textarea>
+</details>
+
+<hr>
+
+<p style="text-align: center;"><a href="/legacy_buttons/">Legacy Buttons</a></p>
 <br>
-<label for="SmallButton">The code for the small button.</label>
-<textarea id="SmallButton" readonly style="width: 100%; resize: none;"><img src="https://nonkiru.art/assets/img/non_arunyi_button.gif" alt="A button leading to nonkiru.art."></textarea>
+<img src="/../assets/img/non_kitty.webp" alt="A small kitty; the website owner.">
+<br><br>
+<img src="/assets/img/border_simple.webp" alt="">
+
                         </div>
                     </aside>
                 </div>
@@ -95,17 +128,13 @@ Feel free to hotlink!
             <!-- Footer -->
             <div class="box">
                 <!-- It's a footer. -->
-                <footer>©nonkiru 2022 ~ Forever.
+                <footer>©nonkiru 2022 ~ Forever! Happily hosted on <a href="https://neocities.org/site/nonkiru">Neocities.</a>
 <br>
-<a href="/accessibility/">Accessibility</a> ⁑ <a href="/sitemap/">Sitemap</a>
+<a href="/accessibility/">Accessibility</a> ⁑ <a href="/sitemap/">Sitemap</a> ⁑ <a href="https://nonkiru.art/nonkiru_feed.xml">RSS Feed</a>
 <br>Site analytics provided by <a href="https://www.goatcounter.com/">GoatCounter</a></footer>
             </div>
 
         <!-- Container end. -->
-        </div>
-
-        <div role="region">
-        <img id="pagedoll" src="/assets/img/nonkiru.webp" alt="A pagedoll of the website owner's fursona. Art by nonkiru.">
         </div>
 
     </body>
@@ -175,5 +204,21 @@ Feel free to hotlink!
             x.style.display = "none";
         }
         } 
+    </script>
+    <script>
+        function myPlayFunction() {
+        document.getElementById("clouds").style.animationPlayState = "running";
+        }
+
+        function myPauseFunction() {
+        document.getElementById("clouds").style.animationPlayState = "paused";
+        }
+    </script>
+    <script>
+    let cursorEffect = new cursoreffects.rainbowCursor({
+    length: 20,
+    colors: ["#f1b5a7", "#ffefe5", "#ffffff", "#f6dbeb", "#da9dc1"],
+    size: 2,
+    });
     </script>
 </html>

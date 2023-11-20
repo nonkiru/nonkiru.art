@@ -10,7 +10,7 @@ Hello and welcome to <a href="/">nonkiru.art</a>!
 
 This site uses **Javascript**. It's required for multiple functions on this site; however, it should function properly with it turned off.
 
-This site has **autoplaying GIFs**. Large walls of GIFs (such as the link list) is hidden under a dropdown.
+This site has **autoplaying GIFs**. Large walls of GIFs (such as the link list) are hidden under a dropdown.
 
 This site was made with Firefox, at a 1920x1080 resolution in mind. This site is also mobile compatible.
 

@@ -7,6 +7,13 @@
         <description>nonkiru's RSS feed!</description>
         <language>en-us</language>
         <item>
+            <title>Little Moments from my Week</title>
+            <pubDate>Mon, 20 Nov 2023 15:30:00 +0800</pubDate>
+            <link>https://nonkiru.art/blog/little_moments_from_my_week/</link>
+            <guid>https://nonkiru.art/blog/little_moments_from_my_week/</guid>
+            <description>A blog post about my week.</description>
+        </item>
+        <item>
             <title>New Artwork</title>
             <pubDate>Thu, 16 Nov 2023 19:00:00 +0800</pubDate>
             <link>https://nonkiru.art/art_2023/</link>
