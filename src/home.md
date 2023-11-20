@@ -168,7 +168,7 @@ I've still been working on my Minecraft world! It's been going great; my last bl
 
 To continue where I left off...
 </div>
-<a href="/blog/learning_to_love_minecraft_again/">Read more of this post!</a>
+<a href="/blog/little_moments_from_my_week/">Read more of this post!</a>
 </div>
 
 ## Status Cafe
