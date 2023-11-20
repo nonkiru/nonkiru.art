@@ -1,12 +1,3 @@
 # dependencies installed by npm
 
 node_modules
-src/touhou.md
-src/assets/img/touhou.webp
-src/assets/img/grid.webp
-src/assets/css/touhou.css
-src/_includes/touhou.njk
-public/assets/css/touhou.css
-public/assets/img/grid.webp
-public/assets/img/touhou.webp
-public/touhou/index.html

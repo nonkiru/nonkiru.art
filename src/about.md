@@ -44,7 +44,7 @@ My favourite things include...
 <br>
 
 <b>Q. Can I use your website as a base?</b>
-<br><b>A.</b> My website is not a base. I would prefer that you use it as inspiration! <a href="https://copyheart.org/manifesto/">Copying is an act of love. Please copy.</a> 
+<br><b>A.</b> My website is **not a base.** I would prefer that you use it as inspiration! <a href="https://copyheart.org/manifesto/">Copying is an act of love. Please copy.</a> 
 <br>*However:* If you use anything, *especially* artwork, please credit me, <a href="https://nonkiru.art">nonkiru</a>!
 <br>I'd also ask that you don't use art of my fursona; just because that's me, and I think that'd be really weird?
 
