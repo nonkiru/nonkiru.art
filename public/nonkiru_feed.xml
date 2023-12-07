@@ -7,6 +7,13 @@
         <description>nonkiru's RSS feed!</description>
         <language>en-us</language>
         <item>
+            <title>New Artwork</title>
+            <pubDate>Thu, 7 Dec 2023 15:30:00 +0800</pubDate>
+            <link>https://nonkiru.art/art/2023/#rssupdate1</link>
+            <guid>https://nonkiru.art/art/2023/#rssupdate1</guid>
+            <description>New art to the 2023 gallery.</description>
+        </item>
+        <item>
             <title>2022 Gallery and New Artwork</title>
             <pubDate>Wed, 29 Nov 2023 14:30:00 +0800</pubDate>
             <link>https://nonkiru.art/art/2022/</link>

@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-family: 'Atkinson Hyperlegible', sans-serif;
+    font-size: 1rem;
+}
+
+:root {
+    --main_img: url(/assets/website/main_light.png);
+    --main: #FFF7F3;
+
+    --lace_img: url(/assets/website/lace_light.png);
+    --lace: #FFFFFF;
+
+    --default: #4C2107;
+
+    --font: #4C2107;
+
+    --accent: #F6D5CD;
+
+    --clouds: url(/assets/website/cloud_light.png);
+
+    --bg_img: url(/assets/website/bg_light.png);
+}
+
+:root[data-theme="light"] {
+    --main_img: url(/assets/website/main_light.png);
+    --main: #FFF7F3;
+
+    --lace_img: url(/assets/website/lace_light.png);
+    --lace: #FFFFFF;
+
+    --default: #4C2107;
+
+    --font: #4C2107;
+
+    --accent: #F6D5CD;
+
+    --clouds: url(/assets/website/cloud_light.png);
+
+    --bg_img: url(/assets/website/bg_light.png);
+}
+
+:root[data-theme="dark"] {
+    --main_img: url(/assets/website/main_dark.png);
+    --main: #3A3640;
+
+    --lace_img: url(/assets/website/lace_dark.png);
+    --lace: #6D606E;
+
+    --default: #221414;
+
+    --font: #FFFCFA;
+
+    --accent: #827382;
+
+    --clouds: url(/assets/website/cloud_dark.png);
+
+    --bg_img: url(/assets/website/bg_light.png);
+}
+
+body {
+    background-color: var(--skycolour);
+    background-image: var(--bg_img);
+    background-repeat: repeat-x;
+    background-position: center bottom;
+    background-attachment: fixed;
+}
+
+::selection {
+    background-color: var(--accent);
+}
+
+.container {
+    margin: auto;
+
+    max-width: 80rem;
+    margin-top: 5rem;
+
+    color: var(--font);
+}
+
+.flex {
+    display: flex;
+}
+
+.mainbox {
+    max-width: 70rem;
+    z-index: -1;
+
+    background-color: var(--main);
+
+    border-image-slice: 80 80 80 80;
+    border-image-width: 40px 40px 40px 40px;
+    border-image-outset: 40px 40px 40px 40px;
+    border-image-repeat: round round;
+    border-image-source: var(--main_img);
+    border-style: solid;
+}
+
+.mainbox_content {
+    padding-left: 15rem;
+    padding-right: 1rem;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+}
+
+.header {
+    border: 1px solid brown;
+    font-size: 3rem;
+    text-align: center;
+}
+
+.navbox {
+    max-width: 15rem;
+    min-width: 15rem;
+    height: 30rem;
+
+    background-color: var(--lace);
+
+    position: relative;
+    margin-left: -10rem;
+    left: 11rem;
+    top: 7rem;
+
+    border-image-slice: 73 72 68 79;
+    border-image-width: 40px 40px 40px 40px;
+    border-image-outset: 40px 40px 40px 40px;
+    border-image-repeat: round round;
+    border-image-source: var(--lace_img);
+    border-style: solid; 
+}
+
+.navbox:hover {
+    top: 6.6rem;
+    transition: 0.2s all ease-in-out;
+}
+
+/* This cloud code is heavily referenced from the Wizard101 website... */
+.clouds {
+    background: var(--clouds);
+    height: 6.375rem;
+    left: 0;
+    top: 0;
+    position: fixed;
+    width: 100%;
+    z-index: -100;
+    animation: clouds 200s linear infinite;
+}
+
+/* John Shang via Stack Overflow. */
+@keyframes clouds {
+    0%{background-position: 0 0;}
+	100%{background-position: 100vw 0;}
+}
+
+@media only screen and (max-width: 800px) {
+    .container {
+        max-width: unset;
+        margin-top: unset;
+    }
+    .flex {
+        display: inline;
+    }
+    .mainbox {
+        max-width: unset;
+    }
+    .mainbox_content {
+        padding-left: 1rem;
+        padding-right: 1rem;
+        padding-bottom: 1rem;
+        padding-top: 1rem;
+    }
+    .navbox {
+        left: 0;
+        top: 0;
+        max-width: unset;
+        min-width: unset;
+        margin-left: unset;
+    }
+}
