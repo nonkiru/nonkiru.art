@@ -178,18 +178,19 @@ Started work on this layout.
 
 <h2>Latest Blog Post</h2>
 <div class="statuscafe" style="overflow-y: hidden;">
-<h2>Little Moments From My Week</h2>
+<h2>More Moments From My Week</h2>
 <div style="height: 10rem; -webkit-mask-image: linear-gradient(180deg, #000 60%, transparent);">
 
-20 November 2023
+23 December 2023
 
-Hi friends! I was really in the mood to write, but I wasn't too sure what to write... so I wanted to write about my week! I think it would be fun if I could make this weekly, or maybe even monthly... or just when I feel like it, I suppose! Besides, I need more stuff to write about.
+Hello friends! I'm back with another ramble about my week. Though honestly, this is closer to about a month... I'll keep this preramble short and sweet ~ so umm. Yeah!!
 
-## Minecraft by Myself, and with my Girlfriend
-### By Myself
-I've still been working on my Minecraft world! It's been going great; my last blog post left off on day 30, and now I'm all the way at day 100!
+# Archery
+So over this last """week""" (more like a month I am a liar!!) I've gotten into archery! My dad bought himself a longbow and I really wanted to try it out, so I did!
+Um... turns out, when the bow is the same length as your height (155cm-ish), and has a draw weight WAY above your strength (35lbs) it... turns it into a bit of a struggle...
 
-To continue where I left off...
+I kept trying it though! I was really getting into it, and it was so much fun. It was, however, really frustrating that a lot of my form issues couldn't be properly fixed. I couldn't draw it back properly because it was too heavy of a draw AND it was too long for me.
+
 </div>
 <a href="/blog/little_moments_from_my_week/">Read more of this post!</a>
 </div>
