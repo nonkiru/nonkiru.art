@@ -7,7 +7,7 @@ datepost: 23 December 2023
 
 Hello friends! I'm back with another ramble about my week. Though honestly, this is closer to about a month... I'll keep this preramble short and sweet ~ so umm. Yeah!!
 
-# Archery
+## Archery
 So over this last """week""" (more like a month I am a liar!!) I've gotten into archery! My dad bought himself a longbow and I really wanted to try it out, so I did!
 Um... turns out, when the bow is the same length as your height (155cm-ish), and has a draw weight WAY above your strength (35lbs) it... turns it into a bit of a struggle...
 
@@ -20,7 +20,7 @@ However, for Christmas, my parents surprised me with my OWN bow!
 
 It's been SO much fun! My form is actually correct now! This is also been the most exercise I've gotten for like, 3 years. It's been making me feel a lot more alive. It also makes me wanna draw my fursona with a bow...
 
-# Getting Back Into Wizard101
+## Getting Back Into Wizard101
 I swear I can't stay away from this game! They recently had free Membership during the 12 Days of the Spiral, so I decided 'oh why not!!'.
 
 **I should not listen to the Devil on my shoulder.** I have been addicted ever since!! I also roped two of my friends into playing it with me.
@@ -29,7 +29,7 @@ Anyway, its been tons of fun! I left off in the beginning of Lemuria, so I'm cur
 
 Otherwise, I've been helping my friends with gearing and getting gold! My dream is to farm endgame gear with them. I have horrible social anxiety in THIS game specifically, so I haven't really done much on my main...
 
-# Finishing up Spyro: Reignited Trilogy
+## Finishing up Spyro: Reignited Trilogy
 I got this game back when it came out (2019...) as a birthday present from my Mum. I finished Spyro 2 almost as SOON as I got it; as that's the game I grew up with! I started Spyro 3, and then picked it up again after about a year. I finished Spyro 3 soon after that, and then I just... didn't touch the game for a while? I remember I started Spyro 1 at some point, but this week I picked it back up to finish it fully.
 
 ![Spyro 1. 120% completed.](/assets/img/blog/spyro1.jpg)
@@ -41,7 +41,7 @@ I've collected all Skill Points and all Steam Achievements, as well as collectin
 One of these days I really wanna 100% A Hero's Tail. I remember playing that one with my parents a lot, too!
 I'd also like to fully finish The Legend of Spyro: Dawn of the Dragon. Fun fact, I named one of my childhood cats after Cynder! (My parents spelled it Cinder, but shhh. Baby me knew the truth.)
 
-# Presents and Crafting
+## Presents and Crafting
 One of my dear IRL friends gifted me some stuff for the Holidays!
 
 ![Box of a 3d bookend and a little figure.](/assets/img/blog/sakura1.png)

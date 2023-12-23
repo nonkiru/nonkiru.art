@@ -185,7 +185,7 @@ Started work on this layout.
 
 Hello friends! I'm back with another ramble about my week. Though honestly, this is closer to about a month... I'll keep this preramble short and sweet ~ so umm. Yeah!!
 
-# Archery
+## Archery
 So over this last """week""" (more like a month I am a liar!!) I've gotten into archery! My dad bought himself a longbow and I really wanted to try it out, so I did!
 Um... turns out, when the bow is the same length as your height (155cm-ish), and has a draw weight WAY above your strength (35lbs) it... turns it into a bit of a struggle...
 
