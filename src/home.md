@@ -192,7 +192,7 @@ Um... turns out, when the bow is the same length as your height (155cm-ish), and
 I kept trying it though! I was really getting into it, and it was so much fun. It was, however, really frustrating that a lot of my form issues couldn't be properly fixed. I couldn't draw it back properly because it was too heavy of a draw AND it was too long for me.
 
 </div>
-<a href="/blog/little_moments_from_my_week/">Read more of this post!</a>
+<a href="/blog/more_moments_from_my_week/">Read more of this post!</a>
 </div>
 
 ## Status Cafe
