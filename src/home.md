@@ -21,10 +21,17 @@ Most of the art and code on this site was made by me, but anything else will be 
 <div id="minibox" style="max-width: 50%; padding: 0.1rem;">
 <h2> Updates </h2>
 <div class="update_box" tabindex="0">
+
+<b>26 December 2023</b>
+<hr>
+
+Added more art to <a href="/art/2023/">my 2023 gallery</a>.
+
 <b>23 December 2023</b>
 <hr>
 
 New <a href="/blog/more_moments_from_my_week/">blog post</a>! Just about my week...again! Also, added more art to <a href="/art/2023/">my 2023 gallery</a>.
+
 <b>12 December 2023</b>
 <hr>
 
