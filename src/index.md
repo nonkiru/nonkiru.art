@@ -52,7 +52,7 @@ started work on nonkiru version silly! i've been doing a lot of style experiment
 ## Latest Artwork
 ---
 <div style="text-align: center;">
-<a href="/art/" class="imgbutton_small"><img src="/assets/artwork/2023/strangedream.png" class="imgborder" alt="My newest artwork!" style="max-width: 400px; height: 250px;">
+<a href="/art/" class="imgbutton_small"><img src="/assets/artwork/2023/strangedream.jpg" class="imgborder" alt="My newest artwork!" style="max-width: 400px; height: 250px;">
 <br><a href="/art/">view the gallery here!</a>
 </div>
 
