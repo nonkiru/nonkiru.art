@@ -16,6 +16,7 @@ I kept trying it though! I was really getting into it, and it was so much fun. I
 However, for Christmas, my parents surprised me with my OWN bow!
 
 ![A picture of a recurve bow against a bed.](/assets/img/blog/bow.png)
+
 *Sorry that it's a bit hard to see against my bed...*
 
 It's been SO much fun! My form is actually correct now! This is also been the most exercise I've gotten for like, 3 years. It's been making me feel a lot more alive. It also makes me wanna draw my fursona with a bow...
@@ -32,9 +33,9 @@ Otherwise, I've been helping my friends with gearing and getting gold! My dream 
 ## Finishing up Spyro: Reignited Trilogy
 I got this game back when it came out (2019...) as a birthday present from my Mum. I finished Spyro 2 almost as SOON as I got it; as that's the game I grew up with! I started Spyro 3, and then picked it up again after about a year. I finished Spyro 3 soon after that, and then I just... didn't touch the game for a while? I remember I started Spyro 1 at some point, but this week I picked it back up to finish it fully.
 
-![Spyro 1. 120% completed.](/assets/img/blog/spyro1.jpg)
-![Spyro 2. 100% completed.](/assets/img/blog/spyro2.jpg)
-![Spyro 3. 117% completed.](/assets/img/blog/spyro3.jpg)
+![Spyro 1. 120% completed.](/assets/img/blog/spyro1.png)
+![Spyro 2. 100% completed.](/assets/img/blog/spyro2.png)
+![Spyro 3. 117% completed.](/assets/img/blog/spyro3.png)
 
 I've collected all Skill Points and all Steam Achievements, as well as collecting all the in-game stuff! I'm really proud of myself, Spyro is my favourite game series EVER!! (One of my usernames as a child was a reference to Spyro!!)
 
@@ -45,6 +46,7 @@ I'd also like to fully finish The Legend of Spyro: Dawn of the Dragon. Fun fact,
 One of my dear IRL friends gifted me some stuff for the Holidays!
 
 ![Box of a 3d bookend and a little figure.](/assets/img/blog/sakura1.png)
+
 *(Sorry for blurring out my monitor. I don't want you reading my Discord messages!!)*
 
 She got me a 3D bookend (that you need to assemble yourself, like a puzzle!) and a cute little dragon figurine. This is my first time ever putting something like this together, so I was super excited about it!

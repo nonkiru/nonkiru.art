@@ -6,37 +6,99 @@
     <head>
         <!-- Goat Counter -->
         <script data-goatcounter="https://nonkiru.goatcounter.com/count"
-            async src="/../assets/js/count.js"></script>
-        <link rel="shortcut icon" type="image/jpg" href="/assets/img/favicon.ico">
+            async src="../assets/js/count.js"></script>
+        <!-- Meta Tags -->
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="stylesheet" href="/../assets/css/blog.css?v=1.4">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <script src="https://unpkg.com/@lyket/widget@latest/dist/lyket.js?apiKey=[YOUR-API-KEY]"></script>
+        <meta name="description" content="A personal website for the digital illustrator nonkiru. I have pages for my artwork, original characters, and more!">
+        <meta name="keywords" content="digital art, art, commissions, ocs, original characters, neocities">
+        <meta name='author' content='nonkiru, nonkiru@gmail.com'>
+        <meta property="og:image" content="https://files.catbox.moe/cwvsgp.png" />
+        <meta property="twitter:card" content="summary_large_image">
+        <meta content="nonkiru.art" property="og:title" />
+        <meta property="og:description" content="A personal website for the digital illustrator nonkiru. I have pages for my artwork, original characters, and more!" />
+        <meta content="https://nonkiru.art" property="og:url" />
+        <meta content="#ffdfe9" data-react-helmet="true" name="theme-color" />
+        <!-- -->
+        <link rel="stylesheet" href="/assets/css/silly.css?v=1.0">
+        <link rel="shortcut icon" type="image/jpg" href="/assets/img/favicon.ico">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
         <title>More Moments From My Week</title>
     </head>
     <body>
 
         <div class="container">
-            <main>
-                <div class="box" style="position: sticky; top: 0;">
+            <header>
+                <div class="header">
+                    <img src="/assets/website/logo.png" alt="" style="position: absolute; left: 1rem; bottom: 1rem;">
+                </div>
+            </header>
+            <div class="flex">
+
+                <div class="sidebox" id="theme_s">
                     <nav>
-                        <a href="/blog/">Return to Blog Index</a> | <a href="#" id="theme-toggle" onclick="modeSwitcher()">Toggle Theme</a>
+                        <img src="/assets/website/sidebar.png" alt="" id="me">
+
+                        <br>
+                        <a href="javascript:;" class="a_img" onclick="lightmode()" onmouseover="document.light.src='/assets/website/light_theme_hover.png';" onmouseout="document.light.src='/assets/website/light_theme.png';" 
+                        onfocus="document.light.src='/assets/website/light_theme_hover.png';" onfocusout="document.light.src='/assets/website/light_theme.png';">
+                        <img src="/assets/website/light_theme.png" alt="Light Theme" name="light"></a>
+
+                        <a href="javascript:;" class="a_img" onclick="darkmode()" onmouseover="document.dark.src='/assets/website/dark_theme_hover.png';" onmouseout="document.dark.src='/assets/website/dark_theme.png';" 
+                        onfocus="document.dark.src='/assets/website/dark_theme_hover.png';" onfocusout="document.dark.src='/assets/website/dark_theme.png';">
+                        <img src="/assets/website/dark_theme.png" alt="Dark Theme" name="dark"></a>
+                        <br>
+                        <img src="/assets/website/divider.png" alt="">
+
+                        <br>
+                        <div id="mobile_nav">
+                            <a href="/index/" class="a_img">
+                            <img src="/assets/website/buttons/home.png" alt="Home"></a>
+                            <a href="/about/" class="a_img">
+                            <img src="/assets/website/buttons/about.png" alt="About"></a>
+                            <a href="/art/" class="a_img">
+                            <img src="/assets/website/buttons/art.png" alt="Art"></a>
+                            <a href="/links/" class="a_img">
+                            <img src="/assets/website/buttons/links.png" alt="Links"></a>
+                            <a href="/extra/" class="a_img">
+                            <img src="/assets/website/buttons/extra.png" alt="Extra"></a>
+                        </div>
+                        <div id="navigation_menu">
+                            <a href="/index/" class="a_img" onmouseover="document.home.src='/assets/website/buttons/home_hover.png';" onmouseout="document.home.src='/assets/website/buttons/home_idle.png';" 
+                            onfocus="document.home.src='/assets/website/buttons/home_hover.png';" onfocusout="document.home.src='/assets/website/buttons/home_idle.png';">
+                            <img src="/assets/website/buttons/home_idle.png" name="home" alt="Home"></a>
+                            <br>
+                            <a href="/about/" class="a_img" onmouseover="document.about.src='/assets/website/buttons/about_hover.png';" onmouseout="document.about.src='/assets/website/buttons/about_idle.png';" 
+                            onfocus="document.about.src='/assets/website/buttons/about_hover.png';" onfocusout="document.about.src='/assets/website/buttons/about_idle.png';">
+                            <img src="/assets/website/buttons/about_idle.png" name="about" alt="About"></a>
+                            <br>
+                            <a href="/art/" class="a_img" onmouseover="document.art.src='/assets/website/buttons/art_hover.png';" onmouseout="document.art.src='/assets/website/buttons/art_idle.png';" 
+                            onfocus="document.art.src='/assets/website/buttons/art_hover.png';" onfocusout="document.art.src='/assets/website/buttons/art_idle.png';">
+                            <img src="/assets/website/buttons/art_idle.png" name="art" alt="Art"></a>
+                            <br>
+                            <a href="/links/" class="a_img" onmouseover="document.links.src='/assets/website/buttons/links_hover.png';" onmouseout="document.links.src='/assets/website/buttons/links_idle.png';" 
+                            onfocus="document.links.src='/assets/website/buttons/links_hover.png';" onfocusout="document.links.src='/assets/website/buttons/links_idle.png';">
+                            <img src="/assets/website/buttons/links_idle.png" name="links" alt="Links"></a>
+                            <br>
+                            <a href="/extra/" class="a_img" onmouseover="document.extra.src='/assets/website/buttons/extra_hover.png';" onmouseout="document.extra.src='/assets/website/buttons/extra_idle.png';" 
+                            onfocus="document.extra.src='/assets/website/buttons/extra_hover.png';" onfocusout="document.extra.src='/assets/website/buttons/extra_idle.png';">
+                            <img src="/assets/website/buttons/extra_idle.png" name="extra" alt="Extra"></a>
+                        </div>
                     </nav>
                 </div>
-                <div class="box">
-                    <header>
-                        <h1>More Moments From My Week</h1>
-                    </header>
-                    <p>23 December 2023</p>
+
+                <div class="mainbox" id="theme_m">
+                    <main>
+                        <h1></h1>
+                        <p>23 December 2023</p>
 <p>Hello friends! I'm back with another ramble about my week. Though honestly, this is closer to about a month... I'll keep this preramble short and sweet ~ so umm. Yeah!!</p>
 <h2>Archery</h2>
 <p>So over this last &quot;&quot;&quot;week&quot;&quot;&quot; (more like a month I am a liar!!) I've gotten into archery! My dad bought himself a longbow and I really wanted to try it out, so I did!
 Um... turns out, when the bow is the same length as your height (155cm-ish), and has a draw weight WAY above your strength (35lbs) it... turns it into a bit of a struggle...</p>
 <p>I kept trying it though! I was really getting into it, and it was so much fun. It was, however, really frustrating that a lot of my form issues couldn't be properly fixed. I couldn't draw it back properly because it was too heavy of a draw AND it was too long for me.</p>
 <p>However, for Christmas, my parents surprised me with my OWN bow!</p>
-<p><img src="/assets/img/blog/bow.png" alt="A picture of a recurve bow against a bed.">
-<em>Sorry that it's a bit hard to see against my bed...</em></p>
+<p><img src="/assets/img/blog/bow.png" alt="A picture of a recurve bow against a bed."></p>
+<p><em>Sorry that it's a bit hard to see against my bed...</em></p>
 <p>It's been SO much fun! My form is actually correct now! This is also been the most exercise I've gotten for like, 3 years. It's been making me feel a lot more alive. It also makes me wanna draw my fursona with a bow...</p>
 <h2>Getting Back Into Wizard101</h2>
 <p>I swear I can't stay away from this game! They recently had free Membership during the 12 Days of the Spiral, so I decided 'oh why not!!'.</p>
@@ -45,16 +107,16 @@ Um... turns out, when the bow is the same length as your height (155cm-ish), and
 <p>Otherwise, I've been helping my friends with gearing and getting gold! My dream is to farm endgame gear with them. I have horrible social anxiety in THIS game specifically, so I haven't really done much on my main...</p>
 <h2>Finishing up Spyro: Reignited Trilogy</h2>
 <p>I got this game back when it came out (2019...) as a birthday present from my Mum. I finished Spyro 2 almost as SOON as I got it; as that's the game I grew up with! I started Spyro 3, and then picked it up again after about a year. I finished Spyro 3 soon after that, and then I just... didn't touch the game for a while? I remember I started Spyro 1 at some point, but this week I picked it back up to finish it fully.</p>
-<p><img src="/assets/img/blog/spyro1.jpg" alt="Spyro 1. 120% completed.">
-<img src="/assets/img/blog/spyro2.jpg" alt="Spyro 2. 100% completed.">
-<img src="/assets/img/blog/spyro3.jpg" alt="Spyro 3. 117% completed."></p>
+<p><img src="/assets/img/blog/spyro1.png" alt="Spyro 1. 120% completed.">
+<img src="/assets/img/blog/spyro2.png" alt="Spyro 2. 100% completed.">
+<img src="/assets/img/blog/spyro3.png" alt="Spyro 3. 117% completed."></p>
 <p>I've collected all Skill Points and all Steam Achievements, as well as collecting all the in-game stuff! I'm really proud of myself, Spyro is my favourite game series EVER!! (One of my usernames as a child was a reference to Spyro!!)</p>
 <p>One of these days I really wanna 100% A Hero's Tail. I remember playing that one with my parents a lot, too!
 I'd also like to fully finish The Legend of Spyro: Dawn of the Dragon. Fun fact, I named one of my childhood cats after Cynder! (My parents spelled it Cinder, but shhh. Baby me knew the truth.)</p>
 <h2>Presents and Crafting</h2>
 <p>One of my dear IRL friends gifted me some stuff for the Holidays!</p>
-<p><img src="/assets/img/blog/sakura1.png" alt="Box of a 3d bookend and a little figure.">
-<em>(Sorry for blurring out my monitor. I don't want you reading my Discord messages!!)</em></p>
+<p><img src="/assets/img/blog/sakura1.png" alt="Box of a 3d bookend and a little figure."></p>
+<p><em>(Sorry for blurring out my monitor. I don't want you reading my Discord messages!!)</em></p>
 <p>She got me a 3D bookend (that you need to assemble yourself, like a puzzle!) and a cute little dragon figurine. This is my first time ever putting something like this together, so I was super excited about it!</p>
 <p><img src="/assets/img/blog/sakura2.png" alt="The inside of the 3D bookend's box."></p>
 <p>It's at this moment, however, that I got a little nervous. That's a LOT of pieces, and looking through the manual didn't help!
@@ -74,66 +136,58 @@ However, I was confident to succeed!</p>
 <br>
 <em>- nonkiru</em></p>
 
+                    </main> 
                 </div>
-            </main>
+                    
+            </div>
+
+            <div class="footer" id="theme_f">
+                <footer>©nonkiru 2022 ~ Forever! Happily hosted on <a href="https://neocities.org/site/nonkiru">Neocities.</a>
+<br>
+<a href="/accessibility/">Accessibility</a> ⁑ <a href="/sitemap/">Sitemap</a> ⁑ <a href="https://nonkiru.art/nonkiru_feed.xml">RSS Feed</a>
+<br>Site analytics provided by <a href="https://www.goatcounter.com/">GoatCounter</a></footer>
+            </div>
+        
         </div>
+        <aside> 
+        <div class="pagedoll">
+            <img src="/assets/website/pagedoll.png" alt="">
+        </div>
+        </aside> 
 
     </body>
     <!-- Stay safe out there~ ♪ -->
     <script>
-        /* Dark mode script thanks to https://derekkedziora.com/blog/dark-mode-revisited */
-        let systemInitiatedDark = window.matchMedia("(prefers-color-scheme: dark)"); 
-        let theme = sessionStorage.getItem('theme');
+        /* behold, nonkiru javascript!! :33 */
+        var root = document.querySelector(':root');
 
-        if (systemInitiatedDark.matches) {
-            document.getElementById("theme-toggle").innerHTML = "Light Mode";
-        } else {
-            document.getElementById("theme-toggle").innerHTML = "Dark Mode";
+        function lightmode() {
+
+            document.getElementById('theme_s').style.transition = "all 0.3s";
+            document.getElementById('theme_m').style.transition = "all 0.3s";
+            document.getElementById('theme_f').style.transition = "all 0.3s";
+
+            document.body.style.backgroundImage = 'url(/../assets/website/bg.png)';
+
+            root.style.setProperty('--yellow', '#ffede5');
+            root.style.setProperty('--yellow_darker', '#ffe3d4');
+            root.style.setProperty('--pink_darker', '#C73D60');
+            root.style.setProperty('--bg', '#fff9f6');
+            root.style.setProperty('--text', '#9A3F3F');
         }
+        function darkmode() {
 
-        function prefersColorTest(systemInitiatedDark) {
-        if (systemInitiatedDark.matches) {
-            document.documentElement.setAttribute('data-theme', 'dark');		
-            document.getElementById("theme-toggle").innerHTML = "Light Mode";
-            sessionStorage.setItem('theme', '');
-        } else {
-            document.documentElement.setAttribute('data-theme', 'light');
-            document.getElementById("theme-toggle").innerHTML = "Dark Mode";
-            sessionStorage.setItem('theme', '');
-        }
-        }
-        systemInitiatedDark.addListener(prefersColorTest);
+            document.getElementById('theme_s').style.transition = "all 0.3s";
+            document.getElementById('theme_m').style.transition = "all 0.3s";
+            document.getElementById('theme_f').style.transition = "all 0.3s";
 
-
-        function modeSwitcher() {
-            let theme = sessionStorage.getItem('theme');
-            if (theme === "dark") {
-                document.documentElement.setAttribute('data-theme', 'light');
-                sessionStorage.setItem('theme', 'light');
-                document.getElementById("theme-toggle").innerHTML = "Dark Mode";
-            }	else if (theme === "light") {
-                document.documentElement.setAttribute('data-theme', 'dark');
-                sessionStorage.setItem('theme', 'dark');
-                document.getElementById("theme-toggle").innerHTML = "Light Mode";
-            } else if (systemInitiatedDark.matches) {	
-                document.documentElement.setAttribute('data-theme', 'light');
-                sessionStorage.setItem('theme', 'light');
-                document.getElementById("theme-toggle").innerHTML = "Dark Mode";
-            } else {
-                document.documentElement.setAttribute('data-theme', 'dark');
-                sessionStorage.setItem('theme', 'dark');
-                document.getElementById("theme-toggle").innerHTML = "Light Mode";
-            }
-        }
-
-        if (theme === "dark") {
-            document.documentElement.setAttribute('data-theme', 'dark');
-            sessionStorage.setItem('theme', 'dark');
-            document.getElementById("theme-toggle").innerHTML = "Light Mode";
-        } else if (theme === "light") {
-            document.documentElement.setAttribute('data-theme', 'light');
-            sessionStorage.setItem('theme', 'light');
-            document.getElementById("theme-toggle").innerHTML = "Dark Mode";
+            document.body.style.backgroundImage = 'url(/../assets/website/bg_dark.png)';
+            
+            root.style.setProperty('--yellow', '#5c3f4b');
+            root.style.setProperty('--yellow_darker', '#71505e');
+            root.style.setProperty('--pink_darker', '#FFD3D4');
+            root.style.setProperty('--bg', '#4b313c');
+            root.style.setProperty('--text', '#fff9f6');
         }
     </script>
 </html>

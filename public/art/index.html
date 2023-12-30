@@ -7,234 +7,145 @@
         <!-- Goat Counter -->
         <script data-goatcounter="https://nonkiru.goatcounter.com/count"
             async src="../assets/js/count.js"></script>
-        <link rel="shortcut icon" type="image/jpg" href="/assets/img/favicon.ico">
         <!-- Meta Tags -->
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta name="description" content="A personal website for the digital illustrator nonkiru. I have pages for my artwork, original characters, and more!">
         <meta name="keywords" content="digital art, art, commissions, ocs, original characters, neocities">
         <meta name='author' content='nonkiru, nonkiru@gmail.com'>
-        <meta property="og:image" content="https://files.catbox.moe/jckpji.png" />
+        <meta property="og:image" content="https://files.catbox.moe/cwvsgp.png" />
         <meta property="twitter:card" content="summary_large_image">
         <meta content="nonkiru.art" property="og:title" />
-        <meta content="A personal website for the digital illustrator nonkiru. I have pages for my artwork, original characters, and more!" property="og:description" />
+        <meta property="og:description" content="A personal website for the digital illustrator nonkiru. I have pages for my artwork, original characters, and more!" />
         <meta content="https://nonkiru.art" property="og:url" />
         <meta content="#ffdfe9" data-react-helmet="true" name="theme-color" />
         <!-- -->
-        <link rel="stylesheet" href="../assets/css/style.css?v=1.10">
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-        <script src="https://unpkg.com/cursor-effects@latest/dist/browser.js"></script>
+        <link rel="stylesheet" href="/assets/css/silly.css?v=1.0">
+        <link rel="shortcut icon" type="image/jpg" href="/assets/img/favicon.ico">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
         <title>Art ⁑ nonkiru.art</title>
     </head>
     <body>
-        <!-- Floating clouds in the background. -->
-        <div class="clouds" id="clouds"></div>
 
-        <!-- Container -->
         <div class="container">
-            
-            <!-- Header -->
-            <div class="box_header">
-            <header></header>
-            </div>
-
-            <!-- Flex -->
+            <header>
+                <div class="header">
+                    <img src="/assets/website/logo.png" alt="" style="position: absolute; left: 1rem; bottom: 1rem;">
+                </div>
+            </header>
             <div class="flex">
-                
-                <div class="navigation_container" style="height: 100%;">
-                    <aside>
-                        <!-- Navigation -->
-                        <div class="box" id="nav" style="width: 12.5rem;">
-                            <nav>
-                                <h1>Navigation</h1>
-                                <!-- Update partials/nav.njk with new links. -->
-                                <h2>Sitely</h2>
-<ul>
-    <li id="home"><a href="/home/">Home</a></li>
-    <li id="aboutsite"><a href="/about_site/">About this Site</a></li>
-    <li id="sitecredit"><a href="/credits/">Website Credits</a></li>
-    <li id="sitelayouts"><a href="/layouts/">Website Layouts</a></li>
-    <li id="sitelayouts"><a href="/resources/">F2U Resources</a></li>
-    <li id="guestbook"><a href="/guestbook/">Guestbook</a></li>
-    <li id="link"><a href="/links/">Links</a></li>
-</ul>
-<h2>Personal</h2>
-<ul>
-    <li id="about"><a href="/about/">About Me</a></li>
-    <li id="art"><a href="/art/">Art</a></li>
-    <li id="blog"><a href="/blog/">Blog</a></li>
-    <li id="oc"><a href="/ocs/">OCs</a></li>
-</ul>
-<h2>Off-Site</h2>
-<ul>
-    <li id="microblog"><a href="https://thoughts.nonkiru.art/">Microblog</a></li>
-    <li id="art"><a href="https://vgen.co/nonkiru">Art Commissions</a></li>  
-</ul>
-                            </nav>
+
+                <div class="sidebox" id="theme_s">
+                    <nav>
+                        <img src="/assets/website/sidebar.png" alt="" id="me">
+
+                        <br>
+                        <a href="javascript:;" class="a_img" onclick="lightmode()" onmouseover="document.light.src='/assets/website/light_theme_hover.png';" onmouseout="document.light.src='/assets/website/light_theme.png';" 
+                        onfocus="document.light.src='/assets/website/light_theme_hover.png';" onfocusout="document.light.src='/assets/website/light_theme.png';">
+                        <img src="/assets/website/light_theme.png" alt="Light Theme" name="light"></a>
+
+                        <a href="javascript:;" class="a_img" onclick="darkmode()" onmouseover="document.dark.src='/assets/website/dark_theme_hover.png';" onmouseout="document.dark.src='/assets/website/dark_theme.png';" 
+                        onfocus="document.dark.src='/assets/website/dark_theme_hover.png';" onfocusout="document.dark.src='/assets/website/dark_theme.png';">
+                        <img src="/assets/website/dark_theme.png" alt="Dark Theme" name="dark"></a>
+                        <br>
+                        <img src="/assets/website/divider.png" alt="">
+
+                        <br>
+                        <div id="mobile_nav">
+                            <a href="/index/" class="a_img">
+                            <img src="/assets/website/buttons/home.png" alt="Home"></a>
+                            <a href="/about/" class="a_img">
+                            <img src="/assets/website/buttons/about.png" alt="About"></a>
+                            <a href="/art/" class="a_img">
+                            <img src="/assets/website/buttons/art.png" alt="Art"></a>
+                            <a href="/links/" class="a_img">
+                            <img src="/assets/website/buttons/links.png" alt="Links"></a>
+                            <a href="/extra/" class="a_img">
+                            <img src="/assets/website/buttons/extra.png" alt="Extra"></a>
                         </div>
-                        <!-- Site Stats & Stuff -->
-                        <div class="box" id="stats" style="width: 12.5rem; height: 100%;">
-                            <!-- Update partials/stats.njk with new stuff. -->
-                            <h1>Misc.</h1>
-<h2>Settings</h2>
-<div style="margin: 0;">
-<a href="#" id="theme-toggle" onclick="modeSwitcher()" class="fakebutton">Toggle Theme</a>
-<br>
-<button onclick="cursorEffect.destroy()" style="margin-top: 0.35rem;">Remove Cursor Trail</button>
-</div>
-<div style="text-align:center;">
-<h2>Link Me</h2>
-Feel free to hotlink! <br>
-<img src="/../assets/img/nonkiru_button_light.gif" alt="A button for nonkiru.art! Light version.">
-<img src="/../assets/img/nonkiru_button_dark.gif" alt="A button for nonkiru.art! Dark version.">
-
-<details>
-<summary>Button Codes</summary>
-<label for="LightButton">The code for the light button.</label>
-<textarea id="LightButton" readonly style="width: 100%; resize: none;"><a href="https://nonkiru.art"><img src="https://nonkiru.art/assets/img/nonkiru_button_light.gif" alt="A button leading to nonkiru.art."></a></textarea>
-<br>
-<label for="DarkButton">The code for the dark button.</label>
-<textarea id="DarkButton" readonly style="width: 100%; resize: none;"><a href="https://nonkiru.art"><img src="https://nonkiru.art/assets/img/nonkiru_button_dark.gif" alt="A button leading to nonkiru.art."></a></textarea>
-<br>
-</details>
-
-<hr>
-
-<p style="text-align: center;"><a href="/legacy_buttons/">Legacy Buttons</a></p>
-<br>
-<img src="/../assets/img/non_kitty.webp" alt="A small kitty; the website owner.">
-<br><br>
-<img src="/assets/img/border_simple.webp" alt="">
-
+                        <div id="navigation_menu">
+                            <a href="/index/" class="a_img" onmouseover="document.home.src='/assets/website/buttons/home_hover.png';" onmouseout="document.home.src='/assets/website/buttons/home_idle.png';" 
+                            onfocus="document.home.src='/assets/website/buttons/home_hover.png';" onfocusout="document.home.src='/assets/website/buttons/home_idle.png';">
+                            <img src="/assets/website/buttons/home_idle.png" name="home" alt="Home"></a>
+                            <br>
+                            <a href="/about/" class="a_img" onmouseover="document.about.src='/assets/website/buttons/about_hover.png';" onmouseout="document.about.src='/assets/website/buttons/about_idle.png';" 
+                            onfocus="document.about.src='/assets/website/buttons/about_hover.png';" onfocusout="document.about.src='/assets/website/buttons/about_idle.png';">
+                            <img src="/assets/website/buttons/about_idle.png" name="about" alt="About"></a>
+                            <br>
+                            <a href="/art/" class="a_img" onmouseover="document.art.src='/assets/website/buttons/art_hover.png';" onmouseout="document.art.src='/assets/website/buttons/art_idle.png';" 
+                            onfocus="document.art.src='/assets/website/buttons/art_hover.png';" onfocusout="document.art.src='/assets/website/buttons/art_idle.png';">
+                            <img src="/assets/website/buttons/art_idle.png" name="art" alt="Art"></a>
+                            <br>
+                            <a href="/links/" class="a_img" onmouseover="document.links.src='/assets/website/buttons/links_hover.png';" onmouseout="document.links.src='/assets/website/buttons/links_idle.png';" 
+                            onfocus="document.links.src='/assets/website/buttons/links_hover.png';" onfocusout="document.links.src='/assets/website/buttons/links_idle.png';">
+                            <img src="/assets/website/buttons/links_idle.png" name="links" alt="Links"></a>
+                            <br>
+                            <a href="/extra/" class="a_img" onmouseover="document.extra.src='/assets/website/buttons/extra_hover.png';" onmouseout="document.extra.src='/assets/website/buttons/extra_idle.png';" 
+                            onfocus="document.extra.src='/assets/website/buttons/extra_hover.png';" onfocusout="document.extra.src='/assets/website/buttons/extra_idle.png';">
+                            <img src="/assets/website/buttons/extra_idle.png" name="extra" alt="Extra"></a>
                         </div>
-                    </aside>
+                    </nav>
                 </div>
 
-                <!-- Main Content -->
-                <div class="box" style="flex-grow: 1;">
+                <div class="mainbox" id="theme_m">
                     <main>
-                        <!-- Update tag h1 to change this. -->
                         <h1>Artwork</h1>
-                        <!-- Pray that markdown treats me well! -->
-                        <p>Various galleries for my artwork.
-<br>
-<br><b>Important!</b> Please check if you're using mobile data or otherwise restrictive internet. These galleries contain a lot of images!</p>
-<div class="ocbox">
-    <div class="ocbox_image">
-        <img src="../assets/img/2023.png" alt="2023." style="image-rendering: smooth !important;">
-    </div>
-    <a href="/art/2023/">
-    2023 Gallery</a>
-    <br><small>(10MB for the thumbnails.)</small>
-</div>
-<div class="ocbox">
-    <div class="ocbox_image">
-        <img src="../assets/img/2022.png" alt="2022." style="image-rendering: smooth !important;">
-    </div>
-    <a href="/art/2022/">
-    2022 Gallery</a>
-    <br><small>(5MB for the thumbnails.)</small>
-</div>
-                    </main>
-                </div>
+                        <p><a href="/art/2023/" class="imgbutton_small"><img src="/assets/website/buttons/2023.png" class="imgborder" alt="2023 Gallery" style="max-width: 100%;">
+<br><br>
+<a href="/art/2022/" class="imgbutton_small"><img src="/assets/website/buttons/2022.png" class="imgborder" alt="2022 Gallery" style="max-width: 100%;"></p>
 
-            <!-- Flex End -->
+                    </main> 
+                </div>
+                    
             </div>
 
-            <!-- Footer -->
-            <div class="box">
-                <!-- It's a footer. -->
+            <div class="footer" id="theme_f">
                 <footer>©nonkiru 2022 ~ Forever! Happily hosted on <a href="https://neocities.org/site/nonkiru">Neocities.</a>
 <br>
 <a href="/accessibility/">Accessibility</a> ⁑ <a href="/sitemap/">Sitemap</a> ⁑ <a href="https://nonkiru.art/nonkiru_feed.xml">RSS Feed</a>
 <br>Site analytics provided by <a href="https://www.goatcounter.com/">GoatCounter</a></footer>
             </div>
-
-        <!-- Container end. -->
+        
         </div>
+        <aside> 
+        <div class="pagedoll">
+            <img src="/assets/website/pagedoll.png" alt="">
+        </div>
+        </aside> 
 
     </body>
     <!-- Stay safe out there~ ♪ -->
     <script>
-        /* Dark mode script thanks to https://derekkedziora.com/blog/dark-mode-revisited */
-        let systemInitiatedDark = window.matchMedia("(prefers-color-scheme: dark)"); 
-        let theme = sessionStorage.getItem('theme');
+        /* behold, nonkiru javascript!! :33 */
+        var root = document.querySelector(':root');
 
-        if (systemInitiatedDark.matches) {
-            document.getElementById("theme-toggle").innerHTML = "Light Mode";
-        } else {
-            document.getElementById("theme-toggle").innerHTML = "Dark Mode";
-        }
+        function lightmode() {
 
-        function prefersColorTest(systemInitiatedDark) {
-        if (systemInitiatedDark.matches) {
-            document.documentElement.setAttribute('data-theme', 'dark');		
-            document.getElementById("theme-toggle").innerHTML = "Light Mode";
-            sessionStorage.setItem('theme', '');
-        } else {
-            document.documentElement.setAttribute('data-theme', 'light');
-            document.getElementById("theme-toggle").innerHTML = "Dark Mode";
-            sessionStorage.setItem('theme', '');
-        }
-        }
-        systemInitiatedDark.addListener(prefersColorTest);
+            document.getElementById('theme_s').style.transition = "all 0.3s";
+            document.getElementById('theme_m').style.transition = "all 0.3s";
+            document.getElementById('theme_f').style.transition = "all 0.3s";
 
+            document.body.style.backgroundImage = 'url(/../assets/website/bg.png)';
 
-        function modeSwitcher() {
-            let theme = sessionStorage.getItem('theme');
-            if (theme === "dark") {
-                document.documentElement.setAttribute('data-theme', 'light');
-                sessionStorage.setItem('theme', 'light');
-                document.getElementById("theme-toggle").innerHTML = "Dark Mode";
-            }	else if (theme === "light") {
-                document.documentElement.setAttribute('data-theme', 'dark');
-                sessionStorage.setItem('theme', 'dark');
-                document.getElementById("theme-toggle").innerHTML = "Light Mode";
-            } else if (systemInitiatedDark.matches) {	
-                document.documentElement.setAttribute('data-theme', 'light');
-                sessionStorage.setItem('theme', 'light');
-                document.getElementById("theme-toggle").innerHTML = "Dark Mode";
-            } else {
-                document.documentElement.setAttribute('data-theme', 'dark');
-                sessionStorage.setItem('theme', 'dark');
-                document.getElementById("theme-toggle").innerHTML = "Light Mode";
-            }
+            root.style.setProperty('--yellow', '#ffede5');
+            root.style.setProperty('--yellow_darker', '#ffe3d4');
+            root.style.setProperty('--pink_darker', '#C73D60');
+            root.style.setProperty('--bg', '#fff9f6');
+            root.style.setProperty('--text', '#9A3F3F');
         }
+        function darkmode() {
 
-        if (theme === "dark") {
-            document.documentElement.setAttribute('data-theme', 'dark');
-            sessionStorage.setItem('theme', 'dark');
-            document.getElementById("theme-toggle").innerHTML = "Light Mode";
-        } else if (theme === "light") {
-            document.documentElement.setAttribute('data-theme', 'light');
-            sessionStorage.setItem('theme', 'light');
-            document.getElementById("theme-toggle").innerHTML = "Dark Mode";
-        }
-    </script>
-    <script>
-        function PagedollToggle() {
-        var x = document.getElementById("pagedoll");
-        if (x.style.display === "none") {
-            x.style.display = "block";
-        } else {
-            x.style.display = "none";
-        }
-        } 
-    </script>
-    <script>
-        function myPlayFunction() {
-        document.getElementById("clouds").style.animationPlayState = "running";
-        }
+            document.getElementById('theme_s').style.transition = "all 0.3s";
+            document.getElementById('theme_m').style.transition = "all 0.3s";
+            document.getElementById('theme_f').style.transition = "all 0.3s";
 
-        function myPauseFunction() {
-        document.getElementById("clouds").style.animationPlayState = "paused";
+            document.body.style.backgroundImage = 'url(/../assets/website/bg_dark.png)';
+            
+            root.style.setProperty('--yellow', '#5c3f4b');
+            root.style.setProperty('--yellow_darker', '#71505e');
+            root.style.setProperty('--pink_darker', '#FFD3D4');
+            root.style.setProperty('--bg', '#4b313c');
+            root.style.setProperty('--text', '#fff9f6');
         }
-    </script>
-    <script>
-    let cursorEffect = new cursoreffects.rainbowCursor({
-    length: 20,
-    colors: ["#f1b5a7", "#ffefe5", "#ffffff", "#f6dbeb", "#da9dc1"],
-    size: 2,
-    });
     </script>
 </html>

@@ -1,6 +1,6 @@
 ---
 title: About Me ⁑ nonkiru.art
-layout: layout.njk
+layout: silly.njk
 h1: About Me
 ---
 

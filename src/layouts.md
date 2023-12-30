@@ -1,6 +1,6 @@
 ---
 title: Layouts ⁑ nonkiru.art
-layout: layout.njk
+layout: silly.njk
 h1: Website Layouts
 ---
 

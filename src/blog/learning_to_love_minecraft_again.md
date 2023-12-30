@@ -18,14 +18,17 @@ So yeah! Basically Vanilla but with a few tweaks. I've also been playing on Easy
 Let's get into the world!
 
 ![Minecraft screenshot 1. A snowy plains.](/assets/img/blog/minecraft_1.png)
+
 I spawned in a super expansive snowy plains biome. If you look on the right side there's an igloo - it didn't have anything, but I *did* take the bed! Behind me (also to the right a bit) is a *massive* mountain; and foreshadowing, **remember the part that it's massive.** I ask my friends in VC where I should go, and they suggested that I make my house on top of the mountain! I make the climb up, and on the other side is a big, nice empty area... and also, a village!
 
 ![Minecraft screenshot 2. A village.](/assets/img/blog/minecraft_2.png)
+
 (Sorry for the weird resolution, had a Discord stream open of my friend!)
 
 I thought it would be cute to have my house overlooking the village! I set up home here.
 
 ![Minecraft screenshot 3. A home.](/assets/img/blog/minecraft_3.png)
+
 By day 6, I have a home built! It's very simple, just an L-shaped rectangle, but I don't have many resources right now. Also a new skin of my fursona.
 
 I had a really weird, sort of funny experience. I kept hearing a zombie under my house, so I decide to dig underneath of it to see if I can't find it. I dig for about 20 or so minutes before I give up and ask my friend to jump into VC to help locate it. If you didn't know, my ears can't pick up directional sound well (sound from right; brain thinks it's elsewhere). He tells me to stop, turn to the right slightly and dig. We find the cave in under 30 seconds.
@@ -57,6 +60,7 @@ This is the point where I swap modpacks.
 I forgot to take pictures, but I've been working on the village that's super close by. I've been fixing up the paths, adding some fences so they don't walk into the massive hole, I then covered the massive hole... just little things!
 
 ![Minecraft screenshot 8. A goat on top of a home.](/assets/img/blog/minecraft_8.png)
+
 If you look close, there's a goat on top of my house! How silly...
 
 ![Minecraft screenshot 9. A staircase in a big maw.](/assets/img/blog/minecraft_9.png)
@@ -70,6 +74,7 @@ While I'm mining, I notice a certain, different kind of block. Something that yo
 But then, when I need to mine through it... I notice there's a cave down there. I mine, carefully, so I can enter it safely, and...
 
 ![Minecraft screenshot 10. A view into an Ancient City.](/assets/img/blog/minecraft_10.png)
+
 **Oh no.** For 29 days, unknowingly, I have been living on top of an Ancient City. In hindsight, it was very obvious. Big mountains with big entrances into a big cave commonly have ancient cities at the bottom of them. However, it took me making a mineshaft to bedrock to notice!
 
 I'm a huge wimp though so I turn on Peaceful to loot it. Don't judge me. I ignored the city, mined down lower, got the Darkness effect and decided that I wasn't going to deal with the 200BPM heart rate that afternoon.
@@ -79,6 +84,7 @@ I steal all the loot for myself! There was a really nice pair of Diamond Legging
 I return to the surface at this point and I decide to do some more exploring. I find a Pillager outpost, and...
 
 ![Minecraft screenshot 11. 6 Allays and a player character.](/assets/img/blog/minecraft_11.png)
+
 *(Me and the bad bitches I pulled by being a silly kitty.)*
 I have 6 new friends.
 

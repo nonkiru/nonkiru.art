@@ -6,36 +6,98 @@
     <head>
         <!-- Goat Counter -->
         <script data-goatcounter="https://nonkiru.goatcounter.com/count"
-            async src="/../assets/js/count.js"></script>
-        <link rel="shortcut icon" type="image/jpg" href="/assets/img/favicon.ico">
+            async src="../assets/js/count.js"></script>
+        <!-- Meta Tags -->
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="stylesheet" href="/../assets/css/blog.css?v=1.4">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <script src="https://unpkg.com/@lyket/widget@latest/dist/lyket.js?apiKey=[YOUR-API-KEY]"></script>
+        <meta name="description" content="A personal website for the digital illustrator nonkiru. I have pages for my artwork, original characters, and more!">
+        <meta name="keywords" content="digital art, art, commissions, ocs, original characters, neocities">
+        <meta name='author' content='nonkiru, nonkiru@gmail.com'>
+        <meta property="og:image" content="https://files.catbox.moe/cwvsgp.png" />
+        <meta property="twitter:card" content="summary_large_image">
+        <meta content="nonkiru.art" property="og:title" />
+        <meta property="og:description" content="A personal website for the digital illustrator nonkiru. I have pages for my artwork, original characters, and more!" />
+        <meta content="https://nonkiru.art" property="og:url" />
+        <meta content="#ffdfe9" data-react-helmet="true" name="theme-color" />
+        <!-- -->
+        <link rel="stylesheet" href="/assets/css/silly.css?v=1.0">
+        <link rel="shortcut icon" type="image/jpg" href="/assets/img/favicon.ico">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
         <title>Little Moments From My Week</title>
     </head>
     <body>
 
         <div class="container">
-            <main>
-                <div class="box" style="position: sticky; top: 0;">
+            <header>
+                <div class="header">
+                    <img src="/assets/website/logo.png" alt="" style="position: absolute; left: 1rem; bottom: 1rem;">
+                </div>
+            </header>
+            <div class="flex">
+
+                <div class="sidebox" id="theme_s">
                     <nav>
-                        <a href="/blog/">Return to Blog Index</a> | <a href="#" id="theme-toggle" onclick="modeSwitcher()">Toggle Theme</a>
+                        <img src="/assets/website/sidebar.png" alt="" id="me">
+
+                        <br>
+                        <a href="javascript:;" class="a_img" onclick="lightmode()" onmouseover="document.light.src='/assets/website/light_theme_hover.png';" onmouseout="document.light.src='/assets/website/light_theme.png';" 
+                        onfocus="document.light.src='/assets/website/light_theme_hover.png';" onfocusout="document.light.src='/assets/website/light_theme.png';">
+                        <img src="/assets/website/light_theme.png" alt="Light Theme" name="light"></a>
+
+                        <a href="javascript:;" class="a_img" onclick="darkmode()" onmouseover="document.dark.src='/assets/website/dark_theme_hover.png';" onmouseout="document.dark.src='/assets/website/dark_theme.png';" 
+                        onfocus="document.dark.src='/assets/website/dark_theme_hover.png';" onfocusout="document.dark.src='/assets/website/dark_theme.png';">
+                        <img src="/assets/website/dark_theme.png" alt="Dark Theme" name="dark"></a>
+                        <br>
+                        <img src="/assets/website/divider.png" alt="">
+
+                        <br>
+                        <div id="mobile_nav">
+                            <a href="/index/" class="a_img">
+                            <img src="/assets/website/buttons/home.png" alt="Home"></a>
+                            <a href="/about/" class="a_img">
+                            <img src="/assets/website/buttons/about.png" alt="About"></a>
+                            <a href="/art/" class="a_img">
+                            <img src="/assets/website/buttons/art.png" alt="Art"></a>
+                            <a href="/links/" class="a_img">
+                            <img src="/assets/website/buttons/links.png" alt="Links"></a>
+                            <a href="/extra/" class="a_img">
+                            <img src="/assets/website/buttons/extra.png" alt="Extra"></a>
+                        </div>
+                        <div id="navigation_menu">
+                            <a href="/index/" class="a_img" onmouseover="document.home.src='/assets/website/buttons/home_hover.png';" onmouseout="document.home.src='/assets/website/buttons/home_idle.png';" 
+                            onfocus="document.home.src='/assets/website/buttons/home_hover.png';" onfocusout="document.home.src='/assets/website/buttons/home_idle.png';">
+                            <img src="/assets/website/buttons/home_idle.png" name="home" alt="Home"></a>
+                            <br>
+                            <a href="/about/" class="a_img" onmouseover="document.about.src='/assets/website/buttons/about_hover.png';" onmouseout="document.about.src='/assets/website/buttons/about_idle.png';" 
+                            onfocus="document.about.src='/assets/website/buttons/about_hover.png';" onfocusout="document.about.src='/assets/website/buttons/about_idle.png';">
+                            <img src="/assets/website/buttons/about_idle.png" name="about" alt="About"></a>
+                            <br>
+                            <a href="/art/" class="a_img" onmouseover="document.art.src='/assets/website/buttons/art_hover.png';" onmouseout="document.art.src='/assets/website/buttons/art_idle.png';" 
+                            onfocus="document.art.src='/assets/website/buttons/art_hover.png';" onfocusout="document.art.src='/assets/website/buttons/art_idle.png';">
+                            <img src="/assets/website/buttons/art_idle.png" name="art" alt="Art"></a>
+                            <br>
+                            <a href="/links/" class="a_img" onmouseover="document.links.src='/assets/website/buttons/links_hover.png';" onmouseout="document.links.src='/assets/website/buttons/links_idle.png';" 
+                            onfocus="document.links.src='/assets/website/buttons/links_hover.png';" onfocusout="document.links.src='/assets/website/buttons/links_idle.png';">
+                            <img src="/assets/website/buttons/links_idle.png" name="links" alt="Links"></a>
+                            <br>
+                            <a href="/extra/" class="a_img" onmouseover="document.extra.src='/assets/website/buttons/extra_hover.png';" onmouseout="document.extra.src='/assets/website/buttons/extra_idle.png';" 
+                            onfocus="document.extra.src='/assets/website/buttons/extra_hover.png';" onfocusout="document.extra.src='/assets/website/buttons/extra_idle.png';">
+                            <img src="/assets/website/buttons/extra_idle.png" name="extra" alt="Extra"></a>
+                        </div>
                     </nav>
                 </div>
-                <div class="box">
-                    <header>
-                        <h1>Little Moments From My Week</h1>
-                    </header>
-                    <p>20 November 2023</p>
+
+                <div class="mainbox" id="theme_m">
+                    <main>
+                        <h1></h1>
+                        <p>20 November 2023</p>
 <p>Hi friends! I was really in the mood to write, but I wasn't too sure what to write... so I wanted to write about my week! I think it would be fun if I could make this weekly, or maybe even monthly... or just when I feel like it, I suppose! Besides, I need more stuff to write about.</p>
 <h2>Minecraft by Myself, and with my Girlfriend</h2>
 <h3>By Myself</h3>
 <p>I've still been working on my Minecraft world! It's been going great; my last blog post left off on day 30, and now I'm all the way at day 100!</p>
 <p>To continue where I left off...</p>
-<p><img src="/assets/img/blog/minecraft_12.png" alt="Minecraft screenshot 1. A bunch of Allay in a house.">
-First, I put all the Allay in my storage house.</p>
+<p><img src="/assets/img/blog/minecraft_12.png" alt="Minecraft screenshot 1. A bunch of Allay in a house."></p>
+<p>First, I put all the Allay in my storage house.</p>
 <p><img src="/assets/img/blog/minecraft_13.png" alt="Minecraft screenshot 2. A bunch of Allay in a basement."></p>
 <p>I had set up an automatic system to keep them in the basement. I used redstone and I made a ticking clock connected to a noteblock, where every second or so it'd play a noise, and they would deliver an item to it over and over again.</p>
 <p>However, I forgot about the fact that noteblocks make a lot of noise... and you can hear it from really far away... It wasn't working and the constant noise was very annoying!
@@ -68,90 +130,82 @@ I also found the End portal, but I'm saving that for when I'm totally ready!</p>
 <p>I was the one who made his model &amp; rig, and I've also been working on some other assets for him. He should also be at affiliate now <em>(once Twitch like, handles it)</em> so I'll need to make some emotes, too!</p>
 <p>Here's some images and stuff!</p>
 <hr>
-<p><img src="/assets/img/blog/edwinthumb.png" alt="Edwin image 1. A key image of his model.">
-Here's his key art! I'm really proud of his design, I think it's quite stylish.</p>
-<p><img src="/assets/img/blog/edwin_schedule.png" alt="Edwin image 2. A schedule.">
-And a little schedule graphic! His main colours, I feel, are becoming more blue over time.</p>
+<p><img src="/assets/img/blog/edwinthumb.png" alt="Edwin image 1. A key image of his model."></p>
+<p>Here's his key art! I'm really proud of his design, I think it's quite stylish.</p>
+<p><img src="/assets/img/blog/edwin_schedule.png" alt="Edwin image 2. A schedule."></p>
+<p>And a little schedule graphic! His main colours, I feel, are becoming more blue over time.</p>
 <p>Anyway, I'm super proud of him. He's live as I write this and he has currently like 20 viewers... I hope he continues to grow!</p>
 <hr>
-<p>I've also been working on some other Vtuber models, too! Here's the art I did for <a href="https://twitter.com/Leucothea_Abyss">Leucothea</a>.
-<img src="/assets/img/blog/leucothea_info.png" alt="Leucothea image 1. A key image of her model.">
-I can't wait to see her debut, and I wish her all the luck in the world!</p>
+<p>I've also been working on some other Vtuber models, too! Here's the art I did for <a href="https://twitter.com/Leucothea_Abyss">Leucothea</a>.</p>
+<p><img src="/assets/img/blog/leucothea_info.png" alt="Leucothea image 1. A key image of her model."></p>
+<p>I can't wait to see her debut, and I wish her all the luck in the world!</p>
 <p>I'm also working on another Live2d art right now, but I don't believe I'm allowed to share it just yet.</p>
 <h2>FFXIV, Savage and Ultimates</h2>
 <p>We got a clear last week with all 8 of us, as the week before was with a sub.
-<img src="/assets/img/blog/savage_clear.png" alt="FFXIV image 1. A group pose of 8 people celebrating.">
-It was fun, but I won't lie, I'm actually looking so much more forward to UWU... which we started doing! When we finish reclears for the week, we do UWU on our remaining days. It's been super fun, and I'm really happy that I'm tackling it again. After about 2 sessions, we're already almost done with Ifrit. I'm shocked at how much I innately remembered despite it being years since I touched it!</p>
+<img src="/assets/img/blog/savage_clear.png" alt="FFXIV image 1. A group pose of 8 people celebrating."></p>
+<p>It was fun, but I won't lie, I'm actually looking so much more forward to UWU... which we started doing! When we finish reclears for the week, we do UWU on our remaining days. It's been super fun, and I'm really happy that I'm tackling it again. After about 2 sessions, we're already almost done with Ifrit. I'm shocked at how much I innately remembered despite it being years since I touched it!</p>
 <h2>Lancer</h2>
 <p>AAAAAAAAH Lancer is so much fun! My girlfriend does a wonderful job of DMing and all of our players are great and every Sunday is so exciting!! Some information was revealed about one of the main villains and it's been swirling in my mind since. I also did a little design update of my character!
-<img src="/assets/img/blog/billie_chapter2.png" alt="Lancer image. A Lancer OC with a red scarf sitting on a box.">
-Aren't they cute? You can read about <a href="/ocs/billie">Billie here</a>! With each chapter design (of 3 total) I want them to look just a little bit older. I think the big sleeves help. Also, the little bag there holds a mysterious mechanical orb they found, nicknamed &quot;Hope&quot;! I think the matching red ribbon to Billie's scarf is really cute.
+<img src="/assets/img/blog/billie_chapter2.png" alt="Lancer image. A Lancer OC with a red scarf sitting on a box."></p>
+<p>Aren't they cute? You can read about <a href="/ocs/billie">Billie here</a>! With each chapter design (of 3 total) I want them to look just a little bit older. I think the big sleeves help. Also, the little bag there holds a mysterious mechanical orb they found, nicknamed &quot;Hope&quot;! I think the matching red ribbon to Billie's scarf is really cute.
 <em>(Also Billie made that bag themselves, but don't tell anyone!)</em></p>
 <h2>Conclusion</h2>
 <p>Anyway, that was most of last week. It's been pretty good!</p>
 <p>My hands hurt from typing now so I'm gonna stop. Thanks for reading, and I love you!</p>
 <p><em>- nonkiru</em></p>
 
+                    </main> 
                 </div>
-            </main>
+                    
+            </div>
+
+            <div class="footer" id="theme_f">
+                <footer>©nonkiru 2022 ~ Forever! Happily hosted on <a href="https://neocities.org/site/nonkiru">Neocities.</a>
+<br>
+<a href="/accessibility/">Accessibility</a> ⁑ <a href="/sitemap/">Sitemap</a> ⁑ <a href="https://nonkiru.art/nonkiru_feed.xml">RSS Feed</a>
+<br>Site analytics provided by <a href="https://www.goatcounter.com/">GoatCounter</a></footer>
+            </div>
+        
         </div>
+        <aside> 
+        <div class="pagedoll">
+            <img src="/assets/website/pagedoll.png" alt="">
+        </div>
+        </aside> 
 
     </body>
     <!-- Stay safe out there~ ♪ -->
     <script>
-        /* Dark mode script thanks to https://derekkedziora.com/blog/dark-mode-revisited */
-        let systemInitiatedDark = window.matchMedia("(prefers-color-scheme: dark)"); 
-        let theme = sessionStorage.getItem('theme');
+        /* behold, nonkiru javascript!! :33 */
+        var root = document.querySelector(':root');
 
-        if (systemInitiatedDark.matches) {
-            document.getElementById("theme-toggle").innerHTML = "Light Mode";
-        } else {
-            document.getElementById("theme-toggle").innerHTML = "Dark Mode";
+        function lightmode() {
+
+            document.getElementById('theme_s').style.transition = "all 0.3s";
+            document.getElementById('theme_m').style.transition = "all 0.3s";
+            document.getElementById('theme_f').style.transition = "all 0.3s";
+
+            document.body.style.backgroundImage = 'url(/../assets/website/bg.png)';
+
+            root.style.setProperty('--yellow', '#ffede5');
+            root.style.setProperty('--yellow_darker', '#ffe3d4');
+            root.style.setProperty('--pink_darker', '#C73D60');
+            root.style.setProperty('--bg', '#fff9f6');
+            root.style.setProperty('--text', '#9A3F3F');
         }
+        function darkmode() {
 
-        function prefersColorTest(systemInitiatedDark) {
-        if (systemInitiatedDark.matches) {
-            document.documentElement.setAttribute('data-theme', 'dark');		
-            document.getElementById("theme-toggle").innerHTML = "Light Mode";
-            sessionStorage.setItem('theme', '');
-        } else {
-            document.documentElement.setAttribute('data-theme', 'light');
-            document.getElementById("theme-toggle").innerHTML = "Dark Mode";
-            sessionStorage.setItem('theme', '');
-        }
-        }
-        systemInitiatedDark.addListener(prefersColorTest);
+            document.getElementById('theme_s').style.transition = "all 0.3s";
+            document.getElementById('theme_m').style.transition = "all 0.3s";
+            document.getElementById('theme_f').style.transition = "all 0.3s";
 
-
-        function modeSwitcher() {
-            let theme = sessionStorage.getItem('theme');
-            if (theme === "dark") {
-                document.documentElement.setAttribute('data-theme', 'light');
-                sessionStorage.setItem('theme', 'light');
-                document.getElementById("theme-toggle").innerHTML = "Dark Mode";
-            }	else if (theme === "light") {
-                document.documentElement.setAttribute('data-theme', 'dark');
-                sessionStorage.setItem('theme', 'dark');
-                document.getElementById("theme-toggle").innerHTML = "Light Mode";
-            } else if (systemInitiatedDark.matches) {	
-                document.documentElement.setAttribute('data-theme', 'light');
-                sessionStorage.setItem('theme', 'light');
-                document.getElementById("theme-toggle").innerHTML = "Dark Mode";
-            } else {
-                document.documentElement.setAttribute('data-theme', 'dark');
-                sessionStorage.setItem('theme', 'dark');
-                document.getElementById("theme-toggle").innerHTML = "Light Mode";
-            }
-        }
-
-        if (theme === "dark") {
-            document.documentElement.setAttribute('data-theme', 'dark');
-            sessionStorage.setItem('theme', 'dark');
-            document.getElementById("theme-toggle").innerHTML = "Light Mode";
-        } else if (theme === "light") {
-            document.documentElement.setAttribute('data-theme', 'light');
-            sessionStorage.setItem('theme', 'light');
-            document.getElementById("theme-toggle").innerHTML = "Dark Mode";
+            document.body.style.backgroundImage = 'url(/../assets/website/bg_dark.png)';
+            
+            root.style.setProperty('--yellow', '#5c3f4b');
+            root.style.setProperty('--yellow_darker', '#71505e');
+            root.style.setProperty('--pink_darker', '#FFD3D4');
+            root.style.setProperty('--bg', '#4b313c');
+            root.style.setProperty('--text', '#fff9f6');
         }
     </script>
 </html>

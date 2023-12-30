@@ -7,6 +7,12 @@
         <description>nonkiru's RSS feed!</description>
         <language>en-us</language>
         <item>
+        <title>New Layout</title>
+            <pubDate>Sat, 30 Dec 2023 12:00:00 +0800</pubDate>
+            <link>https://nonkiru.art/#rssupdate</link>
+            <guid>https://nonkiru.art/#rssupdate</guid>
+            <description>Brand new layout is done! I hope you enjoy exploring it.</description>
+        </item>
         <title>Even More New Artwork</title>
             <pubDate>Tue, 26 Dec 2023 15:00:00 +0800</pubDate>
             <link>https://nonkiru.art/art/2023/#rssupdate3</link>

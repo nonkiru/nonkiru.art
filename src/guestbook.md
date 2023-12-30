@@ -1,13 +1,13 @@
 ---
 title: Guestbook ⁑ nonkiru.art
-layout: layout.njk
+layout: silly.njk
 h1: Guestbook
 ---
 
 ## Before you comment...
-- Please be nice to me and other commenters!
-- I retain the ability to remove any comments I don't like.
-- Comments take a moment to send; but no worries if you accidentally double send! I'll remove any extra comments.
+- please be nice to me ill cry
+- dont be mean or i will delete your message!!
+- comments take a second to send!! no worries if you double send by mistake ill delete extra comments :3
 
 <div id="c_widget"></div>
 <script src="../assets/js/comment-widget.js"></script>

@@ -1,33 +1,74 @@
 ---
-title: nonkiru.art
-layout: landing.njk
+title: Home ⁑ nonkiru.art
+layout: silly.njk
+h1: Welcome!
+---
+<div class="flex">
+
+<div id="home-mobilefix">
+
+hi hi!!! welcome to my silly little website!! ♪(´▽｀)
+
+i'm known as nonkiru, and it's nice to meet you! :3
+<br>i hope you enjoy exploring my site; you can do so with the navigation menu or with my [sitemap](/sitemap/)!!
+
+<img src="/assets/website/divider.png" alt=""><img src="/assets/website/divider.png" alt=""><img src="/assets/website/divider.png" alt="">
+
+<div class="minibox">
+
+## Updates
 ---
 
-# Welcome!
-
-Hello and welcome to <a href="/">nonkiru.art</a>!
-<hr>
-
-This site uses **Javascript**. It's required for multiple functions on this site; however, it should function properly with it turned off.
-
-This site has **autoplaying GIFs**. Large walls of GIFs (such as the link list) are hidden under a dropdown.
-
-This site was made with Firefox, at a 1920x1080 resolution in mind. This site is also mobile compatible.
-
-While there is nothing NSFW/adult on this website, this site was created by an adult with a mature audience in mind.
-
+**30th December 2023**
 <br>
-<b>Refresh your browser on each visit to see updates!</b>
-<br>
-<br>
-<br><a href="#" id="theme-toggle" onclick="modeSwitcher()" class="fakebutton">Toggle Theme</a>
-<br><button onclick="cursorEffect.destroy()" style="margin-top: 0.35rem;">Remove Cursor Trail</button>
+layout is done! ...mostly. i wanna do a revamp of a few pages, iron out a few issues; etc! anyway i hope you all like it as much as i do :3
 
-<br><br>
-<img src="/assets/img/border.webp" alt="">
+---
 
-<a href="/home/" style="font-size: 1.5rem; font-family: 'Patrick Hand', cursive;">Enter my website?</a>
+**26th December 2023**
+<br>
+started work on nonkiru version silly! i've been doing a lot of style experimentation, specifically with my art style! i think it looks really cute and pretty! unfortunately i'm an extreme people-pleaser, so i always worry and hope that other people like my work too... so in saying that, i hope you like this new layout!! (´▽`ʃ♡ƪ)
+
+</div>
 
 <br>
 
-<div id="mobilepixelfix2" style="float: right; margin: -1rem; margin-top: -12rem; margin-right: 1rem;"><img src="/assets/img/nonkiru_small.webp" alt="Pixel art of the site owner."></div>
+<div class="minibox">
+
+## To-Do List
+---
+- about page revamp
+- ocs layout
+- set dark/light theme to user preference
+- take a big nap
+
+
+</div>
+
+</div>
+
+<div id="home-mobilefix">
+
+## Latest Artwork
+---
+<div style="text-align: center;">
+<a href="/art/" class="imgbutton_small"><img src="/assets/artwork/2023/strangedream.png" class="imgborder" alt="My newest artwork!" style="max-width: 400px; height: 250px;">
+<br><a href="/art/">view the gallery here!</a>
+</div>
+
+<br>
+
+## Latest Blog Post
+---
+<div style="height: 5rem; -webkit-mask-image: linear-gradient(180deg, #000 60%, transparent);">
+
+<small>23 December 2023</small>
+
+Hello friends! I'm back with another ramble about my week. Though honestly, this is closer to about a month... I'll keep this preramble short and sweet ~ so umm. Yeah!!
+
+</div>
+<a href="/blog/more_moments_from_my_week/">Read more of this post!</a>
+</div>
+
+</div>
+

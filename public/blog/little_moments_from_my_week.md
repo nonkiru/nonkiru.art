@@ -14,6 +14,7 @@ I've still been working on my Minecraft world! It's been going great; my last bl
 To continue where I left off...
 
 ![Minecraft screenshot 1. A bunch of Allay in a house.](/assets/img/blog/minecraft_12.png)
+
 First, I put all the Allay in my storage house.
 
 ![Minecraft screenshot 2. A bunch of Allay in a basement.](/assets/img/blog/minecraft_13.png)
@@ -72,9 +73,11 @@ Here's some images and stuff!
 
 ---
 ![Edwin image 1. A key image of his model.](/assets/img/blog/edwinthumb.png)
+
 Here's his key art! I'm really proud of his design, I think it's quite stylish.
 
 ![Edwin image 2. A schedule.](/assets/img/blog/edwin_schedule.png)
+
 And a little schedule graphic! His main colours, I feel, are becoming more blue over time.
 
 Anyway, I'm super proud of him. He's live as I write this and he has currently like 20 viewers... I hope he continues to grow!
@@ -82,7 +85,9 @@ Anyway, I'm super proud of him. He's live as I write this and he has currently l
 ---
 
 I've also been working on some other Vtuber models, too! Here's the art I did for [Leucothea](https://twitter.com/Leucothea_Abyss).
+
 ![Leucothea image 1. A key image of her model.](/assets/img/blog/leucothea_info.png)
+
 I can't wait to see her debut, and I wish her all the luck in the world!
 
 I'm also working on another Live2d art right now, but I don't believe I'm allowed to share it just yet.
@@ -90,11 +95,13 @@ I'm also working on another Live2d art right now, but I don't believe I'm allowe
 ## FFXIV, Savage and Ultimates
 We got a clear last week with all 8 of us, as the week before was with a sub.
 ![FFXIV image 1. A group pose of 8 people celebrating.](/assets/img/blog/savage_clear.png)
+
 It was fun, but I won't lie, I'm actually looking so much more forward to UWU... which we started doing! When we finish reclears for the week, we do UWU on our remaining days. It's been super fun, and I'm really happy that I'm tackling it again. After about 2 sessions, we're already almost done with Ifrit. I'm shocked at how much I innately remembered despite it being years since I touched it!
 
 ## Lancer
 AAAAAAAAH Lancer is so much fun! My girlfriend does a wonderful job of DMing and all of our players are great and every Sunday is so exciting!! Some information was revealed about one of the main villains and it's been swirling in my mind since. I also did a little design update of my character!
 ![Lancer image. A Lancer OC with a red scarf sitting on a box.](/assets/img/blog/billie_chapter2.png)
+
 Aren't they cute? You can read about [Billie here](/ocs/billie)! With each chapter design (of 3 total) I want them to look just a little bit older. I think the big sleeves help. Also, the little bag there holds a mysterious mechanical orb they found, nicknamed "Hope"! I think the matching red ribbon to Billie's scarf is really cute.
 *(Also Billie made that bag themselves, but don't tell anyone!)*
 

@@ -1,6 +1,6 @@
 ---
 title: 404 Page Not Found ⁑ nonkiru.art
-layout: layout.njk
+layout: silly.njk
 h1: 404 Page Not Found
 ---
 

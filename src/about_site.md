@@ -1,6 +1,6 @@
 ---
 title: About this Site ⁑ nonkiru.art
-layout: layout.njk
+layout: silly.njk
 h1: About this Site
 ---
 
