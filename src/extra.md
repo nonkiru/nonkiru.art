@@ -48,7 +48,7 @@ my little spot to ramble about stuff!!
 
 ## OCs
 
-<img src="/assets/website/buttons/ocs.png" alt="">
+<img src="/assets/website/buttons/ocs.png" alt="" style="max-width: 100%">
 <br><a href="/ocs/">check out how normal i am about my funny little guys</a>
 
 </div>
