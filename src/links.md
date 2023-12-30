@@ -93,9 +93,9 @@ h1: Links
 <a href="https://webring.dinhe.net/" class="imgbutton"><img src="/assets/website/webrings/retronaut.png" alt="Retronaut Webring"></a>
 <a href="https://webring.dinhe.net/next/https://nonkiru.art" class="imgbutton"><img src="/assets/website/webrings/webring_right.png" alt="Retronaut Webring - RIGHT"></a>
 <br>
-<a href="https://webring.dinhe.net/prev/https://nonkiru.art" class="imgbutton"><img src="/assets/website/webrings/webring_left.png" alt="Retronaut Webring - LEFT"></a>
-<a href="https://webring.dinhe.net/" class="imgbutton"><img src="/assets/website/webrings/null.png" alt="Retronaut Webring"></a>
-<a href="https://webring.dinhe.net/next/https://nonkiru.art" class="imgbutton"><img src="/assets/website/webrings/webring_right.png" alt="Retronaut Webring - RIGHT"></a>
+<a href="https://kigurumi.neocities.org/" class="imgbutton"><img src="/assets/website/webrings/webring_left.png" alt="Null Webring - LEFT"></a>
+<a href="https://nuthead.neocities.org/ring/" class="imgbutton"><img src="/assets/website/webrings/null.png" alt="Null Webring"></a>
+<a href="https://were.monster/" class="imgbutton"><img src="/assets/website/webrings/webring_right.png" alt="Null Webring - RIGHT"></a>
 <a href="https://milestailsprower.neocities.org/" class="imgbutton"><img src="/assets/website/webrings/webring_left.png" alt="Vocaloid Webring - LEFT"></a>
 <a href="https://webring.adilene.net/" class="imgbutton"><img src="/assets/website/webrings/vocaloid.png" alt="Vocaloid Webring"></a>
 <a href="https://entomology.neocities.org/" class="imgbutton"><img src="/assets/website/webrings/webring_right.png" alt="Vocaloid Webring - RIGHT"></a>
