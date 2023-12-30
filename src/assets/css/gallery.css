@@ -119,6 +119,10 @@ h1 {
     padding: 1rem;
 }
 
+.gallery img {
+    max-height: 250px;
+}
+
 hr {
     border: 0.8rem solid transparent;
     border-right: none;
