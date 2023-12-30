@@ -1,5 +1,5 @@
 ---
-title: Home ⁑ nonkiru.art
+title: nonkiru.art
 layout: silly.njk
 h1: Welcome!
 ---
