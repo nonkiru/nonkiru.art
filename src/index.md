@@ -1,56 +1,74 @@
 ---
-title: Home ⁑ nonkiru.art
-layout: layout.njk
+title: nonkiru.art
+layout: silly.njk
 h1: Welcome!
 ---
+<div class="flex">
 
-Hello hello, world wide web adventurer!! (❁´◡`❁)
-<br>Welcome to my little website on the internet! I'm known as *nonkiru*, and it's nice to meet you.
-<br><br>I hope you have a nice time exploring my site!
-<br>You can either use the navigation to the left, or use my <a href="/sitemap/">sitemap</a>.
+<div id="home-mobilefix">
 
-Most of the art and code on this site was made by me, but anything else will be <a href="/credits/">credited here</a>!
+hi hi!!! welcome to my silly little website!! ♪(´▽｀)
 
-<b>Notice!</b> This website <i>currently</i> has a [WebPG](http://www.mabsland.com/Adoption.html) rating. 
-<br><i>However</i>, this is likely to change to Web14+ in the future.
+i'm known as nonkiru, and it's nice to meet you! :3
+<br>i hope you enjoy exploring my site; you can do so with the navigation menu or with my [sitemap](/sitemap/)!!
 
-<hr>
+<img src="/assets/website/divider.png" alt=""><img src="/assets/website/divider.png" alt=""><img src="/assets/website/divider.png" alt="">
+
+<div class="minibox">
 
 ## Updates
-<div class="update_box" tabindex="0">
+---
 
-<b>05 ~ 08 October 2023</b>
-<hr>
+**30th December 2023**
+<br>
+layout is done! ...mostly. i wanna do a revamp of a few pages, iron out a few issues; etc! anyway i hope you all like it as much as i do :3
 
-Started work on this layout.
+---
 
-<b>35 Febtember 3005</b>
-<hr>
-
-This is a fake update to test the scrollbar. I'll remove this once I have more updates.
+**26th December 2023**
+<br>
+started work on nonkiru version silly! i've been doing a lot of style experimentation, specifically with my art style! i think it looks really cute and pretty! unfortunately i'm an extreme people-pleaser, so i always worry and hope that other people like my work too... so in saying that, i hope you like this new layout!! (´▽`ʃ♡ƪ)
 
 </div>
+
+<br>
+
+<div class="minibox">
 
 ## To-Do List
-<div class="update_box" tabindex="0">
-    <b>Important</b>
-    <hr>
-    <ul>
-        <li>Finish the about page.</li>
-        <li>Finish the art page.</li>
-        <li>Add a button to pause all gifs/moving elements, or to remove them.</li>
-    </ul>
-    <b>Ideas</b>
-    <hr>
-    <ul>
-        <li>Blog page, for blogging!</li>
-        <li>Make some shrines!</li>
-        <li>Make a webring? For something?</li>
-    </ul>
+---
+- about page revamp
+- ocs layout
+- set dark/light theme to user preference
+- take a big nap
+
+
 </div>
 
-## Status Cafe
-
-<div class="statuscafe">
-    <div id="statuscafe"><div id="statuscafe-username"></div><div id="statuscafe-content"></div></div><script src="https://status.cafe/current-status.js?name=nonkiru" defer></script>
 </div>
+
+<div id="home-mobilefix">
+
+## Latest Artwork
+---
+<div style="text-align: center;">
+<a href="/art/" class="imgbutton_small"><img src="/assets/artwork/2023/strangedream.jpg" class="imgborder" alt="My newest artwork!" style="max-width: 400px; height: 250px;">
+<br><a href="/art/">view the gallery here!</a>
+</div>
+
+<br>
+
+## Latest Blog Post
+---
+<div style="height: 5rem; -webkit-mask-image: linear-gradient(180deg, #000 60%, transparent);">
+
+<small>23 December 2023</small>
+
+Hello friends! I'm back with another ramble about my week. Though honestly, this is closer to about a month... I'll keep this preramble short and sweet ~ so umm. Yeah!!
+
+</div>
+<a href="/blog/more_moments_from_my_week/">Read more of this post!</a>
+</div>
+
+</div>
+

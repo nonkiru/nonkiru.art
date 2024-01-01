@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+    <!-- Thank you for stopping by nonkiru.art! ♪(^∇^*) -->
+    <!-- Unless otherwise stated, all the art on this site is made by me. -->
+    <!-- Don't use any of the materials on this site without permission. -->
+    <head>
+        <link rel="shortcut icon" type="image/jpg" href="/assets/img/favicon.ico">
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="/../assets/css/gallery.css?v=1.1">
+        <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css"/>
+        <title>{{ title }}</title>
+    </head>
+    <body>
+        <div class="container" id="theme_m">
+            <div class="innercontainer" id="theme_s">
+            <main>
+                {{ content | safe }}
+            </main>
+            </div>
+        </div>
+    </body>
+    <!-- Stay safe out there~ ♪ -->
+    <script>
+        /* behold, nonkiru javascript!! :33 */
+        var root = document.querySelector(':root');
+
+        function lightmode() {
+
+            document.getElementById('theme_s').style.transition = "all 0.3s";
+            document.getElementById('theme_m').style.transition = "all 0.3s";
+
+            document.body.style.backgroundImage = 'url(/../assets/website/bg.png)';
+
+            root.style.setProperty('--yellow', '#ffede5');
+            root.style.setProperty('--yellow_darker', '#ffe3d4');
+            root.style.setProperty('--pink_darker', '#C73D60');
+            root.style.setProperty('--bg', '#fff9f6');
+            root.style.setProperty('--text', '#9A3F3F');
+        }
+
+        function darkmode() {
+
+            document.getElementById('theme_s').style.transition = "all 0.3s";
+            document.getElementById('theme_m').style.transition = "all 0.3s";
+
+            document.body.style.backgroundImage = 'url(/../assets/website/bg_dark.png)';
+            
+            root.style.setProperty('--yellow', '#5c3f4b');
+            root.style.setProperty('--yellow_darker', '#71505e');
+            root.style.setProperty('--pink_darker', '#FFD3D4');
+            root.style.setProperty('--bg', '#4b313c');
+            root.style.setProperty('--text', '#fff9f6');
+        }
+    </script>
+    <script>
+      Fancybox.bind('[data-fancybox="gallery"]', {
+        animated: false,
+      }); 
+    </script>
+</html>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <atom:link href="https://nonkiru.art/nonkiru_feed.xml" rel="self" type="application/rss+xml" />
+        <title>nonkiru.art</title>
+        <link>https://nonkiru.art/</link>
+        <description>nonkiru's RSS feed!</description>
+        <language>en-us</language>
+        <item>
+        <title>New Layout</title>
+            <pubDate>Sat, 30 Dec 2023 12:00:00 +0800</pubDate>
+            <link>https://nonkiru.art/#rssupdate</link>
+            <guid>https://nonkiru.art/#rssupdate</guid>
+            <description>Brand new layout is done! I hope you enjoy exploring it.</description>
+        </item>
+        <item>
+        <title>Even More New Artwork</title>
+            <pubDate>Tue, 26 Dec 2023 15:00:00 +0800</pubDate>
+            <link>https://nonkiru.art/art/2023/#rssupdate3</link>
+            <guid>https://nonkiru.art/art/2023/#rssupdate3</guid>
+            <description>New art to the 2023 gallery. I'm trying out a new art style.</description>
+        </item>
+        <item>
+            <title>Blog About My Week And More New Artwork</title>
+            <pubDate>Sat, 23 Dec 2023 14:30:00 +0800</pubDate>
+            <link>https://nonkiru.art/home/#rssupdate</link>
+            <guid>https://nonkiru.art/art/2023/#rssupdate</guid>
+            <description>A new blog post, about my week (actually about my month), and more new art to the 2023 gallery.</description>
+        </item>
+        <item>
+            <title>More New Artwork</title>
+            <pubDate>Fri, 15 Dec 2023 21:30:00 +0800</pubDate>
+            <link>https://nonkiru.art/art/2023/#rssupdate2</link>
+            <guid>https://nonkiru.art/art/2023/#rssupdate2</guid>
+            <description>New art to the 2023 gallery.</description>
+        </item>
+        <item>
+            <title>New Artwork</title>
+            <pubDate>Thu, 7 Dec 2023 15:30:00 +0800</pubDate>
+            <link>https://nonkiru.art/art/2023/#rssupdate1</link>
+            <guid>https://nonkiru.art/art/2023/#rssupdate1</guid>
+            <description>New art to the 2023 gallery.</description>
+        </item>
+        <item>
+            <title>2022 Gallery and New Artwork</title>
+            <pubDate>Wed, 29 Nov 2023 14:30:00 +0800</pubDate>
+            <link>https://nonkiru.art/art/2022/</link>
+            <guid>https://nonkiru.art/art/2022/</guid>
+            <description>Added what I believe is every single (main) piece of artwork I did during 2022. I've also added some new art to my 2023 page.</description>
+        </item>
+        <item>
+            <title>Little Moments from my Week</title>
+            <pubDate>Mon, 20 Nov 2023 15:30:00 +0800</pubDate>
+            <link>https://nonkiru.art/blog/little_moments_from_my_week/</link>
+            <guid>https://nonkiru.art/blog/little_moments_from_my_week/</guid>
+            <description>A blog post about my week.</description>
+        </item>
+        <item>
+            <title>New Artwork</title>
+            <pubDate>Thu, 16 Nov 2023 19:00:00 +0800</pubDate>
+            <link>https://nonkiru.art/art_2023/</link>
+            <guid>https://nonkiru.art/art_2023/</guid>
+            <description>New artwork added to the 2023 gallery.</description>
+        </item>
+        <item>
+            <title>A Retrospective Into FFXIV ⁑ Endwalker Savage ~ Updated</title>
+            <pubDate>Sat, 11 Nov 2023 21:30:00 +0800</pubDate>
+            <link>https://nonkiru.art/blog/a_retrospective_into_ffxiv_endwalker_savage/</link>
+            <guid>https://nonkiru.art/blog/a_retrospective_into_ffxiv_endwalker_savage/</guid>
+            <description>Updated my FFXIV Endwalker Savage retrospective post; I cleared P12S P2!</description>
+        </item>
+        <item>
+            <title>Learning to Love Minecraft Again</title>
+            <pubDate>Thu, 09 Nov 2023 19:00:00 +0800</pubDate>
+            <link>https://nonkiru.art/blog/learning_to_love_minecraft_again/</link>
+            <guid>https://nonkiru.art/blog/learning_to_love_minecraft_again/</guid>
+            <description>A blog post about learning to love Minecraft again!</description>
+        </item>
+        <item>
+            <title>New RSS Feed</title>
+            <pubDate>Thu, 09 Nov 2023 16:00:00 +0800</pubDate>
+            <link>https://nonkiru.art/</link>
+            <guid>https://nonkiru.art/#1</guid>
+            <description>Only new update today is the addition of this RSS feed! I'll do my best to update this with every new site change.</description>
+        </item>
+    </channel>
+</rss>
