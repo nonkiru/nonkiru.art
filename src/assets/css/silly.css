@@ -256,6 +256,9 @@ li {
     max-width: 120px;
     padding: 0.5rem;
 }
+.socials img {
+    width: 40px;
+}
 #mobile_nav {
     display: none;
     vertical-align: middle;
