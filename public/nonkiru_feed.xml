@@ -7,6 +7,13 @@
         <description>nonkiru's RSS feed!</description>
         <language>en-us</language>
         <item>
+        <title>2024 Gallery Begins</title>
+            <pubDate>Mon, 1 Jan 2024 22:00:00 +0800</pubDate>
+            <link>https://nonkiru.art/art/2024/</link>
+            <guid>https://nonkiru.art/art/2024/</guid>
+            <description>Happy New Year! Two new pieces of artwork to begin the year!</description>
+        </item>
+        <item>
         <title>New Layout</title>
             <pubDate>Sat, 30 Dec 2023 12:00:00 +0800</pubDate>
             <link>https://nonkiru.art/#rssupdate</link>

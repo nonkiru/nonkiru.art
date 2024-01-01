@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+    <!-- Thank you for stopping by nonkiru.art! ♪(^∇^*) -->
+    <!-- Unless otherwise stated, all the art on this site is made by me. -->
+    <!-- Don't use any of the materials on this site without permission. -->
+    <head>
+        <link rel="shortcut icon" type="image/jpg" href="/assets/img/favicon.ico">
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="/../assets/css/gallery.css?v=1.1">
+        <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css"/>
+        <title>2024 Gallery ⁑ nonkiru.art</title>
+    </head>
+    <body>
+        <div class="container" id="theme_m">
+            <div class="innercontainer" id="theme_s">
+            <main>
+                <!-- FULL: DONT COMPRESS, RE-SIZE -->
+<!-- THUMBNAILS: bulk resize 500 height -->
+<!-- COMPRESS AFTER -->
+<h1>2024 Gallery</h1>
+<a href="/art/">Return</a>
+<br>
+<a href="javascript:;" class="a_img" onclick="lightmode()" onmouseover="document.light.src='/assets/website/light_theme_hover.png';" onmouseout="document.light.src='/assets/website/light_theme.png';" 
+onfocus="document.light.src='/assets/website/light_theme_hover.png';" onfocusout="document.light.src='/assets/website/light_theme.png';">
+<img src="/assets/website/light_theme.png" alt="Light Theme" name="light"></a>
+<a href="javascript:;" class="a_img" onclick="darkmode()" onmouseover="document.dark.src='/assets/website/dark_theme_hover.png';" onmouseout="document.dark.src='/assets/website/dark_theme.png';" 
+onfocus="document.dark.src='/assets/website/dark_theme_hover.png';" onfocusout="document.dark.src='/assets/website/dark_theme.png';">
+<img src="/assets/website/dark_theme.png" alt="Dark Theme" name="dark"></a>
+<br>
+<br><a href="https://vgen.co/nonkiru">You can commission me via my VGen!</a>
+<br>
+<br>Click to view gallery. Check back later for more art! Sorted latest to oldest.
+<div class="gallery">
+<h2>January</h2>
+<a href="/../assets/artwork/2024/billie.jpg" data-fancybox="gallery" data-caption="Personal art. Artwork of a person sitting on a mech.">
+    <img src="/../assets/artwork/2024/low/billie.jpg" alt="Personal art. Artwork of a person sitting on a mech."  loading="lazy" />
+</a>
+<a href="/../assets/artwork/2024/non_sketch_page.jpg" data-fancybox="gallery" data-caption="Personal art. A sketch page of an anthro cat.">
+    <img src="/../assets/artwork/2024/low/non_sketch_page.jpg" alt="Personal art. A sketch page of an anthro cat."  loading="lazy" />
+</a>
+</div>
+            </main>
+            </div>
+        </div>
+    </body>
+    <!-- Stay safe out there~ ♪ -->
+    <script>
+        /* behold, nonkiru javascript!! :33 */
+        var root = document.querySelector(':root');
+
+        function lightmode() {
+
+            document.getElementById('theme_s').style.transition = "all 0.3s";
+            document.getElementById('theme_m').style.transition = "all 0.3s";
+
+            document.body.style.backgroundImage = 'url(/../assets/website/bg.png)';
+
+            root.style.setProperty('--yellow', '#ffede5');
+            root.style.setProperty('--yellow_darker', '#ffe3d4');
+            root.style.setProperty('--pink_darker', '#C73D60');
+            root.style.setProperty('--bg', '#fff9f6');
+            root.style.setProperty('--text', '#9A3F3F');
+        }
+
+        function darkmode() {
+
+            document.getElementById('theme_s').style.transition = "all 0.3s";
+            document.getElementById('theme_m').style.transition = "all 0.3s";
+
+            document.body.style.backgroundImage = 'url(/../assets/website/bg_dark.png)';
+            
+            root.style.setProperty('--yellow', '#5c3f4b');
+            root.style.setProperty('--yellow_darker', '#71505e');
+            root.style.setProperty('--pink_darker', '#FFD3D4');
+            root.style.setProperty('--bg', '#4b313c');
+            root.style.setProperty('--text', '#fff9f6');
+        }
+    </script>
+    <script>
+      Fancybox.bind('[data-fancybox="gallery"]', {
+        animated: false,
+      }); 
+    </script>
+</html>

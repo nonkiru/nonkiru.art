@@ -17,12 +17,12 @@ h1: Sitemap
 
 ## Other Links
 <ul>
-    <li><a href="/">Landing Page</a></li>
     <li><a href="/accessibility/">Accessibility</a></li>
     <li><a href="/sitemap/">Sitemap</a></li>
     <li><a href="/not_found/">404 Not Found</a></li>
-    <li><a href="/art_2023/">2023 Gallery</a></li>
-    <li><a href="/art_2022/">2023 Gallery</a></li>
+    <li><a href="/art/2024/">2024 Gallery</a></li>
+    <li><a href="/art/2023/">2023 Gallery</a></li>
+    <li><a href="/art/2022/">2022 Gallery</a></li>
     <li><a href="/layouts/cheesecake/">Website Layouts ~ Cheesecake</a></li>
 </ul>
 

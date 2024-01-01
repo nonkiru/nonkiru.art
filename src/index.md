@@ -22,6 +22,7 @@ i'm known as nonkiru, and it's nice to meet you! :3
 **1st January 2024**
 <br>
 tiny updates! fixed [cheesecake](/layouts/cheesecake) and added my toyhouse to [links](/links/)!
+<br>upate 2: added [2024 gallery](/art/2024/) with two new pieces of artwork!
 
 ---
 
