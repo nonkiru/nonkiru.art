@@ -19,6 +19,12 @@ i'm known as nonkiru, and it's nice to meet you! :3
 ## Updates
 ---
 
+**1st January 2024**
+<br>
+tiny updates! fixed [cheesecake](/layouts/cheesecake) and added my toyhouse to [links](/links/)!
+
+---
+
 **30th December 2023**
 <br>
 layout is done! ...mostly. i wanna do a revamp of a few pages, iron out a few issues; etc! anyway i hope you all like it as much as i do :3
