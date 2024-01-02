@@ -20,7 +20,7 @@ A directory for my funny little characters! I hope to have a page for all of the
 ### Active
 <div class="ocbox">
     <div class="ocbox_image">
-        <img src="../assets/img/OCs/billie.png" alt="Billie Tae-Gloria.">
+        <img src="/assets/img/OCs/billie.png" alt="Billie Tae-Gloria.">
     </div>
     <a href="/ocs/billie/">
     Billie Tae-Gloria</a>

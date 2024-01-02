@@ -121,6 +121,25 @@ They have a love for tinkering with mechanics - mostly computers and mechs. They
     Someone whose gender is not completely and/or exclusively male or female.
     </span>
 </div>
+
+<div class="tooltip" tabindex="0">
+    <img src="/assets/img/OCs/ribbon_hearingaid.png" alt="Hearing Aid Ribbon.">
+    <span class="tooltiptext">
+    <b>Hearing Aid</b>
+    <hr>
+    This character is Deaf or Hard of Hearing and uses a Hearing aid to assist them.
+    </span>
+</div>
+
+<div class="tooltip" tabindex="0">
+    <img src="/assets/img/OCs/ribbon_ssc.png" alt="SSC Ribbon.">
+    <span class="tooltiptext">
+    <b>You Only Need One</b>
+    <hr>
+    This character pilots an SSC mech.
+    </span>
+</div>
+
 <br>
 <div class="tooltip" tabindex="0">
     <img src="/assets/img/OCs/ribbon_socialbutterfly.png" alt="Social Butterfly Ribbon.">
@@ -137,6 +156,15 @@ They have a love for tinkering with mechanics - mostly computers and mechs. They
     <b>Music Note</b>
     <hr>
     This character was inspired by a song.
+    </span>
+</div>
+
+<div class="tooltip" tabindex="0">
+    <img src="/assets/img/OCs/ribbon_shootingstar2.png" alt="Shooting Star Ribbon.">
+    <span class="tooltiptext">
+    <b>Shooting Star</b>
+    <hr>
+    This character is from outer space.
     </span>
 </div>
 

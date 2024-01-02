@@ -19,6 +19,12 @@ i'm known as nonkiru, and it's nice to meet you! :3
 ## Updates
 ---
 
+**2nd January 2024**
+<br>
+tiny update! 3 new portraits to [2024 gallery](/art/2024/) and some badges added to my [ocs](/ocs/)!
+
+---
+
 **1st January 2024**
 <br>
 tiny updates! fixed [cheesecake](/layouts/cheesecake) and added my toyhouse to [links](/links/)!

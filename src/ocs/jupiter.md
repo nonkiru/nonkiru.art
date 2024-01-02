@@ -154,5 +154,14 @@ Eventually, the two start a relationship again, after a tense combat scenario th
     </span>
 </div>
 
+<div class="tooltip" tabindex="0">
+    <img src="/assets/img/OCs/ribbon_ssc.png" alt="SSC Ribbon.">
+    <span class="tooltiptext">
+    <b>You Only Need One</b>
+    <hr>
+    This character pilots an SSC mech.
+    </span>
+</div>
+
 <br>
 <small>Ribbons are from <a href="https://toyhou.se/4739396.-ribbons">MisterMuse</a>.</small>
