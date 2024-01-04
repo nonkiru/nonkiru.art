@@ -106,17 +106,12 @@ h1: Links
 <a href="https://retrovampz.neocities.org/" class="imgbutton"><img src="/assets/website/webrings/webring_left.png" alt="Autism Webring - LEFT"></a>
 <a href="https://macaque.moe/autiring/" class="imgbutton"><img src="/assets/website/webrings/autism.png" alt="Autism Webring"></a>
 <a href="https://martin-is-a-real-person.neocities.org/" class="imgbutton"><img src="/assets/website/webrings/webring_right.png" alt="Autism Webring - RIGHT"></a>
+<a href="https://cyberponiez.neocities.org/" class="imgbutton"><img src="/assets/website/webrings/webring_left.png" alt="Furry Webring - LEFT"></a>
+<a href="https://furryring.neocities.org/" class="imgbutton"><img src="/assets/website/webrings/furry.png" alt="Furry Webring"></a>
+<a href="https://gaycomputerdog.neocities.org/" class="imgbutton"><img src="/assets/website/webrings/webring_right.png" alt="Furry Webring - RIGHT"></a>
 
 <br>
 <a href="https://allyratworld.com/cafe/rose" class="imgbutton"><img src="/assets/website/webrings/caferose.png" alt="Café Rosé"></a>
-
-
-
-### Waiting
-<div id='furryring'>
-<script type="text/javascript" src="https://furryring.neocities.org/onionring-variables.js"></script>
-<script type="text/javascript" src="https://furryring.neocities.org/onionring-widget.js"></script>
-</div>
 
 </div>
 
