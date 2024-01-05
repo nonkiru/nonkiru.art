@@ -19,6 +19,12 @@ i'm known as nonkiru, and it's nice to meet you! :3
 ## Updates
 ---
 
+**5th January 2024**
+<br>
+image optimisation site-wide!
+
+---
+
 **4th January 2024**
 <br>
 art added to [2024 gallery](/art/2024/), joined [furryring](https://furryring.neocities.org/)!
@@ -71,7 +77,7 @@ started work on nonkiru version silly! i've been doing a lot of style experiment
 ## Latest Artwork
 ---
 <div style="text-align: center;">
-<a href="/art/" class="imgbutton_small"><img src="/assets/artwork/2024/w101.jpg" class="imgborder" alt="My newest artwork!" style="max-width: 400px; height: 250px;">
+<a href="/art/" class="imgbutton_small"><img src="/assets/artwork/2024/w101.webp" class="imgborder" alt="My newest artwork!" style="max-width: 400px; height: 250px;">
 <br><a href="/art/">view the gallery here!</a>
 </div>
 
