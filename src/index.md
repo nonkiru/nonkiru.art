@@ -7,6 +7,8 @@ h1: Welcome!
 
 <div id="home-mobilefix">
 
+<img src="/assets/website/nonbinary.png" alt="Nonbinary flag."> <img src="/assets/website/lesbian.png" alt="Lesbian flag.">
+<br>
 hi hi!!! welcome to my silly little website!! ♪(´▽｀)
 
 i'm known as nonkiru, and it's nice to meet you! :3
