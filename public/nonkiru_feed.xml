@@ -7,6 +7,13 @@
         <description>nonkiru's RSS feed!</description>
         <language>en-us</language>
         <item>
+        <title>More Artwork Again</title>
+            <pubDate>Thu, 11 Jan 2024 12:00:00 +0800</pubDate>
+            <link>https://nonkiru.art/art/2024/#rssupdate3</link>
+            <guid>https://nonkiru.art/art/2024/#rssupdate3</guid>
+            <description>New artwork to the 2024 gallery.</description>
+        </item>
+        <item>
         <title>More Artwork</title>
             <pubDate>Sun, 7 Jan 2024 15:00:00 +0800</pubDate>
             <link>https://nonkiru.art/art/2024/#rssupdate2</link>

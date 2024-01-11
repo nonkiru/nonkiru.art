@@ -3,6 +3,10 @@
     font-family: "nonkiru"; 
     src: url(/assets/website/NonkiruSillyFont-Regular.ttf) format("truetype");
 }
+@font-face {
+    font-family: "sitelen pona pona"; 
+    src: url(/assets/website/sitelen-pona-pona.otf) format("opentype");
+}
 :root {
     --bg: #fff9f6;
     --text: #9A3F3F;
