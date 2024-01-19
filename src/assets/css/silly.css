@@ -40,7 +40,6 @@ body {
     background-image: url(/../assets/website/bg.png);
     color: var(--text);
     font-family: 'Atkinson Hyperlegible', sans-serif;
-    text-transform: lowercase;
     image-rendering: pixelated;
     cursor: url(/assets/website/cursor.png), auto;
     font-size: 1rem;

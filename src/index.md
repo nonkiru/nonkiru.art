@@ -21,6 +21,13 @@ i'm known as nonkiru, and it's nice to meet you! :3
 ## Updates
 ---
 
+**19th January 2024**
+<br>
+New blog post: [Installing Linux](/blog/installing_linux)!
+
+---
+
+
 **11th January 2024**
 <br>
 art added to [2024 gallery](/art/2024/)!
@@ -101,12 +108,14 @@ started work on nonkiru version silly! i've been doing a lot of style experiment
 ---
 <div style="height: 5rem; -webkit-mask-image: linear-gradient(180deg, #000 60%, transparent);">
 
-<small>23 December 2023</small>
+<small>19 January 2024</small>
 
-Hello friends! I'm back with another ramble about my week. Though honestly, this is closer to about a month... I'll keep this preramble short and sweet ~ so umm. Yeah!!
+Hello friends!!
+As the title suggests, I recently swapped from Windows 10 to Linux Mint. It's been something that I've been meaning to do for a about a week now.
+
 
 </div>
-<a href="/blog/more_moments_from_my_week/">Read more of this post!</a>
+<a href="/blog/installing_linux/">Read more of this post!</a>
 </div>
 
 </div>
