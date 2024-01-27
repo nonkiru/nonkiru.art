@@ -21,6 +21,12 @@ i'm known as nonkiru, and it's nice to meet you! :3
 ## Updates
 ---
 
+**28th January 2024**
+<br>
+Art added to [2024 gallery](/art/2024/)!
+
+---
+
 **19th January 2024**
 <br>
 New blog post: [Installing Linux](/blog/installing_linux)!
@@ -98,7 +104,7 @@ started work on nonkiru version silly! i've been doing a lot of style experiment
 ## Latest Artwork
 ---
 <div style="text-align: center;">
-<a href="/art/" class="imgbutton_small"><img src="/assets/artwork/2024/myuri_pictomancer.webp" class="imgborder" alt="My newest artwork!" style="max-width: 400px; height: 250px;">
+<a href="/art/" class="imgbutton_small"><img src="/assets/artwork/2024/sweets.webp" class="imgborder" alt="My newest artwork!" style="max-width: 400px; height: 250px;">
 <br><a href="/art/">view the gallery here!</a>
 </div>
 

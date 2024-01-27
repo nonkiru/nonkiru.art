@@ -7,6 +7,13 @@
         <description>nonkiru's RSS feed!</description>
         <language>en-us</language>
         <item>
+        <title>Even More Artwork Again</title>
+            <pubDate>Thu, 28 Jan 2024 05:00:00 +0800</pubDate>
+            <link>https://nonkiru.art/art/2024/#rssupdate4</link>
+            <guid>https://nonkiru.art/art/2024/#rssupdate4</guid>
+            <description>New artwork to the 2024 gallery.</description>
+        </item>
+        <item>
         <title>New Blog Post: Installing Linux</title>
             <pubDate>Fri, 119 Jan 2024 16:00:00 +0800</pubDate>
             <link>https://nonkiru.art/blog/installing_linux/</link>
