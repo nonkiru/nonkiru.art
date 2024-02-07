@@ -21,6 +21,12 @@ i'm known as nonkiru, and it's nice to meet you! :3
 ## Updates
 ---
 
+**7th February 2024**
+<br>
+Art added to [2024 gallery](/art/2024/)!
+
+---
+
 **28th January 2024**
 <br>
 Art added to [2024 gallery](/art/2024/)!
@@ -104,7 +110,7 @@ started work on nonkiru version silly! i've been doing a lot of style experiment
 ## Latest Artwork
 ---
 <div style="text-align: center;">
-<a href="/art/" class="imgbutton_small"><img src="/assets/artwork/2024/sweets.webp" class="imgborder" alt="My newest artwork!" style="max-width: 400px; height: 250px;">
+<a href="/art/" class="imgbutton_small"><img src="/assets/artwork/2024/thank_you_and_i_love_you.webp" class="imgborder" alt="My newest artwork!" style="max-width: 400px; height: 250px;">
 <br><a href="/art/">view the gallery here!</a>
 </div>
 
