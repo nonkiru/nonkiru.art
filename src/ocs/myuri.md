@@ -1,5 +1,5 @@
 ---
-title: Myuri Nohn ⁑ nonkiru.art
+title: Myuri ⁑ nonkiru.art
 layout: ocs.njk
 bgcolour: /assets/img/OCs/myuri_bg_light.png
 bgcolour_dark: /assets/img/OCs/myuri_bg_dark.png
@@ -19,16 +19,16 @@ headerimg: /assets/img/OCs/myuri_banner.webp
 
 # Welcome!
 ---
-This is a little page for my FFXIV WoL, Myuri Nohn! I started playing FFXIV back in Heavensward, on the 27th of November, 2016. I've been playing almost consistently since. I wanted a page to write about them, so here it is! FFXIV is one of the most important games ever to me, and I've spent maybe too much time playing it. Anyway, I hope you enjoy reading about my funny little cat-thing!
+This is a little page for my FFXIV WoL, Myuri! I started playing FFXIV back in Heavensward, on the 27th of November, 2016. I've been playing almost consistently since. I wanted a page to write about them, so here it is! FFXIV is one of the most important games ever to me, and I've spent maybe too much time playing it. Anyway, I hope you enjoy reading about my funny little cat-thing!
 
 ## General Information
 ---
 <div class="oc_flex">
     <div>
-    <img src="/assets/img/OCs/myuri_small.webp" alt="Myuri Nohn.">
+    <img src="/assets/img/OCs/myuri_small.webp" alt="Myuri.">
     </div>
 
-- **Full Name:** Myuri Nohn
+- **Full Name:** Myuri
 - **Pronouns:** They/Them
 - **Age:** 21
 - **Race:** Keeper of the Moon Miqo'te
@@ -41,7 +41,7 @@ This is a little page for my FFXIV WoL, Myuri Nohn! I started playing FFXIV back
     </div>
 </div>
 
-Myuri Nohn is a Keeper of the Moon Miqo'te who hails from Gridania. They travel around Eorzea, painting landscapes and people that they come across! They journey with their partner, Muffin, a Sponge Silkie. Myuri has an affinity for arcanum, and has an interest in Nymian magicks.
+Myuri is a Keeper of the Moon Miqo'te who hails from Gridania. They travel around Eorzea, painting landscapes and people that they come across! They journey with their partner, Muffin, a Sponge Silkie. Myuri has an affinity for arcanum, and has an interest in Nymian magicks.
 
 Myuri's Job is Arithmetician. They use a combination of the geometric and mathmatic teniques for their arithmetics, with assistance from their Faerie companion. Most of their magicks use the tactic of targeting an enemy based off their strength (in LVL), then using Sacred Soil to contain the magicks. This way, if both the enemy and the ally are the same strength, the magicks don't also hurt their allies. Myuri would describe their magick as "a mixture of thaumaturgy, Nymian intelligence, and a little bit of math!".
 
