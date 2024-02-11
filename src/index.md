@@ -21,6 +21,12 @@ i'm known as nonkiru, and it's nice to meet you! :3
 ## Updates
 ---
 
+**11th February 2024**
+<br>
+New blog post: [A Simple Site](/blog/a_simple_site/).
+
+---
+
 **7th February 2024**
 <br>
 Art added to [2024 gallery](/art/2024/)!
