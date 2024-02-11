@@ -120,14 +120,15 @@ started work on nonkiru version silly! i've been doing a lot of style experiment
 ---
 <div style="height: 5rem; -webkit-mask-image: linear-gradient(180deg, #000 60%, transparent);">
 
-<small>19 January 2024</small>
+<small>11 Feburary 2024</small>
 
-Hello friends!!
-As the title suggests, I recently swapped from Windows 10 to Linux Mint. It's been something that I've been meaning to do for a about a week now.
+Over my years on the indie web, a common criticism I've seen is about websites that only exist for the "aesthetic": basically sites that have little content other than looking pretty. I've seen so much disdain for these sorts of sites, and I find it really quite silly.
+
+My question to this critique is: Why are simple sites like these a problem? Personally, I don't see an issue with them at all!
 
 
 </div>
-<a href="/blog/installing_linux/">Read more of this post!</a>
+<a href="/blog/a_simple_site/">Read more of this post!</a>
 </div>
 
 </div>
