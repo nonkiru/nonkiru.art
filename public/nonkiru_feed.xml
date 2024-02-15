@@ -7,6 +7,13 @@
         <description>nonkiru's RSS feed!</description>
         <language>en-us</language>
         <item>
+        <title>Single New Artwork</title>
+            <pubDate>Thur, 15 Feb 2024 11:00:00 +0800</pubDate>
+            <link>https://nonkiru.art/art/2024/#rssupdate6</link>
+            <guid>https://nonkiru.art/art/2024/#rssupdate6</guid>
+            <description>It's more artwork!</description>
+        </item>
+        <item>
         <title>Blog Post: A Simple Site</title>
             <pubDate>Wed, 11 Feb 2024 15:00:00 +0800</pubDate>
             <link>https://nonkiru.art/blog/a_simple_site/</link>
