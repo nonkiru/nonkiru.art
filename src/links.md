@@ -36,7 +36,7 @@ h1: Links
 </div>
 
 ### Websites
-**Important:** i add sites in good faith, but please contact me if any of these people are like... secretly awful!!
+**Important:** I add sites in good faith, but please contact me if any of these people are like... secretly awful!!
 <details>
 <summary>List of links to other websites. <b>Flashing and blinking GIFs!</b></summary>
 <div class="imgbutton">

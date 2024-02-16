@@ -12,7 +12,7 @@ h1: Extras
 ## Blog Posts
 
 <br>
-my little spot to ramble about stuff!!
+My little spot to ramble about stuff!!
 <br>Posts are from newest to oldest.
 
 <ul>
@@ -32,7 +32,7 @@ my little spot to ramble about stuff!!
 <img src="/assets/website/buttons/guestbook.png" alt="">
 </div>
 <div style="padding-top: 15%;">
-<a href="/guestbook/">leave a little message for me to read?</a>
+<a href="/guestbook/">Leave a little message for me to read?</a>
 </div>
 </div>
 
@@ -49,7 +49,7 @@ my little spot to ramble about stuff!!
 ## OCs
 
 <img src="/assets/website/buttons/ocs.png" alt="" style="max-width: 100%">
-<br><a href="/ocs/">check out how normal i am about my funny little guys</a>
+<br><a href="/ocs/">Check out how normal I am about my funny little guys</a>
 
 </div>
 
@@ -58,9 +58,9 @@ my little spot to ramble about stuff!!
 ## Website Resources
 
 ### stuff i've made
-<a href="/resources/">free to use pixels!!</a>
+<a href="/resources/">Free to use pixels!!</a>
 <br>
-<a href="/layouts/">free to use layouts!!</a>
+<a href="/layouts/">Free to use layouts!!</a>
 
 ### bookmarks
 <a href="https://www.w3schools.com/">w3schools</a>
