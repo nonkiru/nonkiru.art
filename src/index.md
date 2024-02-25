@@ -21,6 +21,14 @@ I'm known as nonkiru, and it's nice to meet you! :3
 ## Updates
 ---
 
+**26th February 2024**
+<br>
+Edited the sidebar to be a little easier to add new links to. The images were cute, but unfortunately not very sustainable in the long-term!
+<br>Added page [Reading](/reading/).
+<br>Added Javascript to the mobile menu - should be much nicer to browse.
+
+---
+
 **17th February 2024**
 <br>
 Fixed the inconsistent capitalisation sitewide, at least I *think* I did? Either way, it was really really bothering me.
@@ -115,6 +123,8 @@ Started work on nonkiru version silly! I've been doing a lot of style experiment
 
 ## To-Do List
 ---
+- Add Status.Cafe back to the main page
+- Allow blog post preview to be longer
 - About page revamp
 - OCs layout
 - Set dark/light theme to user preference

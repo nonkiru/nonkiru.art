@@ -12,10 +12,10 @@ A directory for my funny little characters! I hope to have a page for all of the
 ## FFXIV
 <div class="ocbox">
     <div class="ocbox_image">
-        <img src="../assets/img/OCs/myuri.png" alt="Myuri Nohn.">
+        <img src="../assets/img/OCs/myuri.png" alt="Myuri.">
     </div>
     <a href="/ocs/myuri/">
-    Myuri Nohn</a>
+    Myuri</a>
 </div>
 
 ## Lancer TTRPG

@@ -33,6 +33,8 @@
 
                 <div class="sidebox" id="theme_s">
                     <nav>
+                        <h2 id="MobileNavToggle" onclick="MobileNavigationFunc()">Mobile Navigation (Tap)</h2>
+                        <div id="MobileNav">
                         <img src="/assets/website/sidebar.png" alt="" id="me">
 
                         <br>
@@ -47,38 +49,26 @@
                         <img src="/assets/website/divider.png" alt="">
 
                         <br>
-                        <div id="mobile_nav">
-                            <a href="/index" class="a_img">
-                            <img src="/assets/website/buttons/home.png" alt="Home"></a>
-                            <a href="/about/" class="a_img">
-                            <img src="/assets/website/buttons/about.png" alt="About"></a>
-                            <a href="/art/" class="a_img">
-                            <img src="/assets/website/buttons/art.png" alt="Art"></a>
-                            <a href="/links/" class="a_img">
-                            <img src="/assets/website/buttons/links.png" alt="Links"></a>
-                            <a href="/extra/" class="a_img">
-                            <img src="/assets/website/buttons/extra.png" alt="Extra"></a>
-                        </div>
-                        <div id="navigation_menu">
-                            <a href="/index" class="a_img" onmouseover="document.home.src='/assets/website/buttons/home_hover.png';" onmouseout="document.home.src='/assets/website/buttons/home_idle.png';" 
-                            onfocus="document.home.src='/assets/website/buttons/home_hover.png';" onfocusout="document.home.src='/assets/website/buttons/home_idle.png';">
-                            <img src="/assets/website/buttons/home_idle.png" name="home" alt="Home"></a>
-                            <br>
-                            <a href="/about/" class="a_img" onmouseover="document.about.src='/assets/website/buttons/about_hover.png';" onmouseout="document.about.src='/assets/website/buttons/about_idle.png';" 
-                            onfocus="document.about.src='/assets/website/buttons/about_hover.png';" onfocusout="document.about.src='/assets/website/buttons/about_idle.png';">
-                            <img src="/assets/website/buttons/about_idle.png" name="about" alt="About"></a>
-                            <br>
-                            <a href="/art/" class="a_img" onmouseover="document.art.src='/assets/website/buttons/art_hover.png';" onmouseout="document.art.src='/assets/website/buttons/art_idle.png';" 
-                            onfocus="document.art.src='/assets/website/buttons/art_hover.png';" onfocusout="document.art.src='/assets/website/buttons/art_idle.png';">
-                            <img src="/assets/website/buttons/art_idle.png" name="art" alt="Art"></a>
-                            <br>
-                            <a href="/links/" class="a_img" onmouseover="document.links.src='/assets/website/buttons/links_hover.png';" onmouseout="document.links.src='/assets/website/buttons/links_idle.png';" 
-                            onfocus="document.links.src='/assets/website/buttons/links_hover.png';" onfocusout="document.links.src='/assets/website/buttons/links_idle.png';">
-                            <img src="/assets/website/buttons/links_idle.png" name="links" alt="Links"></a>
-                            <br>
-                            <a href="/extra/" class="a_img" onmouseover="document.extra.src='/assets/website/buttons/extra_hover.png';" onmouseout="document.extra.src='/assets/website/buttons/extra_idle.png';" 
-                            onfocus="document.extra.src='/assets/website/buttons/extra_hover.png';" onfocusout="document.extra.src='/assets/website/buttons/extra_idle.png';">
-                            <img src="/assets/website/buttons/extra_idle.png" name="extra" alt="Extra"></a>
+                        <h2>Sitely</h2>
+<ul>
+    <a href="/index/"><li id="home">Home</li></a>
+    <a href="/layouts/"><li id="sitelayouts">Website Layouts</li></a>
+    <a href="/resources/"><li id="sitelayouts">F2U Resources</li></a>
+    <a href="/guestbook/"><li id="guestbook">Guestbook</li></a>
+    <a href="/links/"><li id="link">Links</li></a>
+</ul>
+<h2>Personal</h2>
+<ul>
+    <a href="/about/"><li id="about">About Me</li></a>
+    <a href="/art/"><li id="art">Art</li></a>
+    <a href="/blog/"><li id="blog">Blog</li></a>
+    <a href="/ocs/"><li id="oc">OCs</li></a>
+    <a href="/reading/"><li id="reading">Reading</li></a>
+</ul>
+<h2>Off-Site</h2>
+<ul>
+    <a href="https://vgen.co/nonkiru"><li id="art">Art Commissions</li></a>  
+</ul>
                         </div>
                     </nav>
                 </div>
@@ -144,5 +134,14 @@
             root.style.setProperty('--bg', '#4b313c');
             root.style.setProperty('--text', '#fff9f6');
         }
+
+        function MobileNavigationFunc() {
+            var x = document.getElementById("MobileNav");
+            if (x.style.display === "block") {
+                x.style.display = "none";
+            } else {
+                x.style.display = "block";
+            }
+        } 
     </script>
 </html>

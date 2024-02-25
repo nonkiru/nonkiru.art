@@ -85,6 +85,30 @@ hr {
 li {
     text-align: left;
 }
+nav h2 {
+    margin-top: 0.5rem;
+}
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+nav li {
+    border: 3px solid var(--yellow_darker);
+    border-radius: 5px;
+    background-color: var(--yellow);
+    padding: 3px;
+    margin: 5px;
+}
+nav a {
+    transition: all 0.5s ease-in-out;
+    color: var(--pink_darker) !important;
+    background-color: var(--yellow) !important;
+}
+nav a li:hover {
+    background-color: var(--yellow_darker);
+    color: var(--pink_darker);
+}
 .container {
     max-width: 80rem;
     margin: auto;
@@ -134,7 +158,6 @@ li {
 .mainbox {
     background-color: var(--bg);
     overflow-y: scroll;
-    height: 36rem;
     padding: 1rem;
     flex-grow: 1;
 
@@ -189,7 +212,7 @@ li {
     animation-duration: .4s; 
 }
 .pagedoll img {
-    width: 362px;
+    width: 200px;
     transition: all .2s ease-in-out;
 }
 .header img {
@@ -278,6 +301,9 @@ li {
 #home-mobilefix:first-of-type {
     margin-right: 1rem;
 }
+#MobileNavToggle {
+    display: none;
+}
 @media (max-width: 1700px) {
     .pagedoll img {
         width: 200px;
@@ -320,6 +346,14 @@ li {
     #home-mobilefix {
         flex-direction: column;
         width: 100%;
+        margin-bottom: 1rem;
+    }
+    #MobileNav {
+        display: none;
+    }
+    .minibox {
+        margin: auto;
+        max-width: 250px;
     }
 }
 @keyframes floating { 
