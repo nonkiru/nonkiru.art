@@ -355,6 +355,9 @@ nav a li:hover {
         margin: auto;
         max-width: 250px;
     }
+    #MobileNavToggle {
+        display: block;
+    }
 }
 @keyframes floating { 
     50% { transform: translateY(-5px); } 
