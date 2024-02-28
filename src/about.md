@@ -20,7 +20,7 @@ h1: About Me
 
 <div>
 
-Hello, and thank you for stopping by my little website on the world wide web! I'm an artist who lives in Australia. It's nice to meet you, internet traveller!
+Hello, and thank you for stopping by my little website on the world wide web! I'm an artist who lives in Australia. It's nice to meet you, internet traveler!
 
 I've always admired the indie web! I wanted to make my own little site too. I think the idea of how this site could be stumbled upon many years in the future is really neat! I hope the future is a nice place to you, but if it isn't, I hope my funny little site can cheer you up!
 
