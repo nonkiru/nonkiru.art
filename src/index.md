@@ -21,6 +21,14 @@ I'm known as nonkiru, and it's nice to meet you! :3
 ## Updates
 ---
 
+**28th February 2024**
+<br>
+Updated the [About](/about/) page.
+<br>Updated the [Home](/) page with [status.cafe](https://status.cafe/users/nonkiru). (I also updated the css for that page, if you wanna have a look!)
+<br>Updated [Reading](/reading/) because I forgot to add Laika's Comet to the list. Oops!
+
+---
+
 **26th February 2024**
 <br>
 Edited the sidebar to be a little easier to add new links to. The images were cute, but unfortunately not very sustainable in the long-term!
@@ -123,12 +131,23 @@ Started work on nonkiru version silly! I've been doing a lot of style experiment
 
 ## To-Do List
 ---
-- Add Status.Cafe back to the main page
-- Allow blog post preview to be longer
-- About page revamp
+- ~~Add Status.Cafe back to the main page~~
+- ~~Allow blog post preview to be longer~~
+- ~~About page revamp~~
 - OCs layout
 - Set dark/light theme to user preference
 - Take a big nap
+
+
+</div>
+
+<br>
+
+<div class="minibox">
+
+## Status Cafe
+---
+<div id="statuscafe"><div id="statuscafe-username"></div><div id="statuscafe-content"></div></div><script src="https://status.cafe/current-status.js?name=nonkiru" defer></script>
 
 
 </div>
@@ -148,13 +167,15 @@ Started work on nonkiru version silly! I've been doing a lot of style experiment
 
 ## Latest Blog Post
 ---
-<div style="height: 5rem; -webkit-mask-image: linear-gradient(180deg, #000 60%, transparent);">
+<div style="height: 20rem; -webkit-mask-image: linear-gradient(180deg, #000 60%, transparent);">
 
 <small>11 Feburary 2024</small>
 
 Over my years on the indie web, a common criticism I've seen is about websites that only exist for the "aesthetic": basically sites that have little content other than looking pretty. I've seen so much disdain for these sorts of sites, and I find it really quite silly.
 
 My question to this critique is: Why are simple sites like these a problem? Personally, I don't see an issue with them at all!
+
+I find that a lot of the people who have had this critique in the past use it as a way to downplay the effort that others put into their websites. Sure, seeing another pink and sanrio-themed site may get old after the 10th time, but someone still put effort into it. It still looks pretty. It still made someone happy to create. Or another Y2K website with a similar layout to all the other ones - but do you blame people for being inspired by Y2K designs? They look *good*! [1] This even applies to common traits you see in a *lot* of Neocities sites. Such as similar font choices (MS Gothic especially) or graphics (I see a lot from [FOOL LOVERS](https://foollovers.com/)) or even page layouts and design choices.
 
 
 </div>

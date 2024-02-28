@@ -4,48 +4,78 @@ layout: silly.njk
 h1: About Me
 ---
 
+## Personal
+
 <div class="flex">
-    <div>
-        <div style="padding: 1rem;">
-            <img src="/assets/img/non avatar.png" style="width: 100%;" alt="A picture of me. Art by nonkiru.">
-        </div>
-        <div class="statuscafe">
-        They/Them
-        <hr>12th September
-        <hr>♍ Sun | ♏ Rising & Moon
-        </div>
-    </div>
-    <div div style="padding: 1rem;">
+<div>
 
-    <b>Adult | They/Them</b>
+<img src="/assets/website/strangedream_crop.png" alt="The author of this website." style="max-width: 215px; padding-right   : 1rem;">
 
-    Hello! Thank you so much for checking out my website, and thank you even more for checking out my about me! My username online is nonkiru. I live in Australia. It's nice to meet you, internet adventurer.
+- nonkiru
+- 12 September, Adult
+- They/Them
+- Virgo Sun, Scorpio Rising & Moon
 
-    I have this little ramble on every interation of my site, so here is it again. I think my favourite thing about the indie web is the idea of someone stumbling onto this many years into the future. I hope the future is a kind and happy place. But if it isn't, I hope my little website brings you some joy!
-
-    My hobbies include art, coding, gaming and sewing. I also love playing Tabletop RPGs with my friends! My favourite game is Final Fantasy XIV.
-    I'm also a freelance artist as my work. I do lots of art commissions!
-    </div>
 </div>
 
-My favourite things include...
-- Vocaloid Music and Producers
+<div>
+
+Hello, and thank you for stopping by my little website on the world wide web! I'm an artist who lives in Australia. It's nice to meet you, internet traveller!
+
+I've always admired the indie web! I wanted to make my own little site too. I think the idea of how this site could be stumbled upon many years in the future is really neat! I hope the future is a nice place to you, but if it isn't, I hope my funny little site can cheer you up!
+
+My hobbies include gaming, art, and coding. I've also been getting into sewing and journalling! My favourite game is Final Fantasy XIV. I do freelance digital art as work.
+
+### A list of my favourite things:
+- Vocaloid music & producers
 - Final Fantasy XIV
 - My Little Pony
 - Touhou
 - Animal Crossing
-- Art & Coding
+- Art
+- Coding
 - My OCs
 
-<div style="float: right; margin-top: -6rem;">
-<a href="https://tamanotchi.world/3029c"><img src="https://tamanotchi.world/i2/3029" alt="It's tamaNOTchi! Click to feed! (Soupy)"></a>
-<a href="https://tamanotchi.world/7357c"><img src="https://tamanotchi.world/i2/7357" alt="It's tamaNOTchi! Click to feed! (🥚 egg)"></a>
 </div>
 
-## Fursona
+</div>
+
+### My Fursona
 I have a fursona because I think they're really fun and silly. I also think that, generally, furry designs tend to be a bit more fun than human designs.
-<br><br>The floating pixel pagedoll is my fursona too! Their name is Non and they are a housecat, based vaguely off of a Ragdoll / Burmese. I also get to live vicariously through them, since one day I really want to wear Lolita fashion!
-<br><br>This is their reference sheet! 
-<br>You're welcome to draw them, and I will love you forever if you do!
-<img src="../assets/img/non sheet.webp" style="width: 100%;" alt="A reference sheet for the site owner's fursona. Text reads: Non, They/Them. Notes: They are fat, please draw them fat!! They are a cat. :3">
-<br>I also have a <a href="https://toyhou.se/23516905.non">Toyhouse page</a> for them.
+
+You can check their [Toyhouse page here](https://toyhou.se/23516905.non)! If you draw them I'll love you forever. I'm meaning to draw a more updated reference sheet, so I'll have it here once that's done. (Though honestly, it's just an outfit change.)
+
+## Site Stuff
+
+This site was created by me by hand! For further details, though:
+
+- Coded using Visual Studio Code
+- Built using [11ty](https://www.11ty.dev/) static site generator
+- Deployed via Git using [deploy-to-neocities](https://github.com/bcomnes/deploy-to-neocities)
+
+## Now
+
+Inspired by the page of the same name by [Frills](https://frills.dev/now/)!
+<br>This is a small list of all the stuff I'm working on at the moment!
+
+<small>*Updated: 28th February 2024*</small>
+
+### Days
+- FFXIV Tribal Quests. (currently focusing on Loporrits.)
+- At least 1 scribble or doodle a day.
+
+### Weeks
+- Working away at a Live2d model.
+- Trying to do at least 1 art piece per week that's personal and not work related.
+- FFXIV statics (UWU & UCOB).
+- FFXIV weekly activities.
+- Currently reading [Devil's Candy](https://www.devilscandycomic.com/)!
+
+### Months
+- Currently working on a big FFXIV to-do-list before Dawntrail later this year. This includes catching all the A Realm Reborn big fish, finishing all Tribe Quests, finishing my Bozja Notes, my Endwalker Triple Triad collection, and the few Blue Mage spells I'm missing.
+- Set up streaming.
+- Doing more reading: starting small, I want to finish at least 1 manga volume a month.
+
+### Years
+- Maybe finally see my partner in person.
+- Or my online friends in person, too.

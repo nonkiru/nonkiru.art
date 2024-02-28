@@ -157,7 +157,6 @@ nav a li:hover {
 }
 .mainbox {
     background-color: var(--bg);
-    overflow-y: scroll;
     padding: 1rem;
     flex-grow: 1;
 

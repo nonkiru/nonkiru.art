@@ -7,6 +7,13 @@
         <description>nonkiru's RSS feed!</description>
         <language>en-us</language>
         <item>
+        <title>Home, Reading and About Updated</title>
+            <pubDate>Wed, 28 Feb 2024 20:00:00 +0800</pubDate>
+            <link>https://nonkiru.art/#rssupdate3</link>
+            <guid>https://nonkiru.art/#rssupdate3</guid>
+            <description>Just some page edits, nothing too special.</description>
+        </item>
+        <item>
         <title>New Reading Page and Misc Changes</title>
             <pubDate>Mon, 26 Feb 2024 02:00:00 +0800</pubDate>
             <link>https://nonkiru.art/#rssupdate2</link>
