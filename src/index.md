@@ -21,6 +21,12 @@ I'm known as nonkiru, and it's nice to meet you! :3
 ## Updates
 ---
 
+**29th February 2024**
+<br>
+Art added to [2024 gallery](/art/2024/)!
+
+---
+
 **28th February 2024**
 <br>
 Updated the [About](/about/) page.
@@ -159,7 +165,7 @@ Started work on nonkiru version silly! I've been doing a lot of style experiment
 ## Latest Artwork
 ---
 <div style="text-align: center;">
-<a href="/art/" class="imgbutton_small"><img src="/assets/artwork/2024/cloudcast.webp" class="imgborder" alt="My newest artwork!" style="max-width: 75%; max-height: 200px;">
+<a href="/art/" class="imgbutton_small"><img src="/assets/artwork/2024/jun.webp" class="imgborder" alt="My newest artwork!" style="max-width: 75%; max-height: 300px;">
 <br><a href="/art/">view the gallery here!</a>
 </div>
 
@@ -167,7 +173,7 @@ Started work on nonkiru version silly! I've been doing a lot of style experiment
 
 ## Latest Blog Post
 ---
-<div style="height: 20rem; -webkit-mask-image: linear-gradient(180deg, #000 60%, transparent);">
+<div style="height: 14rem; -webkit-mask-image: linear-gradient(180deg, #000 60%, transparent);">
 
 <small>11 Feburary 2024</small>
 
