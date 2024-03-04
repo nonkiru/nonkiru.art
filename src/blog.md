@@ -7,9 +7,15 @@ h1: My Blog
 My various little ramblings about anything I feel like writing about!
 
 <!-- Test, trying to fix why the order is incorrect on live but working fine on hotreload? -->
+<!-- ok fine ill just list them manually... -->
 
 <ul>
-{%- for blog in collections.blog reversed  -%}
-  <li><a href="{{ blog.url }}">{{ blog.data.title }}</a> ~ <small>{{ blog.data.datepost }}</small> </li>
-{%- endfor -%}
+<li>
+<a href="/blog/a_simple_site/">A Simple Site</a> ~ <small>11 February 2024</small> </li>
+<li><a href="/blog/installing_linux/">Installing Linux</a> ~ <small>19 January 2024</small> </li>
+<li><a href="/blog/more_moments_from_my_week/">More Moments From My Week</a> ~ <small>23 December 2023</small> </li>
+<li><a href="/blog/little_moments_from_my_week/">Little Moments From My Week</a> ~ <small>20 November 2023</small> </li>
+<li><a href="/blog/learning_to_love_minecraft_again/">Learning to Love Minecraft Again</a> ~ <small>09 November 2023</small> </li>
+<li><a href="/blog/a_retrospective_into_ffxiv_endwalker_savage/">A Retrospective Into FFXIV ⁑ Endwalker Savage</a> ~ <small>09 October 2023</small> </li>
 </ul>
+                    
