@@ -21,6 +21,12 @@ I'm known as nonkiru, and it's nice to meet you! :3
 ## Updates
 ---
 
+**6th March 2024**
+<br>
+Added moderation to the [Guestbook](/guestbook/) using (Frills' moderation script)[https://frills.dev/blog/231023-add-moderation-to-comment-widget/]!
+
+---
+
 **4th March 2024**
 <br>
 Art added to [2024 gallery](/art/2024/)!
