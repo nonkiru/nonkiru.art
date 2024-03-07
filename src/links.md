@@ -111,9 +111,9 @@ h1: Links
 <a href="https://furryring.neocities.org/" class="imgbutton"><img src="/assets/website/webrings/furry.png" alt="Furry Webring"></a>
 <a href="https://gaycomputerdog.neocities.org/" class="imgbutton"><img src="/assets/website/webrings/webring_right.png" alt="Furry Webring - RIGHT"></a>
 <br>
-<a href="https://finn-all-uh.org/" class="imgbutton"><img src="/assets/website/webrings/webring_left.png" alt="Furry Webring - LEFT"></a>
-<a href="https://transring.neocities.org/" class="imgbutton"><img src="/assets/website/webrings/trans.png" alt="Furry Webring"></a>
-<a href="https://frognet.neocities.org/" class="imgbutton"><img src="/assets/website/webrings/webring_right.png" alt="Furry Webring - RIGHT"></a>
+<a href="https://finn-all-uh.org/" class="imgbutton"><img src="/assets/website/webrings/webring_left.png" alt="Trans Webring - LEFT"></a>
+<a href="https://transring.neocities.org/" class="imgbutton"><img src="/assets/website/webrings/trans.png" alt="Trans Webring"></a>
+<a href="https://frognet.neocities.org/" class="imgbutton"><img src="/assets/website/webrings/webring_right.png" alt="Trans Webring - RIGHT"></a>
 <br>
 <a href="https://allyratworld.com/cafe/rose" class="imgbutton"><img src="/assets/website/webrings/caferose.png" alt="Café Rosé"></a>
 <a href="http://neocreatives.byethost5.com/index.php" class="imgbutton"><img src="/assets/website/webrings/neocreatives.png" alt="The Neocreatives Webring"></a>
