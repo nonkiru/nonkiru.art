@@ -21,9 +21,16 @@ I'm known as nonkiru, and it's nice to meet you! :3
 ## Updates
 ---
 
+**7th March 2024**
+<br>
+Art added to [2024 gallery](/art/2024/)!
+<br>Added a new button, a webring, and a weblisting.
+
+---
+
 **6th March 2024**
 <br>
-Added moderation to the [Guestbook](/guestbook/) using (Frills' moderation script)[https://frills.dev/blog/231023-add-moderation-to-comment-widget/]!
+Added moderation to the [Guestbook](/guestbook/) using [Frills' moderation script](https://frills.dev/blog/231023-add-moderation-to-comment-widget/)!
 
 ---
 
@@ -178,7 +185,7 @@ Started work on nonkiru version silly! I've been doing a lot of style experiment
 ## Latest Artwork
 ---
 <div style="text-align: center;">
-<a href="/art/" class="imgbutton_small"><img src="/assets/artwork/2024/MilkyKeen.webp" class="imgborder" alt="My newest artwork!" style="max-width: 75%; max-height: 300px;">
+<a href="/art/" class="imgbutton_small"><img src="/assets/artwork/2024/snew.webp" class="imgborder" alt="My newest artwork!" style="max-width: 75%; max-height: 300px;">
 <br><a href="/art/">view the gallery here!</a>
 </div>
 

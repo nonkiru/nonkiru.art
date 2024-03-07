@@ -36,7 +36,7 @@ h1: Links
 </div>
 
 ### Websites
-**Important:** I add sites in good faith, but please contact me if any of these people are like... secretly awful!!
+**Important:** I add sites in good faith, but please contact me if any of these sites contain bigoted or hateful content.
 <details>
 <summary>List of links to other websites. <b>Flashing and blinking GIFs!</b></summary>
 <div class="imgbutton">
@@ -73,6 +73,7 @@ h1: Links
 <a href="https://taffy.neocities.org/"><img src="../assets/img/buttons/taffybutton2023.gif" alt="A button leading to Taffy." loading="lazy"></a>
 <a href="https://snewberry.neocities.org/"><img src="../assets/img/buttons/snewbutton.gif" alt="A button leading to Snewberry." loading="lazy"></a>
 <a href="https://frills.dev/"><img src="../assets/img/buttons/frills.png" alt="A button leading to Frills." loading="lazy"></a>
+<a href="https://www.lexiqqq.com/"><img src="../assets/img/buttons/lexiqqq.jpeg" alt="A button leading to Lexi." loading="lazy"></a>
 </div>
 </details>
 
@@ -109,9 +110,14 @@ h1: Links
 <a href="https://cyberponiez.neocities.org/" class="imgbutton"><img src="/assets/website/webrings/webring_left.png" alt="Furry Webring - LEFT"></a>
 <a href="https://furryring.neocities.org/" class="imgbutton"><img src="/assets/website/webrings/furry.png" alt="Furry Webring"></a>
 <a href="https://gaycomputerdog.neocities.org/" class="imgbutton"><img src="/assets/website/webrings/webring_right.png" alt="Furry Webring - RIGHT"></a>
-
+<br>
+<a href="https://finn-all-uh.org/" class="imgbutton"><img src="/assets/website/webrings/webring_left.png" alt="Furry Webring - LEFT"></a>
+<a href="https://transring.neocities.org/" class="imgbutton"><img src="/assets/website/webrings/trans.png" alt="Furry Webring"></a>
+<a href="https://frognet.neocities.org/" class="imgbutton"><img src="/assets/website/webrings/webring_right.png" alt="Furry Webring - RIGHT"></a>
 <br>
 <a href="https://allyratworld.com/cafe/rose" class="imgbutton"><img src="/assets/website/webrings/caferose.png" alt="Café Rosé"></a>
+<a href="http://neocreatives.byethost5.com/index.php" class="imgbutton"><img src="/assets/website/webrings/neocreatives.png" alt="The Neocreatives Webring"></a>
+
 
 </div>
 
