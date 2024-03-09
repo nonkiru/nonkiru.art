@@ -27,6 +27,7 @@ I've always admired the indie web! I wanted to make my own little site too. I th
 My hobbies include gaming, art, and coding. I've also been getting into sewing and journalling! My favourite game is Final Fantasy XIV. I do freelance digital art as work.
 
 ### A list of my favourite things:
+- Trans rights
 - Vocaloid music & producers
 - Final Fantasy XIV
 - My Little Pony
