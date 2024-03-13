@@ -10,8 +10,8 @@ My various little ramblings about anything I feel like writing about!
 <!-- ok fine ill just list them manually... -->
 
 <ul>
-<li>
-<a href="/blog/a_simple_site/">A Simple Site</a> ~ <small>11 February 2024</small> </li>
+<li><a href="/blog/living_dex/">Living Dex</a> ~ <small>13 March 2024</small> </li>
+<li><a href="/blog/a_simple_site/">A Simple Site</a> ~ <small>11 February 2024</small> </li>
 <li><a href="/blog/installing_linux/">Installing Linux</a> ~ <small>19 January 2024</small> </li>
 <li><a href="/blog/more_moments_from_my_week/">More Moments From My Week</a> ~ <small>23 December 2023</small> </li>
 <li><a href="/blog/little_moments_from_my_week/">Little Moments From My Week</a> ~ <small>20 November 2023</small> </li>

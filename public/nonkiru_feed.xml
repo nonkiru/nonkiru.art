@@ -7,6 +7,13 @@
         <description>nonkiru's RSS feed!</description>
         <language>en-us</language>
         <item>
+        <title>Living Dex</title>
+            <pubDate>Wed, 13 Mar 2024 21:00:00 +0800</pubDate>
+            <link>https://nonkiru.art/#rssupdate4</link>
+            <guid>https://nonkiru.art/#rssupdate4</guid>
+            <description>Blog post about starting the Living Dex in Pokémon.</description>
+        </item>
+        <item>
         <title>Artwork</title>
             <pubDate>Thu, 10 Mar 2024 01:00:00 +0800</pubDate>
             <link>https://nonkiru.art/art/2024/#rssupdate10</link>
