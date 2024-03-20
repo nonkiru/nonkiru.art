@@ -21,6 +21,12 @@ I'm known as nonkiru, and it's nice to meet you! :3
 ## Updates
 ---
 
+**20th March 2024**
+<br>
+Updated [Reading](/reading/) with a new book and some new thoughts.
+
+---
+
 **13th March 2024**
 <br>
 New blog post: [Living Dex](/blog/living_dex/).
