@@ -21,6 +21,13 @@ I'm known as nonkiru, and it's nice to meet you! :3
 ## Updates
 ---
 
+**29th March 2024**
+<br>
+Updated blog post: [Living Dex](/blog/living_dex/).
+<br>Art added to [2024 gallery](/art/2024/)!
+
+---
+
 **20th March 2024**
 <br>
 Updated [Reading](/reading/) with a new book and some new thoughts.
@@ -203,7 +210,7 @@ Started work on nonkiru version silly! I've been doing a lot of style experiment
 ## Latest Artwork
 ---
 <div style="text-align: center;">
-<a href="/art/" class="imgbutton_small"><img src="/assets/artwork/2024/miku_day.webp" class="imgborder" alt="My newest artwork!" style="max-width: 75%; max-height: 300px;">
+<a href="/art/" class="imgbutton_small"><img src="/assets/artwork/2024/marcus.webp" class="imgborder" alt="My newest artwork!" style="max-width: 75%; max-height: 300px;">
 <br><a href="/art/">view the gallery here!</a>
 </div>
 

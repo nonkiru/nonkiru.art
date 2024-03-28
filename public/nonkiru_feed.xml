@@ -7,6 +7,13 @@
         <description>nonkiru's RSS feed!</description>
         <language>en-us</language>
         <item>
+        <title>Updated Living Dex and Art</title>
+            <pubDate>Fri, 29 Mar 2024 01:00:00 +0800</pubDate>
+            <link>https://nonkiru.art/#rssupdate5</link>
+            <guid>https://nonkiru.art/#rssupdate5</guid>
+            <description>Updated Living Dex blog page and some new art.</description>
+        </item>
+        <item>
         <title>New Reading Thoughts</title>
             <pubDate>Wed, 20 Mar 2024 19:00:00 +0800</pubDate>
             <link>https://nonkiru.art/reading/</link>
