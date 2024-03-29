@@ -25,6 +25,7 @@ I'm known as nonkiru, and it's nice to meet you! :3
 <br>
 Updated blog post: [Living Dex](/blog/living_dex/).
 <br>Art added to [2024 gallery](/art/2024/)!
+<br>Added [Sheezy.Art](https://sheezy.art/nonkiru) link.
 
 ---
 

@@ -11,14 +11,16 @@ h1: Links
 
 <img src="/assets/website/chibi.png" alt="" style="max-width:100%">
 <br>
-<div class="socials"><a href="mailto:nonkiru@gmail.com" class="imgbutton"><img src="/assets/website/buttons/email.png" alt="Email"></a>
-<a href="https://neocities.org/site/nonkiru" class="imgbutton"><img src="/assets/website/buttons/neocities.png" alt="Neocities"></a>
-<a href="https://vgen.co/nonkiru" class="imgbutton"><img src="/assets/website/buttons/vgen.png" alt="VGen (Commissions)"></a>
-<a href="https://twitter.com/nonkiru_" class="imgbutton"><img src="/assets/website/buttons/twitter.png" alt="Twitter"></a>
-<a href="https://nonkiru.tumblr.com/" class="imgbutton"><img src="/assets/website/buttons/tumblr.png" alt="Tumblr"></a>
-<a href="https://bsky.app/profile/nonkiru.art" class="imgbutton"><img src="/assets/website/buttons/bluesky.png" alt="Bluesky"></a>
-<a href="https://toyhou.se/nonkiru" class="imgbutton"><img src="/assets/website/buttons/toyhouse.png" alt="Toyhouse"></a>
-</div>
+
+- [nonkiru@gmail.com](mailto:nonkiru@gmail.com)
+- [Neocities Profile](https://neocities.org/site/nonkiru)
+- [VGen](https://vgen.co/nonkiru) Commissions
+- [Ko-fi](https://ko-fi.com/nonkiru) WIPs
+- [Twitter/X](https://twitter.com/nonkiru_) @nonkiru_
+- [Tumblr](https://nonkiru.tumblr.com) @nonkiru
+- [Bluesky](https://bsky.app/profile/nonkiru.art) @nonkiru.art
+- [Toyhouse](https://toyhou.se/nonkiru) @nonkiru
+- [Sheezy.Art](https://sheezy.art/nonkiru) @nonkiru
 
 </div>
 
