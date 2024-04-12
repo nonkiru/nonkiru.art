@@ -25,7 +25,7 @@ I'm known as nonkiru, and it's nice to meet you! :3
 <br>
 Art added to [2024 gallery](/art/2024/)!
 <br>Joined a [webring](/links/).
-<br>Updated [Reading](/reading/) with a new book.
+<br>Updated [Reading](/reading/) with a new book. Also included details/summary function to hide thoughts by default! Now you need to read spoilers on purpose.
 
 ---
 

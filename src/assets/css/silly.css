@@ -109,6 +109,20 @@ nav a li:hover {
     background-color: var(--yellow_darker);
     color: var(--pink_darker);
 }
+
+details {
+    background-color: var(--yellow_darker);
+    padding: 3px;
+    border-radius: 5px;
+}
+
+summary {
+    cursor: url(/assets/website/select.png), pointer;
+    background-color: var(--yellow);
+    font-size: 0.9rem;
+    padding: 3px;
+}
+
 .container {
     max-width: 80rem;
     margin: auto;
