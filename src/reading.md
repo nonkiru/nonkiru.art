@@ -5,7 +5,7 @@ h1: Reading
 ---
 
 I want to get more into reading! I hope having a little page dedicated to it will help motivate me a little more.
-<br><b>Page includes spoilers for Delicious in Dungeon (Dunmeshi), and minor spoilers for Chainsaw Man.</b>
+<br><b style="font-size: 1.2rem;">Page includes spoilers for Dungeon Meshi / Delicious in Dungeon, and minor spoilers for Chainsaw Man.</b>
 
 ## Finished
 ### A Certain Smile - Françoise Sagan
