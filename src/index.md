@@ -21,6 +21,13 @@ I'm known as nonkiru, and it's nice to meet you! :3
 ## Updates
 ---
 
+**12th April 2024**
+<br>
+Art added to [2024 gallery](/art/2024/)!
+<br>Joined a [webring](/links/).
+
+---
+
 **31th March 2024**
 <br>
 Art added to [2024 gallery](/art/2024/)!
@@ -217,8 +224,8 @@ Started work on nonkiru version silly! I've been doing a lot of style experiment
 ## Latest Artwork
 ---
 <div style="text-align: center;">
-<a href="/art/" class="imgbutton_small"><img src="/assets/artwork/2024/asuka.webp" class="imgborder" alt="My newest artwork!" style="max-width: 75%; max-height: 300px;">
-<br><a href="/art/">view the gallery here!</a>
+<a href="/art/" class="imgbutton_small"><img src="/assets/artwork/2024/liam_pokemon.webp" class="imgborder" alt="My newest artwork!" style="max-width: 75%; max-height: 300px;">
+<br><a href="/art/">View the gallery here!</a>
 </div>
 
 <br>

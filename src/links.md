@@ -116,6 +116,9 @@ h1: Links
 <a href="https://finn-all-uh.org/" class="imgbutton"><img src="/assets/website/webrings/webring_left.png" alt="Trans Webring - LEFT"></a>
 <a href="https://transring.neocities.org/" class="imgbutton"><img src="/assets/website/webrings/trans.png" alt="Trans Webring"></a>
 <a href="https://frognet.neocities.org/" class="imgbutton"><img src="/assets/website/webrings/webring_right.png" alt="Trans Webring - RIGHT"></a>
+<a href="https://leizy8499.neocities.org/" class="imgbutton"><img src="/assets/website/webrings/webring_left.png" alt="Catfolk Webring - LEFT"></a>
+<a href="https://snewberry.neocities.org/catfolkwebring" class="imgbutton"><img src="/assets/website/webrings/catfolk.png" alt="Catfolk Webring"></a>
+<a href="https://angelscake.neocities.org/" class="imgbutton"><img src="/assets/website/webrings/webring_right.png" alt="Catfolk Webring - RIGHT"></a>
 <br>
 <a href="https://allyratworld.com/cafe/rose" class="imgbutton"><img src="/assets/website/webrings/caferose.png" alt="Café Rosé"></a>
 <a href="http://neocreatives.byethost5.com/index.php" class="imgbutton"><img src="/assets/website/webrings/neocreatives.png" alt="The Neocreatives Webring"></a>
