@@ -14,7 +14,7 @@ border3_dark: 56475b
 gradient: linear-gradient(to right, rgb(255, 249, 248), rgb(255, 235, 232))
 gradient_dark: linear-gradient(to right, rgb(31, 27, 32), rgb(86, 71, 91))
 font: 'Atkinson Hyperlegible'
-headerimg: /assets/img/OCs/myuri_banner.webp
+headerimg: /assets/img/OCs/myuri_banner2.webp
 ---
 
 # Welcome!
@@ -25,7 +25,7 @@ This is a little page for my FFXIV WoL, Myuri! I started playing FFXIV back in H
 ---
 <div class="oc_flex">
     <div>
-    <img src="/assets/img/OCs/myuri_small.webp" alt="Myuri.">
+    <img src="/assets/img/OCs/myuri_small2.webp" alt="Myuri.">
     </div>
 
 - **Full Name:** Myuri
@@ -34,7 +34,7 @@ This is a little page for my FFXIV WoL, Myuri! I started playing FFXIV back in H
 - **Race:** Keeper of the Moon Miqo'te
 - **Gender:** Non-binary
 - **Orientation:** Lesbian
-- **Main Jobs:** Arithmetician (Scholar, Black Mage)
+- **Main Jobs:** Pictomancer/Arithmetician (Scholar, Black Mage)
 
 
     <div>
@@ -178,20 +178,6 @@ Myuri's biggest weakness is their inability to accept defeat, in any form. Even 
 </div>
 <br>
 <small>Ribbons are from <a href="https://toyhou.se/4739396.-ribbons">MisterMuse</a>.</small>
-
-## Gallery
-### Screenshots
-<div class="gallery">
-<a href="/assets/img/OCs/myuri/myuri1.png" data-fancybox="gallery" data-caption="A FFXIV screenshot of a Miqo'te reading.">
-    <img src="/assets/img/OCs/myuri/small/myuri1.png" alt="A FFXIV screenshot of a Miqo'te reading." />
-</a>
-<a href="/assets/img/OCs/myuri/myuri2.png" data-fancybox="gallery" data-caption="A FFXIV screenshot of a Miqo'te looking into the distance.">
-    <img src="/assets/img/OCs/myuri/small/myuri2.png" alt="A FFXIV screenshot of a Miqo'te looking into the distance." />
-</a>
-<a href="/assets/img/OCs/myuri/myuri3.png" data-fancybox="gallery" data-caption="A FFXIV screenshot of a Miqo'te sitting.">
-    <img src="/assets/img/OCs/myuri/small/myuri3.png" alt="A FFXIV screenshot of a Miqo'te sitting." />
-</a>
-</div>
 
 <script>
 let cursorEffect = new cursoreffects.rainbowCursor({
