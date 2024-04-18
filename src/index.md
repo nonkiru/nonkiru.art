@@ -21,6 +21,12 @@ I'm known as nonkiru, and it's nice to meet you! :3
 ## Updates
 ---
 
+**18th April 2024**
+<br>
+New blog post: [A Silly Day With a Friend](/blog/a_silly_day_with_a_friend/).
+
+---
+
 **12th April 2024**
 <br>
 Art added to [2024 gallery](/art/2024/)!
@@ -235,27 +241,19 @@ Started work on nonkiru version silly! I've been doing a lot of style experiment
 ---
 <div style="height: 14rem; -webkit-mask-image: linear-gradient(180deg, #000 60%, transparent);">
 
-<small>13 March 2024</small>
+<small>18 April 2024</small>
 
-## Filling in the Living Dex
+## A Silly Day with a Friend
 
-Hello friends! This is less of a one-off blog post and more so a journal that I'll contiuously update.
-<br>As stated by the title, this is my journey in attempting to fill in the Living Pokédex, which as of March 13 2024, is 1025 Pokémon!
+Hi friends!
 
-Back in November of 2022 I completed the Pokédex in my copy of Scarlet, and ever since, I've been kinda itching to do something a bit grander. Finally finishing a Pokédex in any Pokémon game has always been a dream of mine, and this is just one step further!
+Today I hung out with one of my friends, [Ladetisk](https://sheezy.art/ladetisk)! We bought some canvases and some bubble tea, and then went to go paint!
 
-I'll be doing this by using various games I own and making a full collection in Pokémon Home!
-
-I have a few rules - or guidelines - for this challenge!
-
-- No hacking, the Pokémon must be legal
-- Trading is allowed, including the GTS
-- Only games I own
-- I want a copy of each Pokémon in the box, not just the Pokédex entry
+Also, we forgot to bring water for the paint, so we had to use my bubble tea's icecubes.
 
 
 </div>
-<a href="/blog/living_dex/">Read more of this post!</a>
+<a href="/blog/a_silly_day_with_a_friend.md/">Read more of this post!</a>
 </div>
 
 </div>
