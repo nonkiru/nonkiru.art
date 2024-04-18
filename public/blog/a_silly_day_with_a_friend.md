@@ -31,7 +31,7 @@ I also painted my WoL (FFXIV character)!
 
 ![A photograph of a painting. It's of a person with cat ears, wearing a big wizard hat.](/assets/img/blog/ladetisk3.webp)
 
-*(We ran out of icecube water, so this is a lot of very heavy arcylic that I'm not super confident with.
+*(We ran out of icecube water, so this is a lot of very heavy acrylic that I'm not super confident with.
 <br>I also didn't want to waste too much of her paints...)*
 
 It's not perfect, but I'm happy with how both paintings ended up. 
