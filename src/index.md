@@ -253,7 +253,7 @@ Also, we forgot to bring water for the paint, so we had to use my bubble tea's i
 
 
 </div>
-<a href="/blog/a_silly_day_with_a_friend.md/">Read more of this post!</a>
+<a href="/blog/a_silly_day_with_a_friend/">Read more of this post!</a>
 </div>
 
 </div>
