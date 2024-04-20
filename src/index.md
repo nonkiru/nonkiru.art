@@ -209,10 +209,7 @@ Started work on nonkiru version silly! I've been doing a lot of style experiment
 
 ## To-Do List
 ---
-- ~~Add Status.Cafe back to the main page~~
-- ~~Allow blog post preview to be longer~~
-- ~~About page revamp~~
-- OCs layout
+
 - Set dark/light theme to user preference
 - Take a big nap
 
