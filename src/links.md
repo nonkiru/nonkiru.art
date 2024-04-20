@@ -90,7 +90,7 @@ h1: Links
 <a href="https://neossg.neocities.org/" class="imgbutton"><img src="/assets/website/webrings/neossg.png" alt="NeoSSG"></a>
 <a href="https://lime360.neocities.org/" class="imgbutton"><img src="/assets/website/webrings/webring_right.png" alt="NeoSSG - RIGHT"></a>
 <a href="https://webri.ng/webring/ladiesofthelinks/previous?via=https://nonkiru.art/" class="imgbutton"><img src="/assets/website/webrings/webring_left.png" alt="Ladies of the Links - LEFT"></a>
-<a href="https://webri.ng/webring/ladiesofthelinks/random?via=https://nonkiru.art/" class="imgbutton"><img src="/assets/website/webrings/ladies.png" alt="Ladies of the Links"></a>
+<a href="https://ladiesofthe.link/" class="imgbutton"><img src="/assets/website/webrings/ladies.png" alt="Ladies of the Links"></a>
 <a href="https://webri.ng/webring/ladiesofthelinks/next?via=https://nonkiru.art/" class="imgbutton"><img src="/assets/website/webrings/webring_right.png" alt="Ladies of the Links - RIGHT"></a>
 <br>
 <a href="https://hotlinewebring.club/nonkiru/previous" class="imgbutton"><img src="/assets/website/webrings/webring_left.png" alt="Hotline Webring - LEFT"></a>
