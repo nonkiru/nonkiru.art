@@ -180,7 +180,7 @@ Art added to [2024 gallery](/art/2024/), joined [furryring](https://furryring.ne
 
 **2nd January 2024**
 <br>
-Tiny update! 3 new portraits to [2024 gallery](/art/2024/) and some badges added to my [ocs](/ocs/)!
+Tiny update! 3 new portraits to [2024 gallery](/art/2024/).
 
 ---
 

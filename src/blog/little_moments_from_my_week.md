@@ -102,7 +102,7 @@ It was fun, but I won't lie, I'm actually looking so much more forward to UWU...
 AAAAAAAAH Lancer is so much fun! My girlfriend does a wonderful job of DMing and all of our players are great and every Sunday is so exciting!! Some information was revealed about one of the main villains and it's been swirling in my mind since. I also did a little design update of my character!
 ![Lancer image. A Lancer OC with a red scarf sitting on a box.](/assets/img/blog/billie_chapter2.png)
 
-Aren't they cute? You can read about [Billie here](/ocs/billie)! With each chapter design (of 3 total) I want them to look just a little bit older. I think the big sleeves help. Also, the little bag there holds a mysterious mechanical orb they found, nicknamed "Hope"! I think the matching red ribbon to Billie's scarf is really cute.
+Aren't they cute? With each chapter design (of 3 total) I want them to look just a little bit older. I think the big sleeves help. Also, the little bag there holds a mysterious mechanical orb they found, nicknamed "Hope"! I think the matching red ribbon to Billie's scarf is really cute.
 *(Also Billie made that bag themselves, but don't tell anyone!)*
 
 ## Conclusion
