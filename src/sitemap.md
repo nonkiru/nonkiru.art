@@ -17,18 +17,9 @@ h1: Sitemap
     <li id="about"><a href="/about/">About Me</a></li>
     <li id="art"><a href="/art/">Art</a></li>
     <li id="blog"><a href="/blog/">Blog</a></li>
-    <li id="oc"><a href="/ocs/">OCs</a></li>
     <li id="reading"><a href="/reading/">Reading</a></li>
 </ul>
 
-## OCs
-<ul>
-    <li><a href="/ocs/myuri/">Myuri</a></li>
-    <li><a href="/ocs/billie/">Billie Tae-Gloria</a></li>
-    <li><a href="/ocs/jupiter/">Jupiter Scottson</a></li>
-    <li><a href="/ocs/estelle/">Estelle Linne</a></li>
-    <li><a href="/ocs/donnie/">Donnie Linne</a></li>
-</ul>
 
 ## Other Links
 <ul>
