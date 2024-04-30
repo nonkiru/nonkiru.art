@@ -7,6 +7,13 @@
         <description>nonkiru's RSS feed!</description>
         <language>en-us</language>
         <item>
+        <title>Artwork Update</title>
+            <pubDate>Tue, 30 Apr 2024 10:00:00 +0800</pubDate>
+            <link>https://nonkiru.art/art/2024/#rssupdate13</link>
+            <guid>https://nonkiru.art/art/2024/#rssupdate13</guid>
+            <description>Just some new art.</description>
+        </item>
+        <item>
         <title>New Artwork and Joined a New Webring and Dungeon Meshi</title>
             <pubDate>Fri, 12 Apr 2024 18:00:00 +0800</pubDate>
             <link>https://nonkiru.art/art/2024/#rssupdate12</link>
@@ -43,28 +50,28 @@
         </item>
         <item>
         <title>Artwork</title>
-            <pubDate>Thur, 10 Mar 2024 01:00:00 +0800</pubDate>
+            <pubDate>Sun, 10 Mar 2024 01:00:00 +0800</pubDate>
             <link>https://nonkiru.art/art/2024/#rssupdate10</link>
             <guid>https://nonkiru.art/art/2024/#rssupdate10</guid>
             <description>It's just art.</description>
         </item>
         <item>
         <title>More Artwork</title>
-            <pubDate>Thur, 07 Mar 2024 12:00:00 +0800</pubDate>
+            <pubDate>Thu, 07 Mar 2024 12:00:00 +0800</pubDate>
             <link>https://nonkiru.art/art/2024/#rssupdate9</link>
             <guid>https://nonkiru.art/art/2024/#rssupdate9</guid>
             <description>One piece added to the gallery, as well as some misc changes.</description>
         </item>
         <item>
         <title>Artwork</title>
-            <pubDate>Thur, 04 Mar 2024 15:00:00 +0800</pubDate>
+            <pubDate>Mon, 04 Mar 2024 15:00:00 +0800</pubDate>
             <link>https://nonkiru.art/art/2024/#rssupdate8</link>
             <guid>https://nonkiru.art/art/2024/#rssupdate8</guid>
             <description>It's artwork! Yay!</description>
         </item>
         <item>
         <title>Artwork Again and Again</title>
-            <pubDate>Thur, 29 Feb 2024 20:00:00 +0800</pubDate>
+            <pubDate>Thu, 29 Feb 2024 20:00:00 +0800</pubDate>
             <link>https://nonkiru.art/art/2024/#rssupdate7</link>
             <guid>https://nonkiru.art/art/2024/#rssupdate7</guid>
             <description>It's more artwork again.</description>
@@ -92,7 +99,7 @@
         </item>
         <item>
         <title>Single New Artwork</title>
-            <pubDate>Thurr, 15 Feb 2024 11:00:00 +0800</pubDate>
+            <pubDate>Thu, 15 Feb 2024 11:00:00 +0800</pubDate>
             <link>https://nonkiru.art/art/2024/#rssupdate6</link>
             <guid>https://nonkiru.art/art/2024/#rssupdate6</guid>
             <description>It's more artwork!</description>
@@ -113,21 +120,21 @@
         </item>
         <item>
         <title>Even More Artwork Again</title>
-            <pubDate>Thur, 28 Jan 2024 05:00:00 +0800</pubDate>
+            <pubDate>Sun, 28 Jan 2024 05:00:00 +0800</pubDate>
             <link>https://nonkiru.art/art/2024/#rssupdate4</link>
             <guid>https://nonkiru.art/art/2024/#rssupdate4</guid>
             <description>New artwork to the 2024 gallery.</description>
         </item>
         <item>
         <title>New Blog Post: Installing Linux</title>
-            <pubDate>Fri, 119 Jan 2024 16:00:00 +0800</pubDate>
+            <pubDate>Fri, 19 Jan 2024 16:00:00 +0800</pubDate>
             <link>https://nonkiru.art/blog/installing_linux/</link>
             <guid>https://nonkiru.art/blog/installing_linux/</guid>
             <description>Blog post about me installing Linux!</description>
         </item>
         <item>
         <title>More Artwork Again</title>
-            <pubDate>Thur, 11 Jan 2024 12:00:00 +0800</pubDate>
+            <pubDate>Thu, 11 Jan 2024 12:00:00 +0800</pubDate>
             <link>https://nonkiru.art/art/2024/#rssupdate3</link>
             <guid>https://nonkiru.art/art/2024/#rssupdate3</guid>
             <description>New artwork to the 2024 gallery.</description>
@@ -141,7 +148,7 @@
         </item>
         <item>
         <title>More Artwork and joined Furryring</title>
-            <pubDate>Thur, 4 Jan 2024 15:00:00 +0800</pubDate>
+            <pubDate>Thu, 4 Jan 2024 15:00:00 +0800</pubDate>
             <link>https://nonkiru.art/art/2024/#rssupdate1</link>
             <guid>https://nonkiru.art/art/2024/#rssupdate1</guid>
             <description>New artwork to the 2024 gallery and I joined Furryring.</description>
@@ -183,7 +190,7 @@
         </item>
         <item>
             <title>New Artwork</title>
-            <pubDate>Thur, 7 Dec 2023 15:30:00 +0800</pubDate>
+            <pubDate>Thu, 7 Dec 2023 15:30:00 +0800</pubDate>
             <link>https://nonkiru.art/art/2023/#rssupdate1</link>
             <guid>https://nonkiru.art/art/2023/#rssupdate1</guid>
             <description>New art to the 2023 gallery.</description>
@@ -204,7 +211,7 @@
         </item>
         <item>
             <title>New Artwork</title>
-            <pubDate>Thur, 16 Nov 2023 19:00:00 +0800</pubDate>
+            <pubDate>Thu, 16 Nov 2023 19:00:00 +0800</pubDate>
             <link>https://nonkiru.art/art_2023/</link>
             <guid>https://nonkiru.art/art_2023/</guid>
             <description>New artwork added to the 2023 gallery.</description>
@@ -218,14 +225,14 @@
         </item>
         <item>
             <title>Learning to Love Minecraft Again</title>
-            <pubDate>Thur, 09 Nov 2023 19:00:00 +0800</pubDate>
+            <pubDate>Thu, 09 Nov 2023 19:00:00 +0800</pubDate>
             <link>https://nonkiru.art/blog/learning_to_love_minecraft_again/</link>
             <guid>https://nonkiru.art/blog/learning_to_love_minecraft_again/</guid>
             <description>A blog post about learning to love Minecraft again!</description>
         </item>
         <item>
             <title>New RSS Feed</title>
-            <pubDate>Thur, 09 Nov 2023 16:00:00 +0800</pubDate>
+            <pubDate>Thu, 09 Nov 2023 16:00:00 +0800</pubDate>
             <link>https://nonkiru.art/</link>
             <guid>https://nonkiru.art/#1</guid>
             <description>Only new update today is the addition of this RSS feed! I'll do my best to update this with every new site change.</description>

@@ -21,6 +21,12 @@ I'm known as nonkiru, and it's nice to meet you! :3
 ## Updates
 ---
 
+**30th April 2024**
+<br>
+Art added to [2024 gallery](/art/2024/)!
+
+---
+
 **20th April 2024**
 <br>
 Cleaning up.
@@ -234,7 +240,7 @@ Started work on nonkiru version silly! I've been doing a lot of style experiment
 ## Latest Artwork
 ---
 <div style="text-align: center;">
-<a href="/art/" class="imgbutton_small"><img src="/assets/artwork/2024/adam_comm.webp" class="imgborder" alt="My newest artwork!" style="max-width: 75%; max-height: 300px;">
+<a href="/art/" class="imgbutton_small"><img src="/assets/artwork/2024/neaco23.webp" class="imgborder" alt="My newest artwork!" style="max-width: 75%; max-height: 300px;">
 <br><a href="/art/">View the gallery here!</a>
 </div>
 
