@@ -7,13 +7,20 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="mainbox">
-        <header>
-            <h1>{{ title }}</h1>
-        </header>
-        <main>
-            {{ content | safe }}
-        </main>
-    </div>
+    <div class="container">
+        <div class="mainbox">
+            <header>
+                <h1>{{ title }}</h1>
+            </header>
+            <main>
+                {{ content | safe }}
+            </main>
+        </div>
+        <div class="footer">
+        <footer>
+            {% include "partials/footer.njk" %}
+        </footer>
+        </div>
+    </div class="container">
 </body>
 </html>

@@ -18,11 +18,26 @@ header {
     margin-bottom: 10px;
 }
 
+a {
+    color: var(--ctp-frappe-flamingo);
+    font-weight: 900;
+}
+
+.container {
+    margin: auto;
+    margin-top: 30px;
+    max-width: 600px;
+}
+
 .mainbox {
     background-color: var(--ctp-frappe-base);
     padding: 30px;
-    margin: auto;
-    margin-top: 30px;
-    width: 600px;
-    border-radius: 20px;
+    border-radius: 2px;
+    border: 1px solid var(--ctp-frappe-crust);
+}
+
+.footer {
+    color: var(--ctp-frappe-subtext0);
+    text-align: center;
+    padding: 5px;
 }
