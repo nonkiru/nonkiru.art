@@ -1,0 +1,28 @@
+@import url('https://unpkg.com/@catppuccin/palette/css/catppuccin.css');
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+* {
+    padding: unset;
+    margin: unset;
+    line-height: unset;
+}
+
+body {
+    background-color: var(--ctp-frappe-mantle);
+    color: var(--ctp-frappe-text);
+    font-family: "Atkinson Hyperlegible", sans-serif;
+}
+
+header {
+    color: var(--ctp-frappe-flamingo);
+    margin-bottom: 10px;
+}
+
+.mainbox {
+    background-color: var(--ctp-frappe-base);
+    padding: 30px;
+    margin: auto;
+    margin-top: 30px;
+    width: 600px;
+    border-radius: 20px;
+}

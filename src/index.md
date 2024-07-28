@@ -1,6 +1,7 @@
 ---
-title: Hello World
+title: nonkiru
 layout: "base.njk"
 ---
 
-Hello world!
+Site is currently under construction.
+<br>Thank you for your patience, and have a silly day! ( ˶ˆᗜˆ˵ )
