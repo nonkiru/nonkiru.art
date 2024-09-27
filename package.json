@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/nonkiru/nonkiru.art#readme",
   "dependencies": {
+    "@11ty/eleventy": "^2.0.1",
     "@catppuccin/palette": "^1.2.0"
   }
 }
