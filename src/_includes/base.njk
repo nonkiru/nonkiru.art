@@ -9,12 +9,14 @@
 <body>
     <div class="container">
         <div class="mainbox">
-            <header>
-                <h1>{{ title }}</h1>
-            </header>
+        <header>
+            <h1>{{ title }}</h1>
+        </header>
+        <div class="innerbox">
             <main>
                 {{ content | safe }}
             </main>
+        </div>
         </div>
         <div class="footer">
         <footer>
