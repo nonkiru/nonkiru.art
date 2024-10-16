@@ -1,7 +1,7 @@
 {
   "name": "nonkiru.art",
   "version": "1.0.0",
-  "description": "webbedsite",
+  "description": "[My Website](https://nonkiru.art)",
   "main": "index.js",
   "scripts": {
     "start": "eleventy --serve",
@@ -18,7 +18,7 @@
     "url": "https://github.com/nonkiru/nonkiru.art/issues"
   },
   "homepage": "https://github.com/nonkiru/nonkiru.art#readme",
-  "dependencies": {
-    "@11ty/eleventy": "^2.0.1"
+  "devDependencies": {
+    "@11ty/eleventy": "^3.0.0"
   }
 }
