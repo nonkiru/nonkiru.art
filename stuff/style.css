@@ -2,11 +2,11 @@
 
 @font-face {
     font-family: cherrybomb;
-    src: url(/stuff/Cherrybomb.ttf);
+    src: url(../stuff/Cherrybomb.ttf);
 }
 
 * {
-    cursor: url(/stuff/cursor.gif), default;
+    cursor: url(../stuff/cursor.gif), default;
 }
 
 ::selection {
@@ -16,7 +16,7 @@
 
 body {
     background-color: white;
-    background-image: url(/stuff/patchwork.gif);
+    background-image: url(../stuff/patchwork.gif);
     color: #c48f56;
     font-family: "Atkinson Hyperlegible", sans-serif;
 }
@@ -37,11 +37,11 @@ hr {
 
 a {
     color: #b3b75d;
-    cursor: url(/stuff/pointer.gif), pointer;
+    cursor: url(../stuff/pointer.gif), pointer;
 }
 
 .book {
-    background-image: url(/stuff/book.gif);
+    background-image: url(../stuff/book.gif);
     background-repeat: no-repeat;
     width: 600px;
     height: 400px;
@@ -86,7 +86,7 @@ a {
 }
 
 .clover {
-    background-image: url(/stuff/clover.gif);
+    background-image: url(../stuff/clover.gif);
     background-repeat: no-repeat;
     width: 100px;
     height: 100px;
@@ -99,7 +99,7 @@ a {
 }
 
 .clover_small {
-    background-image: url(/stuff/clover_small.gif);
+    background-image: url(../stuff/clover_small.gif);
     background-repeat: no-repeat;
     width: 30px;
     height: 30px;
