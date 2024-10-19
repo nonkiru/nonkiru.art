@@ -1,5 +1,130 @@
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --brown: #af572e;
+  --light-brown: #b85a4a;
+  --white: #fff3ee;
+  --pink: #ffe6e4;
+  --dark-pink: #ffd6d6;
+  --pink-border: #f0aca7;
+  --pink-link: #df8888;
+}
+
+body {
+  background-color: var(--pink);
+  background-image: url(../images/patchwork.gif);
+  color: var(--brown);
+  font-size: 12px;
+}
+
+p {
+  margin: unset;
+  padding: unset;
+}
+
+h1 {
+  padding: unset;
+  margin: unset;
+  font-size: 14px;
+  background-color: var(--pink);
+  margin-bottom: 10px;
+}
+
+.container {
+  max-width: 500px;
+  margin: auto;
+  margin-top: 10px;
+}
+
+.box {
+  border: 1px solid var(--brown);
+  background-color: var(--white);
+  height: 400px;
+}
+
+.header {
+  background-color: var(--dark-pink);
+  padding: 5px;
+  border-bottom: 1px dotted var(--light-brown);
+}
+
+.nav {
+  background-color: var(--pink);
+  border-bottom: 1px solid var(--light-brown);
+}
+
+.nav a {
+  padding: 5px;
+  display: inline-block;
+  text-decoration: none;
+}
+
 .current {
-  color: green;
+  background-color: var(--dark-pink);
+  border: 1px dotted var(--pink-border);
+  color: var(--brown);
+}
+
+.link {
+  border: 1px dotted var(--dark-pink);
+  color: var(--pink-link);
+}
+
+.stuff {
+  overflow-y: scroll;
+  padding: 5px;
+}
+
+.footer {
+  text-align: center;
+  font-size: 10px;
+  color: var(--pink-link);
+}
+
+.footer a {
+  color: var(--pink-link);
+}
+
+/* home */
+.hometop {
+  border-bottom: 1px dotted var(--pink-link);
+  height: 210px;
+}
+
+.hometop img {
+  float: inline-start;
+}
+
+.homebottom {
+  text-align: center;
+}
+
+#song {
+  text-transform: lowercase;
+}
+
+/* ===== Scrollbar CSS ===== */
+/* Firefox */
+* {
+  scrollbar-width: auto;
+  scrollbar-color: #df8888 #ffe6e4;
+}
+
+/* Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 16px;
+}
+
+*::-webkit-scrollbar-track {
+  background: #ffe6e4;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #df8888;
+  border-radius: 10px;
+  border: 3px solid #df8888;
 }
 
 /*# sourceMappingURL=styles.css.map */

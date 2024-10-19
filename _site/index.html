@@ -1,20 +1,68 @@
 <!doctype html>
-<html>
+<html lang="en">
+
   <head>
     <meta charset="utf-8">
-    <title>Home</title>
+    <title>home</title>
     <link rel="stylesheet" href="/assets/css/styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
   </head>
+
   <body>
-    <nav>
+    <div class="container">
+      <div class="box">
+        <div class="header">
+          <header>
+    welcome to nonkiru.art ~ home
+</header>
+        </div>
+        <div class="nav">
+          <nav>
     
-      <a href="/" class="current">Home</a>
+      <a href="/" class="current">home</a>
     
-      <a href="/about.html">About</a>
+      <a href="/about"class="link">about</a>
     
-      <a href="/blog.html">Blog</a>
+      <a href="/blog"class="link">blog</a>
     
 </nav>
-    <h1>hello world!</h1>
+        </div>
+        <div class="stuff">
+          <div class="hometop">
+    <h1>welcome!</h1>
+    <img src="../assets/images/me.gif" alt="pixel scribble of me" />
+    hello! i'm nonkiru!
+    <br /><br />this is my little site on the internet! i have lots of stuff here; my ocs, my blog, and my art!! thank you for stopping by. ^.^
+    <br /><br /><b>site is currently under heavy construction!</b>
+</div>
+
+<div class="homebottom">
+<br /><br />
+<p>listening to: <span id="song">loading...</span></p>
+<p><small><a href="https://www.last.fm/user/nonkiru" target="_blank">last.fm ~ nonkiru</a> | <a href="https://github.com/biancarosa/blog/blob/main/layouts/partials/extended_header.html">code</a></small>
+
+<script type="text/javascript">
+    let user = 'nonkiru';
+    let url = 'https://lastfm-last-played.biancarosa.com.br/' + user + '/latest-song';
+    let song = document.querySelector('#song');
+    fetch(url)
+        .then(function (response) {
+            return response.json()
+        }).then(function (json) {
+            song.innerHTML = json['track']['name'] + ' - ' + json['track']['artist']['#text'];
+        });
+</script>
+</p></div>
+
+        </div>
+      </div>
+      <div class="footer">
+        <footer>
+    nonkiru 2022 ~ 2024
+    <br><a href="https://github.com/nonkiru/nonkiru.art" target="_blank">source code</a>
+</footer>
+      </div>
+    </div>
   </body>
+
 </html>

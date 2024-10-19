@@ -1,7 +1,7 @@
 ---
 layout: default
-title: About
+title: about
 ---
-# About page
+# about page
 
-This page tells you a little bit about me.
+hi i draw art
