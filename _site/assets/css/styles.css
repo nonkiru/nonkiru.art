@@ -10,6 +10,7 @@
   --dark-pink: #ffd6d6;
   --pink-border: #f0aca7;
   --pink-link: #df8888;
+  --green: #948e58;
 }
 
 body {
@@ -32,16 +33,39 @@ h1 {
   margin-bottom: 10px;
 }
 
+h2 {
+  padding: unset;
+  margin: unset;
+  font-size: 13px;
+  background-color: var(--pink);
+  margin-bottom: 10px;
+}
+
+hr {
+  border-bottom: none;
+  border-top: 1px solid var(--pink-border);
+}
+
+a {
+  color: var(--green);
+}
+
 .container {
-  max-width: 500px;
+  max-width: 600px;
+  height: 400px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: -100px;
+  bottom: 0;
   margin: auto;
-  margin-top: 10px;
 }
 
 .box {
   border: 1px solid var(--brown);
   background-color: var(--white);
-  height: 400px;
+  border-radius: 2px;
+  outline: 1px solid var(--pink-border);
 }
 
 .header {
@@ -73,8 +97,9 @@ h1 {
 }
 
 .stuff {
-  overflow-y: scroll;
   padding: 5px;
+  height: 400px;
+  overflow-y: scroll;
 }
 
 .footer {
@@ -103,6 +128,20 @@ h1 {
 
 #song {
   text-transform: lowercase;
+}
+
+/* blog */
+.blog-info {
+  font-style: italic;
+  color: var(--pink-link);
+  border-bottom: 1px dotted var(--pink-link);
+  margin-bottom: 5px;
+}
+
+.blog-img {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  border: 1px solid var(--brown);
 }
 
 /* ===== Scrollbar CSS ===== */

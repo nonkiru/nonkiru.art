@@ -4,11 +4,9 @@ title: blog
 ---
 <h1>latest rambles</h1>
 
-<ul>
-  {% for post in site.posts %}
-    <li>
-      <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
-      {{ post.excerpt }}
-    </li>
-  {% endfor %}
-</ul>
+{% for post in site.posts %}
+
+  <h2><a href="{{ post.url }}">{{ post.title }}</a> ~ {{ post.date | date_to_string }}</h2>
+  {{ post.excerpt }}
+
+{% endfor %}
