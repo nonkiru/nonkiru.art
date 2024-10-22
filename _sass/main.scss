@@ -143,6 +143,29 @@ a[href^="http://"]:after, a[href^="https://"]:after {
   text-transform: lowercase;
 }
 
+/* art */
+
+ul.photogallery {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  text-align: center;
+}
+
+.photogallery li {
+  display: inline-block;
+}
+
+.photogallery img {
+  height: 200px;
+  border: 1px solid var(--pink-link);
+}
+
+.pixelart {
+  height: auto !important;
+  border: none !important;
+}
+
 /* blog */
 
 .blog-info {

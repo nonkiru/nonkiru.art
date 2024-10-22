@@ -2,6 +2,8 @@
   link: /
 - name: about
   link: /about.html
+- name: art
+  link: /art.html
 - name: blog
   link: /blog.html
 - name: links
