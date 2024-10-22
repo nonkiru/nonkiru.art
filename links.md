@@ -19,4 +19,4 @@ title: links
 <br><br>
 
 # cool websites
-<a href="https://zombiejynx.neocities.org/" target="_blank" class="noout"><img src="assets/images/buttons/zombiejynx.gif" alt="button to zombiejynx"></a><a href="https://nomnomnami.com/" target="_blank" class="noout"><img src="assets/images/buttons/nomnomnami.gif" alt="button to nomnomnami"></a><a href="https://arunyi.art/" target="_blank" class="noout"><img src="assets/images/buttons/arunyi.gif" alt="button to arunyi"></a>
+<a href="https://zombiejynx.neocities.org/" target="_blank" class="noout"><img src="assets/images/buttons/zombiejynx.gif" alt="button to zombiejynx"></a><a href="https://nomnomnami.com/" target="_blank" class="noout"><img src="assets/images/buttons/nomnomnami.gif" alt="button to nomnomnami"></a><a href="https://arunyi.art/" target="_blank" class="noout"><img src="assets/images/buttons/arunyi.gif" alt="button to arunyi"></a><a href="https://whiona.me" target="_blank" class="noout"><img src="assets/images/buttons/whiona_button.png" alt="button to whiona"></a>
