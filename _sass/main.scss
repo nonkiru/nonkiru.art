@@ -143,6 +143,13 @@ a[href^="http://"]:after, a[href^="https://"]:after {
   text-transform: lowercase;
 }
 
+.non {
+  position: absolute;
+  cursor: pointer;
+  top: 300px;
+  left: 400px;
+}
+
 /* art */
 
 ul.photogallery {
