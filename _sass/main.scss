@@ -202,3 +202,46 @@ ul.photogallery {
     border-radius: 10px;
     border: 3px solid #df8888;
   }
+
+  /* === ONIONRING.CSS === */
+/* this file affects the style of the widget. remember to replace all instances of #webringid with whatever value you have for ringID in the onionring-widget.js file. make sure it still has the # at the front, though! probably easiest to use find+replace to do it */
+
+#furryring a {
+  text-decoration:none; 
+}
+
+#furryring {
+  margin: 0 auto;
+  /*padding: creates some space around the widget */
+  text-decoration: none;
+}
+
+#furryring table {
+  margin: 0 auto; /* centers the widget */
+}
+
+#furryring table tr td {
+  padding: 5px; /* creates some space between the links and text inside the widget */
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+#furryring .webring-prev {
+  text-align:right;
+  text-decoration: none;
+}
+
+#furryring .webring-info {
+   text-align:center;
+     text-decoration: none;
+}
+
+#furryring .webring-next {
+  text-align:left;
+    text-decoration: none;
+}
+
+#furryring .webring-links {
+  font-size:small;
+    text-decoration: none;
+}
