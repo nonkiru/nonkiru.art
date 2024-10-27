@@ -4,7 +4,7 @@
   <head>
     <meta charset="utf-8">
     <title>nonkiru.art ~ {{ page.title }}</title>
-    <link rel="stylesheet" href="/assets/css/styles.css?ver=5">
+    <link rel="stylesheet" href="/assets/css/styles.css?ver=6">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="icon" type="image/x-icon" href="/assets/images/favicon.gif">
     <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
@@ -12,21 +12,24 @@
     <script>
       $( function() {
         $( "#draggable" ).draggable();
+        $( "#draggable2" ).draggable();
       } );
     </script>
   </head>
 
   <body>
     <div class="container">
-      <div class="box">
-        <div class="header">
-          {% include header.html %}
-        </div>
-        <div class="nav">
-          {% include navigation.html %}
-        </div>
-        <div class="stuff">
-          {{ content }}
+      <div class="lacebox">
+        <div class="box">
+          <div class="header">
+            {% include header.html %}
+          </div>
+          <div class="nav">
+            {% include navigation.html %}
+          </div>
+          <div class="stuff">
+            {{ content }}
+          </div>
         </div>
       </div>
       <div class="footer">

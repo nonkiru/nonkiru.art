@@ -8,12 +8,19 @@
 :root {
   --brown: #af572e;
   --light-brown: #b85a4a;
+  --dark-brown: #97421a;
   --white: #fff3ee;
   --pink: #ffe6e4;
   --dark-pink: #ffd6d6;
   --pink-border: #f0aca7;
   --pink-link: #df8888;
-  --green: #948e58;
+  --green: #746E34;
+  --dark-green: #53571b;
+  --yellow: #ffebe2;
+}
+
+::selection {
+  background-color: var(--pink);
 }
 
 body {
@@ -22,6 +29,7 @@ body {
   color: var(--brown);
   font-size: 12px;
   font-family: "Atkinson Hyperlegible", serif;
+  cursor: url("../images/cursor.gif"), default;
 }
 
 p {
@@ -35,6 +43,7 @@ h1 {
   font-size: 14px;
   background-color: var(--pink);
   margin-bottom: 10px;
+  color: var(--dark-brown);
 }
 
 h2 {
@@ -43,6 +52,7 @@ h2 {
   font-size: 13px;
   background-color: var(--pink);
   margin-bottom: 10px;
+  color: var(--dark-brown);
 }
 
 hr {
@@ -52,6 +62,16 @@ hr {
 
 a {
   color: var(--green);
+  transition: 0.2s;
+  position: relative;
+  top: 0;
+}
+
+a:hover {
+  color: var(--dark-green);
+  text-shadow: 0px 0px 2px var(--pink-border);
+  top: -2px;
+  cursor: url("../images/pointer.gif"), pointer;
 }
 
 a[href^="http://"]:after, a[href^="https://"]:after {
@@ -74,17 +94,29 @@ a[href^="http://"]:after, a[href^="https://"]:after {
   margin: auto;
 }
 
+.lacebox {
+  border-image-slice: 10 10 10 10 fill;
+  border-image-width: 10px 10px 10px 10px;
+  border-image-outset: 10px 10px 10px 10px;
+  border-image-repeat: round round;
+  border-image-source: url("../images/lace_border.gif");
+  border-style: solid;
+  padding: 5px;
+}
+
 .box {
   border: 1px solid var(--brown);
   background-color: var(--white);
   border-radius: 2px;
   outline: 1px solid var(--pink-border);
+  padding: 1px;
 }
 
 .header {
   background-color: var(--dark-pink);
   padding: 5px;
   border-bottom: 1px dotted var(--light-brown);
+  color: var(--dark-brown);
 }
 
 .nav {
@@ -95,13 +127,26 @@ a[href^="http://"]:after, a[href^="https://"]:after {
 .nav a {
   padding: 5px;
   display: inline-block;
+  margin-left:-4px;
   text-decoration: none;
+  color: var(--dark-brown);
+  top: 0;
+}
+
+.nav a:first-child {
+  margin-left: 0px;
+}
+
+.nav a:hover {
+  background-color: var(--dark-pink);
+  text-shadow: 0 0 2px var(--pink-link);
+  cursor: url("../images/pointer.gif"), pointer;
 }
 
 .current {
   background-color: var(--dark-pink);
   border: 1px dotted var(--pink-border);
-  color: var(--brown);
+  color: var(--dark-brown);
 }
 
 .link {
@@ -118,11 +163,16 @@ a[href^="http://"]:after, a[href^="https://"]:after {
 .footer {
   text-align: center;
   font-size: 10px;
-  color: var(--pink-link);
+  color: var(--dark-brown);
+  margin-top: 15px;
 }
 
 .footer a {
-  color: var(--pink-link);
+  color: var(--dark-brown);
+}
+
+.flex {
+  display: flex;
 }
 
 /* home */
@@ -131,23 +181,108 @@ a[href^="http://"]:after, a[href^="https://"]:after {
   height: 210px;
 }
 
-.hometop img {
-  float: inline-start;
+.artbox {
+  margin-top: 10px;
+  height: 100px;
+  background-color: var(--yellow);
+  overflow-y: hidden;
+  overflow-x: hidden;
+  position: relative;
+  border: 1px solid var(--pink-border);
+  border-radius: 2px;
+}
+
+.artbox img {
+  width: 100%;
+  position: absolute;
+}
+
+.artbox span {
+  z-index: 100;
+  background-color: var(--yellow);
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  border-top: var(--pink-border) 1px solid;
+  padding: 2px;
+}
+
+a .artbox {
+  color: var(--dark-brown);
+}
+
+.artbox:hover {
+  box-shadow: 0px 2px 2px var(--pink);
+  font-style: italic;
+  cursor: url("../images/pointer.gif"), pointer;
 }
 
 .homebottom {
   text-align: center;
 }
 
-#song {
-  text-transform: lowercase;
+.homebox {
+  width: 50%;
+  border: 1px dotted var(--pink-border);
+  margin: 5px;
+  margin-bottom: 15px;
+  height: 100px;
+  overflow-y: scroll;
+  background-color: var(--yellow);
+  color: var(--dark-brown);
+}
+
+.homebox h2 {
+  margin-bottom: 0px;
+  border-bottom: 1px solid var(--pink-border)
+}
+
+.homebox hr {
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 
 .non {
   position: absolute;
-  cursor: pointer;
-  top: 300px;
-  left: 400px;
+  cursor: url("../images/pointer.gif"), pointer;
+  top: 350px;
+  left: 420px;
+  z-index: 999;
+}
+
+.lopmon {
+  cursor: url("../images/pointer.gif"), pointer;
+  position: absolute;
+  top:93%; 
+  left:40%;
+  z-index: 999;
+}
+
+/* about */
+
+.ulnomargin ul, li {
+  margin: 0px;
+  padding: 0px;
+}
+
+.smallimages img {
+  height: 100px;
+}
+
+button {
+  background-color: var(--pink);
+  border: 1px solid var(--pink-border);
+  color: var(--dark-brown);
+  transition: 0.2s;
+  position: relative;
+  top: 0;
+}
+
+button:hover {
+  background-color: var(--dark-pink);
+  text-shadow: 0px 0px 2px var(--pink-link);
+  top: -2px;
+  cursor: url("../images/pointer.gif"), pointer;
 }
 
 /* art */
@@ -186,6 +321,24 @@ ul.photogallery {
   margin-top: 5px;
   margin-bottom: 5px;
   border: 1px solid var(--brown);
+}
+
+/* mobile compatibility */
+
+@media only screen and (max-width: 600px) {
+  .artbox {
+    height: 50px;
+  }
+  .non {
+    display: none;
+  }
+  .lopmon {
+    position: unset;
+    top: unset;
+    left: unset;
+    margin: auto;
+    margin-top: -20px;
+  }
 }
 
 /* ===== Scrollbar CSS ===== */

@@ -1,6 +1,11 @@
 ---
 layout: default
+title: art
 images2024:
+  - image_path: /assets/images/art/adam_2.png
+    title: commission for adam, 2
+  - image_path: /assets/images/art/patchouli.png
+    title: art of patchouli knowledge from touhou
   - image_path: /assets/images/art/adam.png
     title: commission for adam
   - image_path: /assets/images/art/jynx.png
