@@ -38,7 +38,7 @@ title: about
 <div id="silly" class="tab" style="display:none">
   <h2>silly images that i really like</h2>
   <div class="smallimages">
-  <img src="../assets/images/silly/fat.png" alt="i may be fat and a bitch"><img src="../assets/images/silly/turned_cat.jpeg" alt="turned into a cat today"><img src="../assets/images/silly/sayaka_poke.webp" alt="sayaka miki poking you"><img src="../assets/images/silly/boquet.jpeg" alt="cat holding a boquet, boquet boquet for my sweetie"><img src="../assets/images/silly/boobs.jpeg" alt="boobs are so inspiring"><img src="../assets/images/silly/kittystretch.gif" alt="kitty stretch"><img src="../assets/images/silly/rainforest.jpeg" alt="pubes lover i <3 rainforest pussy">
+  <img src="../assets/images/silly/fat.png" alt="i may be fat and a bitch"><img src="../assets/images/silly/turned_cat.jpeg" alt="turned into a cat today"><img src="../assets/images/silly/sayaka_poke.webp" alt="sayaka miki poking you"><img src="../assets/images/silly/boquet.jpeg" alt="cat holding a boquet, boquet boquet for my sweetie"><img src="../assets/images/silly/boobs.jpeg" alt="boobs are so inspiring"><img src="../assets/images/silly/kittystretch.gif" alt="kitty stretch"><img src="../assets/images/silly/rainforest.jpeg" alt="pubes lover i <3 rainforest pussy"><img src="../assets/images/silly/myetouy.png" alt="mye touy..."><img src="../assets/images/silly/rila.webp" alt="rilakkuma dancing"><img src="../assets/images/silly/havingfun.jpg" alt="having fun">
   </div>
 </div>
 
