@@ -1,6 +1,6 @@
 ---
 layout: default
-title: home
+title: home!
 ---
 <div class="hometop">
     <h1>welcome!</h1>
@@ -13,7 +13,6 @@ title: home
             <br><br>this is my little site on the internet! i have lots of stuff here; my ocs, my blog, and my art!! thank you for stopping by. ^.^
             <a href="/art.html">
                 <div class="artbox">
-                    <img src="../assets/images/art/patchouli.png" alt="" style="left: 0;top: -130px;">
                     <span>view my art gallery?</span>
                 </div>
             </a>
@@ -25,8 +24,9 @@ title: home
     <div class="flex">
         <div class="homebox">
             <div class="updates">
-                <h2>updates</h2>
-                <img src="../assets/images/update.gif" alt=""><b>october 27 2024</b> ~ added update box, home page changes, better accessibility, mobile compatibility, and about page has stuff on it!
+                <h2>updates</h2><img src="../assets/images/update.gif" alt=""><b>november 1 2024</b> ~ big layout changes!
+                <hr>
+                <b>october 27 2024</b> ~ added update box, home page changes, better accessibility, mobile compatibility, and about page has stuff on it!
                 <hr>
                 <br>
                 <img src="../assets/images/valley.gif" alt="pixel lily of the valley. creator unknown, edited by me">

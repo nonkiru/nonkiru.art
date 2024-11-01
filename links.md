@@ -8,6 +8,8 @@ title: links
 - [tumblr(personal)](https://www.tumblr.com/nonkiru-silly)
 - [vgen(commissions)](https://vgen.co/nonkiru)
 - [bsky](https://bsky.app/profile/nonkiru.art)
+- [toyhouse](https://toyhou.se/nonkiru)
+
 
 # contact
 

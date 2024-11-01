@@ -4,7 +4,7 @@
   <head>
     <meta charset="utf-8">
     <title>nonkiru.art ~ {{ page.title }}</title>
-    <link rel="stylesheet" href="/assets/css/styles.css?ver=6">
+    <link rel="stylesheet" href="/assets/css/styles.css?ver=7">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="icon" type="image/x-icon" href="/assets/images/favicon.gif">
     <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
@@ -19,23 +19,23 @@
 
   <body>
     <div class="container">
-      <div class="lacebox">
-        <div class="box">
-          <div class="header">
-            {% include header.html %}
-          </div>
-          <div class="nav">
-            {% include navigation.html %}
-          </div>
-          <div class="stuff">
-            {{ content }}
-          </div>
+      <a href="/" class="header">
+        <div class="header">
+          {% include header.html %}
         </div>
+      </a>
+      <div class="navigation">
+        {% include navigation.html %}
+      </div>
+      <div class="main">
+        {{ content }}
       </div>
       <div class="footer">
         {% include footer.html %}
       </div>
     </div>
+    <div class="flowers"></div>
+    <div class="clouds"></div>
   </body>
 
 </html>

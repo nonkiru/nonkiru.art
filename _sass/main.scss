@@ -1,5 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400;1,700&family=Cherry+Bomb+One&display=swap');
 @import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css');
-@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
 * {
   box-sizing: border-box;
@@ -17,6 +17,10 @@
   --green: #746E34;
   --dark-green: #53571b;
   --yellow: #ffebe2;
+  --soft-gradient: linear-gradient(0deg, var(--white) 5%, var(--pink) 10%, var(--dark-pink) 95%, var(--pink) 100%);
+  --yellow-gradient: linear-gradient(0deg, var(--white) 5%, var(--pink) 30%, var(--yellow) 95%, var(--white) 100%);
+  --soft-gradient-hover: linear-gradient(0deg, var(--white) 5%, var(--pink) 10%, var(--white) 95%, var(--pink) 100%);
+  --sky: linear-gradient(0deg, var(--pink) 0%, var(--yellow) 100%);
 }
 
 ::selection {
@@ -24,11 +28,9 @@
 }
 
 body {
-  background-color: var(--pink);
-  background-image: url(../images/patchwork.gif);
-  color: var(--brown);
-  font-size: 12px;
+  background: var(--sky);
   font-family: "Atkinson Hyperlegible", serif;
+  color: var(--brown);
   cursor: url("../images/cursor.gif"), default;
 }
 
@@ -38,21 +40,33 @@ p {
 }
 
 h1 {
+  font-family: "Cherry Bomb One", system-ui;
   padding: unset;
   margin: unset;
-  font-size: 14px;
+  font-size: 18px;
+  letter-spacing: 2px;
+  padding: 8px;
+  background-color: var(--pink);
+  margin-bottom: 10px;
+  color: var(--dark-brown);
+  border-bottom: 1px dotted var(--pink-border);
+}
+
+h2 {
+  font-family: "Cherry Bomb One", system-ui;
+  padding: unset;
+  margin: unset;
+  font-size: 16px;
+  letter-spacing: 2px;
+  padding: 4px;
   background-color: var(--pink);
   margin-bottom: 10px;
   color: var(--dark-brown);
 }
 
-h2 {
-  padding: unset;
-  margin: unset;
-  font-size: 13px;
-  background-color: var(--pink);
-  margin-bottom: 10px;
-  color: var(--dark-brown);
+hr {
+  border-bottom: none;
+  border-top: 1px solid var(--pink-border);
 }
 
 hr {
@@ -79,96 +93,126 @@ a[href^="http://"]:after, a[href^="https://"]:after {
   font-family: FontAwesome;
 }
 
+button {
+  background-color: var(--pink);
+  border: 1px solid var(--pink-border);
+  color: var(--dark-brown);
+  transition: 0.2s;
+  position: relative;
+  top: 0;
+}
+
+button:hover {
+  background-color: var(--dark-pink);
+  text-shadow: 0px 0px 2px var(--pink-link);
+  top: -2px;
+  cursor: url("../images/pointer.gif"), pointer;
+}
+
 .noout:after {
   content: none !important;
 }
 
 .container {
-  max-width: 600px;
-  height: 400px;
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: -100px;
-  bottom: 0;
+  border: 4px double var(--brown);
+  border-radius: 3px;
+  outline: 2px solid var(--dark-pink);
+  max-width: 900px;
   margin: auto;
-}
-
-.lacebox {
-  border-image-slice: 10 10 10 10 fill;
-  border-image-width: 10px 10px 10px 10px;
-  border-image-outset: 10px 10px 10px 10px;
-  border-image-repeat: round round;
-  border-image-source: url("../images/lace_border.gif");
-  border-style: solid;
-  padding: 5px;
-}
-
-.box {
-  border: 1px solid var(--brown);
   background-color: var(--white);
-  border-radius: 2px;
-  outline: 1px solid var(--pink-border);
-  padding: 1px;
 }
 
 .header {
-  background-color: var(--dark-pink);
-  padding: 5px;
-  border-bottom: 1px dotted var(--light-brown);
-  color: var(--dark-brown);
-}
-
-.nav {
-  background-color: var(--pink);
-  border-bottom: 1px solid var(--light-brown);
-}
-
-.nav a {
-  padding: 5px;
-  display: inline-block;
-  margin-left:-4px;
+  font-family: "Cherry Bomb One", system-ui;
+  font-size: 40px;
+  text-shadow: -2px -2px 0 var(--brown), 2px -2px 0 var(--brown), -2px 2px 0 var(--brown), 2px 2px 0 var(--brown);
+  height: 100px;
+  border-bottom: 1px solid var(--pink-link);
+  text-align: center;
+  line-height: 100px;
+  background-color: var(--dark-green);
+  background-image: url("../images/patchwork2.gif");
+  color: var(--white);
   text-decoration: none;
-  color: var(--dark-brown);
+  transition: 0.2s;
+}
+
+.header span {
+  position: relative;
+  animation: float 2s linear infinite;
+}
+
+.header:hover {
+  background: linear-gradient(rgba(255, 255, 255, 0.5), var(--pink)), url("../images/patchwork2.gif");
+  color: var(--dark-pink);
   top: 0;
 }
 
-.nav a:first-child {
-  margin-left: 0px;
+.navigation {
+  border-bottom: 1px solid var(--pink-link);
+  text-align: center;
+  background: var(--yellow-gradient);
 }
 
-.nav a:hover {
-  background-color: var(--dark-pink);
-  text-shadow: 0 0 2px var(--pink-link);
-  cursor: url("../images/pointer.gif"), pointer;
-}
-
-.current {
-  background-color: var(--dark-pink);
-  border: 1px dotted var(--pink-border);
-  color: var(--dark-brown);
-}
-
-.link {
-  border: 1px dotted var(--dark-pink);
-  color: var(--pink-link)
-}
-
-.stuff {
+.navigation a {
+  border: 1px solid var(--pink-link);
+  border-radius: 3px;
+  background-color: var(--pink);
   padding: 5px;
-  height: 400px;
-  overflow-y: scroll;
+  margin: 7px;
+  display: inline-block;
+  width: 100px;
+  text-decoration: none;
+  color: var(--dark-brown);
+  background: var(--soft-gradient);
+  position: relative;
+  top: 0px;
+  transition: 0.2s;
+}
+
+.navigation a:hover {
+  background: var(--soft-gradient-hover);
+  position: relative;
+  top: -2px;
+  color: var(--pink-link);
+  text-shadow: 0px 0px 2px var(--pink-border);
+}
+
+.main {
+  padding: 10px;
+}
+
+.main img {
+  max-width: 400px;
 }
 
 .footer {
+  border-top: 1px solid var(--pink-link);
   text-align: center;
+  background: var(--yellow-gradient);
   font-size: 10px;
-  color: var(--dark-brown);
-  margin-top: 15px;
+  padding: 10px;
 }
 
-.footer a {
-  color: var(--dark-brown);
+.flowers {
+  background-image: url("../images/flowers.gif");
+  height: 100px;
+  bottom: 0;
+  left: 0;
+  position: fixed;
+  width: 100%;
+  z-index: -1;
+}
+
+.clouds {
+  background-image: url("../images/clouds.gif");
+  animation: bg 15s linear infinite;
+  height: 150px;
+  bottom: 0;
+  left: 0;
+  position: fixed;
+  width: 100%;
+  z-index: -2;
 }
 
 .flex {
@@ -178,33 +222,21 @@ a[href^="http://"]:after, a[href^="https://"]:after {
 /* home */
 .hometop {
   border-bottom: 1px dotted var(--pink-link);
-  height: 210px;
 }
 
 .artbox {
-  margin-top: 10px;
   height: 100px;
   background-color: var(--yellow);
-  overflow-y: hidden;
-  overflow-x: hidden;
-  position: relative;
+  background-image: url(../images/art/adam_2.png);
   border: 1px solid var(--pink-border);
   border-radius: 2px;
-}
-
-.artbox img {
-  width: 100%;
-  position: absolute;
+  background-position: -160px 1510px;
+  margin: 20px 0px 20px 0px;
 }
 
 .artbox span {
-  z-index: 100;
   background-color: var(--yellow);
-  position: absolute;
-  width: 100%;
-  bottom: 0;
   border-top: var(--pink-border) 1px solid;
-  padding: 2px;
 }
 
 a .artbox {
@@ -226,7 +258,7 @@ a .artbox {
   border: 1px dotted var(--pink-border);
   margin: 5px;
   margin-bottom: 15px;
-  height: 100px;
+  height: 200px;
   overflow-y: scroll;
   background-color: var(--yellow);
   color: var(--dark-brown);
@@ -246,15 +278,15 @@ a .artbox {
   position: absolute;
   cursor: url("../images/pointer.gif"), pointer;
   top: 350px;
-  left: 420px;
+  left: 920px;
   z-index: 999;
 }
 
 .lopmon {
   cursor: url("../images/pointer.gif"), pointer;
   position: absolute;
-  top:93%; 
-  left:40%;
+  top: 160px; 
+  left: 900px;
   z-index: 999;
 }
 
@@ -323,86 +355,29 @@ ul.photogallery {
   border: 1px solid var(--brown);
 }
 
-/* mobile compatibility */
-
-@media only screen and (max-width: 600px) {
-  .artbox {
-    height: 50px;
+@keyframes bg {
+  0% {
+    background-position: 0;
   }
-  .non {
-    display: none;
-  }
-  .lopmon {
-    position: unset;
-    top: unset;
-    left: unset;
-    margin: auto;
-    margin-top: -20px;
+  100% {
+    background-position: -300px;
   }
 }
 
-/* ===== Scrollbar CSS ===== */
-  /* Firefox */
-  * {
-    scrollbar-width: auto;
-    scrollbar-color: #df8888 #ffe6e4;
+@keyframes float {
+  0% {
+    top: 0px;
   }
-
-  /* Chrome, Edge, and Safari */
-  *::-webkit-scrollbar {
-    width: 16px;
+  25% {
+    top: 3px;
   }
-
-  *::-webkit-scrollbar-track {
-    background: #ffe6e4;
+  50% {
+    top: 0px;
   }
-
-  *::-webkit-scrollbar-thumb {
-    background-color: #df8888;
-    border-radius: 10px;
-    border: 3px solid #df8888;
+  75% {
+    top: -3px;
   }
-
-/* === from https://furryring.neocities.org/ === */
-#furryring a {
-  text-decoration:none; 
-}
-
-#furryring a:after {
-  content: none !important;
-}
-
-#furryring {
-  margin: 0 auto;
-  text-decoration: none;
-}
-
-#furryring table {
-  margin: 0 auto;
-}
-
-#furryring table tr td {
-  padding: 5px;
-  padding-top: 0px;
-  padding-bottom: 0px;
-}
-
-#furryring .webring-prev {
-  text-align:right;
-  text-decoration: none;
-}
-
-#furryring .webring-info {
-   text-align:center;
-     text-decoration: none;
-}
-
-#furryring .webring-next {
-  text-align:left;
-    text-decoration: none;
-}
-
-#furryring .webring-links {
-  font-size:small;
-    text-decoration: none;
+  100% {
+    top: 0px;
+  }
 }
