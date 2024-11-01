@@ -27,11 +27,19 @@
   background-color: var(--pink);
 }
 
+html {
+  height: 100%;
+}
+
 body {
   background: var(--sky);
   font-family: "Atkinson Hyperlegible", serif;
   color: var(--brown);
   cursor: url("../images/cursor.gif"), default;
+  height: 100%;
+  margin: 0;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 p {
