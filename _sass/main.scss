@@ -129,6 +129,7 @@ button:hover {
   max-width: 900px;
   margin: auto;
   background-color: var(--white);
+  margin-top: 30px;
 }
 
 .header {
@@ -286,7 +287,7 @@ a .artbox {
 .non {
   position: absolute;
   cursor: url("../images/pointer.gif"), pointer;
-  top: 350px;
+  top: 450px;
   left: 70%;
   z-index: 999;
 }
@@ -294,7 +295,7 @@ a .artbox {
 .lopmon {
   cursor: url("../images/pointer.gif"), pointer;
   position: absolute;
-  top: 160px; 
+  top: 180px; 
   left: 65%;
   z-index: 999;
 }
