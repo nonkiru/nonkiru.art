@@ -24,7 +24,10 @@ title: home!
     <div class="flex">
         <div class="homebox">
             <div class="updates">
-                <h2>updates</h2><img src="../assets/images/update.gif" alt=""><b>november 1 2024</b> ~ big layout changes!
+                <h2>updates</h2>
+                <img src="../assets/images/update.gif" alt=""><b>november 16 2024</b> ~ some layout changes, new art
+                <hr>
+                <b>november 1 2024</b> ~ big layout changes!
                 <hr>
                 <b>october 27 2024</b> ~ added update box, home page changes, better accessibility, mobile compatibility, and about page has stuff on it!
                 <hr>
@@ -44,6 +47,7 @@ title: home!
         </div>
     </div>
     <img class="lopmon" src="../assets/images/lopmon_rpg.gif" alt="lopmon from digimon rpg" id="draggable2">
+    <br><br><img src="../assets/images/transrights.png" alt="">
 </div>
 
 <div class="non" id="draggable"><img src="../assets/images/me_3d.gif" alt="my fursona but 3d and spinning"></div>

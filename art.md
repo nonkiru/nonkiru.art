@@ -2,6 +2,12 @@
 layout: default
 title: art
 images2024:
+  - image_path: /assets/images/art/tomoka.png
+    title: tomoka
+  - image_path: /assets/images/art/miku.png
+    title: hatsune miku
+  - image_path: /assets/images/art/latham.png
+    title: commission for latham
   - image_path: /assets/images/art/adam_2.png
     title: commission for adam, 2
   - image_path: /assets/images/art/patchouli.png

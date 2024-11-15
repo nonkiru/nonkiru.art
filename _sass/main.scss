@@ -7,7 +7,7 @@
 
 :root {
   --brown: #af572e;
-  --light-brown: #b85a4a;
+  --light-brown: #D18F76;
   --dark-brown: #97421a;
   --white: #fff3ee;
   --pink: #ffe6e4;
@@ -41,6 +41,7 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
   font-size: 14px;
+  overflow-x: hidden;
 }
 
 p {
@@ -90,7 +91,7 @@ a {
   top: 0;
 }
 
-a:hover {
+a:hover :focus {
   color: var(--dark-green);
   text-shadow: 0px 0px 2px var(--pink-border);
   top: -2px;
@@ -123,13 +124,14 @@ button:hover {
 }
 
 .container {
-  border: 4px double var(--brown);
-  border-radius: 3px;
-  outline: 2px solid var(--dark-pink);
+  border: 4px solid var(--light-brown);
+  border-radius: 4px;
+  outline: 4px solid var(--white);
   max-width: 900px;
   margin: auto;
   background-color: var(--white);
   margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 .header {
@@ -137,7 +139,7 @@ button:hover {
   font-size: 40px;
   text-shadow: -2px -2px 0 var(--brown), 2px -2px 0 var(--brown), -2px 2px 0 var(--brown), 2px 2px 0 var(--brown);
   height: 100px;
-  border-bottom: 1px solid var(--pink-link);
+  border-bottom: 4px solid var(--light-brown);
   text-align: center;
   line-height: 100px;
   background-color: var(--dark-green);
@@ -165,27 +167,22 @@ button:hover {
 }
 
 .navigation a {
-  border: 1px solid var(--pink-link);
-  border-radius: 3px;
-  background-color: var(--pink);
-  padding: 5px;
   margin: 7px;
   display: inline-block;
-  width: 100px;
   text-decoration: none;
   color: var(--dark-brown);
-  background: var(--soft-gradient);
   position: relative;
   top: 0px;
   transition: 0.2s;
 }
 
-.navigation a:hover {
-  background: var(--soft-gradient-hover);
+.navigation img {
+  width: 90px;
+}
+
+.navigation img:hover {
   position: relative;
   top: -2px;
-  color: var(--pink-link);
-  text-shadow: 0px 0px 2px var(--pink-border);
 }
 
 .main {
@@ -235,18 +232,20 @@ button:hover {
 }
 
 .artbox {
-  height: 100px;
+  height: 120px;
   background-color: var(--yellow);
-  background-image: url(../images/art/adam_2.png);
-  border: 1px solid var(--pink-border);
-  border-radius: 2px;
-  background-position: -160px 1510px;
+  background-image: url(../images/art/miku.png);  border-image-slice: 27 27 27 27;
+  border: 2px solid var(--light-brown);
+  border-radius: 4px;
+  background-position: -160px -350px;
   margin: 20px 0px 20px 0px;
 }
 
 .artbox span {
-  background-color: var(--yellow);
-  border-top: var(--pink-border) 1px solid;
+  display: block;
+  text-align: center;
+  background-color: var(--pink);
+  border-bottom: 1px solid var(--light-brown);
 }
 
 a .artbox {
@@ -268,7 +267,7 @@ a .artbox {
   border: 1px dotted var(--pink-border);
   margin: 5px;
   margin-bottom: 15px;
-  height: 200px;
+  height: 120px;
   overflow-y: scroll;
   background-color: var(--yellow);
   color: var(--dark-brown);
@@ -285,19 +284,21 @@ a .artbox {
 }
 
 .non {
-  position: absolute;
+  position: relative;
   cursor: url("../images/pointer.gif"), pointer;
-  top: 450px;
-  left: 70%;
+  top: -60px;
+  left: 900px;
   z-index: 999;
+  margin: -150px;
 }
 
 .lopmon {
   cursor: url("../images/pointer.gif"), pointer;
-  position: absolute;
-  top: 180px; 
-  left: 65%;
+  position: relative;
+  top: 1px; 
+  left: 1px;
   z-index: 999;
+  margin: -20px;
 }
 
 /* about */
@@ -391,3 +392,25 @@ ul.photogallery {
     top: 0px;
   }
 }
+
+/* ===== Scrollbar CSS ===== */
+  /* Firefox */
+  * {
+    scrollbar-width: auto;
+    scrollbar-color: #d18f76 #ffd6d6;
+  }
+
+  /* Chrome, Edge, and Safari */
+  *::-webkit-scrollbar {
+    width: 16px;
+  }
+
+  *::-webkit-scrollbar-track {
+    background: #ffd6d6;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background-color: #d18f76;
+    border-radius: 10px;
+    border: 3px solid #ffffff;
+  }
