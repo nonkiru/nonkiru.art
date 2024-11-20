@@ -103,6 +103,10 @@ a[href^="http://"]:after, a[href^="https://"]:after {
   font-family: FontAwesome;
 }
 
+.nolink a[href^="http://"]:after, a[href^="https://"]:after {
+  content: none;
+}
+
 button {
   background-color: var(--pink);
   border: 1px solid var(--pink-border);
@@ -121,6 +125,11 @@ button:hover {
 
 .noout:after {
   content: none !important;
+}
+
+.noout:hover {
+  top: -2px;
+  filter: brightness(130%);
 }
 
 .container {
@@ -364,6 +373,15 @@ ul.photogallery {
   margin-top: 5px;
   margin-bottom: 5px;
   border: 1px solid var(--brown);
+}
+
+/* links */
+.center {
+  text-align: center;
+}
+
+#furryring table {
+  margin: auto;
 }
 
 @keyframes bg {
