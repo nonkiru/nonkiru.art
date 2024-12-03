@@ -1,10 +1,10 @@
-- name: home
+- name: <img src="/assets/images/home.gif" alt=""> home
   link: /
-- name: about
+- name: <img src="/assets/images/about.gif" alt=""> about
   link: /about.html
-- name: art
+- name: <img src="/assets/images/art.gif" alt=""> art
   link: /art.html
-- name: blog
+- name: <img src="/assets/images/blog.gif" alt=""> blog
   link: /blog.html
-- name: links
+- name: <img src="/assets/images/links.gif" alt=""> links
   link: /links.html

@@ -7,35 +7,28 @@
     <link rel="stylesheet" href="/assets/css/styles.css?ver=8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="icon" type="image/x-icon" href="/assets/images/favicon.gif">
-    <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
-    <script src="https://code.jquery.com/ui/1.14.0/jquery-ui.js"></script>
-    <script>
-      $( function() {
-        $( "#draggable" ).draggable();
-        $( "#draggable2" ).draggable();
-      } );
-    </script>
   </head>
 
-  <body>
-    <div class="container">
-      <a href="/" class="header">
-        <div class="header">
-          {% include header.html %}
-        </div>
-      </a>
-      <div class="navigation">
-        {% include navigation.html %}
-      </div>
-      <div class="main">
-        {{ content }}
-      </div>
-      <div class="footer">
-        {% include footer.html %}
-      </div>
+  <body id="body">
+    <div class="main">
+      <header>
+      <div class="headertitle"></div>
+     </header>
+     <div class="subtitle">
+      <h1>nonkiru <img src="/assets/images/flower.gif" alt=""> {{ page.title }}</h1>
     </div>
-    <div class="flowers"></div>
-    <div class="clouds"></div>
+    <div class="flex">
+      <nav>
+        <div class="navigation">{% include navigation.html %}</div>
+      </nav>
+      <div class="innerbox">
+        <main>
+          {{ content | safe }}
+        </main>
+      </div>
+      </div>
+      <div class="footer">{% include footer.html %}</div>
+    </div>
   </body>
 
 </html>
