@@ -9,7 +9,7 @@ title: about
     <img src="../assets/images/me.png" alt="me" style="max-width: 100px;">
     <ul class="ulnomargin">
         <li>non</li>
-        <li>they/it</li>
+        <li>they/them</li>
         <li>lesbian</li>
         <li>22</li>
         <li>12 sept</li>

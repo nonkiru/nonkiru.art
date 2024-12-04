@@ -110,7 +110,7 @@ a:hover {
   color: var(--orange);
 }
 
-nav a {
+.navbutton {
   display: list-item;
   list-style-type: none;
   margin: 5px 0px 5px 5px;
@@ -129,7 +129,7 @@ nav img {
   vertical-align: middle;
 }
 
-nav a:hover {
+.navbutton:hover {
   background-color: var(--darkgreen);
   color: var(--brown);
 }
@@ -185,6 +185,16 @@ nav a:hover {
   line-height: 25px;
 }
 
+.statsbanner {
+  background-image: url(("../images/statsbanner.gif"));
+  width: 80px;
+  height: 30px;
+  margin-left: 5px;
+  margin-top: -2px;
+  text-align: center;
+  line-height: 25px;
+}
+
 .scrollbox {
   background-color: var(--offwhite);
   border: 1px solid var(--brown);
@@ -208,6 +218,26 @@ nav a:hover {
 .blinkies img {
   image-rendering: pixelated;
   width: 150px;
+}
+
+.nositebutton {
+  display: list-item;
+  list-style-type: none;
+  margin: auto;
+  width: 70px;
+  border: none;
+  padding: 4px;
+  background-color: transparent;
+  color: var(--darkbrown);
+  text-decoration: none;
+  background-image: none;
+  background-repeat: repeat-y;
+  background-position: right;
+}
+
+.nositebutton:hover {
+  background-color: transparent;
+  color: var(--brown);
 }
 
 /* art */

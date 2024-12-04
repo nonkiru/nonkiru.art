@@ -1,6 +1,15 @@
 <div class="navigationbanner">site</div>
 {% for item in site.data.navigation %}
-<a href="{{ item.link }}" {% if page.url == item.link %}style="background-color: var(--darkgreen);"{% endif %}>
+<a class="navbutton" href="{{ item.link }}" {% if page.url == item.link %}style="background-color: var(--darkgreen);"{% endif %}>
   {{ item.name }}
 </a>
 {% endfor %}
+<div class="statsbanner">stats</div>
+<div style="margin-left: -10px; text-align: center;">
+<a href="https://www.imood.com/users/nonkiru" class="nositebutton"><img src="https://moods.imood.com/display/uname-nonkiru/fg-a03a0e/bg-f4dbb8/imood.gif" alt="The current mood of nonkiru at www.imood.com" border="0"></a>
+<div style="margin-left:-0px; text-align: center;margin-bottom: 4px;">
+<!-- FC2 Counter  Starts here -->
+<script language="javascript" type="text/javascript" src="//counter1.fc2.com/counter.php?id=38466446&main=1"></script><noscript><img src="//counter1.fc2.com/counter_img.php?id=38466446&main=1" /></noscript>
+<!-- FC2 Counter  Ends here -->
+</div>
+</div>
