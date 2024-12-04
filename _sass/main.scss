@@ -176,6 +176,15 @@ nav a:hover {
   height: 130px;
 }
 
+.navigationbanner {
+  background-image: url(("../images/navbanner.gif"));
+  width: 80px;
+  height: 30px;
+  margin-left: 5px;
+  text-align: center;
+  line-height: 25px;
+}
+
 .scrollbox {
   background-color: var(--offwhite);
   border: 1px solid var(--brown);
@@ -215,11 +224,13 @@ ul.photogallery {
 }
 
 .photogallery img {
-  height: 200px;
+  width: 100px;
+  margin: 5px;
   border: 1px solid var(--brown);
 }
 
 .pixelart {
+  width: auto !important;
   height: auto !important;
   border: none !important;
 }

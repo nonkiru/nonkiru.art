@@ -14,7 +14,8 @@ this is my little site on the internet! i have lots of stuff here; my ocs, my bl
 <div class="scrollbox">
 <div class="scrollboxtitle">updates</div>
 <ul>
-<li>december 3 2024 ~ when the layout is changes. also we got stamps and blinkies</li>
+<li>december 4 2024 ~ added navigation banner, edited some css for the art gallery</li>
+<hr><li>december 3 2024 ~ when the layout is changes. also we got stamps and blinkies</li>
 <hr><li>november 16 2024 ~ some layout changes, new art</li>
 <hr><li>november 1 2024 ~ big layout changes!</li>
 <hr><li>october 27 2024 ~ added update box, home page changes, better accessibility, mobile compatibility, and about page has stuff on it!</li>
