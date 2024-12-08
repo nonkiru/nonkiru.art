@@ -114,7 +114,7 @@ a:hover {
   display: list-item;
   list-style-type: none;
   margin: 5px 0px 5px 5px;
-  width: 70px;
+  width: 80px;
   border: 1px solid var(--brown);
   padding: 4px;
   background-color: var(--green);
@@ -165,7 +165,7 @@ nav img {
 }
 
 .navigation {
-  width: 100px;
+  width: 110px;
   background-image: url(("../images/ladder.gif"));
   background-position: right 0px;
   background-repeat: repeat-y;
@@ -180,7 +180,7 @@ nav img {
   background-image: url(("../images/navbanner.gif"));
   width: 80px;
   height: 30px;
-  margin-left: 5px;
+  margin-left: 10px;
   text-align: center;
   line-height: 25px;
 }
@@ -189,7 +189,7 @@ nav img {
   background-image: url(("../images/statsbanner.gif"));
   width: 80px;
   height: 30px;
-  margin-left: 5px;
+  margin-left: 10px;
   margin-top: -2px;
   text-align: center;
   line-height: 25px;
@@ -277,6 +277,13 @@ ul.photogallery {
 .blog-img {
   margin-top: 5px;
   margin-bottom: 5px;
+  border: 1px solid var(--brown);
+}
+
+/* layouts */
+
+.layoutimg {
+  max-width: 400px;
   border: 1px solid var(--brown);
 }
 

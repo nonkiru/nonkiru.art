@@ -6,5 +6,7 @@
   link: /art.html
 - name: <img src="/assets/images/blog.gif" alt=""> blog
   link: /blog.html
+- name: <img src="/assets/images/layouts.gif" alt=""> layouts
+  link: /layouts.html
 - name: <img src="/assets/images/links.gif" alt=""> links
   link: /links.html
