@@ -9,4 +9,4 @@ title: layouts
 <br><small>click for bigger preview!</small>
 <br>
 <a href="layouts/cheesecake">live preview</a> | <a href="layouts/cheesecake/cheesecake.zip">download cheesecake theme</a>
-<br>last updated: 4th august 2023
+<br>last updated: 8th december 2024
