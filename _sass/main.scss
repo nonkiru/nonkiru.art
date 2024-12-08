@@ -13,7 +13,7 @@
   --green: #fcf0ce;
   --darkgreen: #efe4b4;
   --orange: #edb28b;
-  --purple: #A75298;
+  --purple: #9b3f8a;
   --brown: #d1693e;
   --darkbrown: #a03a0e;
 }
@@ -25,6 +25,10 @@
 
 /* default styles */
 
+html {
+  cursor: url("../images/cursor.gif"), auto;
+}
+
 body {
   background-color: var(--white);
   color: var(--darkbrown);
@@ -33,7 +37,7 @@ body {
   font-size: 16px;
   font-smooth: never;
   -webkit-font-smoothing : none;
-  transform: translateX(0.25px)
+  transform: translateX(0.25px);
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -84,13 +88,15 @@ button {
   font-family: "Rainy Hearts", "Atkinson Hyperlegible", serif;
   font-size: 16px;
   position: relative;
-  transition: .2s ease; 
+  transition: .2s ease;
+  cursor: url("../images/pointer.gif"), pointer; 
 }
 
 button:hover {
   background-color: var(--darkgreen);
   top: -2px;
   color: var(--brown);
+  cursor: url("../images/pointer.gif"), pointer;
 }
 
 p {
@@ -103,11 +109,13 @@ a {
   color: var(--purple);
   position: relative;
   top: 0px;
+  cursor: url("../images/pointer.gif"), pointer;
 }
 
 a:hover {
   top: -2px;
   color: var(--orange);
+  cursor: url("../images/pointer.gif"), pointer;
 }
 
 .navbutton {
@@ -123,6 +131,7 @@ a:hover {
   background-image: url("../images/flower.gif");
   background-repeat: repeat-y;
   background-position: right;
+  cursor: url("../images/pointer.gif"), pointer;
 }
 
 nav img {
@@ -132,6 +141,7 @@ nav img {
 .navbutton:hover {
   background-color: var(--darkgreen);
   color: var(--brown);
+  cursor: url("../images/pointer.gif"), pointer;
 }
 
 /* classes & ids */
@@ -329,20 +339,24 @@ ul.photogallery {
 /* ===== Scrollbar CSS ===== */
   /* Firefox */
   * {
+    cursor: url("../images/cursor.gif"), auto;
     scrollbar-width: auto;
     scrollbar-color: #edb28b #faf3e4;
   }
 
   /* Chrome, Edge, and Safari */
   *::-webkit-scrollbar {
+    cursor: url("../images/cursor.gif"), auto;
     width: 16px;
   }
 
   *::-webkit-scrollbar-track {
+    cursor: url("../images/cursor.gif"), auto;
     background: #faf3e4;
   }
 
   *::-webkit-scrollbar-thumb {
+    cursor: url("../images/cursor.gif"), auto;
     background-color: #edb28b;
     border-radius: 10px;
     border: 3px solid #ffffff;
