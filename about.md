@@ -27,6 +27,16 @@ title: about
 </div>
 
 <hr style="margin-bottom: 5px;">
+
+## projects i've worked on
+
+[fairy fiesta ~ touhou project fanzine](https://dotzines.itch.io/fairy-fiesta)
+<br>september 06 2019 ~ art for 1 page
+
+[fantasy extravaganza ~ touhou project fanzine](https://dotzines.itch.io/fantasy-extravaganza)
+<br>march 10 2019 ~ art for 1 page
+
+## silly images and stuff
 <div style="text-align: center; margin-bottom: 5px;"><b>flashing images ahead!</b></div>
 <!-- edited from https://www.w3schools.com/w3css/w3css_tabulators.asp -->
 <div style="text-align: center;">
