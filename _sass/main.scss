@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400;1,700&family=Fredoka:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Emoji:wght@300..700&display=swap');
 
 @font-face {
   font-family: "Rainy Hearts";
@@ -33,7 +34,7 @@ body {
   background-color: var(--white);
   color: var(--darkbrown);
   background-image: url("../images/patchwork.gif");
-  font-family: "Rainy Hearts", "Atkinson Hyperlegible", serif;
+  font-family: "Rainy Hearts", "Noto Emoji", "Atkinson Hyperlegible", serif;
   font-size: 16px;
   font-smooth: never;
   -webkit-font-smoothing : none;
@@ -203,6 +204,19 @@ nav img {
   margin-top: -2px;
   text-align: center;
   line-height: 25px;
+}
+
+#statuscafe {
+  background-color: var(--offwhite);
+  border: 1px solid var(--brown);
+  padding: 4px;
+  height: 50px;
+  overflow-y: scroll;
+  margin-top: 10px;
+}
+#statuscafe-username {
+  background-color: var(--yellow);
+  border: 1px solid var(--brown);
 }
 
 .scrollbox {

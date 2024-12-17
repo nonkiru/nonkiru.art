@@ -14,7 +14,7 @@ this is my little site on the internet! i have lots of stuff here; my ocs, my bl
 <div class="scrollbox">
 <div class="scrollboxtitle">updates</div>
 <ul>
-<li>december 17 2024 ~ added tiny section on my about page for projects i've worked on</li>
+<li>december 17 2024 ~ added tiny section on my about page for projects i've worked on. also added back the status widget</li>
 <hr><li>december 8 2024 ~ finally added the layouts page back! updated <a href="layouts/cheesecake">cheesecake layout</a> with some minor changes! (reordered the window buttons, fixed the line height) also added silly cursor to my main pages :3</li>
 <hr><li>december 4 2024 ~ added navigation banner, edited some css for the art gallery</li>
 <hr><li>december 3 2024 ~ when the layout is changes. also we got stamps and blinkies</li>
@@ -23,6 +23,7 @@ this is my little site on the internet! i have lots of stuff here; my ocs, my bl
 <hr><li>october 27 2024 ~ added update box, home page changes, better accessibility, mobile compatibility, and about page has stuff on it!</li>
 </ul>
 </div>
+<div id="statuscafe"><div id="statuscafe-username" style="">loading status...</div><div id="statuscafe-content"></div></div><script src="https://status.cafe/current-status.js?name=nonkiru" defer></script>
 <br>
 <div style="text-align: center;"><img src="../assets/images/transrights.png" alt=""></div>
 </div>
