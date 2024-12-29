@@ -33,6 +33,5 @@ title: links
 <script type="text/javascript" src="https://furryring.neocities.org/onionring-variables.js"></script>
 <script type="text/javascript" src="https://furryring.neocities.org/onionring-widget.js"></script>
 </div>
-<script src="https://transring.neocities.org/ring.js" data-widget="cloud"></script>
 </div>
 </div>
